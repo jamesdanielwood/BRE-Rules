@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BRERuleListType xmlns="http://www.audatex.com/SAXIF">
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>84E1E72D-12A9-F260-4C89-C537315562CE</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SendToThirdParty_Select-InsuranceBroker</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.partnerSender.customizableMemberSearchField::memberRoleEnumeration</Key>
+  <Value>InsuranceBroker</Value>
+  <Status>Active</Status>
+  <CreatedBy>ML-P-James.Wood</CreatedBy>
+  <CreationTimeStamp>2017-12-13T11:20:18.837</CreationTimeStamp>
+  <LastUpdatedBy>ML-P-James.Wood</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-13T11:20:18.837</LastUpdateTimeStamp>
+ </Rule>
+ <Size>1</Size>
+</BRERuleListType>
