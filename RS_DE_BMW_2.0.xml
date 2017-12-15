@@ -2,6 +2,22 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D30F0810-FBC6-6872-9BD1-99EC1B5B7753</ItemId>
+  <Context>
+   <Process>Standard</Process>
+   <OrganizationId>RS_DE_BMW_2.0</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>UpdateTaskWorkflowFunction.PartnershipChangedFieldsTransformationDE(1513333540072)</Key>
+  <Value>{"configuration":"task.basicClaimData.vehicle.vehicleIdentification.manufacturerCodeAX,task.basicClaimData.policyData.insuranceCompany.memberId"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-15T11:25:48.189</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:25:48.189</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E13FC7C2-B04D-0843-B438-85B695FDCA8B</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -2588,6 +2604,38 @@
   <CreationTimeStamp>2017-12-12T21:57:44.639</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-12T21:57:44.639</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1E07755F-014E-E8B1-C976-DA52465C02FA</ItemId>
+  <Context>
+   <Process>Standard</Process>
+   <OrganizationId>RS_DE_BMW_2.0</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>UpdateTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"PartnershipChangedFieldsTransformationDE","alias":"PartnershipChangedFieldsTransformationDE(1513333540072)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-15T11:25:40.151</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:25:40.151</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7D75EB57-F981-3C0A-843B-EA5158C42C86</ItemId>
+  <Context>
+   <Process>Standard</Process>
+   <OrganizationId>RS_DE_BMW_2.0</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>partnershipHandler</Key>
+  <Value>BMWClaimsnetPartnershipHandler</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-15T11:26:17.585</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:26:17.585</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9395,5 +9443,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-12T21:57:44.704</LastUpdateTimeStamp>
  </Rule>
- <Size>589</Size>
+ <Size>592</Size>
 </BRERuleListType>
