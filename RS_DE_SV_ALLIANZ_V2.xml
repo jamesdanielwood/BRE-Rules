@@ -46777,12 +46777,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.hints.hint2</Key>
-  <Value>Bermerkungen</Value>
+  <Value>Bemerkungen</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:12.229</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:30.130</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-21T10:14:32.302</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
