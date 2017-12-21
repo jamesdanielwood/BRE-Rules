@@ -40155,6 +40155,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0893B801-DE42-8799-9A47-7CEA52E694DD</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>config.sendToBackOffice.useSeparateSendForBcc</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-21T10:21:11.417</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T10:21:11.417</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A807B822-2525-7B2A-727C-9C60CF230427</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -54831,5 +54846,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T09:29:41.492</LastUpdateTimeStamp>
  </Rule>
- <Size>3374</Size>
+ <Size>3375</Size>
 </BRERuleListType>
