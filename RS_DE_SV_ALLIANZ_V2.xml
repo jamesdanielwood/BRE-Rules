@@ -9013,12 +9013,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstConfigButton</Key>
-  <Value>DE=Austattung</Value>
+  <Value>DE=Ausstattung</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:09.922</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:41.234</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-21T10:01:16.195</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54374,12 +54374,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstConfigButton</Key>
-  <Value>DE=Austattung</Value>
+  <Value>DE=Ausstattung</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T10:57:58.108</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:40.030</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-21T10:01:01.651</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
