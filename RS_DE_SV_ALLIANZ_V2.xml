@@ -116,6 +116,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0EF124E1-478A-4737-C32F-C03B8512AC8E</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>attachmentButtonOrder</Key>
+  <Value>add,upload,select,edit,delete,send,export</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-21T10:19:08.801</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T10:19:08.801</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6CA819CE-B4CC-932F-09F3-58E24BB35782</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -54815,5 +54831,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T09:29:41.492</LastUpdateTimeStamp>
  </Rule>
- <Size>3373</Size>
+ <Size>3374</Size>
 </BRERuleListType>
