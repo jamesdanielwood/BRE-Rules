@@ -116,6 +116,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0EF124E1-478A-4737-C32F-C03B8512AC8E</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>attachmentButtonOrder</Key>
+  <Value>add,upload,select,edit,delete,send,export</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-21T10:19:08.801</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T10:19:08.801</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6CA819CE-B4CC-932F-09F3-58E24BB35782</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -1953,12 +1969,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kadActivityReportReduced.engineerComment</Key>
-  <Value><![CDATA[rows=10,rich-text=true,defaultStyles=font-size:;position:;border:;border-image:;width:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDelete=strong;b;form;iframe;header;nav;main;aside;i;em;mark;small;h1;h2;h3;h4;h5;h6;cite;img;dfn;font;xml,inputFilterPattern=((mso|text|border|will|z|box|overflow)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title]]></Value>
+  <Value><![CDATA[rows=10,rich-text=true,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-31T10:53:52.973</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:41.481</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-20T07:42:59.242</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9013,12 +9029,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstConfigButton</Key>
-  <Value>DE=Austattung</Value>
+  <Value>DE=Ausstattung</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:09.922</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:41.234</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-21T10:01:16.195</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10392,12 +10408,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kadActivityReportReduced.engineerComment</Key>
-  <Value><![CDATA[rows=10,rich-text=true,defaultStyles=font-size:;position:;border:;border-image:;width:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDelete=strong;b;form;iframe;header;nav;main;aside;i;em;mark;small;h1;h2;h3;h4;h5;h6;cite;img;dfn;font;xml,inputFilterPattern=((mso|text|border|will|z|box|overflow)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title]]></Value>
+  <Value><![CDATA[rows=10,rich-text=true,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:18.295</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:38.213</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-20T07:43:08.003</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20168,12 +20184,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.documentDetailsAllianz.preview</Key>
-  <Value><![CDATA[class=no-border,defaultStyles=font-size:;position:;border:;border-image:;width:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDelete=strong;b;form;iframe;header;nav;main;aside;i;em;mark;small;h1;h2;h3;h4;h5;h6;cite;img;dfn;font;xml,inputFilterPattern=((mso|text|border|will|z|box|overflow)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title]]></Value>
+  <Value><![CDATA[class=no-border,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:16.326</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:43.168</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-20T07:41:42.931</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -24711,12 +24727,13 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>UpdateTaskWorkflowFunction.ChangeGeneratorValueTransformation(1510131599285)</Key>
-  <Value>{generator:"AXN",generatorVersion:"21.0",saxifVersion:"1.0"}</Value>
+  <Value>{executeCondition:"${(current.versions.generator == 'AllianzABS') ? 'false' : 'true'}",generator:"AXN",generatorVersion:"21.0",saxifVersion:"1.0"}
+</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-08T10:00:48.509</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:25.587</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-15T10:47:59.017</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38096,12 +38113,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.comment</Key>
-  <Value><![CDATA[rows=21,rich-text=true, class=no-border,defaultStyles=font-size:;position:;border:;border-image:;width:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDelete=strong;b;form;iframe;header;nav;main;aside;i;em;mark;small;h1;h2;h3;h4;h5;h6;cite;img;dfn;font;xml,inputFilterPattern=((mso|text|border|will|z|box|overflow)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title]]></Value>
+  <Value><![CDATA[rows=21,rich-text=true, class=no-border,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:17.169</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:42.985</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-20T07:42:33.418</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -40120,6 +40137,36 @@
   <CreationTimeStamp>2017-04-06T10:23:12.380</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T09:29:44.495</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E99B87FD-7D4A-C1FA-B99E-CF2C7629FA16</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>LaborRatesThresholdValue</Key>
+  <Value>20</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-21T09:56:06.466</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T09:56:06.466</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0893B801-DE42-8799-9A47-7CEA52E694DD</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>config.sendToBackOffice.useSeparateSendForBcc</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-21T10:21:11.417</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T10:21:11.417</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46729,12 +46776,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.csa.documentTextBlockDetails.editor</Key>
-  <Value><![CDATA[defaultStyles=font-size:;position:;border:;border-image:;width:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDelete=strong;b;form;iframe;header;nav;main;aside;i;em;mark;small;h1;h2;h3;h4;h5;h6;cite;img;dfn;font;xml,inputFilterPattern=((mso|text|border|will|z|box|overflow)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title]]></Value>
+  <Value><![CDATA[defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-09T13:48:39.539</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:30.029</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-20T07:42:10.249</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46761,12 +46808,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.hints.hint2</Key>
-  <Value>Bermerkungen</Value>
+  <Value>Bemerkungen</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:12.229</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:30.130</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-21T10:14:32.302</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54358,12 +54405,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstConfigButton</Key>
-  <Value>DE=Austattung</Value>
+  <Value>DE=Ausstattung</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T10:57:58.108</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:40.030</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-21T10:01:01.651</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54799,5 +54846,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T09:29:41.492</LastUpdateTimeStamp>
  </Rule>
- <Size>3372</Size>
+ <Size>3375</Size>
 </BRERuleListType>
