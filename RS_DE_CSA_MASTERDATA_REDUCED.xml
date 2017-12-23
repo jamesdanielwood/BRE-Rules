@@ -7181,6 +7181,81 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6A17E3BF-CB8C-F672-B9E0-E40454044EAA</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.message.save.success</Key>
+  <Value>DE=Erfolgreich gespeichert.,EN=Saved successfully.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-14T11:54:24.772</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.772</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D09BA718-7337-3AAA-6955-43DD3FE57C5D</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.message.name.unique</Key>
+  <Value>DE=Name des Profils wird genommen.,EN=Profile name is already taken.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-14T11:54:24.775</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.775</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>462E918B-5818-EF4D-B488-66935C3A180F</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>StepTranslation</RuleType>
+  <Key>ProfileDetails</Key>
+  <Value>DE=Details des Profils,EN=Profile Details</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-14T11:54:24.780</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.780</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>17EABA6C-614F-4BA1-ECF5-B03BDD32BFC5</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>StepTranslation</RuleType>
+  <Key>ProfileList</Key>
+  <Value>DE=Profil-Liste,EN=Profile List</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-14T11:54:24.782</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.782</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D8444623-A0BD-6D15-30D8-7964DBA023CD</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.message.error</Key>
+  <Value>DE=Ein unerwarteter Fehler ist aufgetreten.,EN=An unexpected error has occurred.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-14T11:54:24.769</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.769</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BE72BC1B-BB9B-3D6A-A05E-8DA67D97D4AE</ItemId>
   <Context>
    <ProcessStep>ProfileDetails</ProcessStep>
@@ -7193,7 +7268,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:27.976</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:27.976</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.678</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7209,7 +7284,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:27.985</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:27.985</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.683</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7225,7 +7300,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:27.988</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:27.988</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.686</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7241,7 +7316,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.003</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.003</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.700</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7257,7 +7332,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.006</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.006</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.704</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7273,7 +7348,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.020</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.020</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.719</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7289,7 +7364,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.031</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.031</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.730</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7305,7 +7380,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.034</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.034</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.736</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7322,7 +7397,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.038</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.038</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.741</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7338,7 +7413,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.045</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.045</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.218</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7349,12 +7424,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ProfileList</Key>
-  <Value>root.csa.profile.newProfileButton</Value>
+  <Value>root.csa.profile.quickSearchField,emptyField1512719247253,root.csa.profile.newProfileButton,root.csa.profile.profilesTable</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.051</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.051</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.276</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7370,7 +7445,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.059</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.059</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.234</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7386,7 +7461,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.063</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.063</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.239</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10211,6 +10286,21 @@
   <LastUpdateTimeStamp>2017-02-06T10:14:09.312</LastUpdateTimeStamp>
  </Rule>
  <Rule>
+  <ItemId>7122CE43-5DA4-0E55-14B3-195915FCE01A</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.profile.profilesTable.owner</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T11:13:00.289</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-18T14:11:23.199</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5AB1F99D-5321-6F34-C5A2-0F11D9571BD3</ItemId>
   <Context>
@@ -12855,6 +12945,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F4C19D4A-3E59-BE32-3916-1DEB9C419C9C</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.profile.newProfileButton</Key>
+  <Value>spanAllColumns=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.457</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.224</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2218D200-6E28-3C55-8155-A73B8072F50E</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profilesTable.lastUpdated</Key>
+  <Value>DE=Letzte Aktualisierung am/um</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.480</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.268</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3EF49E3B-E899-D72E-AF8D-67DC0340E24D</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -12870,6 +12992,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2ED06CEF-D392-CDE4-4DC7-11A48C411782</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.message.name.required</Key>
+  <Value>DE=Name ist erforderlich.,EN=Name is required.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-14T11:54:24.777</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.777</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A25D0976-0AC6-A1C9-7A06-BDAD8151FEFE</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>toolbarItems</Key>
+  <Value>empty</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.469</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.252</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D1E36083-1308-81E5-117A-2A913E1BA5AB</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.profile.profilesTable</Key>
+  <Value>spanAllColumns=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.486</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.281</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DB6DE8C2-75BD-E359-25E2-18114C104C55</ItemId>
   <Context>
    <ProcessStep>ProfileDetails</ProcessStep>
@@ -12882,7 +13052,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:27.992</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:27.992</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.689</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12898,7 +13068,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:27.996</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:27.996</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.693</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12914,7 +13084,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.000</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.000</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.697</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12930,7 +13100,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.010</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.010</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.707</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12946,7 +13116,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.013</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.013</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.712</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12962,7 +13132,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.016</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.016</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.716</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12978,7 +13148,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.024</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.024</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.723</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12994,7 +13164,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.027</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.027</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-14T11:54:24.727</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13010,7 +13180,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.042</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.042</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.211</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13026,7 +13196,121 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.056</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T07:11:28.056</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.230</LastUpdateTimeStamp>
  </Rule>
- <Size>813</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3849B26B-516A-B028-F17C-9D23F78F8D34</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.profile.quickSearchField</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.464</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.248</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B5898710-831C-50F3-809F-E62105F79A7F</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.profile.profilesTable::noRecordsFoundMessage</Key>
+  <Value>No results found.</Value>
+  <Expression>${(memberCache.browserLocale.language == "de") ? "Keine Datensätze gefunden." : "No results found."}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.474</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.258</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2547B74E-D99E-F92D-4546-4ACCD7C116AD</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.profile.profilesTable.checkbox</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T09:00:25.744</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.286</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>488B5E24-A745-4558-9437-1219164C583F</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profilesTable.owner</Key>
+  <Value>DE=Besitzer</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.461</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.242</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>16C9F429-D3B6-B497-27E9-FF49C8E4925F</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.profile.quickSearchField::placeholder</Key>
+  <Value>Search...</Value>
+  <Expression>${(memberCache.browserLocale.language == "de") ? "Suche..." : "Search..."}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.483</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.272</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5D56AB41-CAC2-CFFD-D462-CBE79B49A804</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.profile.profilesTable</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.477</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.263</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E47E8EB1-C0A3-C83A-89EF-9925F0F88888</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profilesTable.actions</Key>
+  <Value>DE=Aktionen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-15T08:45:52.454</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T11:13:00.165</LastUpdateTimeStamp>
+ </Rule>
+ <Size>831</Size>
 </BRERuleListType>
