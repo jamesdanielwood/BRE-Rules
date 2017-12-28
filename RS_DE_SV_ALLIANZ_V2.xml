@@ -1983,12 +1983,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kadActivityReportReduced.engineerComment</Key>
-  <Value><![CDATA[rows=10,rich-text=true,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
+  <Expression>rows=10,rich-text=true,${#ckeditorxsscleanattr}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-31T10:53:52.973</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-21T10:36:31.168</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-26T12:50:32.271</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10407,12 +10407,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kadActivityReportReduced.engineerComment</Key>
-  <Value><![CDATA[rows=10,rich-text=true,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
+  <Expression>ows=10,rich-text=true,${#ckeditorxsscleanattr}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:18.295</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-21T10:37:03.644</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-26T12:50:20.495</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20165,12 +20165,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.documentDetailsAllianz.preview</Key>
-  <Value><![CDATA[class=no-border,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
+  <Expression>class=no-border,${#ckeditorxsscleanattr}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:16.326</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-21T10:40:32.531</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-26T13:02:35.623</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38094,12 +38094,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.comment</Key>
-  <Value><![CDATA[rows=21,rich-text=true, class=no-border,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
+  <Expression>rows=21,rich-text=true, class=no-border,${#ckeditorxsscleanattr}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:17.169</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-21T10:37:35.029</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-26T13:00:17.015</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
