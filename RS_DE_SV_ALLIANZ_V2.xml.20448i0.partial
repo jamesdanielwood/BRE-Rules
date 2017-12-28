@@ -131,20 +131,6 @@
   <LastUpdateTimeStamp>2017-12-21T10:19:08.801</LastUpdateTimeStamp>
  </Rule>
  <Rule>
-  <ItemId>736483A5-0E7F-7E50-4B6F-785BFC91E384</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>headerTemplate</Key>
-  <Value>MaterialDesign2/MaterialDesignHeader.htm</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:13.098</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-23T08:19:06.358</LastUpdateTimeStamp>
- </Rule>
- <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6CA819CE-B4CC-932F-09F3-58E24BB35782</ItemId>
   <Context>
@@ -1983,12 +1969,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kadActivityReportReduced.engineerComment</Key>
-  <Expression>rows=10,rich-text=true,${#ckeditorxsscleanattr}</Expression>
+  <Value><![CDATA[rows=10,rich-text=true,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-31T10:53:52.973</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-26T12:50:32.271</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T10:36:31.168</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9361,6 +9347,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>736483A5-0E7F-7E50-4B6F-785BFC91E384</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>headerTemplate</Key>
+  <Value>MaterialDesign2/MaterialDesignHeader.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-04-06T10:23:13.098</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T09:29:42.156</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BFB2553E-5214-6809-C87F-F4BCF0155000</ItemId>
   <Context>
    <Process>CompleteAssessment</Process>
@@ -10407,12 +10408,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kadActivityReportReduced.engineerComment</Key>
-  <Expression>ows=10,rich-text=true,${#ckeditorxsscleanattr}</Expression>
+  <Value><![CDATA[rows=10,rich-text=true,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:18.295</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-26T12:50:20.495</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T10:37:03.644</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11116,17 +11117,18 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>690B25BF-378D-ECDE-B356-EA6D5265AF38</ItemId>
   <Context>
+   <Process>ShortAssessment</Process>
    <ProcessStep>AssessmentShort</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>attachmentgroup.OTHER</Key>
-  <Value>DE=Andere Dokumente, EN=Other documents</Value>
+  <Value>DE=Anhänge, EN=Other documents</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-23T09:17:27.346</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-23T09:32:41.802</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-15T09:29:39.589</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14321,6 +14323,23 @@
   <CreationTimeStamp>2017-04-06T10:23:13.085</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T09:29:28.013</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4A6C0ED9-377F-AC3D-E84C-AE50D007746D</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>ChangeTaskOwner</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>workPageDialogTemplate</Key>
+  <Value>MaterialDesign2/MaterialDesignPopupPage.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-05-26T17:58:51.875</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-15T09:29:28.019</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20165,12 +20184,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.documentDetailsAllianz.preview</Key>
-  <Expression>class=no-border,${#ckeditorxsscleanattr}</Expression>
+  <Value><![CDATA[class=no-border,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:16.326</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-26T13:02:35.623</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T10:40:32.531</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38094,12 +38113,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.comment</Key>
-  <Expression>rows=21,rich-text=true, class=no-border,${#ckeditorxsscleanattr}</Expression>
+  <Value><![CDATA[rows=21,rich-text=true, class=no-border,defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:17.169</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-26T13:00:17.015</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-21T10:37:35.029</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -40118,22 +40137,6 @@
   <CreationTimeStamp>2017-04-06T10:23:12.380</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T09:29:44.495</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <ItemId>4A6C0ED9-377F-AC3D-E84C-AE50D007746D</ItemId>
-  <Context>
-   <Process>NO_PROCESS</Process>
-   <ProcessStep>ChangeTaskOwner</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>workPageDialogTemplate</Key>
-  <Value>MaterialDesign2/MaterialDesignPopupPage.htm</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-05-26T17:58:51.875</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-23T08:05:13.685</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
