@@ -131,6 +131,23 @@
   <LastUpdateTimeStamp>2017-12-21T10:19:08.801</LastUpdateTimeStamp>
  </Rule>
  <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>92DE7C76-C549-35D7-EE12-CCFD9264A7DF</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.calculationList.calculationListTable.isAlternativePartsCalculation</Key>
+  <Value>DE=Kalk.-Art</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-29T09:42:36.351</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-29T09:42:36.351</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
   <ItemId>736483A5-0E7F-7E50-4B6F-785BFC91E384</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -1011,7 +1028,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6A056423-7614-5CFE-78DB-A41F24394B52</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -1021,7 +1037,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-19T15:52:05.547</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:33.886</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-29T09:44:05.337</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38647,12 +38663,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>showCalculationListColumns</Key>
-  <Value>checked,calculationDateTime,grandTotal,grandTotalWithTax,repairCostWithTax,FCPartTot,FCLaborTot,FCPaintTotOverAll,calculationKind</Value>
+  <Value>checked,calculationDateTime,grandTotal,grandTotalWithTax,repairCostWithTax,FCPartTot,FCLaborTot,FCPaintTotOverAll,isAlternativePartsCalculation</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-04T09:02:19.824</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:42.147</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-29T09:43:09.690</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46766,22 +46782,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>4EA42446-44F4-5DBC-CE05-AD62AE4FE7CF</ItemId>
-  <Context>
-   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.csa.documentTextBlockDetails.editor</Key>
-  <Value><![CDATA[defaultStyles=font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;,tagsToRemoveStyles=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,tagsToDeleteAndSaveContent=strong;b;i;em;mark;small;h1;h2;h3;h4;h5;h6;form;header;main;nav;font,tagsToDelete=area;textarea;iframe;script;aside;cite;img;dfn;xml,inputFilterPattern=((mso|text|aria|border|will|z|box|overflow|pointer|user|min)-[^:]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>),tagsToRemoveAttributes=div;section;select;label;table;option;tr;td;th;a;input;span;p;li;ol;ul,attributesToDelete=class;id;onclick;onkeydown;onchange;onmousedown;onfocus;lang;size;data-block;face;name;href;type;title;for;role;tabindex]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-09T13:48:39.539</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-21T10:37:57.914</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>292B5AD2-E99C-186A-001F-52A39375ADDF</ItemId>
   <Context>
    <ProcessStep>History</ProcessStep>
@@ -52023,7 +52023,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D3F46AD8-DFFA-C236-7D6F-71C7F7882035</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -52033,7 +52032,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-19T15:52:32.262</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:31.820</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-29T09:43:45.164</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
