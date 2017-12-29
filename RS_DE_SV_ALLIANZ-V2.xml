@@ -131,23 +131,6 @@
   <LastUpdateTimeStamp>2017-12-21T10:19:08.801</LastUpdateTimeStamp>
  </Rule>
  <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>92DE7C76-C549-35D7-EE12-CCFD9264A7DF</ItemId>
-  <Context>
-   <Process>ShortAssessment</Process>
-   <ProcessStep>Damage</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.calculationList.calculationListTable.isAlternativePartsCalculation</Key>
-  <Value>DE=Kalk.-Art</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-12-29T09:42:36.351</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-29T09:42:36.351</LastUpdateTimeStamp>
- </Rule>
- <Rule>
   <ItemId>736483A5-0E7F-7E50-4B6F-785BFC91E384</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -27514,7 +27497,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>32D21644-B914-4F03-47B3-28C3668746F3</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
@@ -27524,7 +27506,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-31T10:56:31.606</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T09:29:30.670</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-29T09:53:29.622</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54842,5 +54824,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T09:29:41.492</LastUpdateTimeStamp>
  </Rule>
- <Size>3375</Size>
+ <Size>3374</Size>
 </BRERuleListType>
