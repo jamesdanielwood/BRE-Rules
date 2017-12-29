@@ -7256,6 +7256,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A3347384-F3FE-238A-C686-46C8990299B2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.delete.confirm</Key>
+  <Value>"DE=Sind Sie sicher, dass Sie ausgewählte löschen möchten?"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-27T11:19:18.912</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-27T14:05:33.543</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BE72BC1B-BB9B-3D6A-A05E-8DA67D97D4AE</ItemId>
   <Context>
    <ProcessStep>ProfileDetails</ProcessStep>
@@ -7391,13 +7406,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.csa.profile.profileDetails</Key>
-  <Value>tab-1-name=Details,tab-1-header=Profile Details</Value>
-  <Expression>${(memberCache.browserLocale.language == "de") ? "tab-1-name=Details,tab-1-header=Details des Profils" : "tab-1-name=Details,tab-1-header=Profile Details"}</Expression>
+  <Expression>${(memberCache.browserLocale.language == "de") ? "tab-1-name=Details,tab-1-header=Details des Profils,tab-2-name=Seitenauswahl,available_steps=Zur Auswahl,selected_steps=Ausgewählt" : "tab-1-name=Details,tab-1-header=Profile Details,tab-2-name=Page Selection,available_steps=Available,selected_steps=Selected"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.038</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T11:54:24.741</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-28T16:52:08.624</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7424,12 +7438,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ProfileList</Key>
-  <Value>root.csa.profile.quickSearchField,emptyField1512719247253,root.csa.profile.newProfileButton,root.csa.profile.profilesTable</Value>
+  <Value>root.csa.profile.quickSearchField,emptyField1512719247253,root.csa.profile.newProfileButton,root.csa.profile.deleteSelectedProfiles,root.csa.profile.profilesTable</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.051</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T11:13:00.276</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-27T11:17:21.691</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10286,21 +10300,6 @@
   <LastUpdateTimeStamp>2017-02-06T10:14:09.312</LastUpdateTimeStamp>
  </Rule>
  <Rule>
-  <ItemId>7122CE43-5DA4-0E55-14B3-195915FCE01A</ItemId>
-  <Context>
-   <ProcessStep>ProfileList</ProcessStep>
-   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.csa.profile.profilesTable.owner</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-12-15T11:13:00.289</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-18T14:11:23.199</LastUpdateTimeStamp>
- </Rule>
- <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5AB1F99D-5321-6F34-C5A2-0F11D9571BD3</ItemId>
   <Context>
@@ -12945,19 +12944,65 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F4C19D4A-3E59-BE32-3916-1DEB9C419C9C</ItemId>
+  <ItemId>6FDB5ACA-93DB-89BD-1746-F036E3161E10</ItemId>
   <Context>
    <ProcessStep>ProfileList</ProcessStep>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
   </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.csa.profile.newProfileButton</Key>
-  <Value>spanAllColumns=true</Value>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.profile.deleteSelectedProfiles</Key>
+  <Value>show</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-12-15T08:45:52.457</CreationTimeStamp>
+  <CreationTimeStamp>2017-12-27T11:18:35.248</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T11:13:00.224</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-27T11:18:35.248</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>414A24DF-9F46-6BFB-D365-5C7B7228E96E</ItemId>
+  <Context>
+   <ProcessStep>ProfileList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.deleteSelectedProfiles</Key>
+  <Value>DE=Löschen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-27T11:18:22.477</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-27T11:18:22.477</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3CBFE9B9-E4C9-093B-FEE3-92AEF3653986</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profilestable.edit</Key>
+  <Value>DE=Bearbeiten</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-27T11:19:34.498</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-27T11:19:34.498</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>110D6240-07CD-6504-0149-7CE994C5A7D7</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profilestable.delete</Key>
+  <Value>DE=Löschen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-27T11:19:52.531</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-27T11:19:52.531</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12977,6 +13022,39 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C7436B74-9939-D36E-AC52-F1B545666ED0</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>ProfileWizard.BaseProcess</Key>
+  <Value>CompleteAssessment</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-27T15:52:42.915</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-27T15:52:42.915</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2B8F4488-3109-18E0-C22D-6F89B7715EAD</ItemId>
+  <Context>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.profile.profileDetails.processName</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-27T16:07:13.540</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-27T16:07:13.540</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3EF49E3B-E899-D72E-AF8D-67DC0340E24D</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -12989,6 +13067,22 @@
   <CreationTimeStamp>2017-06-29T12:42:22.796</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-06-29T12:42:22.796</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8477F1D0-ABF5-4A2A-047D-A3E3B0DF3813</ItemId>
+  <Context>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profileDetails.processName</Key>
+  <Value>EN=Process Name,DE=Process Name</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-27T16:07:34.542</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-27T16:07:34.542</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13159,12 +13253,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ProfileDetails</Key>
-  <Value>root.csa.profile.profileDetails.name,root.csa.profile.profileDetails.ownerName,root.csa.profile.profileDetails.itemId,root.csa.profile.profileDetails.memberId,root.csa.profile.profileDetails.lastUpdatedDateTime,root.csa.profile.profileDetails.saveDetails</Value>
+  <Value>root.csa.profile.profileDetails.name,root.csa.profile.profileDetails.ownerName,root.csa.profile.profileDetails.itemId,root.csa.profile.profileDetails.memberId,root.csa.profile.profileDetails.lastUpdatedDateTime,root.csa.profile.profileDetails.processName,root.csa.profile.profileDetails.saveDetails</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.027</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-14T11:54:24.727</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-27T16:07:13.711</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13233,22 +13327,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2547B74E-D99E-F92D-4546-4ACCD7C116AD</ItemId>
-  <Context>
-   <ProcessStep>ProfileList</ProcessStep>
-   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.csa.profile.profilesTable.checkbox</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-12-15T09:00:25.744</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-15T11:13:00.286</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>488B5E24-A745-4558-9437-1219164C583F</ItemId>
   <Context>
    <ProcessStep>ProfileList</ProcessStep>
@@ -13312,5 +13390,20 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T11:13:00.165</LastUpdateTimeStamp>
  </Rule>
- <Size>831</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4D74F612-C807-62E5-A541-6B4FEDCD7D68</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.deletestep</Key>
+  <Value>DE=Löschen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2017-12-28T17:05:28.655</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
+ </Rule>
+ <Size>837</Size>
 </BRERuleListType>
