@@ -582,12 +582,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>dashboard.widget1.url</Key>
-  <Value>/bre/work/NO_PROCESS/MaterialGrid?gridView=worklistgrid_open</Value>
+  <Value>/bre/work/NO_PROCESS/MaterialGrid?gridView=worklistgrid_custom_open</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T10:29:20.430</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-27T10:29:20.430</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T09:51:00.085</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
