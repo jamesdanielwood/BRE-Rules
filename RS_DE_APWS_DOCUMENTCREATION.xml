@@ -239,12 +239,12 @@
   </Context>
   <RuleType>Variable</RuleType>
   <Key>xssCKeditorDefaultStyles</Key>
-  <Value>font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;</Value>
+  <Value>font-size:;transition:;font-variant:;position:;border:;border-image:;width:;height:;left:;right:;background:;overflow:;flex-grow:;display:;font-family:;color:;margin:;font-sie:;line-height:;background-size:;</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-28T11:31:59.904</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-28T11:31:59.904</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-29T14:58:22.177</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -668,12 +668,12 @@
   </Context>
   <RuleType>Variable</RuleType>
   <Key>xssCKEditorInputfilterpattern</Key>
-  <Value><![CDATA[(((mso|text|aria|font-variant|border|will|z|box|overflow|pointer|user|min)-)[^: ]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>)]]></Value>
+  <Value><![CDATA[(((mso|aria|font-variant|border|will|z|box|overflow|pointer|user|min)-)[^: ]*:[^;]*;|<[/]?([ovwxpm]:\w+)[^>]*?>)|(((text)-([^:]*[^(align)]):[^;]*);)]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-28T11:32:27.290</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-28T11:32:27.290</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-05T16:16:30.887</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
