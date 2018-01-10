@@ -172,6 +172,36 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>50D5FFBD-ED66-D28B-99D0-4BDCC2D5CC25</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>claimshistory.resultgrid.damage.general.sideRight</Key>
+  <Value>DE=Seite rechts,EN=Side right</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T12:37:01.364</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T12:37:01.364</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AE99FC17-E3AF-3B0A-9777-76A693A42BC2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>claimHistoryControllerExcludeCountries</Key>
+  <Value>DEU</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-05T09:29:58.636</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-05T11:28:24.617</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AA2B3967-23AF-6286-CB9C-8DC3D1301496</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -281,6 +311,86 @@
   <CreationTimeStamp>2017-11-27T15:06:20.467</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-11-27T15:06:20.467</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D8F37845-A1CF-165D-F23E-2D3111653E34</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.vehicle.carModel</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:24:40.202</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:24:40.202</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A0CE64CA-7A92-1263-B7C6-64A40A264220</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.vehicle.firstRegistration</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:24:47.521</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:24:47.521</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>36052357-EF74-8BBE-EA61-302E264DB3B4</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.creation</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:25:05.034</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:25:05.034</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BD944BE2-6229-B587-E149-9610EB0C1850</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.damagePaintLabor</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:26:31.373</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:26:31.373</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>137EB70A-4E0E-1DC7-7FAC-FC4D0781394F</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.sideLeft</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:43:33.025</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:43:35.022</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1619,22 +1729,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>0F2AAB52-1C43-9242-3F63-6C08E3071EC3</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.hints.hint2</Key>
-  <Value>class=hint margin-top</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:37.540</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:03.877</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B678B74A-6C8A-4F9D-FD66-DD8F72286611</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -2221,7 +2315,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BCF9C17A-7737-3A5D-F290-B5B743B03761</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -2231,8 +2324,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.764</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:05.554</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:43:51.734</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2335,7 +2428,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>7920C68D-74F5-8C1D-94D5-82760F72463C</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -2346,7 +2438,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:31.730</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-01T09:47:23.679</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-28T07:46:06.064</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2702,23 +2794,6 @@
   <CreationTimeStamp>2017-07-11T09:25:32.426</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-19T12:12:01.316</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>3249CBE4-7E32-241E-64DD-7A6A25900123</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.composeMail.mailSubject::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-27T09:17:06.526</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:01.349</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3173,7 +3248,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DEE6B1A0-BD4A-FF1B-46FC-F3FC92BF7F49</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -3183,8 +3257,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:39.305</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:09.988</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:11:16.305</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3892,7 +3966,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6B6DBCF4-0F45-3E87-1A0B-D87981467892</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -3902,8 +3975,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.853</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:07.366</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:55:01.991</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4750,7 +4823,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A82E290A-487F-7B22-0B41-A96CC458B84C</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -4760,8 +4832,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.194</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:08.865</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:12:13.696</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5887,7 +5959,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AB84EEA4-B543-1939-1184-495314BB43D0</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -5897,8 +5968,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.511</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:11.283</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:02:52.166</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5986,7 +6057,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F945A01D-DAAC-DA41-DF9E-04629D6F7AAE</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -5996,8 +6066,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.539</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:13.002</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:32:43.440</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7323,12 +7393,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>claimshistory.resultgrid.assessment.damageAdditional</Key>
-  <Value>DE=Zustatskosten,EN=Additional Damage</Value>
+  <Value>DE=Zusatzkosten,EN=Additional Damage</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-28T10:24:16.300</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-28T10:24:16.300</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T12:56:55.176</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7353,12 +7423,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>claimshistory.resultgrid.autoOnline.aoReplacementValueCur</Key>
-  <Value>EN=AO Currency,DE=AO Whärung</Value>
+  <Value>EN=AO Currency,DE=AO Währung</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-28T10:24:16.333</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-28T10:24:16.333</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T12:53:01.421</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7759,12 +7829,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>blockNames</Key>
-  <Value>Claims History Result</Value>
+  <Value>Claims History Result,ColumnOrder</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-28T07:32:47.840</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-28T07:32:47.840</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-04T09:45:54.576</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7823,12 +7893,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>claimshistory.resultgrid.assessment.damagePaintMaterial</Key>
-  <Value>DE=Lack-Material,EN=Paint Material</Value>
+  <Value>DE=Lackmaterial,EN=Paint Material</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-28T10:24:16.304</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-28T10:24:16.304</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T12:58:16.855</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7868,12 +7938,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>claimshistory.resultgrid.creation</Key>
-  <Value>DE=Schadenfall erstellt am</Value>
+  <Value>DE=Schaden erstellt am</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-28T10:24:16.318</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-28T10:24:16.318</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T12:55:00.992</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11150,23 +11220,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>8D9C3C20-91B4-5B73-EDA0-EDB25B3824C4</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>VehicleSearch</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstSearchButton</Key>
-  <Value>DE=Suchbaum</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:34.772</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:07.998</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3ABB4BFF-0DA3-A9C0-47F8-A9B2E87B778D</ItemId>
   <Context>
    <ProcessStep>VehicleSearch</ProcessStep>
@@ -11525,22 +11578,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>66DE8EDC-DB9B-BA14-1217-AEFAD95CD771</ItemId>
-  <Context>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.caseMemberListComponent.memberListTable.roleText::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":2,"spanSize":2}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-09-07T10:28:56.969</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:08.660</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>30BF8CFD-D5BC-13ED-9724-6C9260D66184</ItemId>
   <Context>
    <ProcessStep>SendPage</ProcessStep>
@@ -11612,11 +11649,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.calculationList.rulesCheck::Layout</Key>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:36.248</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:08.844</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:05:51.432</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12172,7 +12210,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C3FDC454-B2A6-ABB5-2B1D-95933EB90CAA</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -12182,8 +12219,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:39.350</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:10.136</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:56:20.100</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13196,23 +13233,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2CE6A730-0BB9-7776-06A2-58D9F2ECA869</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.composeMail::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-07-31T13:43:58.828</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:11.008</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2FDD9C42-3A55-1990-F7F5-08CBD28CCCB4</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -13315,7 +13335,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A59A6661-52B6-24A2-69AA-708FBD995F9B</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -13326,7 +13345,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.280</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-01T09:47:23.683</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-28T07:46:15.680</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13525,22 +13544,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>530073F7-3DFD-F325-A83F-82FDD575F7B1</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.hints.hint2</Key>
-  <Value>class=hint</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:30.742</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:11.838</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0A45695E-9E54-FDA7-98DC-83E049C41E77</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
@@ -13671,7 +13674,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DFC470EB-AB84-6540-03CE-D9CA705092A1</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -13681,8 +13683,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.527</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:12.026</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:24:12.950</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14320,22 +14322,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>A849D507-C2A0-538E-8742-0ECA8139D023</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.calculationList.printSelectedCalculation::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":8,"spanSize":8}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:37.013</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:15.555</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0F8CC2F5-D2C8-2D19-8472-DB27B4AAE8C7</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -14564,6 +14550,102 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C4F8E2F6-436F-870B-F312-9C8B68500149</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.vehicle.mileage</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:25:17.667</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:25:17.667</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6332B473-699F-83C7-D90B-A78F95EDE0F8</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.damageValue</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:25:46.237</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:25:46.237</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A9A339FA-8427-BA0C-3881-EFA17C35634A</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.damagePaintMaterial</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:26:39.578</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:26:39.578</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>33F32593-510D-EE21-C616-650CBE7F5874</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.parts</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:26:47.215</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:26:47.215</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0CEB1361-1DCF-7FD8-DAD3-E1B19295EA82</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.vehicle.replacementValueAmount</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:26:54.869</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:26:54.869</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B0C03BB3-90E8-4401-B441-386FB980626E</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.rearRight</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:44:22.908</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:44:22.908</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>248BC525-2056-543F-ADB0-6DDB2EF2755E</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -14612,6 +14694,37 @@
   <CreationTimeStamp>2017-11-29T16:39:57.531</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-11-29T16:39:57.531</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>738AB19D-1A6C-5151-3961-B5C677417566</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.autoOnline.aoPictures</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:45:11.803</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:45:11.803</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EB5F0AC3-A33D-F188-ED3D-9A39C56383DD</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>claimshistory.resultgrid.damage.general.front</Key>
+  <Value>DE=Vorne,EN=Front</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T12:38:33.768</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T12:38:40.028</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15217,6 +15330,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6E8FD5BC-8370-3BF1-B7EC-84575E7C97AE</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>root.task.basicClaimData.policyData.insuranceCompany.mode</Key>
+  <Value>edit</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-10T09:33:03.088</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-10T09:33:03.088</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4D54E391-2E5D-0613-9862-E2A936176A7F</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -15741,7 +15869,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2F1247F3-3EDC-92CB-0D9B-1971CD741569</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -15751,8 +15878,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:40.355</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:03.532</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:00:45.116</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15901,23 +16028,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>73B4AAF3-202E-9058-DD15-C0E79B0128F1</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>BlockConfiguration</RuleType>
-  <Key>Senden.Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-27T09:17:06.537</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:03.965</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1BED987F-550C-71A4-E15E-CFD0AE1866E6</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -15980,22 +16090,6 @@
   <CreationTimeStamp>2017-07-14T10:34:05.499</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-19T12:12:01.604</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>DD02F485-647F-24CA-6444-D3F1B0C2F1A9</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.configurablehints.hint1</Key>
-  <Value>class=hint</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:30.511</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:01.639</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -16206,23 +16300,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>E73EC754-3A25-0BC0-DB51-C0BD8481AC74</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>VehicleSearch</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstConfigButton</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:31.737</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:02.255</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>42DD3E8B-6ECD-0E90-92FB-EA6BCE79ACDE</ItemId>
   <Context>
    <ProcessStep>DamageDescription</ProcessStep>
@@ -16252,23 +16329,6 @@
   <CreationTimeStamp>2017-07-11T09:25:36.450</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-19T12:12:02.304</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>125498DB-BB57-05A4-3D68-9C5D4B18840E</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.displayCalculationParts</Key>
-  <Value>class=button</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:38.496</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:02.343</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -17176,7 +17236,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E9BFB2E7-31FE-8BE8-21CE-AE2B6B8FA04E</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -17186,8 +17245,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.513</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:05.533</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:32:55.195</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -17963,7 +18022,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0E41649A-59A3-CFD1-38E7-0A5B99B353CD</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -17973,8 +18031,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.519</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:02.034</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:26:29.633</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -18657,7 +18715,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D8C65F71-D52E-8DFF-4C9D-185E876D107F</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -18667,8 +18724,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.524</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:04.043</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:32:37.412</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -19039,22 +19096,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>67A8E165-03CE-F0E9-252B-7059F3DF24E3</ItemId>
-  <Context>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.workflow.sendTask.dialog-login::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":5,"spanSize":5}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-09-07T10:30:01.370</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:04.730</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>32E940B8-4008-5D9D-C2FB-0F274B058DAA</ItemId>
   <Context>
    <ProcessStep>SendPage</ProcessStep>
@@ -19280,23 +19321,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>EF927BCA-C0F9-0C6E-5B2A-0FC2DAE337F7</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>VehicleSearch</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstSearchButton</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:31.723</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:05.340</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4564BEEC-6FC9-D7CD-E8B7-0B66747E4BF2</ItemId>
   <Context>
    <ProcessStep>SendPage</ProcessStep>
@@ -19380,7 +19404,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9E7A5A18-424C-8CBF-5A9E-1A97EA953BA7</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -19390,8 +19413,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.535</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:05.528</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:25:41.449</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -19668,7 +19691,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>883253C9-F040-D942-35E8-16E18976298E</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -19678,8 +19700,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.081</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:05.966</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:03:30.084</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -19808,23 +19830,6 @@
   <CreationTimeStamp>2017-07-11T09:25:33.131</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-19T12:12:06.364</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>EC2D70F3-D25D-3D62-1BAA-C3B729A2A0FF</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.hints.hint3::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":8,"spanSize":10}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:31.720</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:06.377</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -22193,23 +22198,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>15970A0E-D20E-DC66-2A8A-55539C6A063E</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.composeMail.attachments::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-27T09:17:06.544</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:09.810</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>20D5683B-DEF7-C725-1886-5C386A50EFEE</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -24379,7 +24367,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A4314EC1-A319-5251-DCF9-9D226AB1BF8E</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -24389,8 +24376,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.492</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:14.389</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:03:41.157</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -24428,7 +24415,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CF4E9B17-6B62-EB1C-9B57-2A5D12726EEC</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -24438,8 +24424,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.273</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:14.469</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:43:44.511</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -25633,7 +25619,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>7C9219CA-5226-F7BB-4F42-6BD2ACA87F84</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -25643,8 +25628,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.475</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:07.948</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:01:19.574</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -26547,7 +26532,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8CB36366-26EE-19E5-1A98-4E34BD8C24B4</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -26557,8 +26541,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.522</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:10.684</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:32:31.176</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27399,22 +27383,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1360D912-CF03-0969-79AE-6891BA96E7C8</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.displayCalculationParts.displayCalculationParts::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:35.572</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:12.342</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4384A922-CEB3-CC50-D0E8-5D17DE89BE90</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -27756,7 +27724,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F535490F-034D-6638-81C4-5D481CD6437E</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -27766,8 +27733,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.743</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:13.153</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:04:26.750</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28164,7 +28131,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F5A79EA3-266B-707B-0993-21C4F6C5A941</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -28174,8 +28140,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.036</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:14.278</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:48:24.871</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28469,7 +28435,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>48269740-457C-4D95-B951-891FCB5A197B</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -28479,8 +28444,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:39.322</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:14.805</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:13:22.080</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28754,6 +28719,134 @@
   <CreationTimeStamp>2017-12-05T13:21:23.152</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-05T13:21:23.152</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4C0196EE-7BDE-56D5-0D14-31D25CF7FA05</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.country</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:24:10.385</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:24:10.385</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B06F4695-AAF4-AC62-A87C-6B25DCA8429F</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.calculationDate</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:24:55.003</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:24:55.003</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>868E1D4B-475F-768B-56BF-6F690DE907F3</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.damagePaint</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:25:55.352</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:25:55.352</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>94B997C1-A078-C970-F0FB-8D9A70326916</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.damageLabor</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:26:03.680</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:26:03.680</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B4A16C1E-2E70-34A9-5F4B-F4EDBF214139</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.roof</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:43:21.387</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:43:26.129</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>375130D6-88C2-E118-3839-F04A029C6D6F</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.frontLeft</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:43:57.608</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:43:57.608</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F4C9598D-C878-F6B0-0789-E9DBAB0B3B8A</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.frontRight</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:44:07.091</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:44:07.091</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>54D17BD6-EC06-AF05-E21C-B525EBF078D7</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.glass.sideRight</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:44:50.853</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:44:50.853</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -30216,22 +30309,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>891E98C4-F9E3-F11C-D6B2-0452F99003B0</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.additionalhints.hint7</Key>
-  <Value>class=hint</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:32.740</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:01.802</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>FE6B5EF9-AD25-A89A-BEAA-4F51C4142DC2</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -30589,7 +30666,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F81D787A-2D06-FB85-DD02-AFB64087F3E0</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -30599,8 +30675,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-07-31T13:34:52.891</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:02.260</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:32:25.007</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -31916,7 +31992,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D9A44BF7-5A4D-1120-BBD6-61F847F802DC</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -31926,8 +32001,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.850</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:05.941</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:43:37.906</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -32510,23 +32585,6 @@
   <CreationTimeStamp>2017-07-11T09:25:38.524</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-19T12:12:07.346</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>86D2AE91-9A88-B07E-A28B-99C139932C40</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>VehicleSearch</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstSyncButton</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:33.270</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:07.372</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -33281,22 +33339,6 @@
   <CreationTimeStamp>2017-07-11T09:25:35.997</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-19T12:12:09.185</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>AE0A260B-5F12-FD4C-094F-B43A7634891B</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.configurablehints.hint2</Key>
-  <Value>class=hint</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:30.910</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:09.214</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -34302,7 +34344,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>FD948FC4-493C-C045-DE80-200CB19482CA</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -34312,8 +34353,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.546</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:10.092</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:21:10.580</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -34481,7 +34522,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9433645F-0466-D952-C6C8-E943BCC0F852</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -34491,8 +34531,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.540</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:10.308</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:32:49.493</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -34671,23 +34711,6 @@
   <CreationTimeStamp>2017-07-11T09:25:37.418</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-19T12:12:10.585</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F610A4C5-E96F-EF0E-F351-547BA52AD536</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberCombo.policyHolder.communicationDetailList.phone1</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-19T14:08:32.288</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:10.606</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -35479,7 +35502,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C3DCEB61-6406-FE2E-8929-FAEC067CA120</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -35489,8 +35511,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.058</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:12.293</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:43:12.023</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -35783,7 +35805,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>99A0DB0E-3367-0A1F-609C-8A4B22B4CFDE</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -35793,8 +35814,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.128</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:01.259</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:10:41.004</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -35895,7 +35916,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>02F9E1A3-F6A7-7B09-E87F-BEBBAF8C6473</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -35905,8 +35925,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.848</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:01.584</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:50:33.444</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36458,23 +36478,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>0693F1A2-4E86-BD4B-550D-7FBE584712C0</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.workflow.sendTask.advancedSearchFiedls.memberRelation::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-27T09:17:06.517</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:01.930</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F3E90CA4-68FB-9A93-FE7C-46CF8CA825BF</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -36767,7 +36770,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9555F56B-2A7F-C010-9596-3FA565E502D4</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>VehicleSearch</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -36777,8 +36779,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:31.717</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:04.014</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:38:50.954</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -37106,22 +37108,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>FA4E49AF-8EF0-FEEC-9407-3CD936D5DFDD</ItemId>
-  <Context>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.workflow.sendTask.dialog::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":10,"spanSize":10}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-09-07T10:29:42.030</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:05.246</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>061584F6-F473-EE17-BE54-FDEFDD149287</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -37434,7 +37420,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2D4B31D8-E8F2-5317-5610-C83514655CE2</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>Assessment</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -37444,14 +37429,13 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.287</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:15.664</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:15:57.240</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AF106238-EAD7-0B39-582E-6E822BD39E89</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -37461,8 +37445,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.747</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:15.688</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:48:18.855</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38070,7 +38054,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>45918990-14CE-1D9B-2AE5-D96DFDFFE743</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -38080,8 +38063,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.515</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:12.044</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:21:54.662</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38264,7 +38247,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BE9AA8AA-F07D-A35E-1B86-08442F3A586E</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -38274,8 +38256,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.067</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:12.458</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:49:46.180</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38922,23 +38904,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>CD19423D-34D9-A766-2F20-AD3E02592E2D</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.workflow.sendTask.advancedSearchFiedls.memberKind::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-27T09:17:06.533</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:08.555</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>58A27D02-ECF4-837F-AEC7-8147E183850E</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -39034,7 +38999,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5574A5B6-3333-4575-4D38-B888C3099E28</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -39044,8 +39008,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:31.751</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:08.768</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:43:20.253</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -39709,7 +39673,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>154E9535-8816-6E8F-C8E9-42347F0607B4</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -39719,8 +39682,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T09:17:06.531</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:10.006</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:35:30.500</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -39935,23 +39898,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>595178A1-0FD0-EC5B-D9C9-2B3027E8BE0E</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.calculationOptions.calculate</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:33.265</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:12.883</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E56DB400-E5C0-B8D8-C0E9-3CF0FB409950</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -40050,7 +39996,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E8A92AD7-43E2-D2A3-A710-8D61DF07D93B</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -40060,8 +40005,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.509</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:14.329</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:09:21.093</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -40537,18 +40482,17 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>33EEBF83-D6A7-336B-229D-F96FD1097AD0</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>VehicleSearch</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>BlockTranslation</RuleType>
   <Key>Search</Key>
-  <Value>DE= </Value>
+  <Value>DE=</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.514</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:14.530</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:39:08.601</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -41001,22 +40945,6 @@
   <CreationTimeStamp>2017-07-11T09:25:38.322</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-25T20:10:51.652</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>77EF34C8-BF4D-80DB-79E4-E94E0C3DE918</ItemId>
-  <Context>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.composeMail.mailBody::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":16,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-08-07T10:32:02.308</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:11.175</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42523,7 +42451,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D3C71F95-8A94-DC62-B37B-16DC21BC5B5E</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -42533,8 +42460,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.073</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:14.861</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:43:29.080</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42589,7 +42516,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B0489F9E-303D-87AD-9199-719A65DCACE2</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -42599,8 +42525,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.758</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:15.046</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:13:29.205</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42636,25 +42562,8 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F2880E7C-7E53-3FFE-C80A-9E46E89A7F78</ItemId>
-  <Context>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.workflow.sendTask.sendattachmentBinaryList.attachmentBinaryList::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":16,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-09-07T11:12:33.676</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:15.140</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A6993B8D-47DB-ACAE-5E55-C7CAF93AA0D7</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -42664,8 +42573,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-09-07T16:02:27.595</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:15.151</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T08:36:43.938</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42698,23 +42607,6 @@
   <CreationTimeStamp>2017-10-10T08:29:31.627</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-19T12:12:15.186</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C2AADE7C-3999-D4B2-1462-673393F10DE5</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>SendPage</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.caseMemberListComponent.memberListTable::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":16,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-27T09:17:06.511</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:15.211</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42788,6 +42680,7 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AE55D3F1-4519-FCDC-50D1-FF3915D02A5F</ItemId>
   <Context>
+   <Process>CompleteAssessment</Process>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -42796,8 +42689,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:31.248</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-10-19T12:12:15.325</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-27T16:04:26.296</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43572,6 +43465,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BED662FB-B97E-6147-1EC5-0C997360AA03</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.id</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:23:59.907</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:23:59.907</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EDBAB1FB-9581-CAF4-B0A4-A9E8C59CBC76</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.details.date</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:25:37.159</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:25:37.159</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B93C7667-9D8C-4ABB-0097-042C14681970</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.underbody</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:41:00.831</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:41:00.831</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>EF4ED05D-68EF-82AD-750E-8ECD0AD243F8</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -43654,7 +43595,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>796BBAE2-DCC4-77AD-8880-AD1231665BE5</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>DamageData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -43665,7 +43605,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-05T12:48:19.449</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-05T16:22:21.721</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-28T07:33:08.758</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43685,6 +43625,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>88B9F3BE-8E06-D910-CE3E-771DF11FEB28</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.damageAdditional</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:26:23.141</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:26:23.141</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C48F6D5F-BB22-B122-74F7-5E445AF847B9</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.interior</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:41:12.358</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:41:12.358</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>33AE2C1D-A3AC-794F-1625-271D726ED845</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.glass.rear</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:44:57.790</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:44:57.790</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AC0859CE-A905-1D6F-192D-21E04FAB66D2</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -43698,6 +43686,23 @@
   <CreationTimeStamp>2017-11-20T14:25:14.643</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-11-20T14:25:14.643</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BD426C34-5FA3-CC64-E94E-E9014EF60C0A</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>CommentTextBlocks</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>BlockTranslation</RuleType>
+  <Key>TextBlocks</Key>
+  <Value>EN= ,DE= </Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-09T10:18:10.588</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-09T10:19:50.842</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -44185,7 +44190,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D5E272BB-4A34-611C-E91B-ACC5B55FBE81</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>DamageData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -44196,7 +44200,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-05T12:33:23.716</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-05T16:23:06.713</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-28T07:33:16.175</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -44218,7 +44222,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>16AC409C-ECF1-0FC3-9DCA-71BBA59B01BD</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>DamageData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -44229,7 +44232,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-05T12:36:37.339</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-05T16:22:26.839</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-28T07:34:44.936</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -44649,12 +44652,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>claimshistory.resultgrid.assessment.damagePaintLabor</Key>
-  <Value>DE=Lack-Lohn,EN=Paint Labor</Value>
+  <Value>DE=Lacklonh,EN=Paint Labor</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-28T10:24:16.248</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-28T10:24:16.248</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T12:57:33.057</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -44925,7 +44928,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>13F11822-AEB0-38FF-593F-806E878D97E1</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>CombinedVehicleData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -44935,8 +44937,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-17T11:02:29.379</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-17T11:02:29.379</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-28T07:51:50.861</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45058,12 +45060,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>claimshistory.resultgrid.assessment.currency</Key>
-  <Value>DE=Whärung,EN=Currency</Value>
+  <Value>DE=Währung,EN=Currency</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-28T10:24:16.251</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-28T10:24:16.251</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T12:52:46.053</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45073,12 +45075,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>claimshistory.resultgrid.assessment.damagePartsTotal</Key>
-  <Value>DE=Erstazteile gesamt,EN=Parts Total</Value>
+  <Value>DE=Ersatzteile gesamt,EN=Parts Total</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-28T10:24:16.298</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-28T10:24:16.298</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T12:56:20.744</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45651,6 +45653,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E28ED989-991D-A0BC-A09B-D08078FE5DC4</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.mechanical</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:40:49.252</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:40:49.252</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>70FD279F-B5FB-BF02-C3F3-60DDC36605E7</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.glass.roof</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:45:04.732</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:45:04.732</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AB77FBA7-9E6F-0B88-816A-933069DA3FCE</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.autoOnline.aoReplacementValueCur</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:45:24.888</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:45:24.888</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B0BAC79D-47A4-EC00-931C-B6F1B2402F69</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -45786,6 +45836,54 @@
   <CreationTimeStamp>2017-10-26T08:42:06.542</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-26T08:42:06.542</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>129648AD-EDE2-92CB-4BCD-9940021E0713</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.vehicle.carManufacturer</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:24:31.283</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:24:31.283</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4494E1C5-62CB-295F-CB6C-6E49BA003310</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.details.accidentDate</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:25:28.960</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:25:28.960</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6C36C78F-0B14-CFCC-BDC2-4692102AE42C</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.autoOnline.aoReplacementValue</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:45:17.586</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:45:17.586</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46358,6 +46456,165 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3B8C85AF-B9D0-8968-0D4E-431B15A0BC1C</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.currency</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:24:19.120</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:24:19.120</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9A288042-EAF2-913A-EE51-B93E7E2EDE23</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.assessment.damagePartsTotal</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:26:11.761</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:26:11.761</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>256F2928-0FB8-A109-A7A2-AF947128BCEC</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.front</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:41:24.741</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:41:42.802</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1531E4B0-D45E-98C9-3170-BDF621EAFFB4</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.rear</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:41:58.695</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:43:13.789</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8D09DA58-0180-993E-8256-03F46C974A5C</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.sideRight</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:43:45.912</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:43:47.843</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FE340422-4A1F-A259-D8CF-01B28E962C85</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.general.rearLeft</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:44:15.304</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:44:15.304</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8581852F-8050-325B-5C99-F7D929AD072F</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.glass.front</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:44:32.516</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:44:32.516</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6A1F340E-4039-8927-3AD2-1785B5374234</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimsHistoryAddons.resultGrid.damage.glass.sideLeft</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:44:42.763</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:44:42.763</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6CCD9B59-480F-B0E4-CA13-9BC52CADA6A2</ItemId>
+  <Context>
+   <ProcessStep>ClaimsHistoryResult</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>ColumnOrder</Key>
+  <Value>root.task.claimsHistoryAddons.resultGrid.id,root.task.claimsHistoryAddons.resultGrid.country,root.task.claimsHistoryAddons.resultGrid.assessment.currency,root.task.claimsHistoryAddons.resultGrid.vehicle.carManufacturer,root.task.claimsHistoryAddons.resultGrid.vehicle.carModel,root.task.claimsHistoryAddons.resultGrid.vehicle.firstRegistration,root.task.claimsHistoryAddons.resultGrid.assessment.calculationDate,root.task.claimsHistoryAddons.resultGrid.creation,root.task.claimsHistoryAddons.resultGrid.vehicle.mileage,root.task.claimsHistoryAddons.resultGrid.details.accidentDate,root.task.claimsHistoryAddons.resultGrid.details.date,root.task.claimsHistoryAddons.resultGrid.assessment.damageValue,root.task.claimsHistoryAddons.resultGrid.assessment.damagePaint,root.task.claimsHistoryAddons.resultGrid.assessment.damageLabor,root.task.claimsHistoryAddons.resultGrid.assessment.damagePartsTotal,root.task.claimsHistoryAddons.resultGrid.assessment.damageAdditional,root.task.claimsHistoryAddons.resultGrid.assessment.damagePaintLabor,root.task.claimsHistoryAddons.resultGrid.assessment.damagePaintMaterial,root.task.claimsHistoryAddons.resultGrid.assessment.parts,root.task.claimsHistoryAddons.resultGrid.vehicle.replacementValueAmount,root.task.claimsHistoryAddons.resultGrid.damage.general.mechanical,root.task.claimsHistoryAddons.resultGrid.damage.general.underbody,root.task.claimsHistoryAddons.resultGrid.damage.general.interior,root.task.claimsHistoryAddons.resultGrid.damage.general.front,root.task.claimsHistoryAddons.resultGrid.damage.general.rear,root.task.claimsHistoryAddons.resultGrid.damage.general.roof,root.task.claimsHistoryAddons.resultGrid.damage.general.sideLeft,root.task.claimsHistoryAddons.resultGrid.damage.general.sideRight,root.task.claimsHistoryAddons.resultGrid.damage.general.frontLeft,root.task.claimsHistoryAddons.resultGrid.damage.general.frontRight,root.task.claimsHistoryAddons.resultGrid.damage.general.rearLeft,root.task.claimsHistoryAddons.resultGrid.damage.general.rearRight,root.task.claimsHistoryAddons.resultGrid.damage.glass.front,root.task.claimsHistoryAddons.resultGrid.damage.glass.sideLeft,root.task.claimsHistoryAddons.resultGrid.damage.glass.sideRight,root.task.claimsHistoryAddons.resultGrid.damage.glass.rear,root.task.claimsHistoryAddons.resultGrid.damage.glass.roof,root.task.claimsHistoryAddons.resultGrid.autoOnline.aoPictures,root.task.claimsHistoryAddons.resultGrid.autoOnline.aoReplacementValue,root.task.claimsHistoryAddons.resultGrid.autoOnline.aoReplacementValueCur</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T09:46:33.581</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T09:46:33.581</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9F6BAB8F-DFAE-1461-644A-AB6B1CD2D9E3</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>claimshistory.resultgrid.damage.general.sideLeft</Key>
+  <Value>DE=Seite links,EN=Side left</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-04T12:31:27.669</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-04T12:31:27.669</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E4DE2A75-E675-286C-F282-6E8BFFA30C03</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -46470,5 +46727,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-01T09:47:23.720</LastUpdateTimeStamp>
  </Rule>
- <Size>2885</Size>
+ <Size>2905</Size>
 </BRERuleListType>
