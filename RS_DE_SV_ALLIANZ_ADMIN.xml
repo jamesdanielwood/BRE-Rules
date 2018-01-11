@@ -2,6 +2,41 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D9B1C2DB-21AC-ADF6-8C8B-67D57E50DD36</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.FLSNotificationPostAction(1513588963780)</Key>
+  <Value>{errorNotificationEMAILAddress:”${#FLSErrorNotificationEmail}”}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-18T10:23:15.607</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-11T10:12:34.945</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AE1C580B-21D7-17B9-A80E-47DCD7BD56CB</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.KADFlsPrintTransformation(1513588920633)</Key>
+  <Value>{typeOfReport: "DISPATCH", deleteOldReport: "true"}
+</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-18T10:23:07.260</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-18T10:23:07.260</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>7EFDE039-3A08-A4CD-3397-A697C3042AF6</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -30,7 +65,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.199</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.490</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.953</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -91,12 +126,47 @@
   </Context>
   <RuleType>DataAccessRight</RuleType>
   <Key>TaskType.CHANGE_OWNER</Key>
-  <Value>{"AccessLevel":"SPECIFIC","AccessLevelParam":["ML-O-209801"]}</Value>
+  <Value>{"AccessLevel":"","AccessLevelParam":["ML-O-209801"]}</Value>
+  <Expression>{"AccessLevel":"SPECIFIC","AccessLevelParam":["ML-O-209801","ML-O-209802"],"DataConstraint":"task.responsibleUserId == '${memberCache.currentMemberId}' || task.responsibleOrganizationId == 'ML-O-209801'"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.751</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.583</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:30:56.611</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>20DD865F-0958-BB81-0CDA-CD7F2DA4A7CE</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>SendTask.SendMessageTaskIf(flsReassign)</Key>
+  <Value>{messageSubject: "test reassign", messageBody: "your case '${current.claimNumber}' has beed reassign to '${parameters['RECEIVER'].firstName} ${parameters['RECEIVER'].lastName}'.\nPlease check ${getCaseLinkForWorkPage(current.itemId)}", overWriteEmailNotificationConfig: "true", recipients: "${parameters['ORIGINAL_ASSESSOR_EMAIL']}"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-11T09:52:45.517</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-11T09:52:45.517</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>55DA64F1-4E79-820D-A3AD-C98ADB998A95</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>SendTask.POSTACTIONS</Key>
+  <Value>[{"name":"FLSNotificationPostAction","alias":"FLSNotificationPostAction(flsReassign)"},{"name":"SendMessageTaskIf","alias":"SendMessageTaskIf(flsReassign)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-11T09:53:11.232</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-11T09:53:11.232</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -128,8 +198,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.237</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-23T15:48:04.308</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.963</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -161,7 +231,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.676</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.421</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.968</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -209,7 +279,24 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.521</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.598</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.972</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>19FA0B62-1B11-B29E-1AB8-BF6094F10263</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.SendMessageTaskIf(1513588971418)</Key>
+  <Value>{messageSubject: "Case reassign", messageBody: "Your case '${current.claimNumber}' has beed reassigned to '${current.responsibleUserFirstName} ${current.responsibleUserLastName}'.\nPlease check ${getCaseLinkForWorkPage(current.itemId)}", overWriteEmailNotificationConfig: "true", recipients: "${parameters['ORIGINAL_ASSESSOR_EMAIL']}"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-18T10:23:54.135</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-18T10:23:54.135</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -224,7 +311,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.600</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.281</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.980</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -270,7 +357,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.377</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.342</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.984</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -302,7 +389,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.577</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.403</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.989</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -415,8 +502,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.697</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-23T15:46:14.254</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.993</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -484,6 +571,23 @@
   <CreationTimeStamp>2017-04-13T15:20:07.625</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-11-14T09:28:17.369</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E8E942F4-B0F6-F274-99B4-99D4E19C7B20</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"KADFlsPrintTransformation","alias":"KADFlsPrintTransformation(1511788174906)"},{"name":"FLSAssessorAssignmentNotificationTransformation","alias":"FLSAssessorAssignmentNotificationTransformation(flsReassign2)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-18T10:22:00.784</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-11T10:02:05.435</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -598,7 +702,24 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.353</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.295</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:54.998</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>63AEB1F5-DFE4-7FFF-BFDC-5BFF5F8FEDD6</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.POSTACTIONS</Key>
+  <Value>[{"name":"FLSNotificationPostAction","alias":"FLSNotificationPostAction(1513588963780)"},{"name":"SendMessageTaskIf","alias":"SendMessageTaskIf(1513588971418)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-12-18T10:22:43.923</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2017-12-18T10:22:51.547</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -696,7 +817,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.584</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.561</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:55.002</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -776,7 +897,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.357</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.425</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:55.007</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -791,7 +912,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.611</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.439</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2017-12-18T10:29:55.010</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -826,5 +947,56 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-11-14T09:28:17.579</LastUpdateTimeStamp>
  </Rule>
- <Size>51</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>ACF7E74D-EA42-CBF5-429F-1004244CE62F</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.FLSAssessorAssignmentNotificationTransformation(flsReassign2)</Key>
+  <Value>{}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-11T09:53:34.228</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-11T09:53:34.228</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7BB9EBD3-FC69-0EBE-4F15-B6633CFBCF4A</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsDispatch</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.KADFlsPrintTransformation(1511788174906)</Key>
+  <Value>{typeOfReport: "DISPATCH", deleteOldReport: "true"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-11T10:01:35.012</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-11T10:01:35.012</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E918ABA6-B197-91C3-DC96-D11FCF349C8B</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>SendTask.FLSNotificationPostAction(flsReassign)</Key>
+  <Value>{errorNotificationEMAILAddress:”${#FLSErrorNotificationEmail}”}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-11T09:52:16.912</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-11T10:12:23.359</LastUpdateTimeStamp>
+ </Rule>
+ <Size>61</Size>
 </BRERuleListType>
