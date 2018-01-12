@@ -2,6 +2,22 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E5ABCF79-4A52-9DCB-553A-3573E158FEF5</ItemId>
+  <Context>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-09T13:09:34.316</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-10T15:56:15.469</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>74B0F50C-D348-81B7-0E57-A16077172397</ItemId>
   <Context>
    <Process>MasterData</Process>
@@ -869,5 +885,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-23T09:17:14.870</LastUpdateTimeStamp>
  </Rule>
- <Size>53</Size>
+ <Size>54</Size>
 </BRERuleListType>

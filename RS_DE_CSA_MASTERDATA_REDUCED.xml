@@ -7241,6 +7241,37 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F715336F-3E0D-1790-A393-1E23A05878A2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>oot.csa.profile.popupconfirmation</Key>
+  <Value>DE=Der Fortschritt wird automatisch gespeichert. Möchten Sie fortfahren?,EN=Progress will be automatically saved. Would you like to proceed?</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-09T13:35:44.730</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-09T13:35:44.730</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>11FCC56B-C835-3806-A722-B793ACCA4E2A</ItemId>
+  <Context>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profileDetails.saveSteps</Key>
+  <Value>DE=Speichern</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-12T11:15:59.758</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-12T11:15:59.758</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D8444623-A0BD-6D15-30D8-7964DBA023CD</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -7406,12 +7437,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.csa.profile.profileDetails</Key>
-  <Expression>${(memberCache.browserLocale.language == "de") ? "tab-1-name=Details,tab-1-header=Details des Profils,tab-2-name=Seitenauswahl,available_steps=Zur Auswahl,selected_steps=Ausgewählt" : "tab-1-name=Details,tab-1-header=Profile Details,tab-2-name=Page Selection,available_steps=Available,selected_steps=Selected"}</Expression>
+  <Expression>${(memberCache.browserLocale.language == "de") ? "tab-1-name=Details,tab-1-header=Details des Profils,tab-2-name=Seitenauswahl,tab-3-name=Feldauswahl,available_steps=Zur Auswahl,selected_steps=Ausgewählt" : "tab-1-name=Details,tab-1-header=Profile Details,tab-2-name=Page Selection,tab-3-name=Field Selection,available_steps=Available,selected_steps=Selected"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.038</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-28T16:52:08.624</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-09T13:31:11.856</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13118,6 +13149,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D46BD8DD-26C9-70A4-6DDB-F2F84BD5F95E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.popupconfirmation</Key>
+  <Value>DE=Der Fortschritt wird automatisch gespeichert. Möchten Sie fortfahren?,EN=Progress will be automatically saved. Would you like to proceed?</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-10T15:24:48.551</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-10T15:24:48.551</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D1E36083-1308-81E5-117A-2A913E1BA5AB</ItemId>
   <Context>
    <ProcessStep>ProfileList</ProcessStep>
@@ -13131,6 +13177,37 @@
   <CreationTimeStamp>2017-12-15T08:45:52.486</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T11:13:00.281</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BBC2568A-47FF-BFFE-4625-90FEA07CAFB4</ItemId>
+  <Context>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.profile.profileDetails.saveSteps</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-12T11:15:09.892</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-12T11:15:09.892</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>76291244-C9DB-CE9E-1F2D-FAD7FF5BBC24</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.popupcheckbox</Key>
+  <Value>DE=Dieses Pop-up nicht mehr anzeigen,EN=Do not show this pop-up again</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-09T13:36:04.894</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-09T13:36:04.894</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13253,12 +13330,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ProfileDetails</Key>
-  <Value>root.csa.profile.profileDetails.name,root.csa.profile.profileDetails.ownerName,root.csa.profile.profileDetails.itemId,root.csa.profile.profileDetails.memberId,root.csa.profile.profileDetails.lastUpdatedDateTime,root.csa.profile.profileDetails.processName,root.csa.profile.profileDetails.saveDetails</Value>
+  <Value>root.csa.profile.profileDetails.name,root.csa.profile.profileDetails.ownerName,root.csa.profile.profileDetails.itemId,root.csa.profile.profileDetails.memberId,root.csa.profile.profileDetails.lastUpdatedDateTime,root.csa.profile.profileDetails.processName,root.csa.profile.profileDetails.saveDetails,root.csa.profile.profileDetails.saveSteps</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.027</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-27T16:07:13.711</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-12T11:16:43.658</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13405,5 +13482,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>837</Size>
+ <Size>842</Size>
 </BRERuleListType>

@@ -45604,6 +45604,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>804C8353-91EC-D91F-4841-600B746933A9</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.message.save.success</Key>
+  <Value>DE=Das Profil wurde erfolgreich erstellt.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-10T16:00:06.678</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-10T16:00:06.678</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>640B75A4-6D48-7A9A-8C6C-01CC9FED96E3</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -46727,5 +46742,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-01T09:47:23.720</LastUpdateTimeStamp>
  </Rule>
- <Size>2905</Size>
+ <Size>2906</Size>
 </BRERuleListType>
