@@ -132,7 +132,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.751</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-18T10:30:56.611</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-12T15:56:39.724</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -983,6 +983,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4CE88571-F498-EEC1-B223-5E71494C1E4F</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.KADFlsPrintTransformation(1511788174906)</Key>
+  <Value>{typeOfReport: "DISPATCH", deleteOldReport: "true"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-12T15:55:40.904</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-12T15:55:40.904</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E918ABA6-B197-91C3-DC96-D11FCF349C8B</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -998,5 +1015,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-11T10:12:23.359</LastUpdateTimeStamp>
  </Rule>
- <Size>61</Size>
+ <Size>62</Size>
 </BRERuleListType>
