@@ -10,12 +10,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>ChangeTaskOwnerWorkflowFunction.FLSNotificationPostAction(1513588963780)</Key>
-  <Value>{errorNotificationEMAILAddress:”${#FLSErrorNotificationEmail}”}</Value>
+  <Value>{errorNotificationEMAILAddress:"michel.varga@ax-ao.de"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-18T10:23:15.607</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-11T10:12:34.945</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-15T13:23:20.582</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1008,12 +1008,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>SendTask.FLSNotificationPostAction(flsReassign)</Key>
-  <Value>{errorNotificationEMAILAddress:”${#FLSErrorNotificationEmail}”}</Value>
+  <Value>{errorNotificationEMAILAddress:"michel.varga@ax-ao.de"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-01-11T09:52:16.912</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-11T10:12:23.359</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-15T13:23:11.161</LastUpdateTimeStamp>
  </Rule>
  <Size>62</Size>
 </BRERuleListType>
