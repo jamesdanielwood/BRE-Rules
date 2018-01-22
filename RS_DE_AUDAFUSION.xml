@@ -11964,6 +11964,40 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5B4CF16F-9162-DDA3-8FF3-B7CA4E24F3E3</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>Presentation.GridLayout</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:52:26.632</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:52:26.632</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5F30F5C2-D1A2-5029-883B-8F5CBA953AB5</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.profileSelection.quickSearchField</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:49:48.752</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:49:48.752</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>7426601E-A70E-B3C3-AFED-B0990B7C3F8D</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -14762,6 +14796,74 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8E308DEC-7568-AAFE-F441-457320AFF305</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>BlockConfiguration</RuleType>
+  <Key>Empty.Layout</Key>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":16}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:53:56.852</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:53:56.852</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E7BC8BFD-72BB-BFD4-2823-7A5F8483FACF</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.profileSelection.quickSearchField::Layout</Key>
+  <Value>{"startAt":0,"labelSize":2,"fieldSize":3,"spanSize":5}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T14:15:09.796</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T14:15:16.545</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A8696169-7BA3-657A-0521-73C211340506</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.profileSelection.profilesTable</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:50:59.092</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:50:59.092</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>14B8D097-8890-628B-C6A6-E0B35D75FD11</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>Profile.CreateNewCaseURL</Key>
+  <Value>/bre/clickcommon/pages/wfm/pre-intake.htm?fixedProcess={0}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:52:51.561</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:52:51.561</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>EE8FD338-3969-87B2-142E-D2DF6A116D14</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -14935,6 +15037,23 @@
   <CreationTimeStamp>2017-12-05T13:33:51.713</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-05T13:33:51.713</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A2E15641-4031-9611-85DB-D8F11E6574DC</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>BlockConfiguration</RuleType>
+  <Key>Empty.hideHeader</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T14:14:14.575</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T14:14:14.575</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15181,6 +15300,23 @@
   <CreationTimeStamp>2017-12-01T08:36:24.581</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-01T08:36:24.581</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>83332525-9B91-3DD5-550A-9FC0179D8E08</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>blockNames</Key>
+  <Value>Empty</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:49:23.019</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:49:23.019</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28722,6 +28858,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4EC2D3E4-E7A6-DDDB-496C-AE8502B68EF6</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>workListGrid.useProfiles</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:43:49.751</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:43:49.751</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4C0196EE-7BDE-56D5-0D14-31D25CF7FA05</ItemId>
   <Context>
    <ProcessStep>ClaimsHistoryResult</ProcessStep>
@@ -28879,6 +29032,57 @@
   <CreationTimeStamp>2017-10-26T08:40:33.897</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-26T08:42:06.379</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E0684338-7E7E-F2A2-21D8-224562C6FC75</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>Profile.CreateNewCaseURL</Key>
+  <Value>/bre/clickcommon/pages/wfm/pre-intake.htm?fixedProcess={0}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:43:33.990</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:43:33.990</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>085A7098-D18A-AB42-CEAD-2D973898F9E1</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>Empty</Key>
+  <Value>root.profileSelection.quickSearchField,root.profileSelection.profilesTable</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:49:48.921</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T14:33:23.132</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E5F0CE03-809B-26CC-821E-3C1479FAA914</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>workPageDialogTemplate</Key>
+  <Value>MaterialDesign2/MaterialDesignPopupPage.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:52:01.539</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:52:01.539</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -29523,6 +29727,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C28222BA-1561-4D16-DADB-18FCED647A6B</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>ProcessTransition</RuleType>
+  <Key>SelectProfile</Key>
+  <Value>SelectProfile</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T13:48:47.290</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T13:48:47.290</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>31B9E1B3-20AE-626F-6A55-C4F908DA7483</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -29536,6 +29757,24 @@
   <CreationTimeStamp>2017-11-20T14:39:12.749</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-11-20T14:39:12.749</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BF72BA4D-5584-9294-B7C9-F05C7F93E7AD</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.profileSelection.quickSearchField::placeholder</Key>
+  <Value>Search...</Value>
+  <Expression>${(memberCache.browserLocale.language == "de") ? "Suche..." : "Search..."}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T14:20:06.072</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T14:20:06.072</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -41428,6 +41667,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FA6800BC-9A76-FA89-FF5D-6A4D51651CF7</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>worklistgrid.toolbar.profilesDialogTitle</Key>
+  <Value>DE=Profil-Liste</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-22T08:43:50.557</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-22T08:43:50.557</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4751ED1E-DD42-91BE-B1AB-63BE8005ADB5</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -43819,6 +44073,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F6E48C1E-49BE-334D-EE84-9CF0DEFD97C4</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>worklistgrid.toolbar.showMore</Key>
+  <Value>EN=Show more,DE=Zeig mehr</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T14:19:20.381</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T14:19:20.381</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E3D5B809-9D17-26E3-759D-CE72344C7F0D</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.profileSelection.quickSearchField::style</Key>
+  <Value>margin-bottom: 20px;</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T14:34:35.324</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T14:35:51.913</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0342E345-EE8E-7D6A-16E6-F749496C3ECE</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -45157,6 +45443,24 @@
   <CreationTimeStamp>2017-11-02T09:40:04.157</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-14T09:36:29.532</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0811ACD9-D8DD-722F-AA8D-79C323119C2F</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.profileSelection.profilesTable::noRecordsFoundMessage</Key>
+  <Value>No results found.</Value>
+  <Expression>${(memberCache.browserLocale.language == "de") ? "Keine Datensätze gefunden." : "No results found."}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-19T14:23:14.077</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-19T14:33:57.079</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46742,5 +47046,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-01T09:47:23.720</LastUpdateTimeStamp>
  </Rule>
- <Size>2906</Size>
+ <Size>2924</Size>
 </BRERuleListType>
