@@ -45464,6 +45464,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>38920BA0-B564-4E7F-5750-1478836118A7</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>MaterialGrid.solidMenu</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-23T11:05:38.683</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-23T11:05:38.683</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>292EFA63-1E69-6388-F040-F181780A2740</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -47046,5 +47063,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-01T09:47:23.720</LastUpdateTimeStamp>
  </Rule>
- <Size>2924</Size>
+ <Size>2925</Size>
 </BRERuleListType>

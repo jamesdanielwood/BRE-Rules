@@ -38394,12 +38394,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>SendTask.KADSendReportsToPostCenterTransformation(1486373966541)</Key>
-  <Value><![CDATA[{emailCustomBodyConfiguration: {"VehicleOwner": "732608783920673", "Claimant":"732608783920673", "Lawyer": "749554507854300", "Garage": "749277542238836", "ThirdParty": "749767845712845", "Bodyshop": "749277542238836"}, reportsOrder: {"VehicleOwner": ["VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Claimant":["VehicleOwnerReport","ValuationReport","EstimateMarketReplacementReport"], "Lawyer": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Garage": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"], "ThirdParty": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Bodyshop": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"]}, senderEmail: "${loadVariable(current.responsibleUserId, 'absSenderEmail')}", emailCustomSubject: "${current.claimNumber} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName) && isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? \"\" : \",\"} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName : current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.plateNumber)) ? \"\" : \",\"} ${current.basicClaimData.vehicle.vehicleAdmin.plateNumber}"}]]></Value>
+  <Value><![CDATA[{emailCustomBodyConfiguration: {"VehicleOwner": "732608783920673", "Claimant":"732608783920673", "Lawyer": "749554507854300", "Garage": "749277542238836", "ThirdParty": "749767845712845", "Bodyshop": "749277542238836"}, reportsOrder: {"VehicleOwner": ["VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Claimant":["VehicleOwnerReport","ValuationReport","EstimateMarketReplacementReport"], "Lawyer": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Garage": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"], "ThirdParty": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Bodyshop": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"]}, senderEmail: "${loadVariable(current.responsibleUserId, 'absSenderEmail')}", emailCustomSubject: "${current.claimNumber} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName) && isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? \"\" : \",\"} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName : current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.plateNumber)) ? \"\" : \",\"} ${current.basicClaimData.vehicle.vehicleAdmin.plateNumber}",condition:"${parameters['SEND_TO_ABS_CASE_FINISH']}"}]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-08-17T15:09:33.403</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:42.581</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-23T20:42:40.281</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -40678,6 +40678,22 @@
   <CreationTimeStamp>2017-05-04T09:21:47.401</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:28.727</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C22A11A9-E994-9145-23A0-9B11455C562F</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>SendTask.CloseParameterTaskPostAction(1486109428335)</Key>
+  <Value>{condition:"${parameters['SEND_TO_ABS_CASE_FINISH']}"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-23T20:42:01.343</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-23T20:42:01.343</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54826,5 +54842,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:44.400</LastUpdateTimeStamp>
  </Rule>
- <Size>3374</Size>
+ <Size>3375</Size>
 </BRERuleListType>
