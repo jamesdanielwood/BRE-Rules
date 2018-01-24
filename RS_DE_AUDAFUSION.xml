@@ -28729,6 +28729,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6C23AFE0-B620-F114-6DD5-84F90C64C02D</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.profileSelection.profilesTable.lastUpdated</Key>
+  <Value>DE=Letzte Aktualisierung am/um</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-24T14:11:48.406</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T14:11:48.406</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1553FF98-7BA1-A69C-60A0-D26C72E71337</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -29243,6 +29260,23 @@
   <CreationTimeStamp>2017-12-05T10:15:33.042</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-05T10:15:33.042</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>30E436FE-1BDB-EBBC-1AC4-9206CA8195A2</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.profileSelection.profilesTable.owner</Key>
+  <Value>DE=Besitzer</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-24T14:12:01.120</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T14:12:01.120</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46088,6 +46122,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DA99ACA1-EDD7-0E82-4252-17B695054AD3</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.profileSelection.profilesTable.name</Key>
+  <Value>DE=Name</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-24T14:12:26.715</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T14:12:26.715</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BD549CAA-A8C8-7103-D11E-BE3C0B33D3A5</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -46229,6 +46280,23 @@
   <CreationTimeStamp>2018-01-24T09:02:34.145</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-24T09:02:34.145</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3116642D-DDDF-CD6B-1A87-60A9C077379F</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.profileSelection.profilesTable.favorite</Key>
+  <Value>DE=Favorit</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-24T14:12:15.965</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T14:12:15.965</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -47418,5 +47486,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-01T09:47:23.720</LastUpdateTimeStamp>
  </Rule>
- <Size>2947</Size>
+ <Size>2951</Size>
 </BRERuleListType>
