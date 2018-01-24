@@ -11546,6 +11546,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>677CC0BA-E2D5-3025-6CAF-1455BE973F4E</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.profileSelection.onlyFavoriteCheckbox::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":5,"spanSize":16}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-24T09:18:42.966</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T09:18:42.966</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>68C66628-DFA3-271B-3622-3A543F4AC230</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -28995,12 +29012,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Empty</Key>
-  <Value>root.profileSelection.quickSearchField,root.profileSelection.profilesTable</Value>
+  <Value>root.profileSelection.quickSearchField,root.profileSelection.onlyFavoriteCheckbox,root.profileSelection.profilesTable</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-01-19T13:49:48.921</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-19T14:33:23.132</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T09:19:18.574</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -29277,6 +29294,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DE0E0448-54A0-4DF6-70FA-9FF68E75B7F1</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.profileSelection.onlyFavoriteCheckbox</Key>
+  <Value>EN=Show Favourites,DE=Favoriten anzeigen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-24T09:18:23.437</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T09:18:23.437</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6614E198-1AFC-0D4A-3A1A-0441AB0F548C</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -29386,6 +29420,40 @@
   <CreationTimeStamp>2017-11-27T09:57:16.898</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-11-27T09:57:16.898</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>43A16A10-1C57-433D-5B9A-F7367561B141</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.profileSelection.onlyFavoriteCheckbox</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-24T09:17:28.202</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T09:17:28.202</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0AC90DEA-D6FD-D710-09CA-5A341D2F77AA</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>SelectProfile</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.profileSelection.onlyFavoriteCheckbox::class</Key>
+  <Value>margin-bottom</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-24T09:17:50.035</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-24T09:17:50.035</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -47350,5 +47418,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-01T09:47:23.720</LastUpdateTimeStamp>
  </Rule>
- <Size>2943</Size>
+ <Size>2947</Size>
 </BRERuleListType>
