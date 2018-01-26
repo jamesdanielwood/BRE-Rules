@@ -11890,6 +11890,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>91AE1267-98D6-640C-B5E1-7823DE650D69</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>ProfileWizard.CustomManagers</Key>
+  <Value>SkipWorkOverviewStepOnCaseCreation,ResetStartStepAfterCaseCreation</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-25T14:09:49.182</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-25T14:09:49.182</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>007B900D-5E45-9F37-9D16-5638F6C76543</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -13482,5 +13497,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>842</Size>
+ <Size>843</Size>
 </BRERuleListType>
