@@ -4391,12 +4391,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>RelatedContact</Key>
-  <Value>root.csa.masterData.relatedContactList.relatedContact.salutation,emptyField1438874017275,root.csa.masterData.relatedContactList.relatedContact.firstName,root.csa.masterData.relatedContactList.relatedContact.lastName,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.email1,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.email2,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.fax1,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.fax2,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.phone1,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.phone2,root.csa.masterData.relatedContactList.relatedContact.relatedContactAddress.city,root.csa.masterData.relatedContactList.relatedContact.relatedContactAddress.country,root.csa.masterData.relatedContactList.relatedContact.relatedContactAddress.street,root.csa.masterData.relatedContactList.relatedContact.relatedContactAddress.zipCode</Value>
+  <Value>root.csa.masterData.relatedContactList.relatedContact.salutation,emptyField1438874017275,root.csa.masterData.relatedContactList.relatedContact.firstName,root.csa.masterData.relatedContactList.relatedContact.lastName,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.email1,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.email2,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.fax1,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.fax2,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.phone1,root.csa.masterData.relatedContactList.relatedContact.communicationDetailList.phone2,root.csa.masterData.relatedContactList.relatedContact.relatedContactAddress.city,root.csa.masterData.relatedContactList.relatedContact.relatedContactAddress.country,root.csa.masterData.relatedContactList.relatedContact.relatedContactAddress.street,root.csa.masterData.relatedContactList.relatedContact.relatedContactAddress.zipCode,root.hints.hint1</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:53.246</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:06.956</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-25T14:20:10.680</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7272,6 +7272,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>669C13BD-DE69-B5AE-308A-7312B8DEB8F6</ItemId>
+  <Context>
+   <ProcessStep>MemberContactRelatedContacts</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.hints.hint1::style</Key>
+  <Value>font-size: 10pt;font-family: Roboto,sans-serif;color:rgb(255,0,0)</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-25T14:31:03.687</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-25T15:33:41.798</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D8444623-A0BD-6D15-30D8-7964DBA023CD</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -7299,6 +7315,22 @@
   <CreationTimeStamp>2017-12-27T11:19:18.912</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-27T14:05:33.543</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DC77EBB8-EE19-F406-3C91-04A8A2DE05D5</ItemId>
+  <Context>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.profile.profileDetails.isDefault</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-26T09:12:05.874</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-26T09:12:05.874</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10179,12 +10211,12 @@
   </Context>
   <RuleType>BlockTranslation</RuleType>
   <Key>ActionButtons</Key>
-  <Value>DE= </Value>
+  <Value>DE=  </Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:53.657</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:09.088</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-25T14:51:23.416</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11890,6 +11922,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>066E3BBE-6931-ABA5-27AA-20F6553C1EC1</ItemId>
+  <Context>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profileDetails.isDefault</Key>
+  <Value>DE=Default</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-26T09:12:28.839</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-26T09:12:28.839</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>91AE1267-98D6-640C-B5E1-7823DE650D69</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -13132,6 +13180,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F7F93BF4-7693-22EC-2126-EE14972A8D5C</ItemId>
+  <Context>
+   <ProcessStep>MemberContactRelatedContacts</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.hints.hint1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-25T14:20:10.510</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-25T14:50:57.023</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2ED06CEF-D392-CDE4-4DC7-11A48C411782</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -13161,6 +13225,22 @@
   <CreationTimeStamp>2017-12-15T08:45:52.469</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T11:13:00.252</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B35D639D-81ED-C3A8-8334-97EB8321C1F7</ItemId>
+  <Context>
+   <ProcessStep>MemberContactRelatedContacts</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.hints.hint1</Key>
+  <Value>Bitte füllen Sie "Vorname" und "Nachname" aus, bevor Sie speichern, da die Daten sonst nicht übernommen werden</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-25T14:22:12.521</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-25T14:50:57.192</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13345,12 +13425,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ProfileDetails</Key>
-  <Value>root.csa.profile.profileDetails.name,root.csa.profile.profileDetails.ownerName,root.csa.profile.profileDetails.itemId,root.csa.profile.profileDetails.memberId,root.csa.profile.profileDetails.lastUpdatedDateTime,root.csa.profile.profileDetails.processName,root.csa.profile.profileDetails.saveDetails,root.csa.profile.profileDetails.saveSteps</Value>
+  <Value>root.csa.profile.profileDetails.name,root.csa.profile.profileDetails.ownerName,root.csa.profile.profileDetails.itemId,root.csa.profile.profileDetails.memberId,root.csa.profile.profileDetails.isDefault,root.csa.profile.profileDetails.lastUpdatedDateTime,root.csa.profile.profileDetails.processName,root.csa.profile.profileDetails.saveDetails,root.csa.profile.profileDetails.saveSteps</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-14T07:11:28.027</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-12T11:16:43.658</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-26T09:12:46.753</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13497,5 +13577,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>843</Size>
+ <Size>848</Size>
 </BRERuleListType>
