@@ -11944,12 +11944,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>ProfileWizard.CustomManagers</Key>
-  <Value>SkipWorkOverviewStepOnCaseCreation,ResetStartStepAfterCaseCreation</Value>
+  <Value>SkipWorkOverviewStepOnCaseCreation,ResetStartStepAfterCaseCreation,AlwaysAddWorkOverviewStep,ProcessNameOnWorkOverviewTranslation</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-01-25T14:09:49.182</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-25T14:09:49.182</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-29T21:20:44.526</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13038,6 +13038,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>589D474F-8BAA-3FF7-658B-72A231BCA90B</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.profile.profileDetails.name::maxLength</Key>
+  <Value>70</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-01-29T13:12:27.766</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-29T13:12:27.766</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6FDB5ACA-93DB-89BD-1746-F036E3161E10</ItemId>
   <Context>
    <ProcessStep>ProfileList</ProcessStep>
@@ -13577,5 +13594,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>848</Size>
+ <Size>849</Size>
 </BRERuleListType>
