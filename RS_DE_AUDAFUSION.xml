@@ -44012,6 +44012,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>22BC0A96-F060-FF5B-FB74-87EE0654710D</ItemId>
+  <Context>
+   <ProcessStep>DocumentDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>createNewDocumentOnTemplateChange</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-31T09:40:40.997</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-31T09:40:40.997</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BD426C34-5FA3-CC64-E94E-E9014EF60C0A</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -47486,5 +47502,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-01T09:47:23.720</LastUpdateTimeStamp>
  </Rule>
- <Size>2951</Size>
+ <Size>2952</Size>
 </BRERuleListType>
