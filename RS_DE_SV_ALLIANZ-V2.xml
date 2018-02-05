@@ -583,7 +583,8 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-06-13T09:57:27.258</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:36.212</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-01T08:37:07.566</LastUpdateTimeStamp>
+  <Description>${(task.lastUpdateDateTime==task.creationTime) ?"DamageData":"WorkOverview"}</Description>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -47516,7 +47517,8 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-06-13T09:56:24.618</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.351</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-01T08:36:49.816</LastUpdateTimeStamp>
+  <Description>${(task.lastUpdateDateTime==task.creationTime) ?"DamageData":"WorkOverview"}</Description>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -50536,23 +50538,6 @@
   <CreationTimeStamp>2017-04-06T10:23:15.769</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:40.358</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>78822F63-843A-7985-04D3-5934C898BDA4</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>Sending</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>ProcessTransition</RuleType>
-  <Key>Sending</Key>
-  <Value>SendToABS</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.012</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:40.732</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54842,5 +54827,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:44.400</LastUpdateTimeStamp>
  </Rule>
- <Size>3375</Size>
+ <Size>3374</Size>
 </BRERuleListType>
