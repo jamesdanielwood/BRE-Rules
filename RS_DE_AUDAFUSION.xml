@@ -5702,12 +5702,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.policyData.policyNumber::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:39.271</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:46:59.243</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-05T12:21:11.165</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -18088,12 +18088,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Insurance</Key>
-  <Value>root.task.basicClaimData.policyData.insuranceCompany.companyName,root.task.basicClaimData.policyData.insuranceCompany.membersearchfield,root.task.basicClaimData.policyData.policyNumber,root.task.basicClaimData.policyData.insuranceCompany.address.street,root.task.basicClaimData.policyData.insuranceCompany.address.zipCode,root.task.basicClaimData.policyData.insuranceCompany.address.city,root.task.basicClaimData.policyData.insuranceCompany.address.countryISO,root.task.basicClaimData.policyData.insuranceCompany.address.line5,root.task.basicClaimData.policyData.insuranceCompany.address.state,root.task.basicClaimData.policyData.insuranceCompany.department,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.phone1,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.fax1,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.email1,root.task.basicClaimData.policyData.insuranceCompany.active</Value>
+  <Value>root.task.basicClaimData.policyData.insuranceCompany.companyName,root.task.basicClaimData.policyData.insuranceCompany.membersearchfield,root.task.basicClaimData.policyData.policyNumber,root.task.claimNumber,root.task.basicClaimData.policyData.insuranceCompany.address.street,root.task.basicClaimData.policyData.insuranceCompany.address.zipCode,root.task.basicClaimData.policyData.insuranceCompany.address.city,root.task.basicClaimData.policyData.insuranceCompany.address.countryISO,root.task.basicClaimData.policyData.insuranceCompany.address.line5,root.task.basicClaimData.policyData.insuranceCompany.address.state,root.task.basicClaimData.policyData.insuranceCompany.department,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.phone1,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.fax1,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.email1,root.task.basicClaimData.policyData.insuranceCompany.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.100</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:01.382</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-05T12:18:20.867</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -21510,6 +21510,22 @@
   <CreationTimeStamp>2018-02-05T12:04:06.439</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-05T12:04:06.439</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C976EB16-DE86-0BD6-B71E-8C7EB4DE339C</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.claimNumber</Key>
+  <Value>DE=Schaden-Nr</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T12:19:51.002</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-05T12:19:51.002</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27158,12 +27174,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinSeverity</Key>
-  <Value>Unknown=Keine ersichtlich,Middle=Fachgerecht repariert,EmergencyRepair=Nicht fachgerecht repariert</Value>
+  <Value>Unknown=Keine ersichtlich,Middle=Fachgerecht repariert,EmergencyRepair=Nicht fachgerecht repariert,Light=Nicht repariert</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:40.104</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:10.517</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-05T12:23:29.930</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -35120,6 +35136,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1792509D-367F-C534-8C2E-F33FB9949BFB</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.claimNumber</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T12:18:20.677</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-05T12:19:00.744</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8106E106-3DFD-C8B1-2E67-02EC6D41EFB0</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.claimNumber</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T12:19:00.931</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-05T12:19:00.931</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E678E371-B8B4-8699-39B0-FB43020DA252</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -36273,12 +36321,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinSeverity</Key>
-  <Value>Unknown=Keine ersichtlich,Middle=Fachgerecht repariert,EmergencyRepair=Nicht fachgerecht repariert</Value>
+  <Value>Unknown=Keine ersichtlich,Middle=Fachgerecht repariert,EmergencyRepair=Nicht fachgerecht repariert,Light=Nicht repariert</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:37.443</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:00.536</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-05T12:24:19.259</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46519,12 +46567,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideSeverity</Key>
-  <Value>Unknown=Keine ersichtlich,Middle=Fachgerecht repariert,EmergencyRepair=Nicht fachgerecht repariert</Value>
+  <Value>Unknown=Keine ersichtlich,Middle=Fachgerecht repariert,EmergencyRepair=Nicht fachgerecht repariert,Light=Nicht repariert</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:35.937</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:10.163</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-05T12:23:46.832</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -47558,12 +47606,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideSeverity</Key>
-  <Value>Unknown=Keine ersichtlich,Middle=Fachgerecht repariert,EmergencyRepair=Nicht fachgerecht repariert</Value>
+  <Value>Unknown=Keine ersichtlich,Middle=Fachgerecht repariert,EmergencyRepair=Nicht fachgerecht repariert,Light=Nicht repariert</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:31.048</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:03.464</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-05T12:24:03.411</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -47837,5 +47885,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-05T10:17:42.924</LastUpdateTimeStamp>
  </Rule>
- <Size>2973</Size>
+ <Size>2976</Size>
 </BRERuleListType>
