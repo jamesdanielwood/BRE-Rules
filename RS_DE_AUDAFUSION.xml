@@ -11513,12 +11513,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>InspectionLocation</Key>
-  <Value>root.task.inspection.inspectionLocation.salutation,root.task.inspection.inspectionLocation.companyName,root.task.inspection.inspectionLocation.firstName,root.task.inspection.inspectionLocation.lastName,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.inspection.inspectionLocation.address.street,root.task.inspection.inspectionLocation.address.zipCode,root.task.inspection.inspectionLocation.address.city,root.task.inspection.inspectionLocation.address.countryISO,root.task.inspection.inspectionLocation.address.line5</Value>
+  <Value>root.task.inspection.inspectionLocation.salutation,root.task.inspection.inspectionLocation.membersearchfield,root.task.inspection.inspectionLocation.companyName,root.task.inspection.inspectionLocation.firstName,root.task.inspection.inspectionLocation.lastName,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.inspection.inspectionLocation.address.street,root.task.inspection.inspectionLocation.address.zipCode,root.task.inspection.inspectionLocation.address.city,root.task.inspection.inspectionLocation.address.countryISO,root.task.inspection.inspectionLocation.address.line5</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:36.961</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:08.362</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-05T12:27:10.457</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20138,6 +20138,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C66BF366-A58F-A6C0-07A9-EE2BFACF3883</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.inspection.inspectionLocation.membersearchfield</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T12:30:28.718</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-05T12:30:28.718</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CF1D12B5-3394-FD02-997D-51494205462F</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -25264,6 +25280,37 @@
   <CreationTimeStamp>2018-02-05T12:02:51.603</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-05T12:02:51.603</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0857976C-7E5D-5075-70C4-5F8BEE99FF24</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>root.task.inspection.inspectionLocation.mode</Key>
+  <Value>edit</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T12:27:44.887</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-05T12:27:44.887</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>77615F5B-9910-646A-0CDC-A6F8250381D3</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.inspection.inspectionLocation.membersearchfield::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":3,"spanSize":3}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T12:28:27.162</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-05T12:29:03.693</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -39118,12 +39165,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.inspection.inspectionLocation.salutation::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:32.798</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:07.582</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-05T12:31:28.130</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -47855,6 +47902,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>153CEED2-3AA0-DE6F-2141-E2BC58D537B7</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.inspection.inspectionLocation.mode</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T12:28:05.280</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-05T12:28:05.280</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CE958350-3C1C-FE08-2475-2D2AA6D21E7A</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.inspection.inspectionLocation.membersearchfield</Key>
+  <Value>class=button button-left</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T12:31:12.473</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-05T12:31:12.473</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>73A9CCFB-FF67-49FA-9344-42419CFBC65C</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -47885,5 +47964,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-05T10:17:42.924</LastUpdateTimeStamp>
  </Rule>
- <Size>2976</Size>
+ <Size>2981</Size>
 </BRERuleListType>
