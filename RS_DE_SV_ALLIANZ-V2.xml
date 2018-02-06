@@ -4728,22 +4728,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>58130B16-9AE6-F3E7-E430-0CF693723C6C</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.calculationName</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:56:49.577</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:38.095</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>EA1A847B-F11D-40FD-0A5D-30CC9AEF9053</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -8204,22 +8188,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>83A54045-29BB-255E-1966-79181DA8CE04</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.documentAndAttachmentList</Key>
-  <Value>class=table table-8-alpha</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T14:04:13.835</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:30.711</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B8EA5AE7-5FD7-81A1-EF0E-7AABCC3FD24C</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -9106,12 +9074,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Abgabe</Key>
-  <Value>root.task.kadSelectReportsForSend.reportsTable,root.hints.hint1,root.task.documentAndAttachmentList,root.task.attachmentBinaryList.attachmentBinaryList,root.task.kadSendToABS.notReadyAndSendButton.1,root.task.kadSendToABS.readyAndSendButton.1,root.task.kadSendToABS.approvalRequestButton</Value>
+  <Value>root.task.kadSelectReportsForSend.reportsTable,root.hints.hint1,root.task.attachmentBinaryList.attachmentBinaryList,root.task.kadSendToABS.notReadyAndSendButton.1,root.task.kadSendToABS.readyAndSendButton.1,root.task.kadSendToABS.approvalRequestButton,root.task.documentAndAttachmentList.name,root.task.documentAndAttachmentList.selected</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:13.797</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.508</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-06T14:52:35.140</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9575,22 +9543,6 @@
   <CreationTimeStamp>2017-04-06T10:23:17.156</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:38.734</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>7E8EC580-E414-09FF-9B4B-2AB33EC376FF</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.templateName</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:58:24.483</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:38.783</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10193,22 +10145,6 @@
   <CreationTimeStamp>2017-06-13T10:34:42.112</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:40.497</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>ABBBBBAE-E48F-140B-A31A-01D415D3E8B4</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.lastUpdatedDateTime</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:58:04.015</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:40.558</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11135,6 +11071,22 @@
   <CreationTimeStamp>2017-05-04T09:21:47.661</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:44.072</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7AF80784-61AF-EA9C-5555-D601961B69B7</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.selected</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-06T14:52:35.621</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-06T14:52:35.621</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -19686,22 +19638,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>0D1638BD-2DE1-3B4D-AF25-AADD7EDE2839</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T10:03:17.361</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:43.101</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>54BF1930-6012-B37F-F8EB-E514931A9B93</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -21696,6 +21632,22 @@
   <CreationTimeStamp>2017-04-06T10:23:12.685</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:37.166</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C646A7BA-2EB3-CC53-540A-05ACFF5A611B</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.name</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-06T14:52:35.407</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-06T14:52:35.407</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27449,22 +27401,6 @@
   <CreationTimeStamp>2017-04-06T10:23:15.081</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:36.985</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>14A4EA75-35F7-3977-FFA5-16CCEC13B7BB</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.newDocumentButton</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:57:00.178</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.013</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -39582,22 +39518,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>560A34D0-CAF8-6399-528F-42ADBB9EC0D8</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.mode</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:57:40.207</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:45.957</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>87A376FA-993F-AA1C-ECE0-B1497EAF4B02</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -42887,22 +42807,6 @@
   <CreationTimeStamp>2017-04-06T10:23:15.123</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:44.927</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F90994C5-D931-627C-4B34-832504FB3AAA</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.invoiceNumber</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:57:11.448</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:44.949</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -53035,22 +52939,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>6E97D6B6-1528-8CD1-DA3E-108AE1DA59F2</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.actions</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:57:51.232</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:41.171</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5660F979-37BA-DEA1-1B1C-502AD04D881E</ItemId>
   <Context>
    <Process>CompleteAssessment</Process>
@@ -54827,5 +54715,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:44.400</LastUpdateTimeStamp>
  </Rule>
- <Size>3374</Size>
+ <Size>3367</Size>
 </BRERuleListType>
