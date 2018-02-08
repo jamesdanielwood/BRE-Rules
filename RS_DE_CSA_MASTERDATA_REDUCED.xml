@@ -7303,6 +7303,36 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F722FBEE-FFF3-812B-A5D1-27B87679183C</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.message.copy.dialog.title</Key>
+  <Value>EN=Copy Profile,DE=Profil kopieren</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:38:26.527</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:38:26.527</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C48BFC56-C62E-920A-A411-3314CCA679C1</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.message.copy.namePrefix</Key>
+  <Value>DE=Kopie von</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:39:16.655</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-08T09:35:05.119</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A3347384-F3FE-238A-C686-46C8990299B2</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -13292,6 +13322,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D9A3E771-E1FD-5EA3-4168-68BE21AA80E9</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.profile.profilestable.copy</Key>
+  <Value>DE=Kopieren</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:38:46.736</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:38:46.736</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BBC2568A-47FF-BFFE-4625-90FEA07CAFB4</ItemId>
   <Context>
    <ProcessStep>ProfileDetails</ProcessStep>
@@ -13594,5 +13639,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>849</Size>
+ <Size>852</Size>
 </BRERuleListType>
