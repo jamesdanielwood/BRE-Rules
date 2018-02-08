@@ -20010,6 +20010,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9737F263-2EB8-AE92-7640-585CF02BE89E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>StepTranslation</RuleType>
+  <Key>DocumentsAndAttachments</Key>
+  <Value><![CDATA[DE=Dokumente & Anhänge]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-08T09:20:03.853</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-08T09:20:03.853</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>ECC93655-98AB-EF72-C24D-F7EF91740B0A</ItemId>
   <Context>
    <ProcessStep>VehicleSearch</ProcessStep>
@@ -36391,6 +36406,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2836B6DF-5A8D-D506-8570-858EF48AF143</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>refreshPageAfterPdfLoaded</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-08T09:16:57.777</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-08T09:16:57.777</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A5B82910-0E5F-CC90-9E56-125BA27E440F</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -48829,5 +48860,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-06T14:46:18.529</LastUpdateTimeStamp>
  </Rule>
- <Size>3035</Size>
+ <Size>3037</Size>
 </BRERuleListType>
