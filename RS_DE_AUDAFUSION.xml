@@ -172,22 +172,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>93055B3B-5023-02FF-C85C-7D80BBCAFE0D</ItemId>
-  <Context>
-   <ProcessStep>VehicleSearch</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleIdentification.VINQuery</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-02-02T11:43:59.495</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-02T11:43:59.495</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4F4B8E9D-7C61-71F2-D089-4CF3E748845E</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -20057,19 +20041,35 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>ECC93655-98AB-EF72-C24D-F7EF91740B0A</ItemId>
+  <ItemId>73B6F854-8222-12B9-6449-CD34B25842E0</ItemId>
   <Context>
-   <ProcessStep>VehicleSearch</ProcessStep>
+   <ProcessStep>Results</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.kadActivityReportRentingCar.JRentalCarClass</Key>
-  <Value>show</Value>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.generalResult.modificationCostWithVAT</Key>
+  <Value>decimalplaces=2,setminimumfractiondigits=2,onchange=BRE.CommonUtils.Math.roundUp(this.name\, [this.value\, this.getAttribute('decimalplaces')])</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-02-02T11:59:39.593</CreationTimeStamp>
+  <CreationTimeStamp>2018-02-09T09:40:02.363</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-02T11:59:39.593</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-09T09:40:02.363</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>071130A9-055D-8699-618B-3F43DDB383C8</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.generalResult.estimatedRepairCost</Key>
+  <Value>decimalplaces=2,setminimumfractiondigits=2,onchange=BRE.CommonUtils.Math.roundUp(this.name\, [this.value\, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-09T09:40:28.200</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-09T09:40:28.200</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20198,6 +20198,38 @@
   <CreationTimeStamp>2018-02-05T12:30:28.718</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-05T12:30:28.718</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E535E9B9-302C-BB61-C265-84CF2B5D565A</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.generalResult.modificationCost</Key>
+  <Value>decimalplaces=2,setminimumfractiondigits=2,onchange=BRE.CommonUtils.Math.roundUp(this.name\, [this.value\, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-09T09:40:40.457</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-09T09:40:40.457</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4975CDC0-E527-0C44-BFA8-5675829010E7</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.policyData.coverageExcessAmount.value</Key>
+  <Value>decimalplaces=2,setminimumfractiondigits=2,onchange=BRE.CommonUtils.Math.roundUp(this.name\, [this.value\, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-09T09:40:11.316</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-09T09:40:11.316</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -21266,12 +21298,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Search</Key>
-  <Value>root.task.basicClaimData.vehicle.vehicleIdentification.vehicleName,root.task.basicClaimData.vehicle.vehicleAdmin.firstRegistrationDate,root.task.kbaReport.generate.kba.report,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.KBAVersionNumber,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.KBANumber,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.VIN,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.checksumVIN,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstSyncButton,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstConfigButton,root.task.claimsHistoryAddons.buttonWithIndicator,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstSearchButton,root.task.valuationSync,root.hints.hint1,root.task.basicClaimData.vehicle.VICVehicleIdentification.vehiclePriceAtTarifDate,root.task.basicClaimData.vehicle.VICVehicleIdentification.tarifDate,root.task.basicClaimData.vehicle.VICVehicleIdentification.buildingDateFrom,root.task.basicClaimData.vehicle.VICVehicleIdentification.buildingDateTo,root.task.basicClaimData.vehicle.vehicleEngineering.vehicleKind,root.task.basicClaimData.vehicle.vehicleAdmin.reimported,root.task.manualEquipment,root.task.basicClaimData.vehicle.vehicleIdentification.VINQuery,root.task.kadActivityReportRentingCar.JRentalCarClass</Value>
+  <Value>root.task.basicClaimData.vehicle.vehicleIdentification.vehicleName,root.task.basicClaimData.vehicle.vehicleAdmin.firstRegistrationDate,root.task.kbaReport.generate.kba.report,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.KBAVersionNumber,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.KBANumber,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.VIN,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.checksumVIN,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstSyncButton,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstConfigButton,root.task.claimsHistoryAddons.buttonWithIndicator,root.task.basicClaimData.vehicle.vehicleIdentification.simplifiedEmbeddedUst.oldUstSearchButton,root.task.valuationSync,root.hints.hint1,root.task.basicClaimData.vehicle.VICVehicleIdentification.vehiclePriceAtTarifDate,root.task.basicClaimData.vehicle.VICVehicleIdentification.tarifDate,root.task.basicClaimData.vehicle.VICVehicleIdentification.buildingDateFrom,root.task.basicClaimData.vehicle.VICVehicleIdentification.buildingDateTo,root.task.basicClaimData.vehicle.vehicleEngineering.vehicleKind,root.task.basicClaimData.vehicle.vehicleAdmin.reimported,root.task.manualEquipment</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-23T09:30:01.235</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-02T11:59:39.778</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-08T11:28:16.814</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -21968,12 +22000,12 @@
   </Context>
   <RuleType>ProcessTransition</RuleType>
   <Key>DocumentsAndAttachments</Key>
-  <Value>Assessment</Value>
+  <Value>SendPage</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-06T14:46:18.088</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-06T14:46:18.088</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-09T10:01:24.335</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -30900,12 +30932,12 @@
   </Context>
   <RuleType>DataAccessRight</RuleType>
   <Key>TaskType.CHANGE_OWNER</Key>
-  <Value>{"AccessLevel":"SELF","AccessLevelParam":[]}</Value>
+  <Value>{"AccessLevel":"ORGANIZATION","AccessLevelParam":[]}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-07-14T10:34:05.584</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:04.545</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-09T06:29:27.060</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36451,6 +36483,37 @@
   <CreationTimeStamp>2018-02-08T09:16:57.777</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-08T09:16:57.777</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B29F0B5F-1198-E173-8937-35030B2C5D9C</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.generalResult.estimatedRepairCostWithVAT</Key>
+  <Value>decimalplaces=2,setminimumfractiondigits=2,onchange=BRE.CommonUtils.Math.roundUp(this.name\, [this.value\, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-09T09:39:49.034</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-09T09:39:49.034</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6EE2E4A6-F36B-37A0-72F9-9FC43B918B90</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>autoonlinevaluepilot.result.nosubscription</Key>
+  <Value><![CDATA[DE=Fehlende Berechtigung in der Member-Konfiguration: <VALUEpilot>. Bitte wenden Sie sich an Ihre Hotline.]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-09T09:42:38.291</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-09T09:42:38.291</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -48892,5 +48955,21 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-06T14:46:18.529</LastUpdateTimeStamp>
  </Rule>
- <Size>3039</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EAEB91DB-9A59-8EE9-3CC0-87B2ED005B42</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.policyData.partialCoverageExcessAmount.value</Key>
+  <Value>decimalplaces=2,setminimumfractiondigits=2,onchange=BRE.CommonUtils.Math.roundUp(this.name\, [this.value\, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-09T09:40:19.316</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-09T09:40:19.316</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3044</Size>
 </BRERuleListType>
