@@ -10,12 +10,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>ChangeTaskOwnerWorkflowFunction.FLSNotificationPostAction(1513588963780)</Key>
-  <Value>{errorNotificationEMAILAddress:”${#FLSErrorNotificationEmail}”}</Value>
+  <Value>{errorNotificationEMAILAddress:"michel.varga@ax-ao.de"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-18T10:23:15.607</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-11T10:12:34.945</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-15T13:23:20.582</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -132,7 +132,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.751</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-18T10:30:56.611</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-12T15:56:39.724</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -318,6 +318,7 @@
   <ItemId>09DA37B8-B187-F390-E08F-F6F982BD2CA7</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
+   <ProcessStep>WorkListGrid</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -327,7 +328,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.771</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.303</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-22T09:27:12.186</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -827,12 +828,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>overridenHomeURL</Key>
-  <Value>/bre/work/NO_PROCESS/MaterialGrid?gridView=worklistgrid_open</Value>
+  <Value>/bre/work/NO_PROCESS/DashBoard?pageViewpoint=MAIN</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T15:20:07.311</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-14T09:28:17.593</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-22T09:29:22.959</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -983,6 +984,40 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4CE88571-F498-EEC1-B223-5E71494C1E4F</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>flsReassign</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>ChangeTaskOwnerWorkflowFunction.KADFlsPrintTransformation(1511788174906)</Key>
+  <Value>{typeOfReport: "DISPATCH", deleteOldReport: "true"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-12T15:55:40.904</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-12T15:55:40.904</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>433045C0-E815-5F75-C70B-1EDD041A05C7</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>views</Key>
+  <Value>worklistgrid_copied,worklistgrid_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-22T09:27:49.295</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-22T09:27:49.295</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E918ABA6-B197-91C3-DC96-D11FCF349C8B</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -991,12 +1026,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>SendTask.FLSNotificationPostAction(flsReassign)</Key>
-  <Value>{errorNotificationEMAILAddress:”${#FLSErrorNotificationEmail}”}</Value>
+  <Value>{errorNotificationEMAILAddress:"michel.varga@ax-ao.de"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-01-11T09:52:16.912</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-11T10:12:23.359</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-15T13:23:11.161</LastUpdateTimeStamp>
  </Rule>
- <Size>61</Size>
+ <Size>63</Size>
 </BRERuleListType>

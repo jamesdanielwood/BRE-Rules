@@ -486,12 +486,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>ChangeTaskOwnerWorkflowFunction.FLSSendDataTransformation(1489672197692)</Key>
-  <Value>{errorNotificationEMAILAddress:”${#FLSErrorNotificationEmail}”}</Value>
+  <Value>{errorNotificationEMAILAddress:"michel.varga@ax-ao.de"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-03-20T10:38:36.282</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-11T10:14:52.670</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-15T13:22:36.384</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>

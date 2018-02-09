@@ -10676,12 +10676,12 @@ Andere Parameter finden nur in freien KVA-Fällen Berücksichtigung.</Value>
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>AttachmentGroups</Key>
-  <Value>{ [ { groupId: IM, contentTypeHidden: true, defaultContentType:'Photos', maxImageHeight: 640, maxImageWidth: 800, compression: 60, extensionList: 'jpg,jpeg,png,bmp,gif' } , {groupId: OTHER, maxImageHeight: 640, maxImageWidth: 800, compression: 60,extensionList: 'jpg,jpeg,bmp,gif,png,pdf,doc,docx,xls,xlsx,txt',attachmentContentEnumeration:'CostEstimate,ThirdPartyInvoice,LeaseContract,ConfirmationOfAcceptance,ExpertsReport,DamageDescription,PropertyTransfer,ClaimNotification,FrameAnalysis,PoliceReport,LeasingClearance,FinancingClearance,HireCarInvoice,Other'}, {groupId: INV, contentTypeHidden: true, defaultContentType:'Invoice', extensionList: 'pdf'} ] }</Value>
+  <Value>{ [ { groupId: IM, contentTypeHidden: true, defaultContentType:'Photos', maxImageHeight: 640, maxImageWidth: 800, compression: 60, extensionList: 'jpg,jpeg,png,bmp,gif' } , {groupId: OTHER, maxImageHeight: 640, maxImageWidth: 800, compression: 60,extensionList: 'jpg,jpeg,bmp,gif,png,pdf,doc,docx,xls,xlsx,txt',attachmentContentEnumeration:'CostEstimate,ExptertsReport,CoveringLetter,ThirdPartyInvoice,LeaseContract,ConfirmationOfAcceptance,PropertyTransfer,ClaimNotification,FrameAnalysis,PoliceReport,LeasingClearance,FinancingClearance,HireCarInvoice,Other'}, {groupId: INV, contentTypeHidden: true, defaultContentType:'Invoice', extensionList: 'pdf'} ] }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-DE29606061CD64CA56</CreatedBy>
   <CreationTimeStamp>2017-09-13T14:30:56.912</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-07T09:34:05.579</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-DE29606061CD64CA56</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T20:55:15.195</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>

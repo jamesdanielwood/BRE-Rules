@@ -7324,12 +7324,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.csa.profile.message.copy.namePrefix</Key>
-  <Value>DE=Kopie von</Value>
+  <Value>Kopie von</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-07T09:39:16.655</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-08T09:35:05.119</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-07T09:39:16.655</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>

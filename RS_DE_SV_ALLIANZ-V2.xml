@@ -583,7 +583,8 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-06-13T09:57:27.258</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:36.212</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-01T08:37:07.566</LastUpdateTimeStamp>
+  <Description>${(task.lastUpdateDateTime==task.creationTime) ?"DamageData":"WorkOverview"}</Description>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4727,22 +4728,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>58130B16-9AE6-F3E7-E430-0CF693723C6C</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.calculationName</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:56:49.577</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:38.095</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>EA1A847B-F11D-40FD-0A5D-30CC9AEF9053</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -6640,6 +6625,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1DAEA18C-2C46-C2B3-AD07-355ACC3B0EC9</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.actions</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:06:52.955</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:06:52.955</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4754D031-15A1-E638-60C6-F5A7BF7BE313</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.mode</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:08:05.956</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:08:05.956</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>42FC0A40-A31D-09F6-A086-66884A3BB0B4</ItemId>
   <Context>
    <ProcessStep>ActivityReport</ProcessStep>
@@ -8203,22 +8220,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>83A54045-29BB-255E-1966-79181DA8CE04</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.documentAndAttachmentList</Key>
-  <Value>class=table table-8-alpha</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T14:04:13.835</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:30.711</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B8EA5AE7-5FD7-81A1-EF0E-7AABCC3FD24C</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -9105,12 +9106,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Abgabe</Key>
-  <Value>root.task.kadSelectReportsForSend.reportsTable,root.hints.hint1,root.task.documentAndAttachmentList,root.task.attachmentBinaryList.attachmentBinaryList,root.task.kadSendToABS.notReadyAndSendButton.1,root.task.kadSendToABS.readyAndSendButton.1,root.task.kadSendToABS.approvalRequestButton</Value>
+  <Value>root.task.kadSelectReportsForSend.reportsTable,root.hints.hint1,root.task.documentAndAttachmentList,root.task.documentAndAttachmentList.name,root.task.documentAndAttachmentList.selected,root.task.attachmentBinaryList.attachmentBinaryList,root.task.kadSendToABS.notReadyAndSendButton.1,root.task.kadSendToABS.readyAndSendButton.1,root.task.kadSendToABS.approvalRequestButton</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:13.797</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.508</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-07T09:04:14.206</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9574,22 +9575,6 @@
   <CreationTimeStamp>2017-04-06T10:23:17.156</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:38.734</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>7E8EC580-E414-09FF-9B4B-2AB33EC376FF</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.templateName</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:58:24.483</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:38.783</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10192,22 +10177,6 @@
   <CreationTimeStamp>2017-06-13T10:34:42.112</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:40.497</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>ABBBBBAE-E48F-140B-A31A-01D415D3E8B4</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.lastUpdatedDateTime</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:58:04.015</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:40.558</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12852,6 +12821,38 @@
   <CreationTimeStamp>2017-04-06T10:23:14.455</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:43.063</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F77DE4AB-7747-51B6-3456-07BE428A8E28</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.calculationName</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:07:26.064</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:07:26.064</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F1E55BC7-28A9-C134-923A-31319A529A14</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.lastUpdatedDateTime</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:07:53.233</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:07:53.233</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -19682,22 +19683,6 @@
   <CreationTimeStamp>2017-04-06T10:23:15.627</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:43.039</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>0D1638BD-2DE1-3B4D-AF25-AADD7EDE2839</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T10:03:17.361</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:43.101</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27256,6 +27241,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A230EEB2-BC10-ED5B-DFBA-2F0F4B04E655</ItemId>
+  <Context>
+   <ProcessStep>AssessmentShort</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.htmlimport.domreadyjsAttachmentEscapeName</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-08T08:57:01.528</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-08T08:57:01.528</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F31840E9-A124-59F2-3DFC-5301601EF513</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -27448,22 +27449,6 @@
   <CreationTimeStamp>2017-04-06T10:23:15.081</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:36.985</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>14A4EA75-35F7-3977-FFA5-16CCEC13B7BB</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.newDocumentButton</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:57:00.178</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.013</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -33148,6 +33133,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>012828BC-E1C0-33BD-EE57-231E71359D9B</ItemId>
+  <Context>
+   <ProcessStep>Assessment</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.htmlimport.domreadyjsAttachmentEscapeName</Key>
+  <Value>$("div[id='BREForm_root\.task\.attachmentBinaryList\.attachmentBinaryList'] td[class='attachmentFileName'] input[type='button'][name='OK']").attr('onclick','').on('click',function(event){var currentButton=$(event.currentTarget);var escapeHTML=function(value){return BRE.CommonUtils.escapeHtml(value);};var getAttID=function(blockId){return blockId.substr('block_rename_'.length,(blockId.length-'block_rename_'.length));};var getCurrentNameInput=function(attId,parentDiv){return parentDiv.find("input[id='rename_"+attId+"']");};var attId=getAttID(currentButton.parent().attr('id'));var fileNameInput=getCurrentNameInput(attId,currentButton.parent());var fileName=fileNameInput.val();var fileNameEscaped=escapeHTML(fileName);fileNameInput.val(fileNameEscaped);var co=document.getElementById('category_'+attId);BRE.Attachments.renameAttachment(fileNameEscaped,co==null?null:co.value,attId);});</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-08T08:56:29.377</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-08T08:56:29.377</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>48C22CE6-4B26-059B-D969-C6EC883B3A10</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -38394,12 +38395,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>SendTask.KADSendReportsToPostCenterTransformation(1486373966541)</Key>
-  <Value><![CDATA[{emailCustomBodyConfiguration: {"VehicleOwner": "732608783920673", "Claimant":"732608783920673", "Lawyer": "749554507854300", "Garage": "749277542238836", "ThirdParty": "749767845712845", "Bodyshop": "749277542238836"}, reportsOrder: {"VehicleOwner": ["VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Claimant":["VehicleOwnerReport","ValuationReport","EstimateMarketReplacementReport"], "Lawyer": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Garage": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"], "ThirdParty": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Bodyshop": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"]}, senderEmail: "${loadVariable(current.responsibleUserId, 'absSenderEmail')}", emailCustomSubject: "${current.claimNumber} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName) && isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? \"\" : \",\"} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName : current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.plateNumber)) ? \"\" : \",\"} ${current.basicClaimData.vehicle.vehicleAdmin.plateNumber}"}]]></Value>
+  <Value><![CDATA[{emailCustomBodyConfiguration: {"VehicleOwner": "732608783920673", "Claimant":"732608783920673", "Lawyer": "749554507854300", "Garage": "749277542238836", "ThirdParty": "749767845712845", "Bodyshop": "749277542238836"}, reportsOrder: {"VehicleOwner": ["VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Claimant":["VehicleOwnerReport","ValuationReport","EstimateMarketReplacementReport"], "Lawyer": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Garage": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"], "ThirdParty": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Bodyshop": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"]}, senderEmail: "${loadVariable(current.responsibleUserId, 'absSenderEmail')}", emailCustomSubject: "${current.claimNumber} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName) && isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? \"\" : \",\"} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName : current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.plateNumber)) ? \"\" : \",\"} ${current.basicClaimData.vehicle.vehicleAdmin.plateNumber}",condition:"${parameters['SEND_TO_ABS_CASE_FINISH']}"}]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-08-17T15:09:33.403</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:42.581</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-01-23T20:42:40.281</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -39581,22 +39582,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>560A34D0-CAF8-6399-528F-42ADBB9EC0D8</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.mode</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:57:40.207</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:45.957</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>87A376FA-993F-AA1C-ECE0-B1497EAF4B02</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -40681,6 +40666,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C22A11A9-E994-9145-23A0-9B11455C562F</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>SendTask.CloseParameterTaskPostAction(1486109428335)</Key>
+  <Value>{condition:"${parameters['SEND_TO_ABS_CASE_FINISH']}"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-01-23T20:42:01.343</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-01-23T20:42:01.343</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6A3CAA99-6C03-CE3C-D927-B2D8373669DF</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -41131,6 +41132,22 @@
   <CreationTimeStamp>2017-04-06T10:23:14.996</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:27.010</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2C51E21E-3FC6-0348-39BD-E56EF3FD8B60</ItemId>
+  <Context>
+   <ProcessStep>AssessmentShort</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.htmlimport.domreadyjsAttachmentEscapeName</Key>
+  <Value>$("div[id='BREForm_root\.task\.attachmentBinaryList\.attachmentBinaryList'] td[class='attachmentFileName'] input[type='button'][name='OK']").attr('onclick','').on('click',function(event){var currentButton=$(event.currentTarget);var escapeHTML=function(value){return BRE.CommonUtils.escapeHtml(value);};var getAttID=function(blockId){return blockId.substr('block_rename_'.length,(blockId.length-'block_rename_'.length));};var getCurrentNameInput=function(attId,parentDiv){return parentDiv.find("input[id='rename_"+attId+"']");};var attId=getAttID(currentButton.parent().attr('id'));var fileNameInput=getCurrentNameInput(attId,currentButton.parent());var fileName=fileNameInput.val();var fileNameEscaped=escapeHTML(fileName);fileNameInput.val(fileNameEscaped);var co=document.getElementById('category_'+attId);BRE.Attachments.renameAttachment(fileNameEscaped,co==null?null:co.value,attId);});</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-08T08:56:40.725</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-08T08:56:40.725</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42873,22 +42890,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F90994C5-D931-627C-4B34-832504FB3AAA</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.invoiceNumber</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:57:11.448</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:44.949</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>895A3BE3-DB39-83F2-7713-CF9B5D602038</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -43988,6 +43989,22 @@
   <CreationTimeStamp>2017-04-06T10:23:10.522</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:30.095</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C97E914C-ED33-72D6-F255-F458D6C62D2F</ItemId>
+  <Context>
+   <ProcessStep>Assessment</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.htmlimport.domreadyjsAttachmentEscapeName</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-08T08:55:59.049</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-08T08:55:59.049</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45192,6 +45209,22 @@
   <CreationTimeStamp>2017-04-13T13:26:00.733</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:33.221</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E7D10EA5-0CB0-2BE4-BA35-AF454CC74644</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.documentAndAttachmentList</Key>
+  <Value>class=table table-8-alpha</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:05:05.602</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:05:05.602</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -47500,7 +47533,8 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-06-13T09:56:24.618</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.351</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-01T08:36:49.816</LastUpdateTimeStamp>
+  <Description>${(task.lastUpdateDateTime==task.creationTime) ?"DamageData":"WorkOverview"}</Description>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -50523,23 +50557,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>78822F63-843A-7985-04D3-5934C898BDA4</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>Sending</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>ProcessTransition</RuleType>
-  <Key>Sending</Key>
-  <Value>SendToABS</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.012</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:40.732</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>44C92E2B-53A5-2B65-B457-C30A9BF12CDB</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -53034,22 +53051,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>6E97D6B6-1528-8CD1-DA3E-108AE1DA59F2</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.documentAndAttachmentList.actions</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-10-10T13:57:51.232</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:41.171</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5660F979-37BA-DEA1-1B1C-502AD04D881E</ItemId>
   <Context>
    <Process>CompleteAssessment</Process>
@@ -53715,6 +53716,70 @@
   <CreationTimeStamp>2017-06-01T12:31:43.581</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:43.306</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3D6B50D5-2759-5F0C-EE5F-2E8A6E6310ED</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.name</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:03:00.875</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:03:00.875</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7FF97AC0-8FD8-4C35-7C04-B49EF84BD732</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.selected</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:03:01.237</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:03:01.237</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>39A3E0EA-65C3-22A8-6751-39DEE4B2355F</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.invoiceNumber</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:07:38.036</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:07:38.036</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B716EDE6-C325-4B18-28E1-CB6F5F03D59A</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.templateName</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:08:37.465</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:08:37.465</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54826,5 +54891,37 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:44.400</LastUpdateTimeStamp>
  </Rule>
- <Size>3374</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2F5C2E91-8455-3AA6-5ECF-7B70530B9722</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:03:36.643</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:05:05.438</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5BCD5687-7FF7-631E-4D92-805637CADAC1</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentAndAttachmentList.newDocumentButton</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-07T09:08:23.078</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-07T09:08:23.078</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3380</Size>
 </BRERuleListType>
