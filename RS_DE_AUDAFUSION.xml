@@ -36095,6 +36095,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9DC7B634-C11C-7E48-E8F2-9EC69DCB99DE</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>ProcessTransition</RuleType>
+  <Key>DocumentDetailsEditablePreview</Key>
+  <Value>DocumentDetailsEditablePreview</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:52:38.789</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:52:38.789</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B486FEAD-8892-A5EE-7D40-20A135C44FD2</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -36500,6 +36517,40 @@
   <CreationTimeStamp>2018-02-08T09:16:57.777</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-08T09:16:57.777</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AACA6E80-4020-4525-4222-A747F5014CF1</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentDetails.editablePreview.cancelButton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:53:47.552</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:53:47.552</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>485C931D-3586-33F3-46EC-A2E030D25B9B</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>pageTemplate</Key>
+  <Value>MaterialDesign2/MaterialDesignSlideoutPage.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:54:42.653</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:54:42.653</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -48894,6 +48945,55 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BAAA6E3D-DEA8-5078-02F3-C834157C140A</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentDetails.editablePreview.preview</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:53:24.162</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:53:24.162</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>116F1ECF-4596-974D-42D3-7D10D6B7AE26</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>EditablePreview</Key>
+  <Value>root.task.documentDetails.editablePreview.preview,root.task.documentDetails.editablePreview.generatePdfButton,root.task.documentDetails.editablePreview.cancelButton</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:53:24.331</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:53:47.799</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9D8B66BE-DE79-A730-7614-A58B7B879861</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>editablePreviewPage</Key>
+  <Value>DocumentDetailsEditablePreview</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:55:40.494</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:55:40.494</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DE4752D2-35ED-DC88-A3E1-FE1587DE3DFE</ItemId>
   <Context>
    <ProcessStep>DocumentsAndAttachments</ProcessStep>
@@ -48988,5 +49088,56 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-09T09:40:19.316</LastUpdateTimeStamp>
  </Rule>
- <Size>3045</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8284B28F-B56A-F91D-349D-0B59C0F456DD</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentDetails.editablePreview.generatePdfButton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:53:37.437</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:53:37.437</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DF65CCCE-9CC2-9247-7979-9838C4ED0916</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>pagePopupDialogTemplate</Key>
+  <Value>MaterialDesign2/MaterialDesignSlideoutPage.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:55:14.527</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:55:14.527</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>25F0F85F-5780-2A60-1F23-59289D9E8DF3</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>blockNames</Key>
+  <Value>EditablePreview</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:52:53.984</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:52:53.984</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3054</Size>
 </BRERuleListType>
