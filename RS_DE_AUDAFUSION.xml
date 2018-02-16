@@ -24124,7 +24124,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-29T11:51:16.143</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:46:57.203</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-16T09:12:29.405</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -33549,12 +33549,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.preview</Key>
-  <Value>style=height:200px;overflow-y:auto;</Value>
+  <Value>style=height:200px;overflow-y:auto;margin-top:-17px</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-29T11:52:31.051</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:46:54.877</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-16T09:15:12.464</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36435,7 +36435,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-29T16:31:28.628</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:00.088</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-16T09:15:12.243</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -48945,6 +48945,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>69B17F17-6094-43BE-F48C-E331FBA83C6C</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>CommentTextBlocks</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.statementsLibraryForComments.statementsLibraryTitle</Key>
+  <Value>style=margin-top:-1px</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T09:12:29.573</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T09:12:29.573</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BAAA6E3D-DEA8-5078-02F3-C834157C140A</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -49139,5 +49156,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-16T08:52:53.984</LastUpdateTimeStamp>
  </Rule>
- <Size>3054</Size>
+ <Size>3055</Size>
 </BRERuleListType>
