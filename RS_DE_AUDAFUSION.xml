@@ -36143,6 +36143,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BCC9F967-CB8A-667A-6C6E-190F24F08BA4</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MergeTask</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>copyAlreadyExistingAttachments</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-16T08:42:04.804</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-16T08:42:04.804</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6332B473-699F-83C7-D90B-A78F95EDE0F8</ItemId>
   <Context>
    <ProcessStep>ClaimsHistoryResult</ProcessStep>
@@ -48971,5 +48988,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-09T09:40:19.316</LastUpdateTimeStamp>
  </Rule>
- <Size>3044</Size>
+ <Size>3045</Size>
 </BRERuleListType>
