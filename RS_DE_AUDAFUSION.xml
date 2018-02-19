@@ -15496,12 +15496,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleConditionDetail.registrationNotRegistered::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":1,"spanSize":1}</Value>
+  <Value>{"startAt":0,"labelSize":1,"fieldSize":1,"spanSize":2}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:31.751</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:09.944</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-19T10:40:01.547</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20587,21 +20587,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2E9D3DA2-B847-6381-8E22-803F6E321D5B</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>Variable</RuleType>
-  <Key>WALKME_INTEGRATION_URL</Key>
-  <Value>https://cdn.walkme.com/users/154f5dcda9e4444ca0d63a7bbbb4ee9c/advanced/walkme_154f5dcda9e4444ca0d63a7bbbb4ee9c_https.js</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-09-13T20:26:32.249</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:09.811</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CAC8706F-DF1C-EA5A-FAD0-A22FCED4C5CE</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -23407,21 +23392,6 @@
   <CreationTimeStamp>2017-07-11T09:25:33.135</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-31T09:46:56.632</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1B0A0946-A3B7-C546-D09C-A6AAB203A317</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>walkmeIntegrationScript</Key>
-  <Expression>${"(function () { var walkme = document.createElement('script'); walkme.type = 'text/javascript'; walkme.async = true; walkme.src = '" + #WALKME_INTEGRATION_URL + "'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(walkme, s); window._walkmeConfig = {smartLoad: true}; })();"}</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-09-13T20:27:12.734</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:46:56.637</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -35187,12 +35157,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleConditionDetail.mechanicsServiceAccordingToBook::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":1,"spanSize":1}</Value>
+  <Value>{"startAt":0,"labelSize":1,"fieldSize":1,"spanSize":2}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.764</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:46:55.427</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-19T10:38:16.460</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -37926,12 +37896,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleConditionDetail.registrationInspectionShortlyDue::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":1,"spanSize":1}</Value>
+  <Value>{"startAt":0,"labelSize":1,"fieldSize":1,"spanSize":2}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:33.273</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:03.771</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-19T10:40:22.181</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -49156,5 +49126,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-16T08:52:53.984</LastUpdateTimeStamp>
  </Rule>
- <Size>3055</Size>
+ <Size>3053</Size>
 </BRERuleListType>
