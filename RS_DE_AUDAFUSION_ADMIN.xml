@@ -2,6 +2,55 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7E6F994D-7244-BD1F-153C-61FFBC508D1D</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>hierarchicalSteps</Key>
+  <Expression>$ {(#memberType == "Person") ? #personMenuSteps : #organizationMenuSteps}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:11:38.159</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:11:38.159</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>70E54A5A-F92E-7D17-FC6C-A4C4197F52BE</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>personMenuSteps</Key>
+  <Expression>[{stepName: "MemberDetails"},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:12:06.004</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:15:27.034</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7310EF4A-8325-BA20-128C-2811376467DA</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:13:38.423</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:13:38.423</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E5ABCF79-4A52-9DCB-553A-3573E158FEF5</ItemId>
   <Context>
    <ProcessStep>ProfileDetails</ProcessStep>
@@ -15,6 +64,54 @@
   <CreationTimeStamp>2018-01-09T13:09:34.316</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-10T15:56:15.469</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1AF286EA-589D-6F08-49FB-FB4153E95655</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>organizationMenuSteps</Key>
+  <Expression>[{stepName: "MembersMaintenance", children: [{stepName: "MemberListTable"},{stepName: "MemberDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:12:20.648</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:12:20.648</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A63326F7-0945-B63C-6E9E-C78875D72E48</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>showMemberHierarchy</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:12:36.775</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:12:36.775</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B9E1ED67-56CC-17B4-5F77-6153E0DDDB41</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>homePage</Key>
+  <Expression>$ {(hasAnyAdminRole()) ? "other=MemberListTable,person=MemberDetails,community=CommunityDetail" : "other=MyProfile"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:14:49.062</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:14:49.062</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -855,6 +952,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>779D46D0-C2B9-5CFB-88FB-64C1EB8D313F</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>menuBuilder</Key>
+  <Value>HierarchicalMenuBuilder</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:13:06.678</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:13:06.678</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7CB9D002-93B6-CE68-51B9-694A4EAEAAF4</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>clickableBreadcrumbs</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:13:49.930</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:14:06.761</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CB22A2FE-FEA2-EF82-D9C6-63FA755A9DBB</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
@@ -867,6 +996,22 @@
   <CreationTimeStamp>2017-12-23T09:16:41.357</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-23T09:16:41.357</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6ECDDA5B-BE24-85C3-6710-BEA632066EC3</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>workHandler</Key>
+  <Value>HierarchicalWorkHandler</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-22T09:12:53.427</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-22T09:12:53.427</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -885,5 +1030,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-23T09:17:14.870</LastUpdateTimeStamp>
  </Rule>
- <Size>54</Size>
+ <Size>63</Size>
 </BRERuleListType>
