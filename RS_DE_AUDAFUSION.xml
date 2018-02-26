@@ -47924,6 +47924,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4ED5E01A-5321-49A5-4355-BC8A084572C0</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>walkmeIntegrationScript</Key>
+  <Expression>${"(function() {var walkme = document.createElement('script'); walkme.type = 'text/javascript'; walkme.async = true; walkme.src = 'https://cdn.walkme.com/users/154f5dcda9e4444ca0d63a7bbbb4ee9c/advanced/walkme_154f5dcda9e4444ca0d63a7bbbb4ee9c_https.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(walkme, s); window._walkmeConfig ={smartLoad:true}; })();"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-23T05:57:03.656</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-23T05:57:03.656</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C48F6D5F-BB22-B122-74F7-5E445AF847B9</ItemId>
   <Context>
    <ProcessStep>ClaimsHistoryResult</ProcessStep>
@@ -48708,6 +48723,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BD506DE0-3EA1-ABB8-6CCA-DAA7A11E8341</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>WALKME_INTEGRATION_URL</Key>
+  <Value>https://cdn.walkme.com/users/154f5dcda9e4444ca0d63a7bbbb4ee9c/advanced/walkme_154f5dcda9e4444ca0d63a7bbbb4ee9c_https.js</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-23T05:57:03.664</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-23T05:57:03.664</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>15E16800-0A6E-8041-81A4-673BF5DB41EE</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -49126,5 +49156,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-16T08:52:53.984</LastUpdateTimeStamp>
  </Rule>
- <Size>3053</Size>
+ <Size>3055</Size>
 </BRERuleListType>
