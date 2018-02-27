@@ -9,28 +9,27 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>hierarchicalSteps</Key>
-  <Expression>$ {(#memberType == "Person") ? #personMenuSteps : #organizationMenuSteps}</Expression>
+  <Expression>${(#memberType == "Person") ? #personMenuSteps : #organizationMenuSteps}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T09:11:38.159</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-22T09:11:38.159</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-22T11:36:08.919</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>70E54A5A-F92E-7D17-FC6C-A4C4197F52BE</ItemId>
   <Context>
-   <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Variable</RuleType>
   <Key>personMenuSteps</Key>
-  <Expression>[{stepName: "MemberDetails"},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Expression>
+  <Value>[{stepName: "MemberDetails"},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T09:12:06.004</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-22T09:15:27.034</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-22T11:28:01.117</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -67,22 +66,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1AF286EA-589D-6F08-49FB-FB4153E95655</ItemId>
-  <Context>
-   <Process>MasterData</Process>
-   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
-  </Context>
-  <RuleType>Variable</RuleType>
-  <Key>organizationMenuSteps</Key>
-  <Expression>[{stepName: "MembersMaintenance", children: [{stepName: "MemberListTable"},{stepName: "MemberDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-02-22T09:12:20.648</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-22T09:12:20.648</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A63326F7-0945-B63C-6E9E-C78875D72E48</ItemId>
   <Context>
    <Process>MasterData</Process>
@@ -106,12 +89,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>homePage</Key>
-  <Expression>$ {(hasAnyAdminRole()) ? "other=MemberListTable,person=MemberDetails,community=CommunityDetail" : "other=MyProfile"}</Expression>
+  <Expression>${(hasAnyAdminRole()) ? "other=MemberListTable,person=MemberDetails,community=CommunityDetail" : "other=MyProfile"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T09:14:49.062</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-22T09:14:49.062</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-22T11:38:03.567</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -990,12 +973,12 @@
   </Context>
   <RuleType>Variable</RuleType>
   <Key>organizationMenuSteps</Key>
-  <Value>[{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberListTable"},{stepName: "MemberOrganizationDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-23T09:16:41.357</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-12-23T09:16:41.357</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T07:55:06.052</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1030,5 +1013,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-23T09:17:14.870</LastUpdateTimeStamp>
  </Rule>
- <Size>63</Size>
+ <Size>62</Size>
 </BRERuleListType>
