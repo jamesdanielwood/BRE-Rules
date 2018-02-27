@@ -6413,12 +6413,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Results</Key>
-  <Value>root.hints.hint4,root.task.basicClaimData.claimDescriptionVehicle.vehicleDamageLoss,root.accordion.calculation,root.task.assessmentResult.calculationResult.partsTotal,root.task.assessmentResult.calculationResult.newForOldMaterialNoVAT,root.task.assessmentResult.calculationResult.deductionFromRepairCosts,root.additionalhints.hint3,root.task.assessmentResult.calculationResult.labourTotal,root.task.assessmentResult.calculationResult.newForOldPaintNoVAT,root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT,root.task.assessmentResult.calculationResult.vat,root.task.assessmentResult.calculationResult.grandTotalTax,root.task.assessmentResult.calculationResult.paintTotal,root.task.assessmentResult.calculationResult.newForOldTotalNoVAT,root.task.assessmentResult.calculationResult.deductionsOldDamageNoVAT,root.task.assessmentResult.calculationResult.vatOldParts,root.task.assessmentResult.calculationResult.additionalCostTotal,root.additionalhints.hint4,root.task.assessmentResult.calculationResult.grandTotal,root.task.assessmentResult.calculationResult.grandTotalWithVAT,root.task.assessmentResult.calculationResult.repairCostNoVAT,root.additionalhints.hint5,root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc,root.task.assessmentResult.calculationResult.vehicleDepreciationForAssessment,root.accordion.vehicleValues,root.task.assessmentResult.vehicleValuesResult.buyingPriceNoVAT,root.task.assessmentResult.vehicleValuesResult.retailPriceNoVAT,root.task.assessmentResult.vehicleValuesResult.vehiclePriceAsNew,root.task.assessmentResult.vehicleValuesResult.replacementValueNoVAT,root.task.assessmentResult.vehicleValuesResult.buyingPriceWithVAT,root.task.assessmentResult.vehicleValuesResult.retailPriceWithVAT,root.task.assessmentResult.vehicleValuesResult.vehiclePriceAsNewWithVAT,root.task.assessmentResult.vehicleValuesResult.replacementValueWithVAT,root.task.assessmentResult.calculationResult.residualValueNoTax,root.additionalhints.hint6,root.task.assessmentResult.vehicleValuesResult.replacementValue,root.task.assessmentResult.calculationResult.residualValueWithVAT,root.task.assessmentResult.vehicleValuesResult.marketValueWithVAT,root.task.assessmentResult.vehicleValuesResult.taxation,root.accordion.general,root.task.basicClaimData.claimDescriptionVehicle.repairAuthorised,root.additionalhints.hint1,root.task.basicClaimData.claimDescriptionVehicle.repairAuthorisedDateTimeDe,root.additionalhints.hint2,root.task.basicClaimData.claimDescriptionVehicle.repairDurationDays,root.task.assessmentResult.generalResult.repairDurationUnit,root.task.basicClaimData.replacementVehicle.replacementDuration,root.task.assessmentResult.generalResult.replacementDurationUnit,root.task.assessmentResult.generalResult.carRentalCostsGroup,root.task.assessmentResult.generalResult.carRentalCostsAmount,root.task.assessmentResult.generalResult.estimatedRepairCost,root.task.assessmentResult.generalResult.estimatedRepairCostWithVAT,root.task.assessmentResult.generalResult.lossOfUseGroup,root.task.assessmentResult.generalResult.lossOfUseValue,root.task.assessmentResult.calculationResult.disposalCostNoVAT,root.task.assessmentResult.generalResult.disposalCostWithVAT,root.task.basicClaimData.policyData.coverageExcessAmount,root.task.basicClaimData.policyData.partialCoverageExcessAmount,root.task.assessmentResult.generalResult.deductibleFullyComprehensive,root.task.assessmentResult.generalResult.deductibleComprehensive,root.task.assessmentResult.generalResult.modificationCost,root.task.assessmentResult.generalResult.modificationCostWithVAT</Value>
+  <Value>root.hints.hint4,root.task.basicClaimData.claimDescriptionVehicle.vehicleDamageLoss,root.accordion.calculation,root.task.assessmentResult.calculationResult.partsTotal,root.task.assessmentResult.calculationResult.newForOldMaterialNoVAT,root.task.assessmentResult.calculationResult.deductionFromRepairCosts,root.additionalhints.hint3,root.task.assessmentResult.calculationResult.labourTotal,root.task.assessmentResult.calculationResult.newForOldPaintNoVAT,root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT,root.task.assessmentResult.calculationResult.vat,root.task.assessmentResult.calculationResult.grandTotalTax,root.task.assessmentResult.calculationResult.paintTotal,root.task.assessmentResult.calculationResult.newForOldTotalNoVAT,root.task.assessmentResult.calculationResult.deductionsOldDamageNoVAT,root.task.assessmentResult.calculationResult.vatOldParts,root.task.assessmentResult.calculationResult.additionalCostTotal,root.additionalhints.hint4,root.task.assessmentResult.calculationResult.grandTotal,root.task.assessmentResult.calculationResult.grandTotalWithVAT,root.task.assessmentResult.calculationResult.repairCostNoVAT,root.additionalhints.hint5,root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc,root.task.assessmentResult.calculationResult.vehicleDepreciationForAssessment,root.accordion.vehicleValues,root.task.assessmentResult.vehicleValuesResult.buyingPriceNoVAT,root.task.assessmentResult.vehicleValuesResult.retailPriceNoVAT,root.task.assessmentResult.vehicleValuesResult.vehiclePriceAsNew,root.task.assessmentResult.vehicleValuesResult.replacementValueNoVAT,root.task.assessmentResult.vehicleValuesResult.buyingPriceWithVAT,root.task.assessmentResult.vehicleValuesResult.retailPriceWithVAT,root.task.assessmentResult.vehicleValuesResult.vehiclePriceAsNewWithVAT,root.task.assessmentResult.vehicleValuesResult.replacementValueWithVAT,root.task.assessmentResult.calculationResult.residualValueNoTax,root.additionalhints.hint6,root.task.assessmentResult.vehicleValuesResult.replacementValue,root.task.assessmentResult.calculationResult.residualValueWithVAT,root.task.assessmentResult.vehicleValuesResult.marketValueWithVAT,root.task.assessmentResult.vehicleValuesResult.taxation,root.accordion.general,root.task.basicClaimData.claimDescriptionVehicle.repairAuthorised,root.additionalhints.hint1,root.task.basicClaimData.claimDescriptionVehicle.repairAuthorisedDateTimeDe,root.additionalhints.hint2,root.task.basicClaimData.claimDescriptionVehicle.repairDurationDays,root.task.assessmentResult.generalResult.repairDurationUnit,root.task.basicClaimData.replacementVehicle.replacementDuration,root.task.assessmentResult.generalResult.replacementDurationUnit,root.task.assessmentResult.generalResult.carRentalCostsGroup,root.task.assessmentResult.generalResult.carRentalCostsAmount,root.task.assessmentResult.generalResult.estimatedRepairCost,root.task.assessmentResult.generalResult.estimatedRepairCostWithVAT,root.task.assessmentResult.generalResult.lossOfUseGroup,root.task.assessmentResult.generalResult.lossOfUseValue,root.task.assessmentResult.calculationResult.disposalCostNoVAT,root.task.assessmentResult.calculationResult.disposalCostWithVAT,root.task.basicClaimData.policyData.coverageExcessAmount,root.task.basicClaimData.policyData.partialCoverageExcessAmount,root.task.assessmentResult.generalResult.deductibleFullyComprehensive,root.task.assessmentResult.generalResult.deductibleComprehensive,root.task.assessmentResult.generalResult.modificationCost,root.task.assessmentResult.generalResult.modificationCostWithVAT</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-27T09:54:30.629</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-05T10:44:19.248</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:11:00.685</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13554,22 +13554,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>9F522656-AF87-6054-458D-BA3F1809A702</ItemId>
-  <Context>
-   <ProcessStep>Results</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.assessmentResult.generalResult.disposalCostWithVAT</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-27T14:42:38.575</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:02.240</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C5FF87DA-EE91-318B-3A3C-A6B6D769F7DD</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -14118,6 +14102,70 @@
   <CreationTimeStamp>2017-11-17T11:06:12.053</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-31T09:47:00.268</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EC288951-CC63-F9AA-2208-274662C7002B</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vehicleDepreciationForAssessment::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.117</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.117</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1D8450C1-C944-638C-3E8B-E7A5485FAE22</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vatOldParts::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.851</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.851</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6AF318EF-E717-600D-CE7A-7A3F706FF0A9</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vehicleDepreciationForAssessment::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.881</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.450</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D873F1E9-35F1-030F-4B3A-241F4BC351A1</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.441</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.441</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -19220,22 +19268,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D467C07F-FE49-0E6B-C5EE-6444F38EC238</ItemId>
-  <Context>
-   <ProcessStep>Results</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.assessmentResult.generalResult.disposalCostWithVAT</Key>
-  <Value>DE=Entsorgungskosten m. MwSt.</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-27T14:46:27.578</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:05.685</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>7A13F1C6-7CBA-4793-72F9-273D06C21BE2</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -20073,6 +20105,181 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B76C0DC1-03B6-E654-6688-8AABE33E1825</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.additionalCostTotal::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.841</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.841</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>008B8543-1589-7D4E-F183-867C464ACD32</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldMaterialNoVAT::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.854</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.854</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CB15D2B8-89C8-8E24-2A08-BC2C32E0A12A</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotal::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.858</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.858</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>41A1DACB-CBF3-0DC0-0BF0-4A94BB1A133D</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.860</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.860</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DE595866-026C-9DFC-546E-66F5E0A5442F</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldPaintNoVAT::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.862</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.862</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E2D32517-C160-5191-14F6-3134472EE9D2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>vehicledamageloss.approximate</Key>
+  <Value>DE=ca.,EN=approx.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:09:11.219</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:09:11.219</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6AA08628-3ECD-BFFD-C8CC-251B8D57F9F4</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc::title</Key>
+  <Value>Erfassung über Randfahnencode 90</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:13:20.328</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:13:20.328</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D035B7D4-838F-7A83-73B5-A887D39A41C0</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.paintTotal::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.066</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.066</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>311FCC37-8CEB-9023-E9E9-CD1DA4D7CAF8</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.partsTotal::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.073</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.073</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2B4AD95D-EAD8-7751-7B54-C68DE449F2C2</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vat::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.102</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.102</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C2B38EA9-5C3F-02E2-354A-51E4BDF3B9F4</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.labourTotal::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.831</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.831</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B2EE8CD7-B855-0982-A548-C9050BC08A03</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -20150,6 +20357,102 @@
   <CreationTimeStamp>2018-02-05T10:29:15.444</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-05T10:45:10.228</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>023F8912-03DF-6613-6CBA-EB8397B15DAD</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.paintTotal::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.837</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.386</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0BF5F796-3094-5969-E26B-32D90B468CA2</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsOldDamageNoVAT::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.850</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.404</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>72BD7948-4083-A152-7461-55E46C1FF9EB</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldTotalNoVAT::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.863</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.421</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>12DD3F22-B74F-F78E-3943-D2462228229D</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.870</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.433</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>750CDBE4-4295-3DA4-ADF3-56E3CC88615A</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotalTax::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.456</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.456</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B14C0D93-83E1-955C-40B6-6C8B0EBF5AB3</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vehicleDepreciationForAssessment::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.475</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.475</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20761,21 +21064,6 @@
   <CreationTimeStamp>2017-07-11T09:25:39.143</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-31T09:47:10.633</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C705C5FB-6BCA-87FE-2EF1-F2D7A26A252B</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>vehicledamageloss.approximation</Key>
-  <Value>DE=ca.,EN=approx.</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-12-04T11:55:06.688</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:10.895</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -21958,6 +22246,118 @@
   <CreationTimeStamp>2018-02-05T12:19:51.002</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-05T12:19:51.002</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7B45005F-02BB-ED29-BBAC-7ACFA50CC60B</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.disposalCostWithVAT::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":4,"spanSize":4}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:10:26.980</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:10:26.980</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AC8BC169-113B-8663-81AB-D281DC69167A</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotalWithVAT::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.843</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.843</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>99649568-F7A9-A78C-22E4-FACC1E99C0F4</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotalTax::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.849</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.849</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>07A1CDA2-F7F4-5E2D-18D7-C476F4F42CB5</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.paintTotal::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.856</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.856</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>30337CBA-9F63-F6F4-D442-9BCA81861F34</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotal::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.868</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.429</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DA734EA5-C514-EC93-C71F-2478A5405FC7</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldTotalNoVAT::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.453</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.453</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>420A3B37-716D-E929-0206-5EB33606E201</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.additionalCostTotal::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.470</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.470</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -24334,6 +24734,230 @@
   <CreationTimeStamp>2018-02-06T14:46:18.488</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-06T14:46:18.488</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>09548978-D30F-7ECC-3FB4-A0434E326D60</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.disposalCostWithVAT</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:09:51.287</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:09:51.287</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8F62B012-39D4-94EF-C2E4-F9B1F4E29D73</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.disposalCostWithVAT</Key>
+  <Value>DE=Entsorgungskosten m. MwSt.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:10:05.701</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:10:05.701</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D9DFB405-E9C9-8DC2-5453-554F920C7A82</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionFromRepairCosts::title</Key>
+  <Value>Erfassung über Randfahnencodes 88 bzw. 89</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:13:32.369</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:13:32.369</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C61D7947-D12A-7FF1-DE63-5062BD790492</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotalTax::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.098</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.098</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A5740F9F-AD76-69B5-BBB6-BFA13672F27A</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.labourTotal::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.106</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.106</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>46B14AA8-A41B-4332-DB87-3BD8C1DFCE73</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vat::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.822</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.822</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D72F4A21-2473-EE3D-1E1F-A054DDF53F9B</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.826</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.826</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>67ABDEEF-685F-F14D-8D72-35C1C44CE6C1</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.additionalCostTotal::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.841</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.391</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F2DC2FFE-37A9-4289-78B8-C2B2E7DF663F</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vat::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.866</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.424</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2BEF9152-2F37-5188-5BBE-B5DE34E250A3</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.labourTotal::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.875</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.440</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B343E234-A28E-D116-446E-B3ACB2D2C999</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vatOldParts::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.443</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.443</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B1BA298D-6FB5-A058-7329-8BBD3D35D33F</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.paintTotal::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.446</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.446</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>037F780E-E510-2E9C-798E-198385394061</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.labourTotal::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.464</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.464</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>20BBDAB5-A561-195D-0325-ACC7CCF25709</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldMaterialNoVAT::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.473</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.473</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36067,7 +36691,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9DC7B634-C11C-7E48-E8F2-9EC69DCB99DE</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
    <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -36077,8 +36700,72 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-16T08:52:38.789</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-16T08:52:38.789</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:34:47.457</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>016EAA4C-16D8-DD53-FC6B-368C84C9F034</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vatOldParts::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.076</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.076</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6673E2FB-3C4F-DD2C-C3B8-810D0CDBD266</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldTotalNoVAT::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.095</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.095</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EFC1B8FA-8B6E-D30C-899E-DCE64DCE15D0</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldPaintNoVAT::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.860</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.416</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>03C20CF3-95E5-B354-AE0D-9E7EDA8D7350</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotalTax::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.872</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.437</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36130,6 +36817,358 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6178954E-141E-2770-BE5F-3A3E6474B3E8</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT::title</Key>
+  <Value>Erfassung über Randfahnencode 95</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:13:45.590</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:13:45.590</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>13A87402-4F87-1FB6-A94F-D5D31F7C6F6E</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsOldDamageNoVAT::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.062</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.062</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E62F339B-545A-97B5-7BF1-BB878AEC5CB9</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionFromRepairCosts::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.836</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.836</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C3A845FA-2B3D-2BA9-CDE2-53F3FEBD49B4</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.847</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.400</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>01CE03BE-A159-28B4-9F60-E5FA888F5C3B</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vatOldParts::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.877</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.444</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8D1B96E1-053D-9BD5-7716-D8DE08958B22</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotalWithVAT::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.879</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.447</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A0D34167-82A1-6AA2-A035-BF179B57DAA8</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vat::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.448</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.448</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>83D9FC70-F8C6-1F65-8BC4-B437E1535669</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionFromRepairCosts::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.466</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.466</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B4479F66-345C-DAC4-95E3-A9009C683071</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldMaterialNoVAT::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.070</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.070</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>81361032-CF11-0CA1-4B7E-67442CF6F184</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsOldDamageNoVAT::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.829</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.829</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9AF6C76F-799D-393A-5AC0-218D98A39E7D</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldTotalNoVAT::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.834</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.834</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D7258277-3BF9-992F-CAB6-6783FFAEAB85</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.partsTotal::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.839</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.839</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>464B395B-8265-6C61-A20B-E7D4034890D1</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.partsTotal::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.853</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.407</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8C3DEF08-F782-136B-A81D-3F45E16F88CE</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldPaintNoVAT::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.451</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.451</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BD566EFA-B36A-440A-1123-FC2F7502827A</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotalWithVAT::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.459</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.459</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>65E4D4E1-16D3-36FB-CEB0-D293D27FACB0</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotal::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.477</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.477</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>894B9DB3-AE17-B255-EA47-25E0148C7B76</ItemId>
+  <Context>
+   <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.documentDetails.editablePreview.preview</Key>
+  <Value>spanAllColumns=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:35:25.409</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:35:25.409</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1CE20F2D-92E3-5045-6CD2-F24DBC590FEB</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.079</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.079</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F63F730D-AEB8-AD0C-D98C-EBF69ADD7D25</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotal::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.087</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.087</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DA3541A1-1514-E871-46D9-5C937859FF16</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.additionalCostTotal::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.112</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.112</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3CEA98D6-8C22-3004-8D72-518BD527A0A1</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.vehicleDepreciationForAssessment::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:36.846</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:36.846</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0F22BA7C-3E90-4EEB-064B-BDABA1F295D9</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.468</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.468</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BCC9F967-CB8A-667A-6C6E-190F24F08BA4</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -36144,6 +37183,54 @@
   <CreationTimeStamp>2018-02-16T08:42:04.804</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-16T08:42:04.804</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>74B566C9-EEFD-509D-EE28-1F045A604D80</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.091</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.091</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>414DCEBD-D3DA-8BF9-D353-B99AB9FDE628</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldPaintNoVAT::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.109</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.109</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BDA82D7E-59E9-008C-8AF5-2C75CBAFBBB6</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionsOldDamageNoVAT::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.437</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.437</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36474,6 +37561,86 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4C655E88-8EF1-DE83-3DAF-5CDF456704B6</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.grandTotalWithVAT::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.083</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.083</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D239F6CC-9B6A-E3B4-C0D1-87B5A1A1DCCF</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionFromRepairCosts::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:18.104</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:18.104</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8520B777-8AB1-0A05-57E1-9495106F736D</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.deductionFromRepairCosts::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.844</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.396</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D5E46628-1785-FA92-700E-D5B0934A7A56</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.newForOldMaterialNoVAT::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:14:51.855</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:14:58.412</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>40A309C8-073D-35DA-C08A-E4458F3B52A7</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.partsTotal::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T08:15:26.461</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:15:26.461</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2836B6DF-5A8D-D506-8570-858EF48AF143</ItemId>
   <Context>
    <ProcessStep>DocumentsAndAttachments</ProcessStep>
@@ -36492,7 +37659,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AACA6E80-4020-4525-4222-A747F5014CF1</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
    <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -36502,14 +37668,13 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-16T08:53:47.552</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-16T08:53:47.552</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:34:16.499</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>485C931D-3586-33F3-46EC-A2E030D25B9B</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
    <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -36519,8 +37684,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-16T08:54:42.653</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-16T08:54:42.653</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:35:11.060</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -44272,12 +45437,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>vehicleDamageLossRadioButtonOptions</Key>
-  <Value>RepairDamageLoss,FinancialTotalLoss,TotalLoss,Approximation</Value>
+  <Value>RepairDamageLoss,FinancialTotalLoss,TotalLoss,Approximate</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-04T11:54:32.904</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:07.845</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:08:48.983</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45523,22 +46688,6 @@
   <CreationTimeStamp>2017-07-11T09:25:35.137</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-31T09:47:04.059</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F81F93F3-E6D9-1754-2628-6F02F45BA848</ItemId>
-  <Context>
-   <ProcessStep>Results</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.assessmentResult.generalResult.disposalCostWithVAT::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":4,"spanSize":4}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-27T15:02:00.556</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:04.130</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -48964,7 +50113,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BAAA6E3D-DEA8-5078-02F3-C834157C140A</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
    <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -48974,14 +50122,13 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-16T08:53:24.162</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-16T08:53:24.162</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:34:37.071</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>116F1ECF-4596-974D-42D3-7D10D6B7AE26</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
    <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -48991,8 +50138,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-16T08:53:24.331</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-16T08:53:47.799</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:34:06.059</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -49109,7 +50256,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8284B28F-B56A-F91D-349D-0B59C0F456DD</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
    <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -49119,14 +50265,13 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-16T08:53:37.437</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-16T08:53:37.437</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:33:54.653</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DF65CCCE-9CC2-9247-7979-9838C4ED0916</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
    <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -49136,14 +50281,13 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-16T08:55:14.527</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-16T08:55:14.527</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:34:56.718</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>25F0F85F-5780-2A60-1F23-59289D9E8DF3</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
    <ProcessStep>DocumentDetailsEditablePreview</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -49153,8 +50297,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-16T08:52:53.984</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-16T08:52:53.984</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T08:34:26.621</LastUpdateTimeStamp>
  </Rule>
- <Size>3055</Size>
+ <Size>3127</Size>
 </BRERuleListType>
