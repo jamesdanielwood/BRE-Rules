@@ -13753,6 +13753,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2C33AA01-83E0-234A-B2AB-AA13FCD30E3A</ItemId>
+  <Context>
+   <ProcessStep>MemberOrganizationDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.organization.organizationName</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:27:10.549</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-27T14:27:10.549</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5B7ACE09-1E64-6220-7F4F-70483D6BB0E3</ItemId>
   <Context>
    <ProcessStep>MemberOrganizationDetails</ProcessStep>
@@ -13760,12 +13776,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ContactInfo</Key>
-  <Value>root.csa.organization.companyName,emptyField1519386338473,root.csa.organization.address.street,root.csa.organization.address.zipCode,root.csa.organization.address.city,root.csa.organization.communicationDetailList.email1,root.csa.organization.communicationDetailList.phone1,root.csa.organization.communicationDetailList.mobile,root.csa.organization.memberId,root.csa.organization.updateDate,root.actionButtons.saveButton</Value>
+  <Value>root.csa.organization.companyName,root.csa.organization.organizationName,root.csa.organization.address.street,root.csa.organization.address.zipCode,root.csa.organization.address.city,root.csa.organization.communicationDetailList.email1,root.csa.organization.communicationDetailList.phone1,root.csa.organization.communicationDetailList.mobile,root.csa.organization.memberId,root.csa.organization.updateDate,root.actionButtons.saveButton</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-27T07:50:12.929</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-27T07:50:12.929</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-27T14:27:22.874</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14500,5 +14516,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>906</Size>
+ <Size>907</Size>
 </BRERuleListType>
