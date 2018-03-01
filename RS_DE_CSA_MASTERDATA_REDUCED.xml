@@ -8676,6 +8676,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8192ED28-84D9-8715-2BEB-D38923FA7892</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.organization.updateDate</Key>
+  <Value>DE=Aktualisiert am/um</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-01T09:07:40.151</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-01T09:07:40.151</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D8B85197-7D36-9BF6-A057-E6E899F70A92</ItemId>
   <Context>
    <ProcessStep>MemberContactBankDetails</ProcessStep>
@@ -14531,5 +14546,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>908</Size>
+ <Size>909</Size>
 </BRERuleListType>
