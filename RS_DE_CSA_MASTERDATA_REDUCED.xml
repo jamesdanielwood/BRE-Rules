@@ -7661,13 +7661,13 @@
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
   </Context>
   <RuleType>FieldMandatory</RuleType>
-  <Key>root.csa.organization.companyname</Key>
+  <Key>root.csa.organization.companyName</Key>
   <Value>true</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-01T09:14:49.394</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-01T09:14:49.394</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-02T07:47:51.151</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7831,13 +7831,13 @@
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
-  <Key>root.csa.organization.companyname</Key>
+  <Key>root.csa.organization.companyName</Key>
   <Value>DE=Firma</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-27T07:52:25.746</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-27T07:52:25.746</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-02T07:48:02.873</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12530,13 +12530,13 @@
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>root.csa.organization.companyname.willDisable</Key>
+  <Key>root.csa.organization.companyName.willDisable</Key>
   <Value>root.actionButtons.saveButton,EMPTY_VALUE</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-01T09:14:26.665</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-01T09:14:26.665</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-02T07:47:21.789</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
