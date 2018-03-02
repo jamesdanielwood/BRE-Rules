@@ -38338,6 +38338,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D1A61B19-7EF2-70F2-10B8-33FC1E1ED039</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>regenerateAll.error.invalidDocument</Key>
+  <Value>DE=Ungültiges Dokument wird für '%s' generiert.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-02T08:09:01.422</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-02T08:09:01.422</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6332B473-699F-83C7-D90B-A78F95EDE0F8</ItemId>
   <Context>
    <ProcessStep>ClaimsHistoryResult</ProcessStep>
@@ -51028,12 +51043,27 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>documentCommons.regenerateallconfirmation</Key>
-  <Value>DE=Bitte bestätigen Sie, dass Sie alle Dokumente aktualisieren möchten</Value>
+  <Value>DE=Bitte bestätigen Sie, dass Sie alle Dokumente aktualisieren möchten.</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-02T08:06:18.794</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-02T08:06:18.794</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-02T08:08:11.032</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>84557483-FAA0-699F-0E71-80F0D6113406</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>regenerateAll.error.generateDocument</Key>
+  <Value>DE=Failure occurred during document regeneration: '%s'.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-02T08:08:39.590</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-02T08:08:39.590</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -51098,6 +51128,21 @@
   <CreationTimeStamp>2018-02-05T12:04:21.527</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-05T12:04:21.527</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7B26C196-9C6F-11A5-1B58-600814C01D97</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>regenerateAll.error.globalFailure</Key>
+  <Value>DE=Unerwarteter Fehler ist aufgetreten.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-02T08:07:53.470</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-02T08:07:53.470</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -51499,5 +51544,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-01T08:46:42.958</LastUpdateTimeStamp>
  </Rule>
- <Size>3202</Size>
+ <Size>3205</Size>
 </BRERuleListType>
