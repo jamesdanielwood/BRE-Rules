@@ -43524,6 +43524,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>745D4D04-A9FD-8AF6-3CFE-F1354467EE36</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>checkCalculationAndValuationSimultaneously</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-02T08:13:55.569</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-02T08:13:55.569</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3958751A-6430-651C-0B4D-09740F2F2420</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -54923,5 +54938,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-07T09:08:23.078</LastUpdateTimeStamp>
  </Rule>
- <Size>3380</Size>
+ <Size>3381</Size>
 </BRERuleListType>

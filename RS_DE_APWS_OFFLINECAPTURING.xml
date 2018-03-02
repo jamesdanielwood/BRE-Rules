@@ -739,5 +739,20 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-09-11T21:03:25.916</LastUpdateTimeStamp>
  </Rule>
- <Size>46</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F108D913-40AA-8910-3689-84677B147FE8</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>B2B.Login.tokenExpiry</Key>
+  <Value>1</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-02T08:15:24.625</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-02T08:15:24.625</LastUpdateTimeStamp>
+ </Rule>
+ <Size>47</Size>
 </BRERuleListType>
