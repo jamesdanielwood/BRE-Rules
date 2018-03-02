@@ -8739,6 +8739,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FDD16876-03D5-9856-9B28-201586EA15E7</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>toolbarTemplate</Key>
+  <Value>CSA/CSAMemberQuickSearch.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-02T08:11:00.853</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-02T08:11:00.853</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D8B85197-7D36-9BF6-A057-E6E899F70A92</ItemId>
   <Context>
    <ProcessStep>MemberContactBankDetails</ProcessStep>
@@ -14512,7 +14529,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T09:03:40.181</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-22T09:03:40.181</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-02T08:11:37.383</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14544,6 +14561,23 @@
   <CreationTimeStamp>2018-02-22T09:05:48.554</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-22T09:05:59.271</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DB6D8CE7-3D35-3CC7-3A81-597C47E03436</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberOrganizationDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>toolbarTemplate</Key>
+  <Value>CSA/CSAMemberQuickSearch.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-02T08:11:19.177</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-02T08:11:19.177</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14658,5 +14692,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>916</Size>
+ <Size>918</Size>
 </BRERuleListType>
