@@ -18811,12 +18811,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.assessmentResult.calculationResult.grandTotalTax</Key>
-  <Value>class=hideLabel</Value>
+  <Value>class=hideLabel vatPercentValue</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-05T10:48:22.961</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:05.338</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-04T10:42:11.422</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46208,12 +46208,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.assessmentResult.calculationResult.vat</Key>
-  <Value>class=displayLabel fatLabel</Value>
+  <Value>class=displayLabel fatLabel vatPercent</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-05T10:47:23.143</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:11.791</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-04T10:42:37.596</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
