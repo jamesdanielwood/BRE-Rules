@@ -38407,12 +38407,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>regenerateAll.error.invalidDocument</Key>
-  <Value>DE=Ungültiges Dokument wird für '%s' generiert.</Value>
+  <Value>"DE=Ungültiges Dokument wird für '%s' generiert."</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-02T08:09:01.422</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-02T08:09:01.422</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-04T10:39:12.584</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -51377,12 +51377,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>regenerateAll.error.generateDocument</Key>
-  <Value>DE=Fehlerhaftes Dokument wurde regeneriert: '%s'.</Value>
+  <Value>"DE=Fehlerhaftes Dokument wurde regeneriert: '%s'."</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-02T08:08:39.590</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-04T10:31:24.882</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-04T10:38:57.403</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -51552,12 +51552,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>regenerateAll.error.globalFailure</Key>
-  <Value>DE=Unerwarteter Fehler ist aufgetreten.</Value>
+  <Value>"DE=Unerwarteter Fehler ist aufgetreten."</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-02T08:07:53.470</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-02T08:07:53.470</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-04T10:38:39.582</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
