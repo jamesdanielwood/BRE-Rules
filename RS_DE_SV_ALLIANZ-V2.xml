@@ -43530,12 +43530,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>checkCalculationAndValuationSimultaneously</Key>
-  <Value>true</Value>
+  <Expression>${(belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ? "true" : "false"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-02T08:13:55.569</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-02T08:13:55.569</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-06T15:56:24.739</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54938,5 +54938,21 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-07T09:08:23.078</LastUpdateTimeStamp>
  </Rule>
- <Size>3381</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BE61362F-303D-2654-8D38-A9F8090DCA6E</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.auction.auctionBids.retrievebids</Key>
+  <Value>DE=Gebote abfragen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-09T15:54:04.429</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-09T15:54:04.429</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3382</Size>
 </BRERuleListType>
