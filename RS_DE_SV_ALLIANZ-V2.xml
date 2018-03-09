@@ -10752,6 +10752,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A9529F9C-16EF-6282-A6DA-77DF12F89159</ItemId>
+  <Context>
+   <ProcessStep>Assessment</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>componentTemplate.root.task.documentDetailsAllianz.categorizedStatementsLibrary</Key>
+  <Value>Allianz/AllianzStatementLibrary.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-01T09:45:13.491</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-01T09:45:13.491</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0821807F-DD4F-9BCA-E4C3-7FEA031C5D52</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -12821,6 +12837,22 @@
   <CreationTimeStamp>2017-04-06T10:23:14.455</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:43.063</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8F4C9369-BB73-7C42-024D-2D9E10DD1CE8</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.optionalEquipment</Key>
+  <Value>maxlength=4000</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-19T09:30:45.160</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-02-19T09:30:45.160</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27241,22 +27273,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>A230EEB2-BC10-ED5B-DFBA-2F0F4B04E655</ItemId>
-  <Context>
-   <ProcessStep>AssessmentShort</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.htmlimport.domreadyjsAttachmentEscapeName</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-02-08T08:57:01.528</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-08T08:57:01.528</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F31840E9-A124-59F2-3DFC-5301601EF513</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -33133,19 +33149,20 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>012828BC-E1C0-33BD-EE57-231E71359D9B</ItemId>
+  <ItemId>03F27F8D-3444-AFEC-EC8A-86E801C3DBB2</ItemId>
   <Context>
    <ProcessStep>Assessment</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.htmlimport.domreadyjsAttachmentEscapeName</Key>
-  <Value>$("div[id='BREForm_root\.task\.attachmentBinaryList\.attachmentBinaryList'] td[class='attachmentFileName'] input[type='button'][name='OK']").attr('onclick','').on('click',function(event){var currentButton=$(event.currentTarget);var escapeHTML=function(value){return BRE.CommonUtils.escapeHtml(value);};var getAttID=function(blockId){return blockId.substr('block_rename_'.length,(blockId.length-'block_rename_'.length));};var getCurrentNameInput=function(attId,parentDiv){return parentDiv.find("input[id='rename_"+attId+"']");};var attId=getAttID(currentButton.parent().attr('id'));var fileNameInput=getCurrentNameInput(attId,currentButton.parent());var fileName=fileNameInput.val();var fileNameEscaped=escapeHTML(fileName);fileNameInput.val(fileNameEscaped);var co=document.getElementById('category_'+attId);BRE.Attachments.renameAttachment(fileNameEscaped,co==null?null:co.value,attId);});</Value>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentDetailsAllianz.resetAllDocumentsButton</Key>
+  <Value>show</Value>
+  <Expression>${(isTaskReadOnly(task.itemId)) ? "remove" : "show"}</Expression>
   <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-02-08T08:56:29.377</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-08T08:56:29.377</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-01T09:46:03.103</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-01T09:46:03.103</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -41135,19 +41152,19 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2C51E21E-3FC6-0348-39BD-E56EF3FD8B60</ItemId>
+  <ItemId>F9677606-A35F-4D69-F42B-70AB9660834C</ItemId>
   <Context>
-   <ProcessStep>AssessmentShort</ProcessStep>
+   <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.htmlimport.domreadyjsAttachmentEscapeName</Key>
-  <Value>$("div[id='BREForm_root\.task\.attachmentBinaryList\.attachmentBinaryList'] td[class='attachmentFileName'] input[type='button'][name='OK']").attr('onclick','').on('click',function(event){var currentButton=$(event.currentTarget);var escapeHTML=function(value){return BRE.CommonUtils.escapeHtml(value);};var getAttID=function(blockId){return blockId.substr('block_rename_'.length,(blockId.length-'block_rename_'.length));};var getCurrentNameInput=function(attId,parentDiv){return parentDiv.find("input[id='rename_"+attId+"']");};var attId=getAttID(currentButton.parent().attr('id'));var fileNameInput=getCurrentNameInput(attId,currentButton.parent());var fileName=fileNameInput.val();var fileNameEscaped=escapeHTML(fileName);fileNameInput.val(fileNameEscaped);var co=document.getElementById('category_'+attId);BRE.Attachments.renameAttachment(fileNameEscaped,co==null?null:co.value,attId);});</Value>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.standardEquipment</Key>
+  <Value>maxlength=4000</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-02-08T08:56:40.725</CreationTimeStamp>
+  <CreationTimeStamp>2018-02-19T09:29:04.333</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-08T08:56:40.725</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-19T09:29:39.205</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43507,6 +43524,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>745D4D04-A9FD-8AF6-3CFE-F1354467EE36</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>checkCalculationAndValuationSimultaneously</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-02T08:13:55.569</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-02T08:13:55.569</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3958751A-6430-651C-0B4D-09740F2F2420</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -43989,22 +44021,6 @@
   <CreationTimeStamp>2017-04-06T10:23:10.522</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:30.095</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C97E914C-ED33-72D6-F255-F458D6C62D2F</ItemId>
-  <Context>
-   <ProcessStep>Assessment</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.htmlimport.domreadyjsAttachmentEscapeName</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-02-08T08:55:59.049</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-08T08:55:59.049</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -47037,13 +47053,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>UpdateTaskWorkflowFunction.ChangeGeneratorValueTransformation(1510131599285)</Key>
-  <Value>{executeCondition:"${(current.versions.generator == 'AllianzABS') ? 'false' : 'true'}",generator:"AXN",generatorVersion:"21.0",saxifVersion:"1.0"}
-</Value>
+  <Value>{executeCondition:"${(current.versions.generator == 'AllianzABS') ? 'false' : 'true'}",generator:"AXN",generatorVersion:"21.0",saxifVersion:"1.0"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-11-08T10:00:48.509</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:35.679</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-02-14T10:58:28.223</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -54923,5 +54938,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-07T09:08:23.078</LastUpdateTimeStamp>
  </Rule>
- <Size>3380</Size>
+ <Size>3381</Size>
 </BRERuleListType>
