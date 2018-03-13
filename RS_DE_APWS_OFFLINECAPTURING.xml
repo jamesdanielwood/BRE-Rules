@@ -747,12 +747,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>B2B.Login.tokenExpiry</Key>
-  <Value>1</Value>
+  <Value>60</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-02T08:15:24.625</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-02T08:15:24.625</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-09T15:58:23.762</LastUpdateTimeStamp>
  </Rule>
  <Size>47</Size>
 </BRERuleListType>
