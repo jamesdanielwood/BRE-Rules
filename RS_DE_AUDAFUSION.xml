@@ -51345,7 +51345,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E9A69741-45C6-E2AA-DA8A-3ED3D709625A</ItemId>
   <Context>
-   <ProcessStep>AddressData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>MessageTranslation</RuleType>
@@ -51355,7 +51354,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-06T16:35:44.387</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-07T11:07:47.128</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-13T21:54:11.822</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
