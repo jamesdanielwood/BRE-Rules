@@ -6413,12 +6413,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Results</Key>
-  <Value>root.hints.hint4,root.task.basicClaimData.claimDescriptionVehicle.vehicleDamageLoss,root.accordion.calculation,root.task.assessmentResult.calculationResult.partsTotal,root.task.assessmentResult.calculationResult.newForOldMaterialNoVAT,root.task.assessmentResult.calculationResult.deductionFromRepairCosts,root.additionalhints.hint3,root.task.assessmentResult.calculationResult.labourTotal,root.task.assessmentResult.calculationResult.newForOldPaintNoVAT,root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT,root.task.assessmentResult.calculationResult.vat,root.task.assessmentResult.calculationResult.grandTotalTax,root.task.assessmentResult.calculationResult.paintTotal,root.task.assessmentResult.calculationResult.newForOldTotalNoVAT,root.task.assessmentResult.calculationResult.deductionsOldDamageNoVAT,root.task.assessmentResult.calculationResult.vatOldParts,root.task.assessmentResult.calculationResult.additionalCostTotal,root.additionalhints.hint4,root.task.assessmentResult.calculationResult.grandTotal,root.task.assessmentResult.calculationResult.grandTotalWithVAT,root.task.assessmentResult.calculationResult.repairCostNoVAT,root.additionalhints.hint5,root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc,root.task.assessmentResult.calculationResult.vehicleDepreciationForAssessment,root.hints.hint1,root.task.assessmentResult.calculationResult.resetBtn,root.accordion.vehicleValues,root.task.assessmentResult.vehicleValuesResult.buyingPriceNoVAT,root.task.assessmentResult.vehicleValuesResult.retailPriceNoVAT,root.task.assessmentResult.vehicleValuesResult.vehiclePriceAsNew,root.task.assessmentResult.vehicleValuesResult.replacementValueNoVAT,root.task.assessmentResult.vehicleValuesResult.buyingPriceWithVAT,root.task.assessmentResult.vehicleValuesResult.retailPriceWithVAT,root.task.assessmentResult.vehicleValuesResult.vehiclePriceAsNewWithVAT,root.task.assessmentResult.vehicleValuesResult.replacementValueWithVAT,root.task.assessmentResult.vehicleValuesResult.residualValueNoTax,root.additionalhints.hint6,root.task.assessmentResult.vehicleValuesResult.replacementValue,root.task.assessmentResult.vehicleValuesResult.residualValueWithVAT,root.task.assessmentResult.vehicleValuesResult.marketValueWithVAT,root.task.assessmentResult.vehicleValuesResult.taxation,root.hints.hint2,root.task.assessmentResult.vehicleValuesResult.resetBtn,root.accordion.general,root.task.basicClaimData.claimDescriptionVehicle.repairAuthorised,root.additionalhints.hint1,root.task.basicClaimData.claimDescriptionVehicle.repairAuthorisedDateTimeDe,root.additionalhints.hint2,root.task.basicClaimData.claimDescriptionVehicle.repairDurationDays,root.task.assessmentResult.generalResult.repairDurationUnit,root.task.basicClaimData.replacementVehicle.replacementDuration,root.task.assessmentResult.generalResult.replacementDurationUnit,root.task.assessmentResult.generalResult.carRentalCostsGroup,root.task.assessmentResult.generalResult.carRentalCostsAmount,root.task.assessmentResult.generalResult.estimatedRepairCost,root.task.assessmentResult.generalResult.estimatedRepairCostWithVAT,root.task.assessmentResult.generalResult.lossOfUseGroup,root.task.assessmentResult.generalResult.lossOfUseValue,root.task.assessmentResult.calculationResult.disposalCostNoVAT,root.task.assessmentResult.calculationResult.disposalCostWithVAT,root.task.basicClaimData.policyData.partialCoverageExcessAmount,root.task.basicClaimData.policyData.coverageExcessAmount,root.task.assessmentResult.generalResult.modificationCost,root.task.assessmentResult.generalResult.modificationCostWithVAT,root.hints.hint3,root.task.assessmentResult.generalResult.resetBtn,root.additionalhints.hint7,root.task.assessmentResult.resetAllBtn</Value>
+  <Value>root.hints.hint4,root.task.basicClaimData.claimDescriptionVehicle.vehicleDamageLoss,root.accordion.calculation,root.task.assessmentResult.calculationResult.partsTotal,root.task.assessmentResult.calculationResult.newForOldMaterialNoVAT,root.task.assessmentResult.calculationResult.deductionFromRepairCosts,root.additionalhints.hint3,root.task.assessmentResult.calculationResult.labourTotal,root.task.assessmentResult.calculationResult.newForOldPaintNoVAT,root.task.assessmentResult.calculationResult.deductionsPrevDamageNoVAT,root.task.assessmentResult.calculationResult.vat,root.task.assessmentResult.calculationResult.grandTotalTax,root.task.assessmentResult.calculationResult.paintTotal,root.task.assessmentResult.calculationResult.newForOldTotalNoVAT,root.task.assessmentResult.calculationResult.deductionsOldDamageNoVAT,root.task.assessmentResult.calculationResult.vatOldParts,root.task.assessmentResult.calculationResult.additionalCostTotal,root.additionalhints.hint4,root.task.assessmentResult.calculationResult.grandTotal,root.task.assessmentResult.calculationResult.grandTotalWithVAT,root.task.assessmentResult.calculationResult.repairCostNoVAT,root.additionalhints.hint5,root.task.assessmentResult.calculationResult.deductionsPrevDamageWithVATForDoc,root.task.assessmentResult.calculationResult.vehicleDepreciationForAssessment,root.hints.hint1,root.task.assessmentResult.calculationResult.resetBtn,root.accordion.vehicleValues,root.task.assessmentResult.vehicleValuesResult.buyingPriceNoVAT,root.task.assessmentResult.vehicleValuesResult.retailPriceNoVAT,root.task.assessmentResult.vehicleValuesResult.vehiclePriceAsNew,root.task.assessmentResult.vehicleValuesResult.replacementValueNoVAT,root.task.assessmentResult.vehicleValuesResult.buyingPriceWithVAT,root.task.assessmentResult.vehicleValuesResult.retailPriceWithVAT,root.task.assessmentResult.vehicleValuesResult.vehiclePriceAsNewWithVAT,root.task.assessmentResult.vehicleValuesResult.replacementValueWithVAT,root.task.assessmentResult.vehicleValuesResult.residualValueNoTax,root.additionalhints.hint6,root.task.assessmentResult.vehicleValuesResult.replacementValue,root.task.assessmentResult.vehicleValuesResult.residualValueWithVAT,root.task.assessmentResult.vehicleValuesResult.marketValueWithVAT,root.task.assessmentResult.vehicleValuesResult.taxation,root.hints.hint2,root.task.assessmentResult.vehicleValuesResult.resetBtn,root.accordion.general,root.task.basicClaimData.claimDescriptionVehicle.repairAuthorised,root.additionalhints.hint1,root.task.basicClaimData.claimDescriptionVehicle.repairAuthorisedDateTimeDe,root.additionalhints.hint2,root.task.basicClaimData.claimDescriptionVehicle.repairDurationDays,root.task.assessmentResult.generalResult.repairDurationUnit,root.task.basicClaimData.replacementVehicle.replacementDuration,root.task.assessmentResult.generalResult.replacementDurationUnit,root.task.assessmentResult.generalResult.carRentalCostsGroup,root.task.assessmentResult.generalResult.carRentalCostsAmount,root.task.assessmentResult.generalResult.estimatedRepairCost,root.task.assessmentResult.generalResult.estimatedRepairCostWithVAT,root.task.assessmentResult.generalResult.lossOfUseGroup,root.task.assessmentResult.generalResult.lossOfUseValue,root.task.assessmentResult.calculationResult.disposalCostNoVAT,root.task.assessmentResult.calculationResult.disposalCostWithVAT,root.task.basicClaimData.policyData.coverageExcessAmount,root.task.basicClaimData.policyData.partialCoverageExcessAmount,root.task.assessmentResult.generalResult.modificationCost,root.task.assessmentResult.generalResult.modificationCostWithVAT,root.hints.hint3,root.task.assessmentResult.generalResult.resetBtn,root.additionalhints.hint7,root.task.assessmentResult.resetAllBtn</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-27T09:54:30.629</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-07T11:18:43.078</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-13T21:37:24.052</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -22934,6 +22934,22 @@
   <CreationTimeStamp>2018-03-02T10:20:34.875</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-02T10:20:34.875</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B4263E42-CF06-31E0-E870-D11A18068F7C</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.repairCostNoVAT::onchange</Key>
+  <Value>BRE.CommonUtils.Math.roundUp(this.name, [this.value, this.getAttribute('decimalplaces')])</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T09:17:42.673</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T09:17:42.673</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -51597,6 +51613,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>55DBD964-49B6-0C78-8695-8C03C8FAFA68</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.repairCostNoVAT::decimalplaces</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T09:17:29.622</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T09:17:29.622</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>95838E73-BA90-E7B5-9088-E49EAFD68EF6</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -52074,5 +52106,37 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-01T08:46:42.958</LastUpdateTimeStamp>
  </Rule>
- <Size>3238</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D33FF56F-851C-BEEE-C23C-A4B57F4ED8E8</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.repairCostNoVAT::setMinimumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T09:15:50.189</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T09:15:50.189</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3D314B72-7691-AEAB-5E33-F2AAA5E31FFD</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessmentResult.calculationResult.repairCostNoVAT::setMaximumFractionDigits</Key>
+  <Value>2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T09:17:21.435</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T09:17:21.435</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3242</Size>
 </BRERuleListType>

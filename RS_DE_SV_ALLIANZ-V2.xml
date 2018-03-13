@@ -7420,6 +7420,57 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C7229DDC-D247-6070-EE88-1DAD893B52BE</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideComment</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:25.311</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:25.311</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>74B44BB4-A5FD-F042-7177-54AE0C5948F9</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideSeverity</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:25.499</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:25.499</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FCD57BE9-48ED-3B41-F128-8B1BF209FBBB</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinSeverity</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:26.602</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:26.602</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BF68F2A2-5D84-25D8-3CA5-A5021F3784BD</ItemId>
   <Context>
    <ProcessStep>SendToABS</ProcessStep>
@@ -10633,22 +10684,6 @@
   <CreationTimeStamp>2017-05-04T09:02:19.775</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:42.370</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>9C1978A8-D752-9F8C-F8CE-A949B436306B</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.unrepairedWithinCommentButton</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-30T09:25:18.647</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:42.382</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28628,22 +28663,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B7ED69C8-AFD3-C613-49E6-A28D277A35EF</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:10.261</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:34.425</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>68CD2B8D-A95E-4994-4544-4F8C0607B4A8</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -30403,22 +30422,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>BCA39F91-35AE-7D6F-37C5-6020E9CCA2C8</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.repairedWithinCommentButton</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-30T09:25:08.009</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:35.496</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>95E96BB9-FB9A-E373-2500-89220893B9BE</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -31648,22 +31651,6 @@
   <CreationTimeStamp>2017-05-23T09:13:08.377</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:38.219</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>16324687-CA35-3245-6775-DD4AD390C993</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.repairedOutsideCommentButton</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-30T09:24:58.197</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:38.398</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43524,6 +43511,57 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3E15DC01-E1AC-E78F-827C-6ED5B70D7D8D</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinComment</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:25.679</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:25.679</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>224B6A83-97A0-0E42-5804-11541F97613D</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinSeverity</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:25.850</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:25.850</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>03F3E7E9-3EF8-7473-ACC0-B399466107E8</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.commentstakebutton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:24.950</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:24.950</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>745D4D04-A9FD-8AF6-3CFE-F1354467EE36</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -52841,22 +52879,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>AB7CF506-A377-CA7C-96C9-7A6920EB47B2</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.unrepairedOutsideCommentButton</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-30T09:24:49.579</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:46.234</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>EDAF6759-D0E7-260E-A7B4-DFAE265CE06F</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -54954,5 +54976,90 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-09T15:54:04.429</LastUpdateTimeStamp>
  </Rule>
- <Size>3382</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C8440E1B-922E-0811-A887-1A166F94589F</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.preview</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:25.128</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:25.128</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C1678175-1DE1-40BE-C1DC-56B1A7945E9F</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideComment</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:26.019</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:26.019</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A330B721-9B09-E10A-D018-64DCA9E13878</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.commentscancelbutton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:24.763</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:24.763</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D9137DBD-D743-036D-8AFB-EA3ADE9274A1</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideSeverity</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:26.195</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:26.195</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E088B4F0-22CC-0727-EF1D-5B086974E495</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinComment</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:51:26.424</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T21:51:26.424</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3388</Size>
 </BRERuleListType>
