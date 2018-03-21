@@ -2,6 +2,70 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>26ACA138-857C-E272-25EE-7C7839AA7EDE</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockDetails.simpleEditor</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T14:56:21.588</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T14:56:21.588</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DC850446-3BE8-D3C5-624D-0F5D3C734563</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>root.csa.documentTextBlockDetails.isXslt.willEnable</Key>
+  <Value>BREForm_block.XSL_Text_Block_Editor,on</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T14:55:44.413</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T14:55:44.413</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>191D10C5-7574-C90E-E1E0-BED4BD2CA130</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>root.csa.documentTextBlockDetails.isXslt.willShow</Key>
+  <Value>BREForm_block.XSL_Text_Block_Editor,on</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T14:56:01.770</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T14:56:01.770</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4D58AAFE-34B3-AFC4-0D55-0DCD7B60B207</ItemId>
+  <Context>
+   <ProcessStep>CsaCollectionDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>documentCreation.allowXSLTPreview</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-15T13:36:10.604</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-15T13:36:10.604</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C148370F-B401-6B40-260A-40FF2229C06A</ItemId>
   <Context>
    <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
@@ -1264,6 +1328,22 @@
   <CreationTimeStamp>2016-08-31T12:53:35.116</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-07-10T10:19:49.063</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0E07C666-BFF0-65FE-F7EC-5CE24B4A57A4</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>XSL Text Block Editor</Key>
+  <Value>root.csa.documentTextBlockDetails.simpleEditor</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T14:55:01.141</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T15:11:36.843</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4507,12 +4587,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>blockNames</Key>
-  <Value>Document Text Block Details,Actions,Document Text Block Editor,ActionButtons</Value>
+  <Value>Document Text Block Details,Actions,Document Text Block Editor,XSL Text Block Editor,ActionButtons</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:28.949</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.725</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T15:10:00.614</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5693,5 +5773,37 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-07-10T10:19:50.766</LastUpdateTimeStamp>
  </Rule>
- <Size>355</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2CB30AB8-C610-5959-2642-E282672B470A</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>BlockTranslation</RuleType>
+  <Key>XSL Text Block Editor</Key>
+  <Value>DE=XSLT-editor</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T14:55:23.074</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-12T14:55:23.074</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>62034A24-F031-F365-FB6C-6FACB56E2930</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTemplateDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>documentCreation.allowXSLTPreview</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-15T13:36:26.634</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-15T13:36:26.634</LastUpdateTimeStamp>
+ </Rule>
+ <Size>362</Size>
 </BRERuleListType>
