@@ -5936,6 +5936,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>98274DA0-8423-4CB4-5A4A-A2836C40DEFB</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>previousDamageFactor</Key>
+  <Value>Leichte Nutzfahrzeuge 0.8,Reparierter Vorschaden vorhanden 0.8,Reparierter Vorschaden vorhanden 0.7,Reparierter Vorschaden vorhanden 0.6,Reparierter Vorschaden vorhanden 0.5,ohne Vorschäden 1.0</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-14T15:13:29.569</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-14T15:13:29.569</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4211E82B-DC5E-BAE4-E838-D5E7E6852B35</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -16393,6 +16409,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BFE1EB97-C91B-E531-1D02-03062C4E26B7</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentDetails.calculationId</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-21T09:19:46.885</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-21T09:19:46.885</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>017D2F00-818D-90D7-C922-F7599113D3B2</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -17680,6 +17712,37 @@
   <CreationTimeStamp>2017-07-11T09:25:37.724</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-31T09:47:10.244</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F079D781-F169-6EEE-5D32-99C6C67D3109</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>damageSeverityMFM</Key>
+  <Value>0.2,0.4,0.6,0.8,1.0</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-14T15:13:51.736</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-14T15:13:51.736</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>099C8E2D-5310-3A9D-9DD5-B1E2CC38356B</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CopyTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"FilterCheckedCalculationTransformation","alias":"FilterCheckedCalculationTransformation(1521061573386)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-14T22:06:13.455</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-14T22:06:13.455</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20815,12 +20878,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>DocumentDetails</Key>
-  <Value>root.task.documentDetails.template,root.task.documentDetails.generatePdfButton,root.task.documentDetails.generateEditablePreviewButton,root.task.documentDetails.name,root.task.documentDetails.statementsLibrary,root.hints.hint1,root.task.documentDetails.preview</Value>
+  <Value>root.task.documentDetails.template,root.task.documentDetails.generatePdfButton,root.task.documentDetails.generateEditablePreviewButton,root.task.documentDetails.name,root.task.documentDetails.calculationId,root.task.documentDetails.statementsLibrary,root.hints.hint1,root.task.documentDetails.preview</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-05T11:47:54.241</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-06T14:46:17.897</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-21T09:19:47.086</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -22441,6 +22504,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>254CC5C2-AAD6-EBDF-D392-5266C9C8CE62</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>documentCreation.allowXSLTPreview</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-15T13:37:53.046</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-15T13:37:53.046</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>37E6008F-8075-C18E-FAB1-35BE98A173B8</ItemId>
   <Context>
    <ProcessStep>DocumentsAndAttachments</ProcessStep>
@@ -22886,6 +22965,21 @@
   <CreationTimeStamp>2018-02-28T08:42:15.808</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-28T08:42:15.808</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>559560DD-B64A-6852-736B-1C0F6F8C5447</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CopyTaskWorkflowFunction.FilterCheckedCalculationTransformation(1521061573386)</Key>
+  <Value>{"excludeNormalCalcForAlternative":"false"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-14T22:06:23.408</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-14T22:06:23.408</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -35091,12 +35185,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>MergeTaskWorkflowFunction.TaskMergeTransformation(1440767380940)</Key>
-  <Value>{"filterList":["root.task.basicClaimData","root.task.calculationList","root.task.attachmentBinaryList","root.task.claimNumber","root.task.commentList","root.task.remark","root.task.inspection","root.task.assessorAssignment","root.task.lastCalculationGrandTotal","root.task.invoiceList","root.task.sendSignedRCAForm","root.task.displayName","root.task.versions"]}</Value>
+  <Value>{"filterList":["root.task.basicClaimData","root.task.calculationList","root.task.attachmentBinaryList","root.task.claimNumber","root.task.commentList","root.task.remark","root.task.inspection","root.task.assessorAssignment","root.task.lastCalculationGrandTotal","root.task.invoiceList","root.task.sendSignedRCAForm","root.task.displayName","root.task.versions","root.task.basicClaimData.vehicle.vehicleTiresCustom","root.task.foreignCaseId","root.task.assignmentDate"]}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:32.139</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-31T09:47:01.668</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-15T15:57:51.975</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36571,6 +36665,38 @@
   <CreationTimeStamp>2017-07-11T09:25:31.513</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-31T09:46:55.464</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2F37D4A5-6F05-E0D6-CCAA-DAE1CFFA4FFC</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>merchantabilityMFM</Key>
+  <Value>Sehr gute Marktgängigkeit 0.6,Gute Marktgängigkeit 0.8,Normale Marktgängigkeit 1.0,Schlechte Marktgängigkeit 1.2,Sehr schlechte Marktgängigkeit 1.4</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-14T15:14:10.139</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-14T15:14:10.139</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AEDA881E-5A2A-01B5-4AFF-558A218CBBD0</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>previousDamageFactorMFM</Key>
+  <Value>Erheblicher Vorschaden 0.2,Erhöhte Vorschäden 0.4,Mittlere Vorschäden 0.6,Wenig Vorschäden 0.8,Ohne Vorschäden 1.0</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-14T15:14:33.080</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-14T15:14:33.080</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -51345,7 +51471,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E9A69741-45C6-E2AA-DA8A-3ED3D709625A</ItemId>
   <Context>
-   <ProcessStep>AddressData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>MessageTranslation</RuleType>
@@ -51355,7 +51480,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-06T16:35:44.387</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-07T11:07:47.128</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-13T21:54:11.822</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -52138,5 +52263,21 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-13T09:17:21.435</LastUpdateTimeStamp>
  </Rule>
- <Size>3242</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>21C312AB-2976-3786-085C-EC24558AC4DC</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.documentDetails.calculationId::Layout</Key>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":4,"spanSize":7}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-21T09:20:44.722</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-21T09:20:50.213</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3251</Size>
 </BRERuleListType>

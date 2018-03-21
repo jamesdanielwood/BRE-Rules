@@ -7420,6 +7420,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7FD523D5-1BEA-118A-C2EC-D5D5F4BE624C</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualPurchasePrice.value</Key>
+  <Value>withVAT=true,showCurrencyLabel=true,class=amount-tax,secondLabel=EUR,withVATValue=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T21:59:38.327</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T21:59:38.327</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C7229DDC-D247-6070-EE88-1DAD893B52BE</ItemId>
   <Context>
    <Process>CompleteAssessment</Process>
@@ -18074,6 +18089,53 @@
   <CreationTimeStamp>2017-04-06T10:23:18.613</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:26.929</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B21C6C30-9BBB-E396-0746-7C60EAC4AFFF</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualPurchasePrice</Key>
+  <Value>seconLabel=EUR</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T22:00:48.529</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T22:00:48.529</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BCE16675-68C7-9B74-46E6-582DB98542BA</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualPurchasePrice.value</Key>
+  <Value>EN = Regional new price, DE = Ortsüblicher Neupreis</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T22:01:08.603</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T22:01:08.603</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>08842C03-16B9-EA5E-BECC-718B1D02D822</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.additionalhints.hint8</Key>
+  <Value>class=hide</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T22:02:33.757</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T22:02:33.757</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -30071,12 +30133,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>VehicleValuation</Key>
-  <Value>root.task.vehicleValuation.valuationDate,root.task.vehicleValuation.valueCode,root.task.basicClaimData.claimDescriptionVehicle.claimSummary.replacementValuePrintControl,root.task.vehicleValuation.valuationButton,root.task.valuationResult.valuationListTable,root.task.valuationResult.valuationOutput,root.hints.hint8,root.task.vehicleValuation.marketSituation,root.hints.hint3,root.task.vehicleValuation.severalOwners,root.hints.hint4,root.hints.hint5,root.task.vehicleValuation.editedRepairItemId,root.task.vehicleValuation.icvCorrectionKind,root.task.vehicleValuation.icvCorrectionCode,root.task.vehicleValuation.icvCorrectionNewPrice,root.task.vehicleValuation.icvCorrectionText,root.task.vehicleValuation.addRepairItem,root.task.vehicleValuation.repairTableResult,root.additionalhints.hint2,root.task.vehicleValuation.aggregateUsage,root.task.vehicleValuation.aggregateMileage,root.task.vehicleValuation.aggregateMileageUnit,root.task.vehicleValuation.aggregatePriceAsNew,root.task.vehicleValuation.icvAggregateKind,root.task.vehicleValuation.addAggregateItem,root.task.vehicleValuation.aggregateTableResult,root.hints.hint9,root.task.vehicleValuation.specialUse,root.additionalhints.hint3,root.task.vehicleValuation.frequentUseOfTrailer,root.task.vehicleValuation.constructionActivity,root.task.vehicleValuation.sportCar,root.task.vehicleValuation.testCar,root.task.vehicleValuation.rentCar,root.task.vehicleValuation.drivingSchoolCar,root.task.vehicleValuation.taxi,root.task.vehicleValuation.companyCar,root.additionalhints.hint6,root.task.vehicleValuation.correctionValue,root.task.vehicleValuation.correctionDescription,root.task.vehicleValuation.addCorrectionItem,root.task.vehicleValuation.correctionTableResult,root.additionalhints.hint4,root.task.vehicleValuation.vehicleStatusKind,root.task.vehicleValuation.specialPartDescription,root.task.vehicleValuation.addSpecialPartItem,root.task.vehicleValuation.specialPartTableResult,root.additionalhints.hint5,root.task.vehicleValuation.vehicleKind,root.task.vehicleValuation.mileageCategory,root.task.basicClaimData.vehicle.vehicleAdmin.additionalValueWhenNew,root.task.vehicleValuation.baseValue,root.task.vehicleValuation.vehicleTypeForPrint,root.additionalhints.hint1,root.task.vehicleValuation.marketValue,root.task.vehicleValuation.valueDifference,root.hints.hint6,root.task.vehicleValuation.priceAsNewForDocumentation,root.task.vehicleValuation.residualValue,root.hints.hint7,root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualReplacementValue.value,root.task.vehicleValuation.valuationButton2,root.task.vehicleValuation.editedAggregateItemId,root.task.vehicleValuation.editedSpecialPartItemId,root.task.vehicleValuation.editedCorrectionItemId</Value>
+  <Value>root.task.vehicleValuation.valuationDate,root.task.vehicleValuation.valueCode,root.task.basicClaimData.claimDescriptionVehicle.claimSummary.replacementValuePrintControl,root.task.vehicleValuation.valuationButton,root.task.valuationResult.valuationListTable,root.task.valuationResult.valuationOutput,root.hints.hint8,root.task.vehicleValuation.marketSituation,root.hints.hint3,root.task.vehicleValuation.severalOwners,root.hints.hint4,root.hints.hint5,root.task.vehicleValuation.editedRepairItemId,root.task.vehicleValuation.icvCorrectionKind,root.task.vehicleValuation.icvCorrectionCode,root.task.vehicleValuation.icvCorrectionNewPrice,root.task.vehicleValuation.icvCorrectionText,root.task.vehicleValuation.addRepairItem,root.task.vehicleValuation.repairTableResult,root.additionalhints.hint2,root.task.vehicleValuation.aggregateUsage,root.task.vehicleValuation.aggregateMileage,root.task.vehicleValuation.aggregateMileageUnit,root.task.vehicleValuation.aggregatePriceAsNew,root.task.vehicleValuation.icvAggregateKind,root.task.vehicleValuation.addAggregateItem,root.task.vehicleValuation.aggregateTableResult,root.hints.hint9,root.task.vehicleValuation.specialUse,root.additionalhints.hint3,root.task.vehicleValuation.frequentUseOfTrailer,root.task.vehicleValuation.constructionActivity,root.task.vehicleValuation.sportCar,root.task.vehicleValuation.testCar,root.task.vehicleValuation.rentCar,root.task.vehicleValuation.drivingSchoolCar,root.task.vehicleValuation.taxi,root.task.vehicleValuation.companyCar,root.additionalhints.hint6,root.task.vehicleValuation.correctionValue,root.task.vehicleValuation.correctionDescription,root.task.vehicleValuation.addCorrectionItem,root.task.vehicleValuation.correctionTableResult,root.additionalhints.hint4,root.task.vehicleValuation.vehicleStatusKind,root.task.vehicleValuation.specialPartDescription,root.task.vehicleValuation.addSpecialPartItem,root.task.vehicleValuation.specialPartTableResult,root.additionalhints.hint5,root.task.vehicleValuation.vehicleKind,root.task.vehicleValuation.mileageCategory,root.task.basicClaimData.vehicle.vehicleAdmin.additionalValueWhenNew,root.task.vehicleValuation.baseValue,root.task.vehicleValuation.vehicleTypeForPrint,root.additionalhints.hint1,root.task.vehicleValuation.marketValue,root.task.vehicleValuation.valueDifference,root.hints.hint6,root.task.vehicleValuation.priceAsNewForDocumentation,root.task.vehicleValuation.residualValue,root.hints.hint7,root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualReplacementValue.value,root.additionalhints.hint8,root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualPurchasePrice,root.task.vehicleValuation.valuationButton2,root.task.vehicleValuation.editedAggregateItemId,root.task.vehicleValuation.editedSpecialPartItemId,root.task.vehicleValuation.editedCorrectionItemId</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-04T09:51:47.390</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:33.356</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T22:01:42.300</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -32582,6 +32644,39 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AF6A23B3-FECE-CE80-40B4-9255C0E2EB70</ItemId>
+  <Context>
+   <ProcessStep>Vehicle</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualPurchasePrice.value</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T21:59:58.826</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T21:59:58.826</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0044F21F-E620-AD21-F71A-7C52AD2D8F71</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.additionalhints.hint8</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T22:02:11.021</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T22:02:11.021</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AC356CCA-87D5-853B-65F8-658ED0D6470B</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -33907,12 +34002,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.hints.hint7</Key>
-  <Value>Wiederbeschaffungswert Anwendervorgabe</Value>
+  <Value>Anwendervorgabe</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:12.024</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:34.189</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T21:59:10.250</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45266,6 +45361,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6495C7E7-A2F1-853F-1AC7-511170A6673D</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualPurchasePrice.value</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-13T22:00:20.145</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T22:00:20.145</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E7D10EA5-0CB0-2BE4-BA35-AF454CC74644</ItemId>
   <Context>
    <ProcessStep>SendToABS</ProcessStep>
@@ -48996,12 +49108,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.hints.hint7</Key>
-  <Value>Wiederbeschaffungswert Anwendervorgabe</Value>
+  <Value>Anwendervorgabe</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-04T09:35:48.262</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:36.550</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T21:58:50.708</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55061,5 +55173,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-12T21:51:26.424</LastUpdateTimeStamp>
  </Rule>
- <Size>3388</Size>
+ <Size>3395</Size>
 </BRERuleListType>
