@@ -8155,6 +8155,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FB81302C-0BB7-6A96-EFC3-A7DB674708BA</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.kadSummaryTables.valuation.header</Key>
+  <Value>EN=Valuation,DE=Fahrzeugbewertung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-21T11:16:59.508</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-21T11:16:59.508</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5C6B465D-5FF4-EBE4-1EB7-400B09B68363</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -10799,6 +10815,21 @@
   <CreationTimeStamp>2017-04-06T10:23:17.859</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:42.158</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>42F17B80-7FF3-F459-9E9E-FF2D9CEF71D0</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kadsummarytables.valuation.withoutVATIndication</Key>
+  <Value>DE="Wiederbeschaffungswert (MwSt. nicht ausweishar)"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-21T11:01:47.706</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-21T11:14:41.772</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -18098,12 +18129,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.claimDescriptionVehicle.claimSummary.manualPurchasePrice</Key>
-  <Value>seconLabel=EUR</Value>
+  <Value>secondLabel=EUR</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-13T22:00:48.529</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T22:00:48.529</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-14T09:28:34.853</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -40765,6 +40796,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D54BD72D-CDC1-913E-8F47-AB8EC1BD1EDA</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kadsummarytables.valuation.withoutVAT</Key>
+  <Value>DE=Wiederbeschaffungswert (MwSt. nicht ausweishar)</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-21T11:06:45.848</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-21T11:06:45.848</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C22A11A9-E994-9145-23A0-9B11455C562F</ItemId>
   <Context>
    <ProcessStep>SendToABS</ProcessStep>
@@ -44349,22 +44396,6 @@
   <CreationTimeStamp>2017-04-06T10:23:17.291</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:32.564</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>66FFC532-808F-0587-935C-1CD33942C7D3</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.kadSummaryTables.valuation.header</Key>
-  <Value>EN=Valuation,DE=Fahrzeugbewertung</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-05-26T14:21:57.305</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:31.031</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55173,5 +55204,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-12T21:51:26.424</LastUpdateTimeStamp>
  </Rule>
- <Size>3395</Size>
+ <Size>3397</Size>
 </BRERuleListType>
