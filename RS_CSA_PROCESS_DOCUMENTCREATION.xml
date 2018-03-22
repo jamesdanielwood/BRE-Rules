@@ -66,6 +66,102 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0A6A303A-B689-372E-2368-3555507AC792</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockSearch.appliedFilter</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:18:51.564</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:18:51.564</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>66CF7534-E29D-A3B1-D2D5-20BBDF53E166</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.documentTextBlockList.documentTemplateTextBlock::Layout</Key>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":13,"spanSize":16}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:22:14.445</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:22:14.445</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AF8EE9CC-1946-9640-3377-79C25A70CD7F</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.documentTextBlockSearch.appliedFilter::Layout</Key>
+  <Value>{"startAt":0,"labelSize":15,"fieldSize":1,"spanSize":16}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:22:35.447</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:22:35.447</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>03E11201-DA34-E9FC-76BC-F5EEEFACF8D7</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>predefinedTextBlockFilterType</Key>
+  <Value>Stamp,Signature</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:22:55.531</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:22:55.531</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2E4206DA-9A82-2DE4-0FB2-D7BDB4A12DEA</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.csa.documentTextBlockSearch.destination</Key>
+  <Value>Header,Footer,CoverPage,WaterMark,Body,Statement,Input,Collection,Email</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:26:33.690</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:26:33.690</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A1BD2539-7765-0585-2D2D-F163C761FB4C</ItemId>
+  <Context>
+   <ProcessStep>CsaImageList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockDetails.delete</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:31:05.091</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:31:05.091</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C148370F-B401-6B40-260A-40FF2229C06A</ItemId>
   <Context>
    <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
@@ -352,22 +448,6 @@
   <CreationTimeStamp>2016-08-26T09:45:56.502</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-07-10T10:19:49.278</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>8A1C916E-3BD4-0278-59DE-6CB405254910</ItemId>
-  <Context>
-   <ProcessStep>CsaDocumentTextBlockList</ProcessStep>
-   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.csa.documentTextBlockList.newimageblock</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2016-09-08T14:49:12.375</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.282</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1347,6 +1427,86 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4D5DD3EE-AD65-90EA-5209-DA6E5C8020F6</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>blockNames</Key>
+  <Value>Document Text Block Actions,Document Text Block List</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:21:09.926</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:21:09.926</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DD8E1C02-A905-235C-F194-B36F576AF26E</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>BlockTranslation</RuleType>
+  <Key>Document Text Block Actions</Key>
+  <Value>DE=Aktionen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:21:55.921</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:21:55.921</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CE9528B3-5FA5-BB72-AB23-73B71C30DC81</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>ProcessTransition</RuleType>
+  <Key>CsaStampsAndSignaturesList</Key>
+  <Value>CsaStampsAndSignaturesList</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:14:22.727</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:14:22.727</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>67D33C6B-ABB8-7542-2C1B-898F2EE3F1B1</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>csaPageSize</Key>
+  <Value>20</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:18:32.751</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:18:32.751</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3667CA98-C622-9393-377F-13B06ACDA822</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>BlockTranslation</RuleType>
+  <Key>Document Text Block List</Key>
+  <Value>DE=Liste der Textbausteine</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:30:08.085</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:30:08.085</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8DB3186A-2111-01CB-7EDC-1C11F49EE75E</ItemId>
   <Context>
    <ProcessStep>CsaImageDetails</ProcessStep>
@@ -1568,6 +1728,54 @@
   <CreationTimeStamp>2016-06-09T12:48:28.924</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-07-10T10:19:49.783</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4CB127A2-3365-BF43-57B5-48D9A8352842</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>Document Text Block List</Key>
+  <Value>root.csa.documentTextBlockSearch.appliedFilter,root.csa.documentTextBlockList.documentTemplateTextBlock</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:20:56.102</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:20:56.102</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>16475A58-BFC2-1C12-3233-B7314FE93E76</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>Document Text Block Actions</Key>
+  <Value>root.csa.documentTextBlockList.newimageblock,root.csa.documentTextBlockList.deleteAll,root.csa.documentTextBlockList.export</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:21:24.607</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:21:24.607</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D53CD4D0-F65C-2CD7-C73C-2363FB151595</ItemId>
+  <Context>
+   <ProcessStep>CsaImageList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.actionButtons.backButton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:30:55.250</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:30:55.250</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2267,12 +2475,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Document Text Block Actions</Key>
-  <Value>root.csa.documentTextBlockList.newtextblock,root.csa.documentTextBlockList.newcollection,root.csa.documentTextBlockList.newimageblock,root.csa.documentTextBlockList.deleteAll,root.csa.documentTextBlockList.export</Value>
+  <Value>root.csa.documentTextBlockList.newtextblock,root.csa.documentTextBlockList.newcollection,root.csa.documentTextBlockList.deleteAll,root.csa.documentTextBlockList.export</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:29.239</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:50.967</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-22T09:31:57.216</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5103,12 +5311,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ActionButtons</Key>
-  <Value>root.actionButtons.saveButton,root.actionButtons.resetButton,root.actionButtons.backButton,root.csa.documentTextBlockDetails.delete</Value>
+  <Value>root.actionButtons.saveButton,root.actionButtons.resetButton</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-08-31T12:53:32.682</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:50.127</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-22T09:24:51.666</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5775,6 +5983,118 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3E209856-F75A-9311-5D17-F242606479B3</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockList.newimageblock</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:15:01.322</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:15:01.322</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>527FA00F-A127-02E3-85EB-6E038B156CB5</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockList.documentTemplateTextBlock</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:18:44.562</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:18:44.562</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>83D66C8D-F5CD-6AE2-3B30-6126688430BD</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockList.export</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:19:10.343</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:19:10.343</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>07B5EF52-142C-342C-5826-C50CC52055EC</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>hideControlButtons</Key>
+  <Value>save,reset</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:20:38.845</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:20:38.845</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>83186EF5-33D5-8404-2BCB-225DBFECB379</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.documentTextBlockList.deleteAll</Key>
+  <Value>EN=Delete</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:14:44.845</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:14:44.845</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2F8EAED3-E3F1-728C-27B6-96F40B223361</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockList.deleteAll</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:18:58.841</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:18:58.841</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BED425B3-3BCB-1E7E-623D-4E7600952DC5</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>predefinedTextBlockFilterType</Key>
+  <Value>Header,Footer,CoverPage,WaterMark,Body,Statement,Input,Collection,Email</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T09:23:44.043</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T09:23:44.043</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2CB30AB8-C610-5959-2642-E282672B470A</ItemId>
   <Context>
    <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
@@ -5805,5 +6125,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-15T13:36:26.634</LastUpdateTimeStamp>
  </Rule>
- <Size>362</Size>
+ <Size>382</Size>
 </BRERuleListType>
