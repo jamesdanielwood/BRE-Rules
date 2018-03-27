@@ -784,22 +784,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>5C99F21C-3D1B-B807-AE77-A1DA4CB91174</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>Block</RuleType>
-  <Key>ThirdParty</Key>
-  <Value>root.task.involvedParties.thirdParty.active,root.task.involvedParties.thirdParty.salutation,root.task.involvedParties.thirdParty.companyName,root.task.involvedParties.thirdParty.firstName,root.task.involvedParties.thirdParty.lastName,root.task.involvedParties.thirdParty.deputyName,root.task.involvedParties.thirdParty.address.street,root.task.involvedParties.thirdParty.address.zipCode,root.task.involvedParties.thirdParty.address.city,root.task.involvedParties.thirdParty.address.countryISO,root.task.involvedParties.thirdParty.address.line5,root.task.involvedParties.thirdParty.communicationDetailList.phone1,root.task.involvedParties.thirdParty.communicationDetailList.phone2,root.task.involvedParties.thirdParty.communicationDetailList.mobile,root.task.involvedParties.thirdParty.communicationDetailList.mobile2,root.task.involvedParties.thirdParty.communicationDetailList.email1</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:14.765</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:27.279</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DD0DF9C5-1B00-0F77-8C61-3B068A024EB2</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -926,22 +910,6 @@
   <CreationTimeStamp>2017-06-08T08:32:45.155</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:27.762</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>9839EE8C-3538-11B8-9E3B-1A8547565AC1</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.active::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":16,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:10.735</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:27.887</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1350,22 +1318,6 @@
   <CreationTimeStamp>2017-04-06T10:23:16.829</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:29.078</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B8CD5977-D7E3-3585-DDF8-7AEBBA3C53F4</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.street::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:17.103</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:29.104</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3711,22 +3663,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>72F91420-FD9B-89FB-13F6-2C0ABECA6F4E</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.involvedParties.thirdParty.deputyName</Key>
-  <Value>DE=Namenszusatz</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-06-07T09:49:32.391</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:39.427</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F99DBF55-0152-03D5-9CCA-506882BE3C7A</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -4080,22 +4016,6 @@
   <CreationTimeStamp>2017-04-06T10:23:12.571</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:40.484</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F9481FFE-9A89-DD04-A414-97851BF07667</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>BlockTranslation</RuleType>
-  <Key>ThirdParty</Key>
-  <Value>DE=Sonstige</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:12.662</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:40.502</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4468,22 +4388,6 @@
   <CreationTimeStamp>2017-04-06T10:23:17.361</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:36.897</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D9ED3B87-1725-3AC6-E7A1-10E117F8FA39</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.salutation::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.217</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:36.937</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5750,22 +5654,6 @@
   <CreationTimeStamp>2017-04-06T10:23:15.168</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:32.265</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>5943E049-3EB9-1728-1053-F6BB6EB3D737</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.countryISO</Key>
-  <Value>DE</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:15.361</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:32.344</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7435,6 +7323,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>40D39640-F29E-9F1A-0FBB-0B945E4888A0</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>iLogsPdfSourcesAddMainXML</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-26T16:35:39.426</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-26T16:35:39.426</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C7229DDC-D247-6070-EE88-1DAD893B52BE</ItemId>
   <Context>
    <Process>CompleteAssessment</Process>
@@ -8495,22 +8399,6 @@
   <CreationTimeStamp>2017-12-04T09:50:54.097</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:31.105</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>6DDAC7E0-FC8A-E224-27D2-3F6E5AB80D8A</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.countryISO</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.080</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:31.168</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10785,22 +10673,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B99F4558-52C3-873F-7D36-8F1F8F3046D2</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.involvedParties.thirdParty.salutation</Key>
-  <Value>Mr,Mrs,Company</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:10.299</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:42.024</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DAEDAA51-D504-BC7E-F134-092AA8A1F7BE</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -10824,12 +10696,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>kadsummarytables.valuation.withoutVATIndication</Key>
-  <Value>DE="Wiederbeschaffungswert (MwSt. nicht ausweishar)"</Value>
+  <Value>DE=Wiederbeschaffungswert (MwSt. nicht ausweisbar)</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-21T11:01:47.706</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-21T11:14:41.772</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-27T08:31:34.539</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11476,22 +11348,6 @@
   <CreationTimeStamp>2017-04-13T20:26:14.113</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:41.870</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>126C5B48-B7E4-E2E8-E902-78204C4508CA</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.email1</Key>
-  <Value>DE=E-Mail (privat)</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:13.515</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:41.891</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13473,22 +13329,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1217C8AB-AB58-6D0A-7FDD-FF1A507EBC37</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.email1</Key>
-  <Value><![CDATA[pattern=^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$,data-errormessage=E-Mail entspricht nicht dem gefordeten Format]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:10.486</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:42.472</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B086F821-5F73-39D3-7242-FF99607EFC83</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -14756,22 +14596,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C8D804D2-A5A8-6654-5FB5-CE3E83EDAE92</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.mobile</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:16.438</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:27.792</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AB17766B-8DB6-719D-354C-1A7A1D72082A</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -14818,22 +14642,6 @@
   <CreationTimeStamp>2017-06-14T10:03:17.420</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:28.012</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>8B53A4B7-3216-BA2B-E60F-C48AC0D811BE</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.active</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:16.535</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:28.017</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -16107,22 +15915,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>A2442884-0444-CC26-3FC3-5C5E1F6A3571</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.phone1</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.667</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:33.964</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C9681EA7-F880-BEC2-2081-F208B8DA781C</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -16298,22 +16090,6 @@
   <CreationTimeStamp>2017-04-06T10:23:12.631</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:35.048</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>8B8D8C29-4FA3-8F47-E418-CB26D4F0D409</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.deputyName</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-06-07T09:46:15.589</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:35.084</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -18217,22 +17993,6 @@
   <CreationTimeStamp>2017-04-06T10:23:19.161</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:37.291</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>4FD8792C-4F12-649D-C286-BD2692148A6E</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.phone1</Key>
-  <Value>DE=Telefon (privat)</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.985</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.310</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20657,22 +20417,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>7D158844-0370-E2BD-544D-7525C59D787E</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.mobile2</Key>
-  <Value>DE=Mobiltelefon (dienstlich)</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:10.929</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:45.159</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>398C6346-E484-C2BC-D3E9-2638BD63DEFB</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -22917,22 +22661,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>DB37A7FA-17D4-2D2D-AB1A-2860AD62AC29</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.companyName</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:11.615</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:29.425</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A04FB7F3-39B2-80B6-9671-E43237F1F1CA</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -23108,22 +22836,6 @@
   <CreationTimeStamp>2017-05-19T15:57:51.175</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:29.911</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>EDA11655-571D-C576-D6EE-E125DA6E8A1D</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.line5</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:14.537</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:34.287</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -24770,8 +24482,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-08-18T09:27:50.531</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:31.467</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-23T10:12:24.141</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -25439,22 +25151,6 @@
   <CreationTimeStamp>2017-04-06T10:23:17.900</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:37.121</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>A3D2E9F8-2479-95DA-DA8B-E86D66257F87</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.countryISO</Key>
-  <Value>DE=Land</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.559</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.130</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -26143,22 +25839,6 @@
   <CreationTimeStamp>2017-04-06T10:23:11.310</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:33.293</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>CD599F87-6949-B0A9-0EC0-46E7D2EB10DF</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:13.890</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:33.314</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27909,22 +27589,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>AD6156D9-1105-37C3-602E-CAD555AAE7F5</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.lastName</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:15.967</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:27.946</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>96AE3E36-1B81-81BA-0A27-D835DAC7886F</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -29624,12 +29288,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>blockNames</Key>
-  <Value>VehicleOwner,InspectionLocation,BodyShop,Lawyer,ThirdParty</Value>
+  <Value>VehicleOwner,InspectionLocation,BodyShop,Lawyer</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:18.361</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:34.923</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-26T10:37:46.404</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -32023,22 +31687,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1277C127-41CC-5F95-FFD4-B61382DA96A6</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.zipCode::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:14.984</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:39.150</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B0926768-ADFD-E4F2-87EB-53324EBF199D</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -32393,22 +32041,6 @@
   <CreationTimeStamp>2017-05-24T08:30:40.493</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:45.497</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C7E07E06-B560-C52E-3EF2-3882D2A0CE2D</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.firstName</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:13.259</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:45.504</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -33375,22 +33007,6 @@
   <CreationTimeStamp>2017-05-29T22:01:54.909</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:26.823</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>7AD7DC35-008D-49BC-69CB-B43D817AEE46</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.city</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.956</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:26.966</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -34382,22 +33998,6 @@
   <CreationTimeStamp>2017-05-18T12:35:20.339</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:35.275</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>27881ECC-AA33-6DE8-0A0B-AEF671B993E5</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.countryISO</Key>
-  <Value>DE=Deutschland,CX=Andere,BE=Belgien,BA=Bosnien-Herzegowina,BR=Brasilien,BG=Bulgarien,CN=China,CR=Costa Rica,DK=Dänemark,EC=Ecuador,SV=El Salvador,FI=Finnland,FR=Frankreich,GR=Griechenland,GB=Großbritannien,GT=Guatemala,HN=Honduras,IT=Italien,JP=Japan,CA=Kanada,CO=Kolumbien,HR=Kroatien,LB=Libanon,LT=Litauen,LU=Luxemburg,MX=Mexiko,NL=Niederlande,NO=Norwegen,AT=Österreich,PA=Panama,PL=Polen,PT=Portugal,RO=Rumänien,RU=Russland,SA=Saudi-Arabien,SE=Schweden,CH=Schweiz,SK=Slowakei,ES=Spanien,ZA=Südafrika,CZ=Tschechische Republik,TR=Türkei,UA=Ukraine,HU=Ungarn,US=USA,VE=Venezuela</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:14.756</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:35.292</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36197,22 +35797,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>29AE5247-0D87-71A4-4086-0D9BEF77939E</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.companyName::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":13,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:15.817</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:30.730</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C0633EBB-E462-258D-80F6-E48F090CE0CE</ItemId>
   <Context>
    <ProcessStep>CsaContractTemplateDetail</ProcessStep>
@@ -37743,7 +37327,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:17.169</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:40.416</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-23T09:46:51.029</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38525,12 +38109,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>SendTask.KADSendReportsToPostCenterTransformation(1486373966541)</Key>
-  <Value><![CDATA[{emailCustomBodyConfiguration: {"VehicleOwner": "732608783920673", "Claimant":"732608783920673", "Lawyer": "749554507854300", "Garage": "749277542238836", "ThirdParty": "749767845712845", "Bodyshop": "749277542238836"}, reportsOrder: {"VehicleOwner": ["VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Claimant":["VehicleOwnerReport","ValuationReport","EstimateMarketReplacementReport"], "Lawyer": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Garage": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"], "ThirdParty": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Bodyshop": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"]}, senderEmail: "${loadVariable(current.responsibleUserId, 'absSenderEmail')}", emailCustomSubject: "${current.claimNumber} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName) && isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? \"\" : \",\"} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName : current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.plateNumber)) ? \"\" : \",\"} ${current.basicClaimData.vehicle.vehicleAdmin.plateNumber}",condition:"${parameters['SEND_TO_ABS_CASE_FINISH']}"}]]></Value>
+  <Value><![CDATA[{"senderToPostCenterEmail":"allianz@ax-ao.de",emailCustomBodyConfiguration: {"VehicleOwner": "732608783920673", "Claimant":"732608783920673", "Lawyer": "749554507854300", "Garage": "749277542238836", "ThirdParty": "749767845712845", "Bodyshop": "749277542238836"}, reportsOrder: {"VehicleOwner": ["VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Claimant":["VehicleOwnerReport","ValuationReport","EstimateMarketReplacementReport"], "Lawyer": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Garage": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"], "ThirdParty": ["CoveringLetter","VehicleOwnerReport", "ValuationReport","EstimateMarketReplacementReport"], "Bodyshop": ["GarageReport","ValuationReport","EstimateMarketReplacementReport"]}, senderEmail: "${loadVariable(current.responsibleUserId, 'absSenderEmail')}", emailCustomSubject: "${current.claimNumber} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName) && isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? \"\" : \",\"} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName)) ? current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.companyName : current.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.lastName} ${(isEmpty(current.basicClaimData.vehicle.vehicleAdmin.plateNumber)) ? \"\" : \",\"} ${current.basicClaimData.vehicle.vehicleAdmin.plateNumber}",condition:"${parameters['SEND_TO_ABS_CASE_FINISH']}"}]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-08-17T15:09:33.403</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-23T20:42:40.281</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-26T21:56:40.985</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38841,22 +38425,6 @@
   <CreationTimeStamp>2017-05-04T09:21:47.801</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:43.434</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>496CC1BC-4326-4C97-37C6-4925DDC4AFF6</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.countryISO::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:10.644</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:43.453</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -39773,22 +39341,6 @@
   <CreationTimeStamp>2017-10-17T09:18:28.211</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:46.026</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>727CC8AA-7AE9-02F6-2207-15994BA0488E</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.zipCode</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:14.219</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:46.265</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -41395,22 +40947,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D0219A29-C510-6952-C3E8-29FA02825EE4</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.mobile2</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.730</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:43.087</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>FF2D7127-75CD-A84E-A58B-42A09ADB8ED1</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -42269,22 +41805,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>E1A7CAFE-B276-209B-9C71-DE7C5391F1EC</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.zipCode</Key>
-  <Value>pattern=^([0-9a-zA-Z])*$,data-errormessage=PLZ entspricht nicht dem gefordeten Format</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:15.891</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:27.995</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3E9E5F24-58B7-E4D4-E182-E5CF2F19A22A</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -42792,22 +42312,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1EFA1736-2EA3-4CB5-C459-AE3194E60571</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.mobile</Key>
-  <Value>DE=Mobiltelefon (privat)</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:17.982</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:30.627</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6EA5413D-8B85-1E8B-957C-497B7B107F65</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -42839,22 +42343,6 @@
   <CreationTimeStamp>2017-05-18T12:35:20.279</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:30.676</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>13D14616-2DAF-7916-F9CF-AB20D39C3A2B</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:13.596</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:30.747</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43131,22 +42619,6 @@
   <CreationTimeStamp>2017-04-06T10:23:18.322</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:45.343</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F337A00D-063D-B9A6-2185-730C1DDF0347</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:15.231</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:45.349</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -48185,22 +47657,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>8A0FB392-7FDF-82CA-FC26-5B9F089589A2</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.line5</Key>
-  <Value>EN=District,DE=Ortsteil</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:13.836</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:38.148</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AF8E445C-775B-8AF6-4882-6D1667635855</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -50237,22 +49693,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>FE6E9782-CD6B-F8FD-435A-C315993A5E78</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.email1</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:11.397</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:37.959</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D3032E8A-FC5C-20C4-2449-AC2A73C11500</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -50282,22 +49722,6 @@
   <CreationTimeStamp>2017-04-06T10:23:16.672</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:37.981</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>9EE3DC7E-B788-2770-640A-813A6F817478</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.phone2</Key>
-  <Value>DE=Telefon (dienstlich)</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:11.185</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:38.051</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -50861,22 +50285,6 @@
   <CreationTimeStamp>2017-04-06T10:23:17.243</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:39.387</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>61400530-FC55-FB37-983C-722585336590</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.phone2</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:17.084</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:39.443</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -53723,22 +53131,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D4C43067-5666-9EFB-39AF-B04AC6020C65</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.involvedParties.thirdParty.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:16.452</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:42.795</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>42474446-4603-BDE3-2068-18384B02CA6B</ItemId>
   <Context>
    <ProcessStep>SendToABS</ProcessStep>
@@ -54028,22 +53420,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>E9F95916-61C1-F91D-3316-98A8587CE0A2</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.address.street</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.844</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:43.459</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2AF09CE0-9224-57D0-3DEB-50CA27C62972</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -54138,22 +53514,6 @@
   <CreationTimeStamp>2017-04-06T10:23:17.751</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-03T09:18:43.676</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>DF5B177D-A31C-E1AA-28F2-86946CDE6843</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.involvedParties.thirdParty.salutation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:10.397</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-03T09:18:43.681</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55073,6 +54433,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>44857951-0CB6-9336-10DF-D09C929EBD7F</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>createILogsPdfSources</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-26T16:35:03.271</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-26T16:35:03.271</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2F5C2E91-8455-3AA6-5ECF-7B70530B9722</ItemId>
   <Context>
    <ProcessStep>SendToABS</ProcessStep>
@@ -55204,5 +54580,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-12T21:51:26.424</LastUpdateTimeStamp>
  </Rule>
- <Size>3397</Size>
+ <Size>3358</Size>
 </BRERuleListType>

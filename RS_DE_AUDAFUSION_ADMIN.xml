@@ -468,6 +468,51 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DC091428-5631-3363-4307-4F1C0293CA0E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>documentCreation_textBlockConditional</Key>
+  <Expression>${"["+#currentMemberJSON+","+#calculationResultJSON+"]"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T12:33:31.124</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T12:33:31.124</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5B08075D-1083-AA9C-EFD1-772F8EB72E68</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>calculationResultJSON</Key>
+  <Value>{"label":"Abzug NFA Lack","xpath":"//data/selectedcalculation/SCFCDeduNFOPnt_unformatted","type":"Number"} ,{"label":"Abzug NFA Teile","xpath":"//data/selectedcalculation/SCFCDeduNFOPart_unformatted","type":"Number"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T12:32:59.092</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T12:32:59.092</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DEC6BD39-0DE9-DF92-03EE-6C3166E2D344</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>currentMemberJSON</Key>
+  <Value>{"label":"Sachverständiger Vorname","xpath":"//data/currentFirstName","type":"String"} ,{"label":"Sachverständiger PLZ","xpath":"//data/currentuserzipcode","type":"String"},{"label":"Sachverständiger Handy","xpath":"//data/currentusermobile","type":"String"},{"label":"Sachverständiger Ort","xpath":"//data/currentusercity","type":"String"},{"label":"Sachverständiger E-Mail","xpath":"//data/currentuseremail","type":"String"},{"label":"Sachverständiger Telefonnummer2","xpath":"//data/currentuserphone2","type":"String"},{"label":"Sachverständiger Telefonnummer1","xpath":"//data/currentuserphone1","type":"String"},{"label":"Sachverständiger Nachname","xpath":"//data/currentuserlastname","type":"String"},{"label":"Sachverständige Straße","xpath":"//data/currentuserstreet","type":"String"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-22T12:32:38.372</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-22T12:32:38.372</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A2208949-9448-EAED-AFA5-6A0D1E509F5C</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -1088,5 +1133,21 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-01T09:20:01.753</LastUpdateTimeStamp>
  </Rule>
- <Size>67</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1E7E05C3-78E3-AC27-28CD-10670F3ADE60</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>restrictChildOrganizationDocumentsView</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-27T08:27:54.591</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-27T08:27:54.591</LastUpdateTimeStamp>
+ </Rule>
+ <Size>71</Size>
 </BRERuleListType>
