@@ -1709,12 +1709,12 @@
   </Context>
   <RuleType>StepTranslation</RuleType>
   <Key>MemberContactList</Key>
-  <Expression>${(#isAllianzAssessor)?"DE=Werkstätten verwalten":"DE=Adressen"}</Expression>
+  <Expression>${(#isAllianzAssessor)?"DE=Adressen verwalten":"DE=Adressen"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-03-21T16:53:26.357</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-03-21T16:53:26.357</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:33:40.140</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12199,7 +12199,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:52.390</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:05.904</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-09T11:34:39.125</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>

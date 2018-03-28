@@ -66,6 +66,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3BA7D714-7068-8809-2DF8-69E84C25075E</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactRelatedContacts</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:04:49.141</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:04:49.141</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A63326F7-0945-B63C-6E9E-C78875D72E48</ItemId>
   <Context>
    <Process>MasterData</Process>
@@ -110,6 +127,57 @@
   <CreationTimeStamp>2018-03-01T09:20:19.597</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-01T09:20:19.597</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9C5E7566-D582-7AF8-4C8E-57502C4F3469</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactComments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:05:13.182</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:05:13.182</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E155A7F4-68ED-810F-7D67-DAF121B86E5D</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactComments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:03:42.569</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:03:42.569</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AE79EC8A-43BC-29E2-E00A-6694CAFCEB6D</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContact</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:03:59.386</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:03:59.386</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -480,6 +548,23 @@
   <CreationTimeStamp>2018-03-22T12:33:31.124</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-22T12:33:31.124</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>99D0A2BE-A900-5FA3-BF6C-ACCC6FFD7BA0</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactRelatedContacts</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:04:18.711</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:04:18.711</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1105,6 +1190,57 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B7D02DC8-6E65-3233-7414-30CDC9A40C35</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:01:49.797</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:01:49.797</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>94A943A3-B6EA-76D0-387B-BEF8BC4DB683</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactBankDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:04:24.839</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:04:24.839</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DC9DF6F9-4177-31AD-9850-AE9BA7B15E76</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContact</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:04:58.125</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:04:58.125</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>07197700-31DF-7A46-483B-080538F3822E</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
@@ -1135,6 +1271,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C8B47CFE-F3DE-BEBF-C2B2-6B9400BFA487</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactBankDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T08:05:04.067</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T08:05:04.067</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1E7E05C3-78E3-AC27-28CD-10670F3ADE60</ItemId>
   <Context>
    <Process>MasterData</Process>
@@ -1149,5 +1302,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-27T08:27:54.591</LastUpdateTimeStamp>
  </Rule>
- <Size>71</Size>
+ <Size>80</Size>
 </BRERuleListType>

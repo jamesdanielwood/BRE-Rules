@@ -50,6 +50,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>769E252C-C5BD-E139-5A41-E55203BBB10E</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>predefinedTextblocksAccessLevel</Key>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T07:56:33.651</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T07:56:33.651</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4D58AAFE-34B3-AFC4-0D55-0DCD7B60B207</ItemId>
   <Context>
    <ProcessStep>CsaCollectionDetails</ProcessStep>
@@ -458,12 +474,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.csa.documentTextBlockDetails.claimTypes</Key>
-  <Value>Liability,FullCoverage,PartialCoverage,GeneralLiability</Value>
+  <Expression>${#claimType}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:28.645</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.291</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T07:50:51.205</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1053,12 +1069,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.csa.documentTextBlockSearch.claimtype</Key>
-  <Value>CostEstimate,PartialCoverage,Liability,FullCoverage</Value>
+  <Expression>${#claimType}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:29.174</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:48.784</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T07:51:17.208</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1354,12 +1370,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.csa.documentTextBlockSearch.claimtype</Key>
-  <Value>CostEstimate,PartialCoverage,Liability,FullCoverage</Value>
+  <Expression>${#claimType}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:28.951</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.010</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T07:50:59.428</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2762,12 +2778,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.csa.documentTextBlockDetails.claimTypes</Key>
-  <Value>Liability,FullCoverage,PartialCoverage,GeneralLiability</Value>
+  <Expression>${#claimType}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:29.236</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:50.280</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T07:50:32.044</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3100,12 +3116,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.csa.documentTemplateDetails.claimTypes</Key>
-  <Value>Liability,FullCoverage,PartialCoverage,GeneralLiability</Value>
+  <Expression>${#claimType}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:28.701</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:50.680</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T07:51:07.533</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3916,12 +3932,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.csa.documentTextBlockDetails.claimTypes</Key>
-  <Value>Liability,FullCoverage,PartialCoverage,GeneralLiability</Value>
+  <Expression>${#claimType}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-08-31T12:53:34.887</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.030</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T07:51:25.569</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4332,12 +4348,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.csa.documentTextBlockSearch.claimtype</Key>
-  <Value>PartialCoverage,Coverage,CostEstimate,Liability,FullCoverage</Value>
+  <Expression>${#claimType}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-07-12T12:20:27.005</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.365</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T07:50:42.541</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5983,6 +5999,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6F47F038-CC11-88F3-3EB9-C8183D6D0909</ItemId>
+  <Context>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>grantChildOrganizationsParentWriteAccess</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T07:55:40.546</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T07:55:40.546</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D4502FE9-31E8-3391-9403-B5A2D25A3411</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTemplateDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>predefinedTextblocksAccessLevel</Key>
+  <Expression>${(#memberType=="Person") ? "Person" : ""}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-28T07:56:16.282</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T07:56:16.283</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3E209856-F75A-9311-5D17-F242606479B3</ItemId>
   <Context>
    <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
@@ -6125,5 +6173,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-15T13:36:26.634</LastUpdateTimeStamp>
  </Rule>
- <Size>382</Size>
+ <Size>385</Size>
 </BRERuleListType>
