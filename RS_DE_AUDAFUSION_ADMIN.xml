@@ -24,12 +24,12 @@
   </Context>
   <RuleType>Variable</RuleType>
   <Key>personMenuSteps</Key>
-  <Value>[{stepName: "MemberDetails"},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberDetails"},{stepName: "CsaStampsAndSignaturesList"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T09:12:06.004</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-22T11:28:01.117</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T10:19:42.403</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -548,6 +548,22 @@
   <CreationTimeStamp>2018-03-22T12:33:31.124</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-22T12:33:31.124</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D9772AE6-644C-6C30-5058-C0F618D783B0</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>personMenuSteps</Key>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberDetails"},{stepName: "CsaStampsAndSignaturesList"},{stepName: "CsaImageDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-28T10:20:49.624</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T10:20:49.624</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1148,12 +1164,12 @@
   </Context>
   <RuleType>Variable</RuleType>
   <Key>organizationMenuSteps</Key>
-  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberListTable"},{stepName: "MemberOrganizationDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberListTable"},{stepName: "MemberOrganizationDetails"},{stepName: "CsaStampsAndSignaturesList"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-23T09:16:41.357</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-27T07:55:06.052</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-28T10:19:54.279</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1288,6 +1304,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>503931DB-8144-E60C-3DED-277E8732A516</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>organizationMenuSteps</Key>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberListTable"},{stepName: "MemberOrganizationDetails"},{stepName: "CsaStampsAndSignaturesList"},{stepName: "CsaImageDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-28T10:21:08.792</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T10:21:08.792</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1E7E05C3-78E3-AC27-28CD-10670F3ADE60</ItemId>
   <Context>
    <Process>MasterData</Process>
@@ -1302,5 +1334,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-27T08:27:54.591</LastUpdateTimeStamp>
  </Rule>
- <Size>80</Size>
+ <Size>82</Size>
 </BRERuleListType>
