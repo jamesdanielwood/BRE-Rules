@@ -47061,6 +47061,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>30379B2D-56FC-1C15-2679-F4951526B025</ItemId>
+  <Context>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>showDifferencesWithCurrentCalculation</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-29T08:10:19.919</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T08:10:19.919</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F74E1FDF-7416-1FFE-940A-63CF56A5EC13</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>showDifferencesWithCurrentCalculation</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-29T08:10:27.237</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T08:10:27.237</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D9752650-9C79-3C58-213A-838AE41DC070</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -52849,6 +52881,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BE836164-07F4-8F39-0AB9-35248D8AB53E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>tracking.calculation</Key>
+  <Value>"DE=Kalkulation","EN=Calculation"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-29T08:11:43.699</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T08:14:39.859</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DD86C04C-2E61-12B0-53C2-980A54A52E58</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -53058,6 +53105,66 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>36E745F5-39D6-744D-4AE3-B5D825BB88AD</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>getLastCheckedCompleteCalculation</Key>
+  <Expression>${(getLastCheckedCompleteCalculation(task.itemId))}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-29T08:09:55.304</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T08:09:55.304</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3279EF72-A353-0ACC-9FCB-77E4A4A4448B</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>tracking.calculation.haschange</Key>
+  <Value>"DE=Sie haben kalkulationsrelevante Daten geändert. Bitte kalkulieren Sie neu. Klicken Sie, um die Änderungen anzuzeigen.","EN=Calculation relevant data are changed, please recalculate. Click to see the changes."</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-29T08:10:53.805</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T08:13:55.731</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B6979A06-1B73-AD92-7ECC-EBE904E53236</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>tracking.actualdata</Key>
+  <Value>"DE=Wirkliche Daten","EN=Actual data"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-29T08:11:08.970</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T08:15:58.168</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>61218075-1B87-D7FC-CF5F-CA497AE90669</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>Tracking.MappingName</Key>
+  <Value>Audafusion</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-29T08:12:43.123</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T08:12:43.123</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BC27A2FC-200E-3E99-59F2-302F9F5527D6</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -53190,5 +53297,20 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-28T15:32:47.190</LastUpdateTimeStamp>
  </Rule>
- <Size>3307</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EC27136D-CDC2-0206-2189-C542A6504081</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>tracking.achtungPopUpHeader</Key>
+  <Value><![CDATA[DE=<i class="material-icons">error_outline</i>Achtung,"EN=<i class="material-icons">error_outline</i>Warning]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-03-29T08:12:10.647</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T08:14:28.572</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3315</Size>
 </BRERuleListType>
