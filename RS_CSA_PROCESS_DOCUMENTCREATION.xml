@@ -18,6 +18,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>42BF9248-5272-6F38-3E1D-AE5FEC86CFAE</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttemplatedetails.confirmation.dialog.title</Key>
+  <Value>DE=Achtung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-30T09:48:02.491</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-30T09:48:07.784</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DC850446-3BE8-D3C5-624D-0F5D3C734563</ItemId>
   <Context>
    <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
@@ -58,11 +75,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>predefinedTextblocksAccessLevel</Key>
+  <Expression>${(#memberType=="Person") ? "Person" : ""}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-28T07:56:33.651</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-28T07:56:33.651</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-28T14:40:54.654</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -175,6 +193,39 @@
   <CreationTimeStamp>2018-03-22T09:31:05.091</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-22T09:31:05.091</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DF59B3B3-6502-2E64-8933-82E00C834598</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.documentTextBlockDetails.conditionCombined</Key>
+  <Value>DE=Bedingung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-05T19:12:31.225</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-05T19:14:29.025</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>69F0DF6F-CD66-5E54-30E3-3A2CDA0BE41F</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.saveonorgquestion</Key>
+  <Value>"DE=Sie versuchen, einen Textbaustein auf höher Ebene zu speichern. Somit wird es auf Ihre Zugriffsebene kopiert. Fortsetzen?"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-30T09:47:28.483</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-30T09:47:28.483</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -667,12 +718,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Document Text Block Search</Key>
-  <Value>root.csa.documentTextBlockSearch.name,root.csa.documentTextBlockSearch.description,root.csa.documentTextBlockSearch.category,root.csa.documentTextBlockSearch.destination,root.csa.documentTextBlockSearch.label,root.csa.documentTextBlockSearch.owner,root.csa.documentTextBlockSearch.lastUpdatedBy,root.csa.documentTextBlockSearch.updatefrom,root.csa.documentTextBlockSearch.updateto,root.csa.documentTextBlockSearch.readstatus,root.csa.documentTextBlockSearch.xsltstatus,root.csa.documentTextBlockSearch.claimtype,root.csa.documentTextBlockSearch.searchButton,root.csa.documentTextBlockSearch.cancelButton</Value>
+  <Value>root.csa.documentTextBlockSearch.name,root.csa.documentTextBlockSearch.description,root.csa.documentTextBlockSearch.category,root.csa.documentTextBlockSearch.destination,root.csa.documentTextBlockSearch.label,root.csa.documentTextBlockSearch.owner,root.csa.documentTextBlockSearch.lastUpdatedBy,root.csa.documentTextBlockSearch.updatefrom,root.csa.documentTextBlockSearch.updateto,root.csa.documentTextBlockSearch.readstatus,root.csa.documentTextBlockSearch.xsltstatus,emptyField1522930201712,root.csa.documentTextBlockSearch.claimtype,root.csa.documentTextBlockSearch.searchButton,root.csa.documentTextBlockSearch.cancelButton</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:28.745</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.417</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-05T14:10:01.888</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1443,6 +1494,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8DB55D2C-E9DB-7676-5986-0E73106A1652</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTemplateDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttemplatedetails.confirmation.dialog.saveonorgquestion</Key>
+  <Value>"DE=Sie versuchen, eine Vorlage auf höher Ebene zu speichern. Somit wird es auf Ihre Zugriffsebene kopiert. Fortsetzen?"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-30T09:48:48.585</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-30T09:48:55.109</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4D5DD3EE-AD65-90EA-5209-DA6E5C8020F6</ItemId>
   <Context>
    <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
@@ -1472,6 +1540,22 @@
   <CreationTimeStamp>2018-03-22T09:21:55.921</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-22T09:21:55.921</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F6F87C50-47A0-A4F2-950B-3F3B85FAF7A5</ItemId>
+  <Context>
+   <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.documentTextBlockList.Signature</Key>
+  <Value>DE=Unterschrift</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-04T12:07:02.193</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-04T12:07:02.193</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1747,6 +1831,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2DEF098F-97B5-6E54-349D-E8CFC534B2CE</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>destination.signature</Key>
+  <Value>DE=Unterschrift</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-02T08:36:02.427</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-02T08:36:02.427</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4CB127A2-3365-BF43-57B5-48D9A8352842</ItemId>
   <Context>
    <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
@@ -1904,22 +2004,6 @@
   <CreationTimeStamp>2016-07-21T16:45:33.621</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-07-10T10:19:49.882</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D47EDF81-8660-E3BF-05D7-8E46E51A1EF2</ItemId>
-  <Context>
-   <ProcessStep>CsaImageDetails</ProcessStep>
-   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.actionButtons.backButton</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2016-08-31T12:53:35.410</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.918</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2272,22 +2356,6 @@
   <CreationTimeStamp>2016-08-31T12:53:34.930</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-07-10T10:19:50.727</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>66C19CD9-CE74-84F2-C909-EB46E28E8A5E</ItemId>
-  <Context>
-   <ProcessStep>CsaImageDetails</ProcessStep>
-   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.csa.documentTextBlockDetails.delete</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2016-08-31T12:53:35.420</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:50.754</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2649,12 +2717,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>predefinedTextblocksAccessLevel</Key>
-  <Value>Person</Value>
+  <Expression>${(#memberType=="Person") ? "Person" : ""}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-08-31T12:53:34.861</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:51.134</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T21:20:53.201</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3173,6 +3241,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7F20D576-DFB6-36DD-191E-DE36B3227D08</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTemplateDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttemplatedetails.confirmation.dialog.title</Key>
+  <Value>DE=Achtung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-30T09:49:10.428</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-30T09:49:13.549</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E965928B-24F9-B2C9-CCF6-61AB6746CE5D</ItemId>
   <Context>
    <ProcessStep>CsaDocumentTemplateDetails</ProcessStep>
@@ -3292,12 +3377,12 @@
   </Context>
   <RuleType>FieldVisibility</RuleType>
   <Key>root.csa.documentTextBlockSearch.owner</Key>
-  <Value>show</Value>
+  <Value>remove</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:28.743</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:48.724</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-04T16:41:50.131</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4863,8 +4948,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:28.944</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:49.758</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-05T19:12:07.031</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6173,5 +6258,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-15T13:36:26.634</LastUpdateTimeStamp>
  </Rule>
- <Size>385</Size>
+ <Size>390</Size>
 </BRERuleListType>

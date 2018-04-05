@@ -521,6 +521,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>04A173E2-D9C6-A9C5-C39D-5B55C77868E1</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-29T21:22:43.002</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-29T21:22:43.002</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>77D2A666-CAC0-7D08-8964-7A6F29DB0DBF</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
@@ -1334,5 +1351,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-27T08:27:54.591</LastUpdateTimeStamp>
  </Rule>
- <Size>82</Size>
+ <Size>83</Size>
 </BRERuleListType>
