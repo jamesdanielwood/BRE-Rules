@@ -427,22 +427,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>A7C1F8A9-8623-18D3-8030-C37AE6CDE5B4</ItemId>
-  <Context>
-   <ProcessStep>DamageData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.caseType</Key>
-  <Value>DamageLoss=Schaden / Minderung,IntakeDefault=Eingabe (Vorgabe),IntakeDriverExchange=Eingabe Fahrerwechsel	,Other=Andere,CashOnHand,TopPrice,PrivateContracted,PrivateNotContracted,AuthorisedContracted,AuthorisedNonContracted,Vehicle,Boat,RiskOldTime,RiskBoat,RiskPreviousDamage,DriveIn,FinalCaseAdjusted,Truck,ReplacementVehicle,MobileCase,Tyres,Glass</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-03-22T11:38:53.897</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-22T11:40:20.391</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E98E32A2-73DD-A712-DC0E-DCFCA809FA60</ItemId>
   <Context>
    <Process>Schadengutachten-Bewertung</Process>
@@ -796,5 +780,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-21T18:37:39.243</LastUpdateTimeStamp>
  </Rule>
- <Size>49</Size>
+ <Size>48</Size>
 </BRERuleListType>

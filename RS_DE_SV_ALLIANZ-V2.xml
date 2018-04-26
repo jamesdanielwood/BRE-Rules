@@ -27126,7 +27126,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:13.797</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-05T17:02:43.662</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-07T23:47:50.915</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28952,12 +28952,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.additionalValueWhenNew</Key>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
+  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField()" : "secondLabel=EUR,showCurrencyLabel=true,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField();"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-04T09:50:13.299</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-05T17:02:42.825</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-16T10:18:24.792</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -34271,28 +34271,28 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.htmlimport.domreadyjsChangeSelection</Key>
-  <Value><![CDATA[var documentElements=$('input[type=checkbox][id^="root.task.documentAndAttachmentList.select"]');var docIds=[];for(var i=0;i<documentElements.length;i++){docIds.push(documentElements[i].attributes['item-id'].nodeValue);}var changedSelectionIds=document.getElementById("BREForm_root.task.documentAndAttachmentList.selectionChangedItems").value.split(",");var i =changedSelectionIds.length;while(i--){if(docIds.indexOf(changedSelectionIds[i])==-1){changedSelectionIds.splice(i,1);}}document.getElementById("BREForm_root.task.documentAndAttachmentList.selectionChangedItems").value = changedSelectionIds.toString();]]></Value>
+  <Value><![CDATA[var documentElements=$('input[type=checkbox][id^="root.task.documentAndAttachmentList.select"]');var docIds=[];for(var i=0;i<documentElements.length;i++){docIds.push(documentElements[i].attributes["item-id"].nodeValue)}var changedItemsValue=$(BRE.CommonUtils.createJQueryIdSelector("BREForm_root.task.documentAndAttachmentList.selectionChangedItems"));if(changedItemsValue.val()){var changedSelectionIds=changedItemsValue.val().split(",");var i=changedSelectionIds.length;while(i--){if(docIds.indexOf(changedSelectionIds[i])==-1){changedSelectionIds.splice(i,1)}}changedItemsValue.val(changedSelectionIds.toString())}]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-05T17:16:20.761</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-05T17:16:20.761</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-13T08:25:15.900</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2EA597F9-6BEB-6990-C1C6-DE24DCF35132</ItemId>
   <Context>
-   <ProcessStep>SendToABS</ProcessStep>
+   <ProcessStep>START</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>error.kadcopydocumentstosenttask.validationmessage.pdfissue</Key>
-  <Value>EN=An error occurred while creating the PDF attachments. No e-mail was sent. Please try again later or contact your support.,DE=Beim Erzeugen der PDF-Anhänge ist ein Fehler aufgetreten. Es wurde daher keine E-Mail versandt. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut oder wenden Sie sich an Ihren Support.</Value>
+  <Value>EN=An error occurred while creating the PDF attachments. Please try again later or contact your support.,DE=Beim Erzeugen der PDF-Anhänge ist ein Fehler aufgetreten. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut oder wenden Sie sich an Ihren Support.</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-05T17:20:48.453</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-05T17:20:48.453</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-12T10:01:59.834</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45045,6 +45045,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1BA93579-DB79-C83D-6102-8260B2D4A5C2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>maxSenderEmailLength</Key>
+  <Value>50</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-19T15:33:20.210</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-19T15:33:20.210</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1FD2C9D0-264F-8C35-3AD1-FB8CA43E46CC</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -45494,6 +45509,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>205751AD-9C59-8E9E-3AF4-0BC4F6985754</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.htmlimport.domreadyjsAdditionalValueUpdateWoVAT</Key>
+  <Value>Value:var onChangeValue=$('#BREForm_root\\.task\\.minderwert\\.inputData\\.valueWhenNewAmount').attr("onchange");onChangeValue+="BRE.Minderwert.updateAdditionalValueWhenNewField()";$('#BREForm_root\\.task\\.minderwert\\.inputData\\.valueWhenNewAmount').attr("onchange",onChangeValue);</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:02:50.539</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-A0528F2332D8808C21</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-19T10:49:35.994</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>60B844DB-088E-614A-F751-52C759DF9797</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -45644,6 +45675,22 @@
   <CreationTimeStamp>2017-06-21T08:36:56.963</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-05T17:02:41.738</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BBACFA50-B85E-EBA0-ABEB-D7BE2A3BD7EA</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.htmlimport.domreadyjsAdditionalValueUpdateWoVAT</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:02:21.481</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-12T08:02:21.481</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46102,6 +46149,38 @@
   <CreationTimeStamp>2017-04-13T13:19:28.964</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-05T17:02:49.991</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7BF45704-EE04-35FC-542E-739C41A036E1</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.htmlimport.domreadyjsAdditionalValueUpdateWithVAT</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:03:42.960</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-12T08:03:42.960</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A182D66B-A841-83A1-F9C3-1A03A9EA7FC9</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.htmlimport.domreadyjsAdditionalValueUpdateWithVAT</Key>
+  <Value>var onChangeValue=$('#BREForm_root\\.task\\.minderwert\\.inputData\\.valueWhenNewAmountWithVAT').attr("onchange");onChangeValue+="BRE.Minderwert.updateAdditionalValueWhenNewField()";$('#BREForm_root\\.task\\.minderwert\\.inputData\\.valueWhenNewAmountWithVAT').attr("onchange",onChangeValue);</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:03:59.382</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-A0528F2332D8808C21</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-19T10:49:10.740</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -50564,6 +50643,22 @@
   <CreationTimeStamp>2017-04-06T10:23:10.592</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-05T17:02:49.580</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2BB6F17F-1BAB-5E3B-3CC1-E88ED14F706C</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>error.reportstable.email.too.long</Key>
+  <Value>EN=Sender Email is longer than allowed,DE=Sender Email is longer than allowed</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-19T15:33:00.523</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-19T15:33:00.524</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55288,17 +55383,17 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5FBBA35F-B114-2BE5-5B9C-9FAE34E9584E</ItemId>
   <Context>
-   <ProcessStep>SendToABS</ProcessStep>
+   <ProcessStep>START</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>error.kadsendreportstopostcenter.validationmessage.pdfissue</Key>
-  <Value>EN=An error occurred while creating the PDF attachments. No e-mail was sent. Please try again later or contact your support.,DE=Beim Erzeugen der PDF-Anhänge ist ein Fehler aufgetreten. Es wurde daher keine E-Mail versandt. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut oder wenden Sie sich an Ihren Support.</Value>
+  <Value>En=An error occurred while creating the PDF attachments. No e-mail was sent. Please try again later or contact your support.,DE=Beim Erzeugen der PDF-Anhänge ist ein Fehler aufgetreten. Es wurde daher keine E-Mail versandt. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut oder wenden Sie sich an Ihren Support.</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-05T17:22:05.370</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-05T17:22:05.370</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-12T10:02:32.246</LastUpdateTimeStamp>
  </Rule>
- <Size>3403</Size>
+ <Size>3409</Size>
 </BRERuleListType>

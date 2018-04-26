@@ -1323,12 +1323,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>TowingCompany</Key>
-  <Value>root.task.caseMemberByRole.towingService.salutation,root.task.caseMemberByRole.towingService.inputTaxDeduction,root.task.caseMemberByRole.towingService.membersearchfield,root.task.caseMemberByRole.towingService.companyName,root.task.caseMemberByRole.towingService.firstName,root.task.caseMemberByRole.towingService.lastName,root.task.caseMemberByRole.towingService.contactPersonDescription,root.task.caseMemberByRole.towingService.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.towingService.address.street,root.task.caseMemberByRole.towingService.address.zipCode,root.task.caseMemberByRole.towingService.address.city,root.task.caseMemberByRole.towingService.address.countryISO,root.task.caseMemberByRole.towingService.address.line5,root.task.caseMemberByRole.towingService.communicationDetailList.phone2,root.task.caseMemberByRole.towingService.communicationDetailList.phone1,root.task.caseMemberByRole.towingService.communicationDetailList.mobile2,root.task.caseMemberByRole.towingService.communicationDetailList.mobile,root.task.caseMemberByRole.towingService.communicationDetailList.email1,root.task.caseMemberByRole.towingService.communicationDetailList.fax1,root.task.caseMemberByRole.towingService.isAlso.inspectionLocation,root.task.caseMemberByRole.towingService.active</Value>
+  <Value>root.task.caseMemberByRole.towingService.salutation,root.task.caseMemberByRole.towingService.inputTaxDeduction,root.task.caseMemberByRole.towingService.membersearchfield,root.task.caseMemberByRole.towingService.companyName,root.task.caseMemberByRole.towingService.firstName,root.task.caseMemberByRole.towingService.lastName,root.task.caseMemberByRole.towingService.contactPersonDescription,root.task.caseMemberByRole.towingService.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.towingService.address.street,root.task.caseMemberByRole.towingService.address.zipCode,root.task.caseMemberByRole.towingService.address.city,root.task.caseMemberByRole.towingService.address.countryISO,root.task.caseMemberByRole.towingService.address.line5,root.task.caseMemberByRole.towingService.communicationDetailList.phone2,root.task.caseMemberByRole.towingService.communicationDetailList.phone1,root.task.caseMemberByRole.towingService.communicationDetailList.mobile2,root.task.caseMemberByRole.towingService.communicationDetailList.mobile,root.task.caseMemberByRole.towingService.communicationDetailList.email1,root.task.caseMemberByRole.towingService.communicationDetailList.fax1,root.task.caseMemberByRole.towingService.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:24.428</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:50:26.690</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-20T12:37:54.756</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1573,54 +1573,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>5050ACA1-6801-66E9-296F-9302D27BCF5D</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseMemberByRole.other.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:45:01.437</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:45:01.437</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>036E3C59-BEAD-A5E4-3281-0A1E283C022D</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberByRole.other.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:45:25.505</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:45:25.505</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>18551DB8-89D6-CDFF-6AFC-FF087C19F24A</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberByRole.towingService.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:50:57.721</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:50:57.721</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D834FEA8-C3FB-14BB-0151-B7DB00B19636</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -1634,38 +1586,6 @@
   <CreationTimeStamp>2018-04-20T15:07:54.321</CreationTimeStamp>
   <LastUpdatedBy>MM-P-A0528F2332D8808C21</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-20T15:07:54.321</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B99274E3-0E98-D97A-8F28-CEFEF22713DE</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberByRole.claimAssistant.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:48:12.881</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:48:12.881</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>CC92BFA9-2A3C-3F2B-9A25-CF7E0C04360A</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberByRole.client.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:38:10.493</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:38:10.493</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3688,12 +3608,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.task.documentDetails.template</Key>
-  <Expression>${(task.caseType == "DamageLoss") ? "525860753549165" : (task.caseType == "IntakeDefault") ? "526092505912971" : (task.caseType == "IntakeDriverExchange") ? "526212404119902" : (task.caseType == "Other") ? "526451955627746" : (task.caseType == "CashOnHand") ? "526573962967971" : (task.caseType == "TopPrice") ? "526685294668916" : (task.caseType == "PrivateContracted") ? "527054092072121" : (task.caseType == "PrivateNonContracted") ? "527218303175893" : (task.caseType == "AuthorisedContracted") ? "527391308556658" : (task.caseType == "AuthorisedNonContracted") ? "527495395544637" : (task.caseType == "Vehicle") ? "527618071203375" : (task.caseType == "Boat") ? "527716998960311" : (task.caseType == "RiskOldTimer") ? "527824481855988" : (task.caseType == "RiskBoat") ? "527915563933260" : (task.caseType == "RiskPreviousDamage") ? "528036581786720" : (task.caseType == "DriveIn") ? "1560937357787176" : (task.caseType == "FinalCaseAdjusted") ? "13293602083613328" : (task.caseType == "Truck") ? "13300919000628008" : ""}</Expression>
+  <Expression>${(task.caseType == "DamageLoss") ? "525860753549165" : (task.caseType == "IntakeDefault") ? "526092505912971" : (task.caseType == "IntakeDriverExchange") ? "526212404119902" : (task.caseType == "Other") ? "526451955627746" : (task.caseType == "CashOnHand") ? "526573962967971" : (task.caseType == "TopPrice") ? "526685294668916" : (task.caseType == "PrivateContracted") ? "527054092072121" : (task.caseType == "PrivateNonContracted") ? "527218303175893" : (task.caseType == "AuthorisedContracted") ? "527391308556658" : (task.caseType == "AuthorisedNonContracted") ? "527495395544637" : (task.caseType == "Vehicle") ? "527618071203375" : (task.caseType == "Boat") ? "527716998960311" : (task.caseType == "RiskOldTimer") ? "527824481855988" : (task.caseType == "RiskBoat") ? "527915563933260" : (task.caseType == "RiskPreviousDamage") ? "528036581786720" : (task.caseType == "DriveIn") ? "1560937357787176" : (task.caseType == "FinalCaseAdjusted") ? "13293602083613328" : (task.caseType == "Truck") ? "13300919000628000" : ""}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-17T10:48:27.990</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T10:16:02.011</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-23T12:51:58.743</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4604,12 +4524,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ClaimAssistant</Key>
-  <Value>root.task.caseMemberByRole.claimAssistant.salutation,root.task.caseMemberByRole.claimAssistant.membersearchfield,root.task.caseMemberByRole.claimAssistant.companyName,root.task.caseMemberByRole.claimAssistant.firstName,root.task.caseMemberByRole.claimAssistant.lastName,root.task.caseMemberByRole.claimAssistant.contactPersonDescription,root.task.caseMemberByRole.claimAssistant.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.claimAssistant.address.street,root.task.caseMemberByRole.claimAssistant.address.zipCode,root.task.caseMemberByRole.claimAssistant.address.city,root.task.caseMemberByRole.claimAssistant.address.countryISO,root.task.caseMemberByRole.claimAssistant.address.line5,root.task.caseMemberByRole.claimAssistant.communicationDetailList.phone2,root.task.caseMemberByRole.claimAssistant.communicationDetailList.phone1,root.task.caseMemberByRole.claimAssistant.communicationDetailList.mobile2,root.task.caseMemberByRole.claimAssistant.communicationDetailList.mobile,root.task.caseMemberByRole.claimAssistant.communicationDetailList.email1,root.task.caseMemberByRole.claimAssistant.communicationDetailList.fax1,root.task.caseMemberByRole.claimAssistant.isAlso.inspectionLocation,root.task.caseMemberByRole.claimAssistant.active</Value>
+  <Value>root.task.caseMemberByRole.claimAssistant.salutation,root.task.caseMemberByRole.claimAssistant.membersearchfield,root.task.caseMemberByRole.claimAssistant.companyName,root.task.caseMemberByRole.claimAssistant.firstName,root.task.caseMemberByRole.claimAssistant.lastName,root.task.caseMemberByRole.claimAssistant.contactPersonDescription,root.task.caseMemberByRole.claimAssistant.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.claimAssistant.address.street,root.task.caseMemberByRole.claimAssistant.address.zipCode,root.task.caseMemberByRole.claimAssistant.address.city,root.task.caseMemberByRole.claimAssistant.address.countryISO,root.task.caseMemberByRole.claimAssistant.address.line5,root.task.caseMemberByRole.claimAssistant.communicationDetailList.phone2,root.task.caseMemberByRole.claimAssistant.communicationDetailList.phone1,root.task.caseMemberByRole.claimAssistant.communicationDetailList.mobile2,root.task.caseMemberByRole.claimAssistant.communicationDetailList.mobile,root.task.caseMemberByRole.claimAssistant.communicationDetailList.email1,root.task.caseMemberByRole.claimAssistant.communicationDetailList.fax1,root.task.caseMemberByRole.claimAssistant.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:07.714</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:47:29.067</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:00.814</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6712,7 +6632,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0857976C-7E5D-5075-70C4-5F8BEE99FF24</ItemId>
   <Context>
-   <ProcessStep>AddressData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -6722,7 +6641,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-05T12:27:44.887</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T07:57:27.903</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:01.163</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9037,12 +8956,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>blockNames</Key>
-  <Value>PolicyHolder,BodyShop,InspectionLocation,VehicleOwner,Claimant,Insurance,Client,Agent,Opponent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany</Value>
+  <Value>Claimant,Insurance,BodyShop,PolicyHolder,InspectionLocation,VehicleOwner,Client,Agent,Opponent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:32.399</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:09:02.705</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:04.312</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9436,12 +9355,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Claimant</Key>
-  <Value>root.task.caseMemberCombo.claimant.salutation,root.task.caseMemberCombo.claimant.inputTaxDeduction,root.task.caseMemberCombo.claimant.membersearchfield,root.task.caseMemberCombo.claimant.companyName,root.task.caseMemberCombo.claimant.firstName,root.task.caseMemberCombo.claimant.lastName,root.task.caseMemberCombo.claimant.contactPersonDescription,root.task.caseMemberCombo.claimant.communicationDetailList.contactPersonPhone,root.task.caseMemberCombo.claimant.address.street,root.task.caseMemberCombo.claimant.address.zipCode,root.task.caseMemberCombo.claimant.address.city,root.task.caseMemberCombo.claimant.address.countryISO,root.task.caseMemberCombo.claimant.address.line5,root.task.caseMemberCombo.claimant.communicationDetailList.phone2,root.task.caseMemberCombo.claimant.communicationDetailList.phone1,root.task.caseMemberCombo.claimant.communicationDetailList.mobile2,root.task.caseMemberCombo.claimant.communicationDetailList.mobile,root.task.caseMemberCombo.claimant.communicationDetailList.email1,root.task.caseMemberCombo.claimant.communicationDetailList.fax1,root.task.caseMemberCombo.claimant.isAlso.vehicleOwner,root.task.caseMemberCombo.claimant.isAlso.client,root.task.caseMemberCombo.claimant.isAlso.inspectionLocation,root.task.caseMemberCombo.claimant.active</Value>
+  <Value>root.task.caseMemberCombo.claimant.salutation,root.task.caseMemberCombo.claimant.inputTaxDeduction,root.task.caseMemberCombo.claimant.membersearchfield,root.task.caseMemberCombo.claimant.companyName,root.task.caseMemberCombo.claimant.firstName,root.task.caseMemberCombo.claimant.lastName,root.task.caseMemberCombo.claimant.contactPersonDescription,root.task.caseMemberCombo.claimant.communicationDetailList.contactPersonPhone,root.task.caseMemberCombo.claimant.address.street,root.task.caseMemberCombo.claimant.address.zipCode,root.task.caseMemberCombo.claimant.address.city,root.task.caseMemberCombo.claimant.address.countryISO,root.task.caseMemberCombo.claimant.address.line5,root.task.caseMemberCombo.claimant.communicationDetailList.phone2,root.task.caseMemberCombo.claimant.communicationDetailList.phone1,root.task.caseMemberCombo.claimant.communicationDetailList.mobile2,root.task.caseMemberCombo.claimant.communicationDetailList.mobile,root.task.caseMemberCombo.claimant.communicationDetailList.email1,root.task.caseMemberCombo.claimant.communicationDetailList.fax1,root.task.caseMemberCombo.claimant.isAlso.vehicleOwner,root.task.caseMemberCombo.claimant.isAlso.client,root.task.caseMemberCombo.claimant.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:36.179</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:56:03.853</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:06.248</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11376,12 +11295,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>addressActiveTabs</Key>
-  <Value>['BREForm_block.PolicyHolder','BREForm_block.BodyShop','BREForm_block.InspectionLocation','BREForm_block.VehicleOwner']</Value>
+  <Value>['BREForm_block.Claimant','BREForm_block.Insurance','BREForm_block.BodyShop','BREForm_block.PolicyHolder','BREForm_block.InspectionLocation']</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-20T09:19:37.973</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:01:09.094</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:00.930</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11455,13 +11374,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.vehicleCondition</Key>
-  <Value>VeryGood=Serh Gut,Good=Gut,AccordingToMileage=Alter und Fahrleistung entsprechend,Bad=Schlecht,VeryBad=Ungepflegt,Unknown=Guter Zustand wurde angenommern,
-Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
+  <Value>Good,Bad,AccordingToMileage=Alter und Fahrleistung entsprechend</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.542</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T18:47:36.137</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:01.194</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15629,7 +15547,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CDB2D3FD-6C33-A30D-EB2B-0040EAF52245</ItemId>
   <Context>
-   <ProcessStep>AddressData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -15639,7 +15556,7 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.448</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T07:58:19.274</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:02.953</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -17804,70 +17721,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-07-11T09:25:36.936</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:51:01.501</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>AAB39340-34E2-BB6C-E47E-50658F9BC0BA</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseMemberByRole.thirdParty.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:42:01.231</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:42:01.231</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>665C8388-AB9A-0B86-BF1F-66BB220FB714</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberByRole.thirdParty.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:42:15.551</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:42:15.551</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>276E2EE7-6B8B-ED63-6104-1D3AF374BF44</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseMemberByRole.towingService.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:51:16.542</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:51:16.542</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>47024540-A868-E682-5F8E-8A4EF8CAA29E</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberByRole.towingService.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:51:27.255</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:51:27.255</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -21483,12 +21336,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>Client</Key>
-  <Value>root.task.caseMemberByRole.client.salutation,root.task.caseMemberByRole.client.inputTaxDeduction,root.task.caseMemberByRole.client.membersearchfield,root.task.caseMemberByRole.client.companyName,root.task.caseMemberByRole.client.firstName,root.task.caseMemberByRole.client.lastName,root.task.caseMemberByRole.client.contactPersonDescription,root.task.caseMemberByRole.client.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.client.address.street,root.task.caseMemberByRole.client.address.zipCode,root.task.caseMemberByRole.client.address.city,root.task.caseMemberByRole.client.address.countryISO,root.task.caseMemberByRole.client.address.line5,root.task.caseMemberByRole.client.communicationDetailList.phone2,root.task.caseMemberByRole.client.communicationDetailList.phone1,root.task.caseMemberByRole.client.communicationDetailList.mobile2,root.task.caseMemberByRole.client.communicationDetailList.mobile,root.task.caseMemberByRole.client.communicationDetailList.email1,root.task.caseMemberByRole.client.communicationDetailList.fax1,root.task.caseMemberByRole.client.isAlso.inspectionLocation,root.task.caseMemberByRole.client.active</Value>
+  <Value>root.task.caseMemberByRole.client.salutation,root.task.caseMemberByRole.client.inputTaxDeduction,root.task.caseMemberByRole.client.membersearchfield,root.task.caseMemberByRole.client.companyName,root.task.caseMemberByRole.client.firstName,root.task.caseMemberByRole.client.lastName,root.task.caseMemberByRole.client.contactPersonDescription,root.task.caseMemberByRole.client.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.client.address.street,root.task.caseMemberByRole.client.address.zipCode,root.task.caseMemberByRole.client.address.city,root.task.caseMemberByRole.client.address.countryISO,root.task.caseMemberByRole.client.address.line5,root.task.caseMemberByRole.client.communicationDetailList.phone2,root.task.caseMemberByRole.client.communicationDetailList.phone1,root.task.caseMemberByRole.client.communicationDetailList.mobile2,root.task.caseMemberByRole.client.communicationDetailList.mobile,root.task.caseMemberByRole.client.communicationDetailList.email1,root.task.caseMemberByRole.client.communicationDetailList.fax1,root.task.caseMemberByRole.client.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-05T15:41:01.938</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T19:30:45.036</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:02.172</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -23680,6 +23533,22 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>188EB02B-21DF-FF7D-ED31-852B2CF11BCF</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.documentDetails.generateEditablePreviewButton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-05T11:48:14.313</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-19T15:51:13.318</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>311399C2-7A9C-4524-26D0-D26818838648</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -25256,6 +25125,22 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5173EC0C-EF6B-0F4E-A5D6-5BC7E193A12D</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleAdmin.vehicleCondition</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-07-11T09:25:35.193</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-19T15:51:07.001</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CF7550E5-7E38-5B00-14DB-0F1CE7442758</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -26625,12 +26510,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>VehicleOwner</Key>
-  <Value>root.task.caseMemberCombo.vehicleOwner.salutation,root.task.caseMemberCombo.vehicleOwner.inputTaxDeduction,root.task.caseMemberCombo.vehicleOwner.membersearchfield,root.task.caseMemberCombo.vehicleOwner.companyName,root.task.caseMemberCombo.vehicleOwner.firstName,root.task.caseMemberCombo.vehicleOwner.lastName,root.task.caseMemberCombo.vehicleOwner.contactPersonDescription,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.contactPersonPhone,root.task.caseMemberCombo.vehicleOwner.address.street,root.task.caseMemberCombo.vehicleOwner.address.zipCode,root.task.caseMemberCombo.vehicleOwner.address.city,root.task.caseMemberCombo.vehicleOwner.address.countryISO,root.task.caseMemberCombo.vehicleOwner.address.line5,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.phone2,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.phone1,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.mobile2,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.mobile,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.email1,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.fax1,root.task.caseMemberCombo.vehicleOwner.isAlso.inspectionLocation,root.task.caseMemberCombo.vehicleOwner.active</Value>
+  <Value>root.task.caseMemberCombo.vehicleOwner.salutation,root.task.caseMemberCombo.vehicleOwner.inputTaxDeduction,root.task.caseMemberCombo.vehicleOwner.membersearchfield,root.task.caseMemberCombo.vehicleOwner.companyName,root.task.caseMemberCombo.vehicleOwner.firstName,root.task.caseMemberCombo.vehicleOwner.lastName,root.task.caseMemberCombo.vehicleOwner.contactPersonDescription,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.contactPersonPhone,root.task.caseMemberCombo.vehicleOwner.address.street,root.task.caseMemberCombo.vehicleOwner.address.zipCode,root.task.caseMemberCombo.vehicleOwner.address.city,root.task.caseMemberCombo.vehicleOwner.address.countryISO,root.task.caseMemberCombo.vehicleOwner.address.line5,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.phone2,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.phone1,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.mobile2,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.mobile,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.email1,root.task.caseMemberCombo.vehicleOwner.communicationDetailList.fax1,root.task.caseMemberCombo.vehicleOwner.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-29T07:48:49.155</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:29:22.830</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:01.816</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -37206,12 +37091,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>PolicyHolder</Key>
-  <Value>root.task.caseMemberCombo.policyHolder.salutation,root.task.caseMemberCombo.policyHolder.membersearchfield,root.task.caseMemberCombo.policyHolder.companyName,root.task.caseMemberCombo.policyHolder.firstName,root.task.caseMemberCombo.policyHolder.lastName,root.task.caseMemberCombo.policyHolder.contactPersonDescription,root.task.caseMemberCombo.policyHolder.communicationDetailList.contactPersonPhone,root.task.caseMemberCombo.policyHolder.address.street,root.task.caseMemberCombo.policyHolder.address.zipCode,root.task.caseMemberCombo.policyHolder.address.city,root.task.caseMemberCombo.policyHolder.address.countryISO,root.task.caseMemberCombo.policyHolder.address.line5,root.task.caseMemberCombo.policyHolder.communicationDetailList.phone2,root.task.caseMemberCombo.policyHolder.communicationDetailList.phone1,root.task.caseMemberCombo.policyHolder.communicationDetailList.mobile2,root.task.caseMemberCombo.policyHolder.communicationDetailList.mobile,root.task.caseMemberCombo.policyHolder.communicationDetailList.email1,root.task.caseMemberCombo.policyHolder.communicationDetailList.fax1,root.task.caseMemberCombo.policyHolder.inputTaxDeduction,root.task.caseMemberCombo.policyHolder.isAlso.other,root.task.caseMemberCombo.policyHolder.isAlso.inspectionLocation,root.task.caseMemberCombo.policyHolder.active</Value>
+  <Value>root.task.caseMemberCombo.policyHolder.salutation,root.task.caseMemberCombo.policyHolder.membersearchfield,root.task.caseMemberCombo.policyHolder.companyName,root.task.caseMemberCombo.policyHolder.firstName,root.task.caseMemberCombo.policyHolder.lastName,root.task.caseMemberCombo.policyHolder.contactPersonDescription,root.task.caseMemberCombo.policyHolder.communicationDetailList.contactPersonPhone,root.task.caseMemberCombo.policyHolder.address.street,root.task.caseMemberCombo.policyHolder.address.zipCode,root.task.caseMemberCombo.policyHolder.address.city,root.task.caseMemberCombo.policyHolder.address.countryISO,root.task.caseMemberCombo.policyHolder.address.line5,root.task.caseMemberCombo.policyHolder.communicationDetailList.phone2,root.task.caseMemberCombo.policyHolder.communicationDetailList.phone1,root.task.caseMemberCombo.policyHolder.communicationDetailList.mobile2,root.task.caseMemberCombo.policyHolder.communicationDetailList.mobile,root.task.caseMemberCombo.policyHolder.communicationDetailList.email1,root.task.caseMemberCombo.policyHolder.communicationDetailList.fax1,root.task.caseMemberCombo.policyHolder.inputTaxDeduction,root.task.caseMemberCombo.policyHolder.isAlso.other,root.task.caseMemberCombo.policyHolder.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:40.167</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:24:34.744</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:09.963</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38715,85 +38600,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>FE61F23E-D7DF-0DDA-E5C3-A9F9CDE48E30</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberByRole.client.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T19:31:34.191</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:36:32.430</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>DAB05E23-26CB-1E57-6BFF-E448EFF730CA</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberByRole.thirdParty.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:41:41.475</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:41:41.475</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>EE87B98C-E694-3ECC-6B59-57D2849D03B3</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>defaultOrganizationSalutation</Key>
-  <Value>Company</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T08:08:24.625</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T08:08:24.625</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C45F2953-F6C3-538D-53B6-36610AE1D424</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseMemberCombo.vehicleOwner.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:29:59.124</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:31:23.420</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>21E87E50-8C6C-A2DA-693C-0020C43A0AAA</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:28:11.292</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:28:11.292</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>590577FA-20E3-C5CA-0525-FB2E0B3EE816</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -40262,13 +40068,13 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>root.task.caseMemberByRole.thirdParty.mode</Key>
+  <Key>root.task.caseMemberCombo.thirdParty.mode</Key>
   <Value>edit</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:06.616</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T19:23:01.449</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:09.927</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42280,12 +42086,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>BodyShop</Key>
-  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.basicClaimData.repairDetail.repairer.membersearchfield,root.task.redirectToStepTab.redirectToStepTabButton,root.task.basicClaimData.repairDetail.repairer.salutation,root.task.basicClaimData.repairDetail.repairer.deputyName,root.task.basicClaimData.repairDetail.repairer.address.street,root.task.basicClaimData.repairDetail.repairer.address.zipCode,root.task.basicClaimData.repairDetail.repairer.address.city,root.task.basicClaimData.repairDetail.repairer.address.countryISO,root.task.basicClaimData.repairDetail.repairer.address.line5,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.phone1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.fax1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.email1,root.task.basicClaimData.vehicleLocation.foreignId,root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation,root.task.basicClaimData.repairDetail.repairer.active</Value>
+  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.basicClaimData.repairDetail.repairer.membersearchfield,root.task.redirectToStepTab.redirectToStepTabButton,root.task.basicClaimData.repairDetail.repairer.salutation,root.task.basicClaimData.repairDetail.repairer.deputyName,root.task.basicClaimData.repairDetail.repairer.address.street,root.task.basicClaimData.repairDetail.repairer.address.zipCode,root.task.basicClaimData.repairDetail.repairer.address.city,root.task.basicClaimData.repairDetail.repairer.address.countryISO,root.task.basicClaimData.repairDetail.repairer.address.line5,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.phone1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.fax1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.email1,root.task.basicClaimData.vehicleLocation.foreignId,root.task.basicClaimData.repairDetail.repairer.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:29.976</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:27:31.074</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:11.762</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43201,54 +43007,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1896B25A-F47C-4AC0-C2FA-E1F56D99A7E7</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberByRole.other.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:44:37.484</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:44:37.484</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1825F8DF-EBBC-BE16-4C5B-44861FE9CA84</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberByRole.claimAssistant.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:47:47.755</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:47:47.755</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>BFDE9D33-6F7D-7802-666F-8B6F506ADDEA</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseMemberByRole.claimAssistant.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T09:48:00.149</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:48:00.149</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8D3A0F77-00E5-57D3-892A-613517400E99</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -43670,12 +43428,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>Agent</Key>
-  <Value>root.task.caseMemberByRole.thirdParty.salutation,root.task.caseMemberByRole.thirdParty.inputTaxDeduction,root.task.caseMemberByRole.thirdParty.membersearchfield,root.task.caseMemberByRole.thirdParty.companyName,root.task.caseMemberByRole.thirdParty.firstName,root.task.caseMemberByRole.thirdParty.lastName,root.task.caseMemberByRole.thirdParty.contactPersonDescription,root.task.caseMemberByRole.thirdParty.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.thirdParty.address.street,root.task.caseMemberByRole.thirdParty.address.zipCode,root.task.caseMemberByRole.thirdParty.address.city,root.task.caseMemberByRole.thirdParty.address.countryISO,root.task.caseMemberByRole.thirdParty.address.line5,root.task.caseMemberByRole.thirdParty.communicationDetailList.phone2,root.task.caseMemberByRole.thirdParty.communicationDetailList.phone1,root.task.caseMemberByRole.thirdParty.communicationDetailList.mobile2,root.task.caseMemberByRole.thirdParty.communicationDetailList.mobile,root.task.caseMemberByRole.thirdParty.communicationDetailList.email1,root.task.caseMemberByRole.thirdParty.communicationDetailList.fax1,root.task.caseMemberByRole.thirdParty.isAlso.inspectionLocation,root.task.caseMemberByRole.thirdParty.active</Value>
+  <Value>root.task.caseMemberByRole.thirdParty.salutation,root.task.caseMemberByRole.thirdParty.inputTaxDeduction,root.task.caseMemberByRole.thirdParty.membersearchfield,root.task.caseMemberByRole.thirdParty.companyName,root.task.caseMemberByRole.thirdParty.firstName,root.task.caseMemberByRole.thirdParty.lastName,root.task.caseMemberByRole.thirdParty.contactPersonDescription,root.task.caseMemberByRole.thirdParty.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.thirdParty.address.street,root.task.caseMemberByRole.thirdParty.address.zipCode,root.task.caseMemberByRole.thirdParty.address.city,root.task.caseMemberByRole.thirdParty.address.countryISO,root.task.caseMemberByRole.thirdParty.address.line5,root.task.caseMemberByRole.thirdParty.communicationDetailList.phone2,root.task.caseMemberByRole.thirdParty.communicationDetailList.phone1,root.task.caseMemberByRole.thirdParty.communicationDetailList.mobile2,root.task.caseMemberByRole.thirdParty.communicationDetailList.mobile,root.task.caseMemberByRole.thirdParty.communicationDetailList.email1,root.task.caseMemberByRole.thirdParty.communicationDetailList.fax1,root.task.caseMemberByRole.thirdParty.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:28.925</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:41:23.664</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:10.403</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45703,22 +45461,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>6085ACBC-B538-2132-4F80-4EFFBE716988</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseMemberByRole.client.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T19:33:39.634</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:37:06.687</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CC53EAFF-060F-4327-9738-35F47898C6DB</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -45766,70 +45508,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2018-04-12T14:40:52.839</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:51:10.092</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>7EE04F66-5855-6D73-00B1-FF777C7D07E2</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberCombo.policyHolder.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:26:09.822</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:26:09.822</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>23D0E3F9-BD24-4BB8-58FD-2B226F0B7AF8</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:27:50.666</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:27:50.666</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B55898F1-EC77-2869-D696-FC6692486C48</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberCombo.vehicleOwner.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:30:10.434</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:30:47.065</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>9B1422D4-E3C0-7ED4-585F-166AFF834F65</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberCombo.claimant.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:56:37.943</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:56:37.943</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45914,85 +45592,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>96E61358-6195-2AF5-C5AA-4C361C4CD985</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberCombo.policyHolder.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:25:02.289</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:25:02.289</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>37638FD0-012B-A8E0-A29B-BDBB75A2F286</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberCombo.claimant.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:56:26.751</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:56:26.751</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F8E80B10-B3AF-A545-B060-E119B3364E7F</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>defaultMemberSalutation</Key>
-  <Value>Mr</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T08:08:54.629</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T08:08:54.629</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>9A8815AA-1292-808D-AC56-CA764395F04A</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseMemberCombo.policyHolder.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:25:55.320</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:25:55.320</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>439BB82A-8E43-AA0C-D024-7F541357EB01</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation</Key>
-  <Value>class=checkbox</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:28:30.376</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:28:30.376</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E4E9F5CA-CD94-A175-0AD5-5A62A056F923</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -46006,38 +45605,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2018-04-20T15:07:10.259</CreationTimeStamp>
   <LastUpdatedBy>MM-P-A0528F2332D8808C21</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-20T15:07:10.259</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1C774943-9E09-4CCF-43D3-AB4AC6C3446D</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberCombo.vehicleOwner.isAlso.inspectionLocation</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:29:42.969</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:31:08.120</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1833FC2E-D85E-381F-AFAB-7A7D11AEE9A6</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseMemberCombo.claimant.isAlso.inspectionLocation</Key>
-  <Value>DE=Ist auch Besichtigungsort</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-24T09:57:02.000</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T09:57:02.000</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -48146,6 +47713,22 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-11-27T09:58:02.050</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:50:57.287</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D776B998-6B57-BFD6-D7CC-7B214589D71B</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.documentDetails.generateEditablePreviewButton::Layout</Key>
+  <Value>{"startAt":0,"labelSize":1,"fieldSize":1,"spanSize":4}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-06T14:46:18.418</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-19T15:50:57.292</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -50919,6 +50502,22 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-07-11T09:25:34.064</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:50:56.323</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D15ED6B1-3ED8-73CF-37BC-37F096F3222A</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.documentDetails.generateEditablePreviewButton</Key>
+  <Value>style=margin-top:38px;,class=button</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-02-06T14:46:18.086</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-19T15:50:56.341</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -58053,7 +57652,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6E8FD5BC-8370-3BF1-B7EC-84575E7C97AE</ItemId>
   <Context>
-   <ProcessStep>AddressData</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -58063,7 +57661,7 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-01-10T09:33:03.088</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T07:56:50.040</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-19T15:51:00.961</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -59579,12 +59177,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>Opponent</Key>
-  <Value>root.task.caseMemberByRole.other.salutation,root.task.caseMemberByRole.other.inputTaxDeduction,root.task.caseMemberByRole.other.membersearchfield,root.task.caseMemberByRole.other.companyName,root.task.caseMemberByRole.other.firstName,root.task.caseMemberByRole.other.lastName,root.task.caseMemberByRole.other.contactPersonDescription,root.task.caseMemberByRole.other.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.other.address.street,root.task.caseMemberByRole.other.address.zipCode,root.task.caseMemberByRole.other.address.city,root.task.caseMemberByRole.other.address.countryISO,root.task.caseMemberByRole.other.address.line5,root.task.caseMemberByRole.other.communicationDetailList.phone2,root.task.caseMemberByRole.other.communicationDetailList.phone1,root.task.caseMemberByRole.other.communicationDetailList.mobile2,root.task.caseMemberByRole.other.communicationDetailList.mobile,root.task.caseMemberByRole.other.communicationDetailList.email1,root.task.caseMemberByRole.other.communicationDetailList.fax1,root.task.basicClaimData.claimDescriptionVehicle.thirdParty1RegistrationNumber,root.task.caseMemberByRole.other.isAlso.inspectionLocation,root.task.caseMemberByRole.other.active</Value>
+  <Value>root.task.caseMemberByRole.other.salutation,root.task.caseMemberByRole.other.inputTaxDeduction,root.task.caseMemberByRole.other.membersearchfield,root.task.caseMemberByRole.other.companyName,root.task.caseMemberByRole.other.firstName,root.task.caseMemberByRole.other.lastName,root.task.caseMemberByRole.other.contactPersonDescription,root.task.caseMemberByRole.other.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.other.address.street,root.task.caseMemberByRole.other.address.zipCode,root.task.caseMemberByRole.other.address.city,root.task.caseMemberByRole.other.address.countryISO,root.task.caseMemberByRole.other.address.line5,root.task.caseMemberByRole.other.communicationDetailList.phone2,root.task.caseMemberByRole.other.communicationDetailList.phone1,root.task.caseMemberByRole.other.communicationDetailList.mobile2,root.task.caseMemberByRole.other.communicationDetailList.mobile,root.task.caseMemberByRole.other.communicationDetailList.email1,root.task.caseMemberByRole.other.communicationDetailList.fax1,root.task.basicClaimData.claimDescriptionVehicle.thirdParty1RegistrationNumber,root.task.caseMemberByRole.other.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:07.709</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T09:44:15.693</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-23T12:50:03.169</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -61553,5 +61151,5 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:50:59.135</LastUpdateTimeStamp>
  </Rule>
- <Size>3830</Size>
+ <Size>3805</Size>
 </BRERuleListType>

@@ -2,6 +2,40 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1B115187-5CF0-75EB-3612-59CA31E0B3DF</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaCollectionDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>predefinedTextblocksAccessLevel</Key>
+  <Expression>${(#memberType=="Person") ? "Person" : ""}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-06T15:41:02.844</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-06T15:41:13.228</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>68FE9CFF-CBC6-6BDF-A171-D2F8D6F65470</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.saveonorgquestion</Key>
+  <Value>"DE=Sie versuchen, einen Textbaustein auf höher Ebene zu speichern. Somit wird es auf Ihre Zugriffsebene kopiert. Fortsetzen?"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-10T15:08:38.666</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-10T15:08:38.666</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>26ACA138-857C-E272-25EE-7C7839AA7EDE</ItemId>
   <Context>
    <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
@@ -193,6 +227,23 @@
   <CreationTimeStamp>2018-03-22T09:31:05.091</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-22T09:31:05.091</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3A381BB2-1430-1571-F869-BCF6818FF9B3</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.title</Key>
+  <Value>DE=Achtung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-10T15:15:13.579</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-10T15:15:13.579</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6116,6 +6167,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7ADA4702-6578-8A20-4D70-28A595111C19</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaCollectionDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.title</Key>
+  <Value>DE=Achtung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-10T15:15:01.544</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-10T15:15:01.544</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3E209856-F75A-9311-5D17-F242606479B3</ItemId>
   <Context>
    <ProcessStep>CsaStampsAndSignaturesList</ProcessStep>
@@ -6228,6 +6296,71 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>09D00181-2394-DFEC-49AF-EAC8D2F9F846</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.title</Key>
+  <Value>DE=Achtung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-10T15:15:31.984</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-10T15:15:31.984</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6EA932EE-F753-86AB-3451-D0678B98CA6B</ItemId>
+  <Context>
+   <ProcessStep>CsaCollectionDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.saveonorgquestion</Key>
+  <Value>"DE=Sie versuchen, einen Textbaustein auf höher Ebene zu speichern. Somit wird es auf Ihre Zugriffsebene kopiert. Fortsetzen?"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:06:27.034</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-12T08:06:27.034</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>745DB03D-3697-B5A7-2B72-1EAA6A269700</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.saveonorgquestion</Key>
+  <Value>"DE=Sie versuchen, einen Textbaustein auf höher Ebene zu speichern. Somit wird es auf Ihre Zugriffsebene kopiert. Fortsetzen?"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:06:47.035</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-12T08:06:47.035</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>86B71D11-241F-DF30-FD86-1E28D691646A</ItemId>
+  <Context>
+   <ProcessStep>CsaCollectionDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.title</Key>
+  <Value>DE=Achtung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:07:16.736</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-12T08:07:16.736</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2CB30AB8-C610-5959-2642-E282672B470A</ItemId>
   <Context>
    <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
@@ -6241,6 +6374,71 @@
   <CreationTimeStamp>2018-03-12T14:55:23.074</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-12T14:55:23.074</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>38804380-D16C-C97F-587A-90061106DC0A</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.title</Key>
+  <Value>DE=Achtung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:07:24.408</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-12T08:07:24.408</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BF7A32FF-E021-B5F3-9662-3EE26E82FBB8</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.title</Key>
+  <Value>DE=Achtung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-12T08:07:37.223</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-12T08:07:37.223</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D3D55529-B590-D91F-CB5B-0FBA61CF4800</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CsaCollectionDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.saveonorgquestion</Key>
+  <Value>"DE=Sie versuchen, einen Textbaustein auf höher Ebene zu speichern. Somit wird es auf Ihre Zugriffsebene kopiert. Fortsetzen?"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-10T15:06:34.357</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-10T15:06:34.357</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>45CDAC34-2C14-BCB9-C4A0-4311BC9EBF41</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.documentTextBlockDetails.uploadImage</Key>
+  <Value>spanAllColumns=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-13T07:59:13.563</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-13T07:59:13.563</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6258,5 +6456,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-15T13:36:26.634</LastUpdateTimeStamp>
  </Rule>
- <Size>390</Size>
+ <Size>402</Size>
 </BRERuleListType>
