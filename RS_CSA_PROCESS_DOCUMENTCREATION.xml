@@ -2,6 +2,22 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F29FE4D6-FAEA-7880-90DF-1ACCF83C5BC4</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockDetails.copy</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T08:33:52.627</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:33:52.627</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1B115187-5CF0-75EB-3612-59CA31E0B3DF</ItemId>
   <Context>
    <Process>MasterData</Process>
@@ -66,6 +82,22 @@
   <CreationTimeStamp>2018-03-30T09:48:02.491</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-30T09:48:07.784</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>046B50DE-8B59-FC45-EBF2-5DEC8DD8825E</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>documenttextblockdetails.error.textblock.copy</Key>
+  <Value>DE=Es ist ein unbekannter Fehler aufgetreten.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T08:24:47.619</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:24:47.619</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5447,12 +5479,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Actions</Key>
-  <Value>root.csa.documentTextBlockDetails.delete</Value>
+  <Value>root.csa.documentTextBlockDetails.delete,root.csa.documentTextBlockDetails.copy</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2016-06-09T12:48:29.203</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-07-10T10:19:50.123</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:33:52.823</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5463,12 +5495,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ActionButtons</Key>
-  <Value>root.actionButtons.saveButton,root.actionButtons.resetButton</Value>
+  <Value>root.actionButtons.saveButton,root.actionButtons.resetButton,root.csa.documentTextBlockDetails.copy</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-08-31T12:53:32.682</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-22T09:24:51.666</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:30:48.173</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6409,6 +6441,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6C9265CA-83E2-738A-8F9F-B973938308E3</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>root.csa.documenttextblockdetails.copy</Key>
+  <Value>DE=Kopieren</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T08:25:20.139</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:25:20.139</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D3D55529-B590-D91F-CB5B-0FBA61CF4800</ItemId>
   <Context>
    <Process>MasterData</Process>
@@ -6423,6 +6471,22 @@
   <CreationTimeStamp>2018-04-10T15:06:34.357</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-10T15:06:34.357</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AF2DA106-B4ED-26B4-86DE-04CDFB84CF03</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.documentTextBlockDetails.copy</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T08:30:47.967</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:30:47.967</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6442,6 +6506,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5E88A309-4124-D58A-0020-BD36B72AC39C</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.copyquestion</Key>
+  <Value>"DE=Sind Sie sicher, dass Sie ausgewählte kopieren möchten?"</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T07:02:40.268</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T07:02:40.268</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F24CF7F0-B944-69CF-0279-89C272512DB0</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>documenttextblockdetails.error.textblock.copy</Key>
+  <Value>DE=Es ist ein unbekannter Fehler aufgetreten.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T08:25:00.133</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:25:00.133</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FCF59132-C688-DD0F-2388-15A4D8CA5160</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>root.csa.documenttextblockdetails.copy</Key>
+  <Value>DE=Kopieren</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T08:25:26.626</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:25:26.626</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>62034A24-F031-F365-FB6C-6FACB56E2930</ItemId>
   <Context>
    <ProcessStep>CsaDocumentTemplateDetails</ProcessStep>
@@ -6456,5 +6568,21 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-15T13:36:26.634</LastUpdateTimeStamp>
  </Rule>
- <Size>402</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E897F6A2-BB75-2497-6A27-1AB7A0835799</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_CSA_PROCESS_DOCUMENTCREATION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>documenttextblockdetails.confirmation.dialog.copyquestion</Key>
+  <Value>DE=Sind Sie sicher, dass Sie ausgewählte kopieren möchten?</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-28T07:10:39.471</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-28T07:10:39.471</LastUpdateTimeStamp>
+ </Rule>
+ <Size>410</Size>
 </BRERuleListType>
