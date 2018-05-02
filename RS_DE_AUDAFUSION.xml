@@ -1541,6 +1541,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AC617A16-C1B4-7604-6ABD-26E60F09EDF6</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.vehicleOwner.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:00:13.413</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:24:15.315</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F0E1AEBF-3841-1250-9080-FB3A0BEBD9AB</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.caseMemberByRole.court.referenceNumber</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-28T06:48:14.775</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-28T06:48:14.775</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5D3E7A6F-9257-8A68-39BA-A751876B63FC</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -1570,6 +1602,21 @@
   <CreationTimeStamp>2018-04-20T12:10:02.936</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-23T11:32:55.705</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7BB45D3B-480F-F31D-B73C-C31107C3F87B</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>autonumbering.fields</Key>
+  <Value>foreignCaseId</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T16:08:03.800</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T16:08:03.800</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1653,6 +1700,53 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E4D1B669-DD3B-4278-5B5F-45DBD2A8C7A7</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.towingService.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:06:20.191</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:23:51.362</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5620E175-BEDF-F18B-1E04-8B9E2EB76423</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>creationPattern</Key>
+  <Value>ExtendedAutonumbering</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-27T09:09:39.715</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T09:09:39.715</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A2C7B5D0-4C82-4058-A083-F4723AF20EB9</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.court.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T07:58:31.315</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:22:10.997</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CC92BFA9-2A3C-3F2B-9A25-CF7E0C04360A</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -1666,6 +1760,38 @@
   <CreationTimeStamp>2018-04-25T09:38:10.493</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-25T09:38:10.493</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>537A6748-0BA1-5DAD-881B-CF0C1ACDCCD5</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.caseMemberByRole.lawyer.referenceNumber</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T12:33:57.373</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T12:33:57.373</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>89C91485-5191-C331-9D59-450CC4A23FFB</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.composeMail.mailSubject</Key>
+  <Value>Gutachten ${(task.claimNumber != "") ? task.claimNumber : task.foreignCaseId}, VS-Schein-Nr.: ${task.basicClaimData.policyData.policyNumber}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-A0528F2332D8808C21</CreatedBy>
+  <CreationTimeStamp>2018-04-27T13:15:01.456</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-A0528F2332D8808C21</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T13:15:01.456</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4374,22 +4500,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F6C3EF7C-D34E-1308-8DFB-3598CA05E230</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck</Key>
-  <Value>0</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:37.767</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:50:59.777</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>7A04B197-F8A4-C33D-61EE-042DA4DDA2C5</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -7029,22 +7139,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>7DA2434C-8579-6C25-D0D6-212DBAB1F280</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck</Key>
-  <Value>1=Aktiviert,0=Deaktiviert</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:37.963</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:06.026</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>472ED39B-882A-42FA-F416-F17495AF1E39</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -8418,22 +8512,6 @@
   <CreationTimeStamp>2017-11-29T16:39:57.531</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:51:08.088</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>622643AD-CEDB-38C2-ACB7-2E92D8B85EBA</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:34.144</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:08.093</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11455,13 +11533,13 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.vehicleCondition</Key>
-  <Value>VeryGood=Serh Gut,Good=Gut,AccordingToMileage=Alter und Fahrleistung entsprechend,Bad=Schlecht,VeryBad=Ungepflegt,Unknown=Guter Zustand wurde angenommern,
+  <Value>VeryGood=Sehr Gut,Good=Gut,AccordingToMileage=Alter und Fahrleistung entsprechend,Bad=Schlecht,VeryBad=Ungepflegt,Unknown=Guter Zustand wurde angenommen,
 Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.542</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-24T18:47:36.137</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-A0528F2332D8808C21</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-25T10:35:09.305</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15506,12 +15584,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom</Key>
-  <Value>class=tires-component</Value>
+  <Value>class=tires-component tires-hide-inner-tread-depth</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:39.909</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:02.722</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:27:29.629</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -17502,6 +17580,163 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-07-11T09:25:38.591</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:51:00.600</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>978CB9D9-0811-29BE-8CF1-71DD01D03F31</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.task.assessmentResult.generalResult.replacementDurationUnit</Key>
+  <Value>Kalender,Arbeitstage</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-11-27T14:56:57.123</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T06:52:45.185</LastUpdateTimeStamp>
+  <Description>Kalendartage=Kalender,Arbeitstage=Fahrzeugwerte</Description>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>99B52370-20E4-5A31-AA45-4F869097081C</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.claimAssistant.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:04:46.340</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:23:40.298</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>20A48B10-24DC-21BC-E68B-D87BF627B921</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.lawyer.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:05:22.810</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:23:27.956</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6EE0B9E1-004E-387B-A628-2EF342E3E65C</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.thirdParty.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:00:53.270</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:21:44.095</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A2423054-6D06-6EFE-4527-8F651B270282</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.rentalCarCompany.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:07:58.714</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:22:38.679</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CB9BF2E9-C270-E54C-9FA7-60D8F46BC2F5</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberCombo.policyHolder.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:18:53.191</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:23:15.661</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9CE66511-360D-7633-F370-367C4615C9E2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>autonumbering.foreignCaseId.key</Key>
+  <Expression>${memberCache.currentRootId + memberCache.currentMember.sequenceNumberId + "/" + (currentDate("yy")) + "-"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T16:09:55.211</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T09:17:14.693</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E87A961C-CDD0-AB41-9CB8-5060428DE925</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>autonumbering.foreignCaseId.initialnumber</Key>
+  <Value>101</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T16:11:16.105</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T16:11:16.105</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>41D8AEE0-9425-BF65-86AD-BFA2EC72364E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>autonumbering.foreignCaseId.prefix</Key>
+  <Expression>${memberCache.currentMember.sequenceNumberId + "/" + (currentDate("yy")) + "-"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T16:09:11.015</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T09:15:22.484</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EDC34E39-D30E-5E8B-818B-7735F51B0AFD</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>autonumbering.foreignCaseId.length</Key>
+  <Value>10</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T16:08:37.174</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T16:08:37.174</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -22115,7 +22350,7 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:39.779</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:10.051</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T09:26:08.166</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -23396,13 +23631,13 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>root.task.caseMemberCombo.claimAssistant.mode</Key>
+  <Key>root.task.caseMemberByRole.claimAssistant.mode</Key>
   <Value>edit</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:24.439</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:04.023</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T06:45:44.433</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -23830,13 +24065,13 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>root.task.caseMemberCombo.towingService.mode</Key>
+  <Key>root.task.caseMemberByRole.towingService.mode</Key>
   <Value>edit</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:16.176</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:13.919</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T06:44:02.220</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27609,22 +27844,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>217E1431-AD88-E68F-EE17-561F35F01215</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck</Key>
-  <Value>DE=Restwertrelevanzprüfung</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:34.845</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:04.897</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>191B961B-7BF4-8B53-177E-A39FE0838FFA</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -27901,22 +28120,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-07-11T09:25:29.999</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:51:06.039</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>978CB9D9-0811-29BE-8CF1-71DD01D03F31</ItemId>
-  <Context>
-   <ProcessStep>Results</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.assessmentResult.generalResult.replacementDurationUnit</Key>
-  <Value>Kalendartage,Arbeitstage</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-11-27T14:56:57.123</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:06.045</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -35324,7 +35527,7 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-05T13:33:51.720</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:06.744</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T08:50:12.134</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36267,22 +36470,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-07-11T09:25:31.149</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:51:09.015</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>9F6A7B80-CD2F-5C99-85F5-B9737EFA0DF5</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck::saveOnChange</Key>
-  <Value>true</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:36.063</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:09.029</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -41286,12 +41473,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>Court</Key>
-  <Value>root.task.caseMemberByRole.court.companyName,root.task.caseMemberByRole.court.contactPersonDescription,root.task.caseMemberByRole.court.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.court.address.street,root.task.caseMemberByRole.court.address.zipCode,root.task.caseMemberByRole.court.address.city,root.task.caseMemberByRole.court.address.countryISO,root.task.caseMemberByRole.court.address.line5,root.task.caseMemberByRole.court.communicationDetailList.phone2,root.task.caseMemberByRole.court.communicationDetailList.phone1,root.task.caseMemberByRole.court.communicationDetailList.mobile2,root.task.caseMemberByRole.court.communicationDetailList.mobile,root.task.caseMemberByRole.court.communicationDetailList.email1,root.task.caseMemberByRole.court.communicationDetailList.fax1,root.task.caseMemberByRole.court.active</Value>
+  <Value>root.task.caseMemberByRole.court.companyName,root.task.caseMemberByRole.court.contactPersonDescription,root.task.caseMemberByRole.court.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.court.referenceNumber,root.task.caseMemberByRole.court.address.street,root.task.caseMemberByRole.court.address.zipCode,root.task.caseMemberByRole.court.address.city,root.task.caseMemberByRole.court.address.countryISO,root.task.caseMemberByRole.court.address.line5,root.task.caseMemberByRole.court.communicationDetailList.phone2,root.task.caseMemberByRole.court.communicationDetailList.phone1,root.task.caseMemberByRole.court.communicationDetailList.mobile2,root.task.caseMemberByRole.court.communicationDetailList.mobile,root.task.caseMemberByRole.court.communicationDetailList.email1,root.task.caseMemberByRole.court.communicationDetailList.fax1,root.task.caseMemberByRole.court.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:07.745</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:11.219</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-28T06:47:37.521</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43750,12 +43937,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>Lawyer</Key>
-  <Value>root.task.caseMemberByRole.lawyer.salutation,root.task.caseMemberByRole.lawyer.membersearchfield,root.task.caseMemberByRole.lawyer.companyName,root.task.caseMemberByRole.lawyer.firstName,root.task.caseMemberByRole.lawyer.lastName,root.task.caseMemberByRole.lawyer.contactPersonDescription,root.task.caseMemberByRole.lawyer.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.lawyer.deputyName,root.task.caseMemberByRole.lawyer.address.street,root.task.caseMemberByRole.lawyer.address.zipCode,root.task.caseMemberByRole.lawyer.address.city,root.task.caseMemberByRole.lawyer.address.countryISO,root.task.caseMemberByRole.lawyer.address.line5,root.task.caseMemberByRole.lawyer.communicationDetailList.phone2,root.task.caseMemberByRole.lawyer.communicationDetailList.phone1,root.task.caseMemberByRole.lawyer.communicationDetailList.mobile2,root.task.caseMemberByRole.lawyer.communicationDetailList.mobile,root.task.caseMemberByRole.lawyer.communicationDetailList.email1,root.task.caseMemberByRole.lawyer.communicationDetailList.fax1,root.task.caseMemberByRole.lawyer.active</Value>
+  <Value>root.task.caseMemberByRole.lawyer.salutation,root.task.caseMemberByRole.lawyer.membersearchfield,root.task.caseMemberByRole.lawyer.companyName,root.task.caseMemberByRole.lawyer.firstName,root.task.caseMemberByRole.lawyer.lastName,root.task.caseMemberByRole.lawyer.contactPersonDescription,root.task.caseMemberByRole.lawyer.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.lawyer.deputyName,root.task.caseMemberByRole.lawyer.referenceNumber,root.task.caseMemberByRole.lawyer.address.street,root.task.caseMemberByRole.lawyer.address.zipCode,root.task.caseMemberByRole.lawyer.address.city,root.task.caseMemberByRole.lawyer.address.countryISO,root.task.caseMemberByRole.lawyer.address.line5,root.task.caseMemberByRole.lawyer.communicationDetailList.phone2,root.task.caseMemberByRole.lawyer.communicationDetailList.phone1,root.task.caseMemberByRole.lawyer.communicationDetailList.mobile2,root.task.caseMemberByRole.lawyer.communicationDetailList.mobile,root.task.caseMemberByRole.lawyer.communicationDetailList.email1,root.task.caseMemberByRole.lawyer.communicationDetailList.fax1,root.task.caseMemberByRole.lawyer.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-A14F580D42CEA5B664</CreatedBy>
   <CreationTimeStamp>2018-04-13T10:08:25.331</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:10.532</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T12:33:12.864</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -51200,12 +51387,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.accordion.calculation</Key>
-  <Value>startElement=root.task.assessmentResult.calculationResult.partsTotal,endElement=root.task.assessmentResult.calculationResult.resetBtn,additionalClass=configurable-accordion,unfoldByDefault=true,horizontalLine=true</Value>
+  <Value>startElement=root.task.assessmentResult.calculationResult.partsTotal,endElement=root.task.assessmentResult.calculationResult.resetBtn,additionalClass=configurable-accordion,unfoldByDefault=false,horizontalLine=true</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-05T13:33:51.713</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:50:57.111</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T08:51:26.357</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -52925,22 +53112,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-11-27T14:31:45.451</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:51:10.224</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1F4FCAD9-624F-F86E-C58F-CFCD71486546</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:37.062</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:10.346</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -57786,13 +57957,13 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>root.task.caseMemberCombo.lawyer.mode</Key>
+  <Key>root.task.caseMemberByRole.lawyer.mode</Key>
   <Value>edit</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:07.755</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:50:56.231</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T06:45:01.741</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -59594,13 +59765,13 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>root.task.caseMemberCombo.other.mode</Key>
+  <Key>root.task.caseMemberByRole.other.mode</Key>
   <Value>edit</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-10T15:08:07.749</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:51:14.376</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T06:46:58.886</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -59666,6 +59837,22 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-07-11T09:25:32.044</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:51:14.409</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E600660B-8685-F05E-55D0-CFEB104F3986</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.policyHolder.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T07:59:48.272</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:24:02.115</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -60278,6 +60465,38 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1A8B863C-FC32-E837-C696-7BB60EBC5336</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.other.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:03:25.590</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:21:30.279</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>449DD966-0576-330F-C67C-9B0675D02162</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberCombo.vehicleOwner.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:19:30.060</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:21:14.366</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BBEBFDF7-5E25-8EF3-FD67-E6CB2F9A18E9</ItemId>
   <Context>
    <ProcessStep>SendPage</ProcessStep>
@@ -60749,12 +60968,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>Block</RuleType>
   <Key>blockNames</Key>
-  <Value>VALUEpilot,VehicleValuation,Minderwert,Auction</Value>
+  <Value>VehicleValuation,VALUEpilot,Auction,Minderwert</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:36.366</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:50:56.736</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T06:56:42.671</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -61169,7 +61388,7 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-12-05T13:33:51.703</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-19T15:50:57.990</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-04-26T09:07:28.140</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -61553,5 +61772,84 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-19T15:50:59.135</LastUpdateTimeStamp>
  </Rule>
- <Size>3830</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8892279E-7DA6-6065-CB0D-E7719F9F33D6</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.client.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:02:59.830</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:21:58.001</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C0730D53-E791-0148-1A0A-73F358C4B220</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.lawyer.referenceNumber</Key>
+  <Value>DE=Aktenzeichen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-28T06:45:58.701</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-28T06:45:58.701</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6CD55C43-212A-A178-D9C4-01FF2E786CD8</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.court.referenceNumber</Key>
+  <Value>DE=Aktenzeichen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-28T06:49:18.216</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-28T06:49:18.216</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D86966F1-B83C-D55D-E254-80889F9FA52F</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.caseMemberCombo.policyHolder.isAlso.inspectionLocation</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-28T07:06:07.421</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-28T07:06:07.421</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>38D7C78C-A6EC-D5A8-0C53-FEC089F95D8A</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.claimant.communicationDetailList.contactPersonPhone</Key>
+  <Value>DE=Telefon des Ansprechpartners</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-04-27T08:02:28.031</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-27T08:22:25.916</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3849</Size>
 </BRERuleListType>
