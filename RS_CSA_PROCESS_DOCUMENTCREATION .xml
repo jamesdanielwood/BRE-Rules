@@ -6609,12 +6609,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>documenttextblockdetails.confirmation.dialog.copyquestion</Key>
-  <Value>DE=Sind Sie sicher, dass Sie ausgewählte kopieren möchten?</Value>
+  <Value>"DE=Sind Sie sicher, dass Sie ausgewählte kopieren möchten?"</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-04-28T07:10:39.471</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-28T07:10:39.471</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-03T12:13:46.118</LastUpdateTimeStamp>
  </Rule>
  <Size>412</Size>
 </BRERuleListType>

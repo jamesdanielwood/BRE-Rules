@@ -2,6 +2,37 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AC5CCBF5-5472-6114-875D-7E549D93B9A2</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CreateTaskWorkflowFunction.ProceedTask(1525421107534)</Key>
+  <Value>{process: "${(loadVariable(current.responsibleOrganizationId, 'defaultProcessVariable02') != '') ?  loadVariable(current.responsibleOrganizationId, 'defaultProcessVariable02') : loadVariable(current.responsibleUserId, 'defaultProcessVariable02')}",step:"WorkOverview"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-04T10:05:38.879</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-04T10:05:38.879</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9EB59769-817A-2F96-1863-F2CF6B4C6BB0</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimSummary.replacementValuePrintControl</Key>
+  <Value>TitleAndValue</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-30T15:09:13.049</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-30T15:09:13.049</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>524EA245-0359-638D-232C-F205D46184AF</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -25,12 +56,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>createNewCaseElements</Key>
-  <Value>[{id:"desn.header.newcase.profile01",url:"/bre/clickcommon/pages/wfm/pre-intake.htm?fixedProcess= Schadengutachten-Bewertung"},{id:"desn.header.newcase.profile02",url:"/bre/clickcommon/pages/wfm/pre-intake.htm?fixedProcess=Gutachten-Totalentwendung"}]</Value>
+  <Value>[{id:"desn.header.newcase.profile01",url:"/bre/clickcommon/pages/wfm/pre-intake.htm?fixedProcess=Schadengutachten-Bewertung"},{id:"desn.header.newcase.profile02",url:"/bre/clickcommon/pages/wfm/pre-intake.htm?fixedProcess=Gutachten-Totalentwendung"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-25T10:04:29.330</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T12:17:51.523</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-07T13:33:54.851</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -116,21 +147,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>57B498F1-E82C-44B6-9389-21DFCCDE6C05</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>defaultProcess</Key>
-  <Value>Gutachten-Totalentwendung</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T10:04:29.430</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T10:16:39.446</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>830F159C-1404-B59D-2DFB-6EA629605963</ItemId>
   <Context>
    <Process>Gutachten-Totalentwendung</Process>
@@ -198,18 +214,82 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B1345F6E-A2D1-BC3C-0FF1-B1F916043330</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.accordion.general</Key>
+  <Value>startElement=root.task.basicClaimData.claimDescriptionVehicle.repairAuthorised,endElement=root.task.assessmentResult.generalResult.resetBtn,additionalClass=configurable-accordion,unfoldByDefault=false,horizontalLine=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T09:09:18.896</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T09:09:18.896</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6A232953-AE1A-150A-0F72-F3CA0BD3096C</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.policyData.insuranceCompany.referenceNumber</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T08:45:17.478</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T08:45:17.478</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>839E32C5-335D-7267-DD6A-6CCC9FB68E02</ItemId>
+  <Context>
+   <ProcessStep>test</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>ProcessTransition</RuleType>
+  <Key>test</Key>
+  <Value>test</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T09:18:02.039</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T09:18:02.039</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>03210BD2-C27B-360E-07C2-A80373F02C11</ItemId>
+  <Context>
+   <ProcessStep>test</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>blockNames</Key>
+  <Value>test</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T09:18:09.045</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T09:18:09.045</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0BFD1B0F-1DB2-CE95-892D-3C71565BC6E2</ItemId>
   <Context>
    <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
   </Context>
   <RuleType>Variable</RuleType>
-  <Key>defaultProcessVariable</Key>
+  <Key>defaultProcessVariable02</Key>
   <Value>Gutachten-Totalentwendung</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-25T10:04:29.425</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T10:16:48.356</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-04T10:04:04.273</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -226,22 +306,6 @@
   <CreationTimeStamp>2018-04-25T10:14:00.908</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-25T10:14:00.908</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>01C19CD3-7217-0225-BCC4-397C7641E958</ItemId>
-  <Context>
-   <Process>Gutachten-Totalentwendung</Process>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FlowProcessorConfiguration</RuleType>
-  <Key>CreateTaskWorkflowFunction.AddCaseMemberByMemberIdTransformation(1521814025978)</Key>
-  <Value>{memberId:"ML-O-039100",memberRole:"Insurance"}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T10:04:29.251</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T10:18:00.845</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -276,22 +340,6 @@
   <CreationTimeStamp>2018-04-25T10:12:48.443</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-25T10:12:48.443</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2D1AB222-D480-B75E-3901-6112C3D88397</ItemId>
-  <Context>
-   <Process>Gutachten-Totalentwendung</Process>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FlowProcessorConfiguration</RuleType>
-  <Key>CreateTaskWorkflowFunction.TRANSFORMATIONS</Key>
-  <Value>[{"name":"AddCaseMemberByMemberIdTransformation","alias":"AddCaseMemberByMemberIdTransformation(1521814025978)"}]</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T10:04:29.372</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T10:17:47.106</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -344,5 +392,54 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-25T10:09:29.854</LastUpdateTimeStamp>
  </Rule>
- <Size>21</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E59EFBFE-315C-7F5C-4EB0-66C200841B50</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CreateTaskWorkflowFunction.POSTACTIONS</Key>
+  <Value>[{"name":"ProceedTask","alias":"ProceedTask(1525421107534)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-04T10:05:07.638</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-04T10:05:07.638</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0D3D7B14-B5FD-7462-F195-356754C1A3D8</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.caseType</Key>
+  <Value>FinalCaseAdjusted</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T08:43:20.608</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-04T09:15:28.077</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A24B2123-C6EA-4E65-A4C3-60CE223D5323</ItemId>
+  <Context>
+   <ProcessStep>Results</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.accordion.calculation</Key>
+  <Value>startElement=root.task.assessmentResult.calculationResult.partsTotal,endElement=root.task.assessmentResult.calculationResult.resetBtn,additionalClass=configurable-accordion,unfoldByDefault=false,horizontalLine=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-26T09:08:48.878</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-26T09:08:48.878</LastUpdateTimeStamp>
+ </Rule>
+ <Size>27</Size>
 </BRERuleListType>

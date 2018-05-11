@@ -12,10 +12,10 @@
   <Value>remove</Value>
   <Expression>${(hasTaskAccess(task.itemId,"UPDATE",memberCache.currentMemberId)) ? "show" : "remove"}</Expression>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-10-17T09:38:02.297</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.268</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-10-17T09:16:15.111</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.560</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27,57 +27,42 @@
   <Key>WorkListGrid.action.worklistgrid_custom_hail</Key>
   <Value>assignToMe,PrintPdf</Value>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.569</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.291</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-11-22T22:33:33.732</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.574</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>9F4923F5-977D-0F4E-6459-2DA24B703930</ItemId>
+  <ItemId>091ABD4B-B706-FE2E-0E76-26B79915150C</ItemId>
   <Context>
    <ProcessStep>SendToABS</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
   </Context>
   <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.kadApproveAssessment.approvementComment</Key>
+  <Key>root.task.kadApproveAssessment.approveButton</Key>
   <Value>show</Value>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.581</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.308</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-01-04T13:14:06.923</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.673</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>FA5D807B-5B62-CAA0-983B-F123CEDAB249</ItemId>
+  <ItemId>22761D02-38E9-682D-A5CB-A4DFA67DDE8A</ItemId>
   <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.kadApproveAssessment.currentApprovalTable</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.559</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.320</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B81BA750-1F8C-45BB-D118-8472A39358E9</ItemId>
-  <Context>
+   <Process>CompleteAssessment</Process>
    <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>WorkListGrid.action.worklistgrid_custom_lsad</Key>
-  <Value>assignToMe,PrintPdf</Value>
+  <Key>tmplcfg_workGridViews</Key>
+  <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && (belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ) ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted"))}]]></Expression>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.577</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.323</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-10-27T09:30:50.687</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.714</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -89,72 +74,10 @@
   <Key>worklistgrid_custom_hailPool</Key>
   <Value>DE=Hagel</Value>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.521</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.249</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>0F2DB573-2261-5843-FD1A-F99E6BC032EF</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>query.worklistgrid_custom_lsad</Key>
-  <Expression><![CDATA[task.responsibleUserId != '${memberCache.currentMemberId}' && task.responsibleOrganizationId == '${memberCache.currentParentId}' && task.taskStatus =="Created"]]></Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.625</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:49:22.096</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B54729EE-9F22-2AE2-3149-B266C7AD7A14</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>worklistgrid_custom_open</Key>
-  <Value>DE=In Bearbeitung</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.536</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.282</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>429D2A8E-015B-0251-645F-0C27DAAEDAD4</ItemId>
-  <Context>
-   <Process>Standard</Process>
-   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>tmplcfg_workGridViews</Key>
-  <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && loadVariable(memberCache.currentMemberId, "CommunityId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((loadVariable(memberCache.currentMemberId, "CommunityId") != "") ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted")) }]]></Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.603</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.287</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B4039D00-A221-04B7-5221-206888549093</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
-  </Context>
-  <RuleType>DataAccessRight</RuleType>
-  <Key>TaskType.CHANGE_OWNER</Key>
-  <Value>{"AccessLevel":"","AccessLevelParam":[]}</Value>
-  <Expression><![CDATA[{"AccessLevel":"ROOT","AccessLevelParam":[],"DataConstraint":"(task.responsibleUserId == \"${memberCache.currentMemberId}\" && task.responsibleOrganizationId == \"${memberCache.currentParentId}\") || (task.responsibleOrganizationId == \"${getServiceParameter(memberCache.currentMemberId, "HailPoolId")}\" && task.taskStatus == \"Created\") || (task.responsibleOrganizationId == \"${memberCache.currentParentId}\" && ${getUsersIdFromCommunities(loadVariable(memberCache.currentMemberId, "AllianzBiCommunityId"), loadVariable(memberCache.currentMemberId, "AllianzLsadCommunityId") ,"task.responsibleUserId" , "==" , "||", "single", memberCache.currentMemberId)})"}]]></Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.615</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.238</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-10-28T12:03:27.613</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.622</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -168,42 +91,105 @@
   <Key>wfGridApprovalFilterValue</Key>
   <Value>value15</Value>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-07-25T08:32:36.423</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.258</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-06-01T22:13:59.859</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.663</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>091ABD4B-B706-FE2E-0E76-26B79915150C</ItemId>
+  <ItemId>CFDA1C7A-EAFC-57CB-46DE-CB9169EB8B7E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
+  </Context>
+  <RuleType>DataAccessRight</RuleType>
+  <Key>TaskType.READ</Key>
+  <Value>{"AccessLevel":"","AccessLevelParam":[]}</Value>
+  <Expression><![CDATA[{"AccessLevel":"ROOT","AccessLevelParam":[],"DataConstraint":"task.businessStatusKind != \"value31\" && task.businessStatusKind != \"value30\" && task.businessStatusKind != \"value9\" && ((task.responsibleUserId == \"${memberCache.currentMemberId}\" && task.responsibleOrganizationId == \"${memberCache.currentParentId}\") || (task.responsibleOrganizationId == \"${getServiceParameter(memberCache.currentMemberId, "HailPoolId")}\" && task.taskStatus == \"Created\") || (task.responsibleOrganizationId == \"${memberCache.currentParentId}\" && task.taskStatus == \"Created\" ${(belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) && belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ? "&&(task.communityId=='"+#AllianzLsadCommunityId+"'||task.communityId=='"+#AllianzBiCommunityId+"')" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId)) ? "&&(task.communityId=='"+#AllianzBiCommunityId+"')" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ? "&&(task.communityId=='"+#AllianzLsadCommunityId+"')" : "" ) ) }))"}]]></Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-03-12T21:16:53.925</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-04T11:20:59.202</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B4039D00-A221-04B7-5221-206888549093</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
+  </Context>
+  <RuleType>DataAccessRight</RuleType>
+  <Key>TaskType.CHANGE_OWNER</Key>
+  <Value>{"AccessLevel":"","AccessLevelParam":[]}</Value>
+  <Expression><![CDATA[{"AccessLevel":"ROOT","AccessLevelParam":[],"DataConstraint":"(task.responsibleUserId == \"${memberCache.currentMemberId}\" && task.responsibleOrganizationId == \"${memberCache.currentParentId}\") || (task.responsibleOrganizationId == \"${getServiceParameter(memberCache.currentMemberId, "HailPoolId")}\" && task.taskStatus == \"Created\") || (task.responsibleOrganizationId == \"${memberCache.currentParentId}\" && ${(belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) && belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ? "&&(task.communityId=='"+#AllianzLsadCommunityId+"'||task.communityId=='"+#AllianzBiCommunityId+"')" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId)) ? "&&(task.communityId=='"+#AllianzBiCommunityId+"')" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ? "&&(task.communityId=='"+#AllianzLsadCommunityId+"')" : "" ) ) }))"}]]></Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-11-10T10:31:15.824</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-04T11:21:14.636</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>69DE2C73-B97C-EFEB-9E96-8F01F677BDB8</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>views</Key>
+  <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && (belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ) ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted")) }]]></Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-10-27T09:28:16.330</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.730</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9F4923F5-977D-0F4E-6459-2DA24B703930</ItemId>
   <Context>
    <ProcessStep>SendToABS</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
   </Context>
   <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.kadApproveAssessment.approveButton</Key>
+  <Key>root.task.kadApproveAssessment.approvementComment</Key>
   <Value>show</Value>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.555</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.263</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-01-04T13:14:40.075</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.591</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>806CB1AD-22D6-0711-0FC0-C0B24ACC73F3</ItemId>
+  <ItemId>0F2DB573-2261-5843-FD1A-F99E6BC032EF</ItemId>
   <Context>
-   <Process>ShortAssessment</Process>
    <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>tmplcfg_workGridViews</Key>
-  <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && (belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ) ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted")) }]]></Expression>
+  <Key>query.worklistgrid_custom_lsad</Key>
+  <Expression><![CDATA[task.responsibleUserId != '${memberCache.currentMemberId}' && task.responsibleOrganizationId == '${memberCache.currentParentId}' && task.taskStatus =="Created"]]></Expression>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.636</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.300</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-11-10T10:31:15.880</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.631</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B54729EE-9F22-2AE2-3149-B266C7AD7A14</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>worklistgrid_custom_open</Key>
+  <Value>DE=In Bearbeitung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-11-02T20:04:39.921</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.639</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -217,26 +203,56 @@
   <Key>views</Key>
   <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && (belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ) ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted"))}]]></Expression>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.515</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.312</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-11-10T10:31:15.860</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.689</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>742EB63E-4C96-F1CE-3F4F-9A5746FBCAB7</ItemId>
+  <ItemId>26460D03-976E-E3C6-D689-30CAD6345939</ItemId>
   <Context>
-   <ProcessStep>SendToABS</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
   </Context>
   <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.kadApproveAssessment.denyButton</Key>
+  <Key>worklistgrid_custom_open</Key>
   <Value>show</Value>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.667</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.244</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-11-02T20:04:29.585</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.723</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B81BA750-1F8C-45BB-D118-8472A39358E9</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>WorkListGrid.action.worklistgrid_custom_lsad</Key>
+  <Value>assignToMe,PrintPdf</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-11-10T10:31:15.891</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.612</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>806CB1AD-22D6-0711-0FC0-C0B24ACC73F3</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>tmplcfg_workGridViews</Key>
+  <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && (belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ) ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted")) }]]></Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-10-27T09:31:03.182</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.682</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -251,74 +267,58 @@
   <Value>false</Value>
   <Expression>${(belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ? "true" : "false"}</Expression>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-07-25T08:32:36.459</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.296</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-06-01T22:13:40.465</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.706</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>22761D02-38E9-682D-A5CB-A4DFA67DDE8A</ItemId>
+  <ItemId>742EB63E-4C96-F1CE-3F4F-9A5746FBCAB7</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.kadApproveAssessment.denyButton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-01-04T13:15:20.685</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.697</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FA5D807B-5B62-CAA0-983B-F123CEDAB249</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.kadApproveAssessment.currentApprovalTable</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2017-01-04T13:14:22.835</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.603</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>429D2A8E-015B-0251-645F-0C27DAAEDAD4</ItemId>
+  <Context>
+   <Process>Standard</Process>
    <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>tmplcfg_workGridViews</Key>
-  <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && (belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ) ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted"))}]]></Expression>
+  <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && loadVariable(memberCache.currentMemberId, "CommunityId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((loadVariable(memberCache.currentMemberId, "CommunityId") != "") ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted")) }]]></Expression>
   <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.584</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.304</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>26460D03-976E-E3C6-D689-30CAD6345939</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>worklistgrid_custom_open</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.525</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.316</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>69DE2C73-B97C-EFEB-9E96-8F01F677BDB8</ItemId>
-  <Context>
-   <Process>NO_PROCESS</Process>
-   <ProcessStep>MaterialGrid</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>views</Key>
-  <Expression><![CDATA[${(getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "" && (belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ) ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((getServiceParameter(memberCache.currentMemberId, "HailPoolId") != "") ? "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_hailPool,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : ((belongsToCommunity(memberCache.currentMemberId, #AllianzBiCommunityId) || belongsToCommunity(memberCache.currentMemberId, #AllianzLsadCommunityId)) ?  "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_custom_lsad,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted" : "worklistgrid_copied,worklistgrid_custom_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted")) }]]></Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
-  <CreationTimeStamp>2017-01-25T11:08:23.647</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:45:37.327</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>CFDA1C7A-EAFC-57CB-46DE-CB9169EB8B7E</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_SV_ALLIANZ_LSAD</OrganizationId>
-  </Context>
-  <RuleType>DataAccessRight</RuleType>
-  <Key>TaskType.READ</Key>
-  <Value>{"AccessLevel":"","AccessLevelParam":[]}</Value>
-  <Expression><![CDATA[{"AccessLevel":"ROOT","AccessLevelParam":[],"DataConstraint":"task.businessStatusKind != \"value31\" && task.businessStatusKind != \"value30\" && task.businessStatusKind != \"value9\" && ((task.responsibleUserId == \"${memberCache.currentMemberId}\" && task.responsibleOrganizationId == \"${memberCache.currentParentId}\") || (task.responsibleOrganizationId == \"${getServiceParameter(memberCache.currentMemberId, "HailPoolId")}\" && task.taskStatus == \"Created\") || (task.responsibleOrganizationId == \"${memberCache.currentParentId}\" && task.taskStatus == \"Created\" && ${getUsersIdFromCommunities(loadVariable(memberCache.currentMemberId, "AllianzBiCommunityId"), loadVariable(memberCache.currentMemberId, "AllianzLsadCommunityId") ,"task.responsibleUserId" , "==" , "||","single" ,memberCache.currentMemberId)}))"}]]></Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
-  <CreationTimeStamp>2018-03-13T07:45:37.337</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-03-13T07:51:37.679</LastUpdateTimeStamp>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2016-10-27T09:30:37.886</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-03-13T07:53:55.647</LastUpdateTimeStamp>
  </Rule>
  <Size>20</Size>
 </BRERuleListType>
