@@ -172,6 +172,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5600EB60-F3BC-4564-27A0-27E14B5F76C7</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.year_short</Key>
+  <Value>DE=Jahr kurz</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.085</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.085</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>216DEDA3-E017-3A5C-D8A1-D048F109118B</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -4213,6 +4229,38 @@
   <CreationTimeStamp>2018-04-16T09:57:05.078</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-15T15:13:19.795</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E82E0DE5-8109-4831-0167-68D1C15C1C0E</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.initial_number</Key>
+  <Value>DE=Aufsteigende Nummer</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.074</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.074</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1D306A11-B5C6-549C-8877-A3A8E81FD7DF</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.separator</Key>
+  <Value>DE=Separator 1</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.092</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.092</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13777,6 +13825,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DE93B856-36D5-2126-77E7-5818260A917D</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.number_of_digits</Key>
+  <Value>DE=Zahl-Länge</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.080</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.080</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E15E767F-687B-EC3F-1CBB-59D546FD5A1E</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -21297,6 +21361,22 @@
   <CreationTimeStamp>2018-04-11T11:09:25.180</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-15T15:13:20.414</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2913BCE9-5584-1541-2C76-B7E0377755B1</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.separator2</Key>
+  <Value>DE=Separator 2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.077</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.077</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43078,6 +43158,21 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A04D1CF7-947C-4A76-48EB-5D4EE62A46DB</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.number_of_digits</Key>
+  <Value>DE=Zahl-Länge</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.067</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.067</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>59BC1DA4-F57B-C715-4415-80460E57C977</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -62256,6 +62351,84 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>379450CD-DDD3-2140-D3FE-0844E82053CF</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.initial_number</Key>
+  <Value>DE=Aufsteigende Nummer</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.063</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.063</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>ED2B55A2-EEE3-4840-E55C-E33ED1C127A4</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.sequence_number_id</Key>
+  <Value>DE=SV-Kürzel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.072</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.072</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4B6B5895-0327-E82E-2EED-41DB9BB8FEC4</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.separator</Key>
+  <Value>DE=Separator 1</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.083</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.083</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>67EA2D6D-B612-5CD9-BB9E-A1528BCA66B7</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.editor</Key>
+  <Value>DE=Auftrags-Nr.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.088</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.088</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FB41159A-EA75-CB3C-9770-211F0B72F788</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.separator2</Key>
+  <Value>DE=Separator 2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-16T14:26:39.095</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-16T14:26:39.095</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>806F0824-5F7F-E8D9-3099-68B45C4D4722</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -62302,5 +62475,5 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-16T10:31:30.587</LastUpdateTimeStamp>
  </Rule>
- <Size>3877</Size>
+ <Size>3888</Size>
 </BRERuleListType>
