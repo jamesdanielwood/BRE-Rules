@@ -28791,12 +28791,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.minderwert.inputData.damageClassification</Key>
-  <Expression>${(task.basicClaimData.vehicle.vehicleEngineering.vehicleKind == "Truck")? "class=zzzz": "class=disable-field,disabled=disabled"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.vehicleEngineering.vehicleKind == "Truck" || "RefuseCollector" || "Tankfahrzeug" || "HydraulicLoaderTruck" || "TipperTruck" || "CabinTruck" )? "class=zzzz": "class=disable-field,disabled=disabled"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-06-28T09:48:14.104</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:57.475</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-22T09:23:28.910</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -33381,22 +33381,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>11D80897-3BAD-C235-6D43-60FA2C72B817</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.htmlimport.domreadyjsChangeSelection</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-05T17:14:51.749</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:58.150</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>168470CF-E9FA-0F31-3153-781B88DBA03D</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -35881,22 +35865,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>A22F854E-366D-FC83-B6CA-E4FB8E92D8A3</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.hints.hint3</Key>
-  <Value>Notreparatur</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:13.291</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:52.154</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>119B7155-5E4B-E08E-FF34-0228B5459639</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -36702,22 +36670,6 @@
   <CreationTimeStamp>2017-04-06T10:23:17.243</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:34:54.317</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C2EA88B7-E0B6-5CB2-821A-F7826A06BFE1</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.htmlimport.domreadyjsChangeSelection</Key>
-  <Value><![CDATA[var documentElements=$('input[type=checkbox][id^="root.task.documentAndAttachmentList.select"]');var docIds=[];for(var i=0;i<documentElements.length;i++){docIds.push(documentElements[i].attributes["item-id"].nodeValue)}var changedItemsValue=$(BRE.CommonUtils.createJQueryIdSelector("BREForm_root.task.documentAndAttachmentList.selectionChangedItems"));if(changedItemsValue.val()){var changedSelectionIds=changedItemsValue.val().split(",");var i=changedSelectionIds.length;while(i--){if(docIds.indexOf(changedSelectionIds[i])==-1){changedSelectionIds.splice(i,1)}}changedItemsValue.val(changedSelectionIds.toString())}]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-05T17:16:20.761</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:54.448</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -41092,6 +41044,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9D7BF90F-F70D-11E0-03E2-E8A5083121D2</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>worklistgrid_custom_default</Key>
+  <Value>worklistgrid_custom_openMine</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-22T09:29:24.384</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-22T09:29:24.384</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>78420E86-ED5B-AB77-176E-4B3367EBC220</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -45142,8 +45111,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:14.519</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:59.991</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-A14F580D42CEA5B664</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-18T14:42:49.380</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45354,23 +45323,6 @@
   <CreationTimeStamp>2017-05-31T10:50:16.645</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:35:00.645</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>463E5FB9-124B-2E5F-1978-68CA4774BFD7</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldReadOnly</RuleType>
-  <Key>root.task.minderwert.inputData.damageClassification</Key>
-  <Value>true</Value>
-  <Expression>${(task.basicClaimData.vehicle.vehicleEngineering.vehicleKind == "Truck")? "false": "true"}</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-06-28T09:47:55.738</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:35:00.686</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55778,5 +55730,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:35:01.336</LastUpdateTimeStamp>
  </Rule>
- <Size>3433</Size>
+ <Size>3430</Size>
 </BRERuleListType>
