@@ -406,6 +406,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3CF76795-086F-B75F-F6E7-106C5656FAE3</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CreateTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"ClaimNumberFromTemplateTransformation","alias":"ClaimNumberFromTemplateTransformation(1526587768378)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-17T22:09:28.484</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-17T22:10:39.575</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>859B5DBA-9922-18A4-25B8-76F019B9ED70</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CreateTaskWorkflowFunction.ClaimNumberFromTemplateTransformation(1526587768378)</Key>
+  <Expression>${#foreignCaseIdTransformationConditional}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-17T22:10:24.125</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-17T22:26:52.867</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DA888657-1FCE-C155-76D3-13FA51DDD3F9</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -716,5 +748,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-17T07:00:42.496</LastUpdateTimeStamp>
  </Rule>
- <Size>44</Size>
+ <Size>46</Size>
 </BRERuleListType>

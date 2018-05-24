@@ -458,5 +458,21 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-26T09:08:48.878</LastUpdateTimeStamp>
  </Rule>
- <Size>28</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F647DF4E-2F11-61E8-CB31-40B144322C4E</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CreateTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"ClaimNumberFromTemplateTransformation","alias":"ClaimNumberFromTemplateTransformation(1527058791142)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-23T08:59:51.210</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-23T08:59:51.210</LastUpdateTimeStamp>
+ </Rule>
+ <Size>29</Size>
 </BRERuleListType>
