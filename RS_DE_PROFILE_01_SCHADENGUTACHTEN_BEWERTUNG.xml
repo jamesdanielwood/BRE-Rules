@@ -2,6 +2,22 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6914181A-4A15-35C7-AC58-44741F782F25</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.paintDescription</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-29T08:58:13.400</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-29T08:58:13.400</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>92517F43-B0BA-56B0-65CF-1C1B736409F5</ItemId>
   <Context>
    <Process>Schadengutachten-Bewertung</Process>
@@ -406,6 +422,37 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6F7D5393-D9E5-B718-E9F8-4DDD38770263</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>UpdateTaskWorkflowFunction.POSTACTIONS</Key>
+  <Value>[{"name":"ProceedTask","alias":"ProceedTask(1527153983644)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-24T11:26:23.744</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-24T11:26:23.744</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2FB7CBF1-B452-1CD3-49B4-1E91F9C52AB0</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>workOverviewProcesses</Key>
+  <Value>Schadengutachten-Bewertung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-24T11:01:16.275</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-24T11:01:16.275</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3CF76795-086F-B75F-F6E7-106C5656FAE3</ItemId>
   <Context>
    <Process>Schadengutachten-Bewertung</Process>
@@ -748,5 +795,36 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-17T07:00:42.496</LastUpdateTimeStamp>
  </Rule>
- <Size>46</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B3FDD097-F33B-8E3F-E1DD-04FFA6354FE0</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>workoverview.Schadengutachten-Bewertung</Key>
+  <Value>DE=Schadengutachten-Bewertung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-24T11:36:30.502</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-24T11:36:43.014</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7989C837-6510-A075-F8A8-F71D9D4216E2</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>UpdateTaskWorkflowFunction.ProceedTask(1527153983644)</Key>
+  <Value>{process: "${(loadVariable(current.responsibleOrganizationId, 'defaultProcessVariable01') != '') ?  loadVariable(current.responsibleOrganizationId, 'defaultProcessVariable01') : loadVariable(current.responsibleUserId, 'defaultProcessVariable01')}",step:"WorkOverview"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-24T11:26:29.846</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-24T11:26:29.846</LastUpdateTimeStamp>
+ </Rule>
+ <Size>51</Size>
 </BRERuleListType>

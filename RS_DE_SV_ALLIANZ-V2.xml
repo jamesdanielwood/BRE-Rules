@@ -4824,6 +4824,7 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>42474446-4603-BDE3-2068-18384B02CA6B</ItemId>
   <Context>
+   <Process>CompleteAssessment</Process>
    <ProcessStep>SendToABS</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
@@ -4834,7 +4835,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:15.656</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:47.665</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-23T14:10:54.835</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -44183,6 +44184,52 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8AAA3770-8E07-DBA5-4A82-63DE6E943777</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.hints.hint3</Key>
+  <Value>Notreparatur</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-23T14:13:19.787</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-23T14:13:19.788</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5D737FE0-F3BC-11A6-ED3C-4E4B39ADCCE0</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>dcValuationTemplateRef</Key>
+  <Value>27477054352756346</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-23T14:15:25.150</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-23T14:15:25.150</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3EC0C444-E1BF-3CD3-3853-EA3C4FE25773</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>dcCalculationTemplateRef</Key>
+  <Value>27477181402423515</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-23T14:15:41.761</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-23T14:15:41.761</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D0A6D6E4-6DD6-FFFD-93F7-6D06A5FBBDFF</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -45102,6 +45149,7 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>84B47089-31E3-90FD-B341-0C402BFC2DBD</ItemId>
   <Context>
+   <Process>CompleteAssessment</Process>
    <ProcessStep>SendToABS</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
@@ -45111,8 +45159,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:14.519</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-A14F580D42CEA5B664</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-18T14:42:49.380</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-23T14:10:30.115</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -52743,12 +52791,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Zusammenfassung</Key>
-  <Value>root.task.kadSummaryTables.calculation,root.task.kadSummaryTables.valuation,root.task.kadSummaryTables.salvage,root.hints.hint2,root.task.basicClaimData.claimDescriptionVehicle.vehicleDamageLoss,root.task.basicClaimData.claimDescriptionVehicle.repairDurationDays,root.task.basicClaimData.replacementVehicle.replacementDuration,root.task.basicClaimData.claimDescriptionVehicle.claimantRepairIntention,root.hints.hint3,root.task.minderwert.manualValue,root.task.basicClaimData.vehicle.vehicleAdmin.valuationValueImprovement</Value>
+  <Value>root.task.kadSummaryTables.calculation,root.task.kadSummaryTables.valuation,root.task.kadSummaryTables.salvage,root.hints.hint2,root.task.basicClaimData.claimDescriptionVehicle.vehicleDamageLoss,root.task.basicClaimData.claimDescriptionVehicle.repairDurationDays,root.task.basicClaimData.replacementVehicle.replacementDuration,root.task.basicClaimData.claimDescriptionVehicle.claimantRepairIntention,root.task.minderwert.manualValue,root.task.basicClaimData.vehicle.vehicleAdmin.valuationValueImprovement</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-07T08:39:33.456</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:57.295</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-23T14:10:07.323</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55730,5 +55778,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:35:01.336</LastUpdateTimeStamp>
  </Rule>
- <Size>3430</Size>
+ <Size>3433</Size>
 </BRERuleListType>
