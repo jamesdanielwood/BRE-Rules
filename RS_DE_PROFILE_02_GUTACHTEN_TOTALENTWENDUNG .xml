@@ -147,6 +147,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F402208A-D305-1B84-D3FE-1F86C690E13F</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.paintDescription</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-29T09:00:28.463</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-29T09:00:28.463</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>830F159C-1404-B59D-2DFB-6EA629605963</ItemId>
   <Context>
    <Process>Gutachten-Totalentwendung</Process>
@@ -230,6 +246,37 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AD536D18-D9BA-6136-45FC-AE83693DD334</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>workoverview.Gutachten-Totalentwendung</Key>
+  <Value>DE=Gutachten-Totalentwendung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-24T11:37:43.885</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-24T11:37:43.885</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3DE7B459-CB47-D19F-D6B7-CF8B70F0EBB5</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>UpdateTaskWorkflowFunction.POSTACTIONS</Key>
+  <Value>[{"name":"ProceedTask","alias":"ProceedTask(1527153874778)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-24T11:24:34.889</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-24T11:24:34.889</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6A232953-AE1A-150A-0F72-F3CA0BD3096C</ItemId>
   <Context>
    <Process>Gutachten-Totalentwendung</Process>
@@ -291,6 +338,21 @@
   <CreationTimeStamp>2018-04-25T10:14:00.908</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-25T10:14:00.908</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2E45F7F0-6DCF-F53F-F1F8-DF5B90263900</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>workOverviewProcesses</Key>
+  <Value>Schadengutachten-Bewertung,Gutachten-Totalentwendung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-24T11:02:35.504</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-24T11:02:35.504</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -460,6 +522,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>88FF1E54-7C8D-5253-D957-BD30E216D7D5</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>UpdateTaskWorkflowFunction.ProceedTask(1527153874778)</Key>
+  <Value>{process: "${(loadVariable(current.responsibleOrganizationId, 'defaultProcessVariable02') != '') ?  loadVariable(current.responsibleOrganizationId, 'defaultProcessVariable02') : loadVariable(current.responsibleUserId, 'defaultProcessVariable02')}",step:"WorkOverview"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-24T11:24:38.928</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-24T11:24:38.928</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F647DF4E-2F11-61E8-CB31-40B144322C4E</ItemId>
   <Context>
    <Process>Gutachten-Totalentwendung</Process>
@@ -474,5 +552,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-23T08:59:51.210</LastUpdateTimeStamp>
  </Rule>
- <Size>29</Size>
+ <Size>34</Size>
 </BRERuleListType>
