@@ -23819,12 +23819,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>ChangeTaskOwnerWorkflowFunction.EvaluateExpressionIfTransformation(1485936110669)</Key>
-  <Value>{"expression":"if (!currentw.externalSystemDataItemMap.containsKey('KAD_ORIGINAL_APPROVAL_REQUESTER')) { var data = new ('com.audatex.axn.valueholders.cases.externalsystem.ExternalSystemDataItemType'); data.externalSystemName = 'KAD'; data.key = 'ORIGINAL_APPROVAL_REQUESTER'; data.value = '${getMemberCache().currentMemberId}'; currentw.externalSystemDataItemMap.put('KAD_ORIGINAL_APPROVAL_REQUESTER', data); }"}</Value>
+  <Value>{"expression":"if (!task.externalSystemDataItemMap.containsKey('KAD_ORIGINAL_APPROVAL_REQUESTER')) { var data = new ('com.audatex.axn.valueholders.cases.externalsystem.ExternalSystemDataItemType'); data.externalSystemName = 'KAD'; data.key = 'ORIGINAL_APPROVAL_REQUESTER'; data.value = '${getMemberCache().currentMemberId}'; task.externalSystemDataItemMap.put('KAD_ORIGINAL_APPROVAL_REQUESTER', data); }"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:16.949</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:47.812</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-25T07:34:15.877</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>

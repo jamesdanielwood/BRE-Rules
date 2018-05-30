@@ -10646,12 +10646,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.documentList</Key>
-  <Value>class=table</Value>
+  <Value>class=table wrap_normal</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-09-07T11:09:29.310</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:45.526</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-29T09:48:42.333</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14013,12 +14013,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.composeMail.sendAttachmentBinaryList.attachmentBinaryList</Key>
-  <Value>attachmentCategories= {GebrauchtwagenvermarktungundRestwertboerse;OTHER;Gutachten;IM}</Value>
+  <Value>attachmentCategories= {GebrauchtwagenvermarktungundRestwertboerse;OTHER;Gutachten;IM},class=showAttachmentFiledName</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-10-10T08:30:42.416</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:46.734</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-23T14:07:43.628</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15493,12 +15493,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.attachmentBinaryList.attachmentBinaryList</Key>
-  <Value>attachmentCategories={AlleFotos;Gutachten;GebrauchtwagenvermarktungundRestwertboerse;OTHER;IM},showEditableAnnotation=true</Value>
+  <Value>attachmentCategories={AlleFotos;Gutachten;GebrauchtwagenvermarktungundRestwertboerse;OTHER;IM},showEditableAnnotation=true,class=showAttachmentFiledName</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-02-06T14:46:18.113</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:48.423</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-23T14:07:11.220</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -39276,12 +39276,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.calculationList.calculationListTable</Key>
-  <Value>class=table</Value>
+  <Value>class=table wrap_normal</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:30.875</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:57.832</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-29T09:49:21.140</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43861,12 +43861,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.classInput.labourRatesTimeRatio.rate2PerHour</Key>
-  <Expression>${(task.basicClaimData.vehicle.vehicleIdentification.manufacturerCodeAX=="91")?"DE=Verblechung glatt":"DE=Lohnfaktor 1"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.vehicleIdentification.manufacturerCodeAX=="91")?"DE=Verblechung glatt":"DE=Lohnfaktor 2"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:34.826</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:54.607</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-25T10:41:41.227</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -44118,12 +44118,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.workflow.sendTask.sendattachmentBinaryList.attachmentBinaryList</Key>
-  <Value>attachmentCategories={GebrauchtwagenvermarktungundRestwertboerse;OTHER;Gutachten},class=no-border</Value>
+  <Value>attachmentCategories={GebrauchtwagenvermarktungundRestwertboerse;OTHER;Gutachten},class=showAttachmentFiledName</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-09-07T11:04:14.595</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:31:00.833</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-25T08:05:57.859</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>

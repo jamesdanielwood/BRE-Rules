@@ -2190,12 +2190,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Actions</Key>
-  <Value>root.csa.masterData.memberContactList.createMemberContactButton,root.csa.masterData.memberContactList.createAxnContactButton</Value>
+  <Value>root.csa.masterData.memberContactList.createMemberContactButton,root.csa.masterData.memberContactList.createAxnContactButton,root.csa.masterData.LegacyContactImportComponent</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:51.982</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:06.032</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-21T08:38:44.335</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7732,6 +7732,37 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8DAE0564-82A3-3ECF-2179-562018849985</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.LegacyContactImportComponent.importButton</Key>
+  <Value>EN=Import contacts,DE=Kontakte importieren</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-21T08:41:27.032</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-22T10:12:11.301</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F6245491-A6EF-DB8D-F3EA-D0E4571F2957</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>Import.Error</Key>
+  <Value>EN=Import error,DE=Beim Importieren der Daten ist ein Fehler aufgetreten.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-21T08:41:52.977</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-21T14:10:55.636</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>25D26007-6F87-85F1-EAC4-F57AB9B0D78F</ItemId>
   <Context>
    <ProcessStep>MemberOrganizationDetails</ProcessStep>
@@ -7745,6 +7776,22 @@
   <CreationTimeStamp>2018-02-27T07:53:31.361</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-27T07:53:31.361</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4101E8FD-5C5A-054E-DE20-7F49E846E2DF</ItemId>
+  <Context>
+   <ProcessStep>MemberDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.person.sequenceNumberId</Key>
+  <Value>DE=SV-Kürzel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-30T08:55:02.148</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-30T08:55:02.148</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14541,7 +14588,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-02T21:47:16.274</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-14T06:46:50.467</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-23T08:37:14.042</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14800,6 +14847,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F7E8E199-EE3E-7470-F898-573F66F7EA40</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>enableAxnMemberContactImportLinking</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-21T08:36:27.492</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-21T08:36:27.492</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>7E918A7A-BC67-5BBB-409F-528C99946291</ItemId>
   <Context>
    <ProcessStep>MemberDetails</ProcessStep>
@@ -15011,6 +15074,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FE815946-FF01-DA5D-5F73-47AECB2A9C37</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.masterData.LegacyContactImportComponent</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-21T08:37:33.411</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-21T08:37:33.411</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C5820437-A285-290F-223F-DFA13CF5FD33</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -15038,6 +15117,21 @@
   <CreationTimeStamp>2018-04-02T08:27:09.824</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-02T08:27:09.824</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>71F70D08-1C1C-98DB-7B94-A898164B6FCB</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>import.dialog.title</Key>
+  <Value>EN=Select address data file,DE=Adressdaten auswählen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-22T10:08:28.398</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-22T10:12:43.328</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15086,5 +15180,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>943</Size>
+ <Size>949</Size>
 </BRERuleListType>
