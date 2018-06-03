@@ -5544,6 +5544,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A194D616-5A89-888B-3488-AFA229B9A2FA</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.csa.masterData.memberContact.salutation</Key>
+  <Value>Mr,Mrs,Company</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-30T14:06:05.703</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-30T14:06:05.703</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A0B4D786-CC5F-284F-366A-0B2E9435D50B</ItemId>
   <Context>
    <ProcessStep>MemberContactRelatedContacts</ProcessStep>
@@ -15180,5 +15195,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>949</Size>
+ <Size>950</Size>
 </BRERuleListType>
