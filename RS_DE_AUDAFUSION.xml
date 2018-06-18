@@ -19758,12 +19758,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleEngineering.bodyType</Key>
-  <Value>Sedan,StationWagon,Coupe,Convertible,PickupTruck,Roadster,ClosedVan,OpenVan,DoubleCab,Bus,CoupeConvertible,PalletTtransporter,DoubleCabin,Camper,Crossover,Other,None,Truck,Moped,LightBike,Scooter,Bike,RacingBike,Chopper,EnduroBike,Rallye,Motocross,Trike,Trailer,SUV,Mokick,LightBike80,MokickScooter,MofaScooter,LightScooter,Tourer,TravelEnduro,Mofa,LightScooter80,DoubleBoxWagon,HighBox,HighStation,BoxWagon,SoftTop</Value>
+  <Value>Sedan,StationWagon,Coupe,Convertible,PickupTruck,Roadster,ClosedVan,OpenVan,DoubleCab,Bus,CoupeConvertible,PalletTtransporter,DoubleCabin,Camper=Wohnmobil,Crossover,Other,None,Truck,Moped,LightBike,Scooter,Bike,RacingBike,Chopper,EnduroBike,Rallye,Motocross,Trike,Trailer,SUV,Mokick,LightBike80,MokickScooter,MofaScooter,LightScooter,Tourer,TravelEnduro,Mofa,LightScooter80,DoubleBoxWagon,HighBox,HighStation,BoxWagon,SoftTop,TargaTop=Targadach,CabinTruck=Sattelzug,IsothermContainerVan=Kühlwagen,OpenWithTarpaulin=Offen mit Plane</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:31.476</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:52.551</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-14T12:56:18.362</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -21792,6 +21792,21 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2018-06-04T06:07:28.873</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-04T08:55:43.693</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>63BEE956-EA77-C82B-C485-E35F2C40CD59</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>caseType</Key>
+  <Value>DamageLoss=01-Kaskoschaden,IntakeDefault=02-Haftpflichtschaden,IntakeDriverExchange=03-Teilkasko-Brandschaden,Other=04-Diebstahlschaden,CashOnHand=05-Teilkasko-Hagelschaden,TopPrice=06-Teilkasko-Tierkollision,PrivateContracted=07-Teilkasko-Unwetter,PrivateNonContracted=08-Teilkasko-Tierbissschaden,AuthorisedContracted=09-TK-Kurzschlussschaden,AuthorisedNonContracted=10-Teilkasko-Glasbruchschaden,Vehicle=11-Teilkasko-Sturmschaden,Boat=12-TK-Überschwemmungsschaden,RiskOldTimer=13-Dienstreisekasko,RiskBoat=14-Betriebsschaden,RiskPreviousDamage=15-Betriebshaftpflichtschaden,DriveIn=16-Ermittlungsbericht,FinalCaseAdjusted=17-Gutachten Totalentwendung,Truck=18-Gutachterl. Stellungnahme</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-18T08:07:56.144</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-18T08:07:56.144</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -25680,7 +25695,7 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:39.804</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:45.755</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-14T12:34:06.333</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -34149,22 +34164,6 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreationTimeStamp>2017-07-11T09:25:38.624</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-17T21:30:52.122</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>4EE20316-5127-661A-1CE2-5E37625AF00E</ItemId>
-  <Context>
-   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>Block</RuleType>
-  <Key>Document Text Block Details</Key>
-  <Value>root.csa.documentTextBlockDetails.name,root.csa.documentTextBlockDetails.description,root.csa.documentTextBlockDetails.owner,root.csa.documentTextBlockDetails.ref-value,root.csa.documentTextBlockDetails.readonly,root.csa.documentTextBlockDetails.isXslt,root.csa.documentTextBlockDetails.appearanceLimit,root.csa.documentTextBlockDetails.defPlaceholder,root.csa.documentTextBlockDetails.smartselect,root.csa.documentTextBlockDetails.nonBreaking,root.csa.documentTextBlockDetails.destination,root.csa.documentTextBlockDetails.emailSubject,root.csa.documentTextBlockDetails.content,root.csa.documentTextBlockDetails.lastUpdateFullUserName,root.csa.documentTextBlockDetails.lastUpdatedDateTime,root.csa.documentTextBlockDetails.labels,root.csa.documentTextBlockDetails.claimTypes,root.csa.documentTextBlockDetails.conditionCombined</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-11T09:25:32.301</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:52.167</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43948,6 +43947,22 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>13041D59-BA0A-6EF7-0A8D-DDA66E66D0FE</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.bodyType</Key>
+  <Value>Sedan,StationWagon,Coupe,Convertible,PickupTruck,Roadster,ClosedVan,OpenVan,DoubleCab,Bus,CoupeConvertible,PalletTtransporter,DoubleCabin,Camper=Wohnmobil,Crossover,Other,None,Truck,Moped,LightBike,Scooter,Bike,RacingBike,Chopper,EnduroBike,Rallye,Motocross,Trike,Trailer,SUV,Mokick,LightBike80,MokickScooter,MofaScooter,LightScooter,Tourer,TravelEnduro,Mofa,LightScooter80,DoubleBoxWagon,HighBox,HighStation,BoxWagon,SoftTop,TargaTop=Targadach,CabinTruck=Sattelzug,IsothermContainerVan=Kühlwagen,OpenWithTarpaulin=Offen mit Plane</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-14T12:41:11.146</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-14T12:46:40.950</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8ACE581C-C965-F71B-8957-1863433B4A63</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -44060,6 +44075,22 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B623A005-03B6-AD69-BAC8-8BED8F6BA4C7</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.bodyType</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-14T12:41:41.609</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-14T12:41:41.609</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9958B049-669E-2738-D60B-AB8A907C5CC3</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -44150,5 +44181,5 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-04T06:08:05.516</LastUpdateTimeStamp>
  </Rule>
- <Size>2744</Size>
+ <Size>2746</Size>
 </BRERuleListType>
