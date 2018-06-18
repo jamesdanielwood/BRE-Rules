@@ -18,6 +18,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5839AB16-41D8-A243-5CA6-4EDEB6D3443C</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.assessorAssignment.typeOfAssessor</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-06T17:59:29.878</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-06T17:59:29.878</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>92517F43-B0BA-56B0-65CF-1C1B736409F5</ItemId>
   <Context>
    <Process>Schadengutachten-Bewertung</Process>
@@ -103,12 +119,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>CaseData</Key>
-  <Value>root.hints.hint2,root.hints.hint4,root.hints.hint3,root.task.foreignCaseId,root.task.assessorAssignment.assignmentType,root.task.inspection.fromToDateTime,root.task.assignmentDate,root.task.basicClaimData.claimDescriptionVehicle.claimType,root.task.inspection.conductedDate,root.task.remark,root.task.basicClaimData.claimDescriptionVehicle.damageCause,root.task.claimNumber,root.task.caseType,root.task.inspection.inspectionLocation.comment,root.task.basicClaimData.accidentData.accidentDateTime,root.task.basicClaimData.claimDescriptionVehicle.propertyTransferSigned,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.basicClaimData.disposition.comment,root.task.basicClaimData.claimDescriptionVehicle.claimantRepairIntention,root.task.basicClaimData.claimDescriptionVehicle.damageDescription</Value>
+  <Value>root.hints.hint2,root.hints.hint4,root.hints.hint3,root.task.foreignCaseId,root.task.assessorAssignment.assignmentType,root.task.inspection.fromToDateTime,root.task.assignmentDate,root.task.basicClaimData.claimDescriptionVehicle.claimType,root.task.inspection.conductedDate,root.task.assessorAssignment.typeOfAssessor,root.task.basicClaimData.claimDescriptionVehicle.damageCause,root.task.claimNumber,root.task.caseType,root.task.inspection.inspectionLocation.comment,root.task.basicClaimData.accidentData.accidentDateTime,root.task.basicClaimData.claimDescriptionVehicle.propertyTransferSigned,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.basicClaimData.disposition.comment,root.task.basicClaimData.claimDescriptionVehicle.claimantRepairIntention,root.task.basicClaimData.claimDescriptionVehicle.damageDescription</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-22T10:43:29.564</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T07:00:42.283</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-06T18:03:08.725</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -184,12 +200,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>oldUstToBreBackUrl</Key>
-  <Value>/bre/work/Schadengutachten-Bewertung/VehicleSearch</Value>
+  <Expression>/bre/work/${#defaultProcessVariable01}/VehicleSearch</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-26T12:45:41.928</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T07:00:42.351</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-31T12:05:39.045</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -438,6 +454,70 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>91F20636-C528-A16C-D763-6E8ECA6CFA9B</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.assessorAssignment.typeOfAssessor</Key>
+  <Value>DE=Auftraggeber</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-06T18:04:58.468</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-06T18:04:58.468</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AB660EDC-8D58-CA6A-8407-8E78CCD859C7</ItemId>
+  <Context>
+   <ProcessStep>test</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>blockNames</Key>
+  <Value>test</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-06T17:58:35.649</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-06T17:58:35.649</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C8922A49-3ED3-FA6A-6BA0-4D8C04D66EDC</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.assessorAssignment.typeOfAssessor::Layout</Key>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":2,"spanSize":5}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-06T18:04:01.604</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-06T18:04:26.885</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4F9911BE-213C-83EB-B5C4-F5409684D6F1</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.task.assessorAssignment.typeOfAssessor</Key>
+  <Value>ClaimsHandler=Westfälische Provinzial Versicherung Aktiengesellschaft,Internal=Provinzial Brandkasse Nord</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-06T18:05:56.598</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-07T13:16:47.833</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2FB7CBF1-B452-1CD3-49B4-1E91F9C52AB0</ItemId>
   <Context>
    <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
@@ -450,6 +530,38 @@
   <CreationTimeStamp>2018-05-24T11:01:16.275</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-24T11:01:16.275</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>82AE0389-EF7C-39BC-16A4-EE2AB5412087</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.assessorAssignment.typeOfAssessor</Key>
+  <Value>ClaimsHandler</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-07T13:17:11.585</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-07T13:17:11.585</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>72FCC731-EBF4-A7D0-D787-2BB9CC1B5EE2</ItemId>
+  <Context>
+   <ProcessStep>test</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>ProcessTransition</RuleType>
+  <Key>test</Key>
+  <Value>test</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-06T17:58:27.972</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-06T17:58:27.972</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -482,6 +594,23 @@
   <CreationTimeStamp>2018-05-17T22:10:24.125</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-17T22:26:52.867</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>249A698A-6637-D8D5-8E84-854DAED48663</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>onePadRefreshURL</Key>
+  <Expression><![CDATA[/bre/work/${#defaultProcessVariable01}/Calculation?taskId=${task.itemId}&caseId=${task.caseId}&performCalculation=normal&capturingDone=true&processRequest=true&reloadBeforeNextSave=true&selectedTab=2]]></Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-31T11:53:16.389</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-31T12:00:08.996</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -826,5 +955,21 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-24T11:26:29.846</LastUpdateTimeStamp>
  </Rule>
- <Size>51</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>69C125C2-7CF4-CB4F-5814-C9FF6C35E85C</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.documentDetails.template</Key>
+  <Expression>${(task.caseType == "DamageLoss") ? #DamageLossRef : (task.caseType == "IntakeDefault") ? #IntakeDefaultRef : (task.caseType == "IntakeDriverExchange") ? #IntakeDriverExchangeRef : (task.caseType == "Other") ? #OtherRef : (task.caseType == "CashOnHand") ? #CashOnHandRef : (task.caseType == "TopPrice") ? #TopPriceRef : (task.caseType == "PrivateContracted") ? #PrivateContractedRef : (task.caseType == "PrivateNonContracted") ? #PrivateNonContractedRef : (task.caseType == "AuthorisedContracted") ? #AuthorisedContractedRef : (task.caseType == "AuthorisedNonContracted") ? #AuthorisedNonContractedRef : (task.caseType == "Vehicle") ? #VehicleRef : (task.caseType == "Boat") ? #BoatRef : (task.caseType == "RiskOldTimer") ? #RiskOldTimerRef : (task.caseType == "RiskBoat") ? #RiskBoatRef : (task.caseType == "RiskPreviousDamage") ? #RiskPreviousDamageRef : (task.caseType == "DriveIn") ? #DriveInRef : (task.caseType == "FinalCaseAdjusted") ? #FinalCaseAdjustedRef : (task.caseType == "Truck") ? #TruckRef : #DefaultTemplateRef}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-12T11:56:12.780</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-12T11:56:12.780</LastUpdateTimeStamp>
+ </Rule>
+ <Size>60</Size>
 </BRERuleListType>

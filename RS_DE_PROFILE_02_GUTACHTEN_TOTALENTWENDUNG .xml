@@ -105,12 +105,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>oldUstToBreBackUrl</Key>
-  <Value>/bre/work/Schadengutachten-Bewertung/VehicleSearch</Value>
+  <Expression>/bre/work/${#defaultProcessVariable02}/VehicleSearch</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-25T10:14:52.611</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-04-25T10:14:52.611</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-31T12:04:26.138</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -144,6 +144,38 @@
   <CreationTimeStamp>2018-04-25T10:08:54.663</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-04-25T10:08:54.663</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2C54A728-BD3D-0713-535C-AB01E2907200</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.caseMemberCombo.vehicleOwner.inputTaxDeduction</Key>
+  <Value>No</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-06T10:13:38.272</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-06T10:13:38.272</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>576A13E9-3B31-0350-49D5-C650ECDCC94E</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.caseMemberCombo.policyHolder.inputTaxDeduction</Key>
+  <Value>No</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-06T10:12:39.734</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-06T10:12:59.208</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -473,6 +505,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2B7D6DCE-7FC9-F702-BC33-6D1F4397A666</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>onePadRefreshURL</Key>
+  <Expression><![CDATA[/bre/work/${#defaultProcessVariable02}/Calculation?taskId=${task.itemId}&caseId=${task.caseId}&performCalculation=normal&capturingDone=true&processRequest=true&reloadBeforeNextSave=true&selectedTab=2]]></Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-31T11:57:23.783</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-31T11:59:41.126</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E59EFBFE-315C-7F5C-4EB0-66C200841B50</ItemId>
   <Context>
    <Process>Gutachten-Totalentwendung</Process>
@@ -552,5 +601,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-23T08:59:51.210</LastUpdateTimeStamp>
  </Rule>
- <Size>34</Size>
+ <Size>37</Size>
 </BRERuleListType>
