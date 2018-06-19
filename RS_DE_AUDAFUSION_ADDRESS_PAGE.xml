@@ -2328,13 +2328,13 @@
    <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
   </Context>
   <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.repairDetail.repairer.membersearchfield::hideFields</Key>
+  <Key>root.task.basicClaimData.repairDetail.repairer.customizableMemberSearchField::hideFields</Key>
   <Value>memberKind,memberRole</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.667</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:31.890</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-19T10:30:38.104</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3656,13 +3656,13 @@
    <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
   </Context>
   <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberByRole.court.membersearchfield::Layout</Key>
+  <Key>root.task.caseMemberByRole.court.customizableMemberSearchField::Layout</Key>
   <Value>{"startAt":0,"labelSize":0,"fieldSize":3,"spanSize":3}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.564</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:26.970</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-19T10:30:14.952</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4072,13 +4072,13 @@
    <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
   </Context>
   <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.policyData.insuranceCompany.membersearchfield::hideFields</Key>
+  <Key>root.task.basicClaimData.policyData.insuranceCompany.customizableMemberSearchField::hideFields</Key>
   <Value>memberKind,memberRole</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.032</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.061</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-19T10:30:53.434</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6280,13 +6280,13 @@
    <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
   </Context>
   <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseMemberByRole.court.membersearchfield</Key>
+  <Key>root.task.caseMemberByRole.court.customizableMemberSearchField</Key>
   <Value>class=button button-left</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.195</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.032</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-19T10:29:58.216</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7728,6 +7728,21 @@
   <CreationTimeStamp>2018-05-15T18:40:46.294</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-12T13:27:34.724</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AA4BD45E-9C19-DBC6-4D7B-72E50487891E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>isAudafusionMode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-18T15:52:29.934</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-18T15:52:29.934</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11048,13 +11063,13 @@
    <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
   </Context>
   <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.policyData.insuranceCompany.membersearchfield::memberAutoSearch</Key>
+  <Key>root.task.basicClaimData.policyData.insuranceCompany.customizableMemberSearchField::memberAutoSearch</Key>
   <Value>memberKind:Organization +memberRole:Insurance</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.804</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:28.399</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-19T10:29:36.627</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11992,13 +12007,13 @@
    <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
   </Context>
   <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.repairDetail.repairer.membersearchfield::memberAutoSearch</Key>
+  <Key>root.task.basicClaimData.repairDetail.repairer.customizableMemberSearchField::memberAutoSearch</Key>
   <Value>memberKind:Organization +memberRole:BodyShop</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.469</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.144</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-19T10:28:54.166</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12960,5 +12975,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-12T13:27:33.910</LastUpdateTimeStamp>
  </Rule>
- <Size>810</Size>
+ <Size>811</Size>
 </BRERuleListType>
