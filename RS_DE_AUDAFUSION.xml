@@ -17579,6 +17579,21 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>180DBDDD-2271-2C73-B6C7-86EAF225E899</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.calculationList.calculationListTable.comment</Key>
+  <Value>DE=Anmerkung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-20T07:00:10.249</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-20T07:00:10.249</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4A3B8B39-AB5F-F388-DFAD-68571630595C</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
@@ -35466,5 +35481,5 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-04T06:08:05.516</LastUpdateTimeStamp>
  </Rule>
- <Size>2204</Size>
+ <Size>2205</Size>
 </BRERuleListType>
