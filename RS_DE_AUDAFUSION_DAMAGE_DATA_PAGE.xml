@@ -2083,5 +2083,21 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-06T17:53:09.120</LastUpdateTimeStamp>
  </Rule>
- <Size>130</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>39E9A077-F81C-EB1C-B915-D20BF22519D9</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_DAMAGE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseType::onchange</Key>
+  <Value>var caseType = this.value; var claimTypeField = $('#BREForm_root\\.task\\.basicClaimData\\.claimDescriptionVehicle\\.claimType');claimTypeField.val((caseType=='DamageLoss') ? 'FullCoverage' : (caseType=='IntakeDefault') ? 'Liability' : (caseType=='IntakeDriverExchange') ? 'PartialCoverage' : (caseType=='Other') ? 'PartialCoverage' : (caseType=='CashOnHand') ? 'PartialCoverage' : (caseType=='TopPrice') ? 'PartialCoverage' : (caseType=='PrivateContracted') ? 'PartialCoverage' : (caseType=='PrivateNonContracted') ? 'PartialCoverage' : (caseType=='AuthorisedContracted') ? 'PartialCoverage' : (caseType=='AuthorisedNonContracted') ? 'PartialCoverage' : (caseType=='Vehicle') ? 'PartialCoverage' : (caseType=='Boat') ? 'PartialCoverage' : (caseType=='RiskOldTimer') ? 'FullCoverage' : (caseType=='RiskBoat') ? 'FullCoverage' : (caseType=='RiskPreviousDamage') ? 'Liability' : (caseType=='DriveIn') ? 'Liability' : (caseType=='FinalCaseAdjusted') ? 'FullCoverage' : (caseType=='Truck') ? 'Liability' :'');</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-15T08:20:50.673</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T09:53:40.193</LastUpdateTimeStamp>
+ </Rule>
+ <Size>131</Size>
 </BRERuleListType>

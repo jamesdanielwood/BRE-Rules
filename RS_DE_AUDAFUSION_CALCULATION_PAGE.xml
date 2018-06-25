@@ -2,6 +2,22 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>856A357A-8F4A-6835-FB74-79A94490F59F</ItemId>
+  <Context>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>maxCommentLength</Key>
+  <Value>160</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T11:37:57.875</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T11:37:57.875</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A6C75689-B03D-271A-8F3A-EBCB0C4A9794</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -668,6 +684,22 @@
   <CreationTimeStamp>2018-05-29T17:57:15.305</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-12T13:28:09.062</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4AD0FDDD-DD75-88A9-C175-E197A82CD520</ItemId>
+  <Context>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>hideSelectedCalculationArrow</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-20T07:35:17.964</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-20T07:35:17.964</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1742,22 +1774,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>CECFC6D1-4D33-17D2-A233-EC019E6117CD</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.assessmentResult.autoResetToDefaultValues.resetOnButtonClick</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-18T08:42:47.130</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T08:42:47.130</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>91167C25-B7A2-4A4A-41BB-412767FB4BEB</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -2067,20 +2083,19 @@
    <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
   </Context>
-  <RuleType>FieldAttributes</RuleType>
+  <RuleType>Configuration</RuleType>
   <Key>calculationCommentEditable</Key>
   <Value>true</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T07:47:15.105</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T07:47:15.105</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-20T07:34:55.896</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>81F50087-5CD2-B090-8C74-366E54FF2650</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
@@ -2090,7 +2105,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T07:47:38.892</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T07:47:38.892</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-20T07:34:32.541</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2117,12 +2132,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>RepairerDetails</Key>
-  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.classInput.partnershipId,root.task.redirectToStepTab.redirectToStepTabButton,root.task.calculationMember,root.task.classInput.oemPriceUplift,root.task.classInput.transportCost,root.task.classInput.labourRatesTimeRatio,root.task.classInput.typeDATInfoButton,root.hints.hint2,root.task.classInput.idBlockCodesList,root.hints.hint1,root.task.classInput.idbcAddButton,root.task.classInput.idbcDeleteButton</Value>
+  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.classInput.partnershipId,root.task.redirectToStepTab.redirectToStepTabButton,root.task.calculationMember,root.task.classInput.oemPriceUplift,root.task.classInput.transportCost,root.task.classInput.labourRatesTimeRatio,root.task.classInput.typeDATInfoButton,root.hints.hint2,root.task.classInput.idBlockCodesList,root.hints.hint1,root.task.classInput.idbcAddButton,root.task.classInput.idbcDeleteButton,root.task.assessmentResult.autoResetToDefaultValues.resetOnButtonClick,root.task.assessmentResult.autoResetToDefaultValues.resetAfterCapturing</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-29T17:57:15.265</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:28:09.316</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-18T15:20:30.194</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2715,6 +2730,70 @@
   <CreationTimeStamp>2018-06-18T07:46:24.783</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-18T07:46:24.783</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B871ED5C-250C-30E7-8E9F-B447BF74B271</ItemId>
+  <Context>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.assessmentResult.autoResetToDefaultValues.resetAfterCapturing</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-18T15:20:29.994</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-18T15:20:44.474</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>47B4B33D-D7FD-A352-155F-E429C9B632E9</ItemId>
+  <Context>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.assessmentResult.autoResetToDefaultValues.resetOnButtonClick</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-18T15:19:52.850</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-18T15:20:15.182</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A3BEBF0E-1C3F-7296-EE9A-5836C44BEADD</ItemId>
+  <Context>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.assessmentResult.autoResetToDefaultValues.resetAfterCapturing</Key>
+  <Value>[{partsToReset:"all"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-18T15:20:44.669</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-18T15:20:44.669</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DA21BD0D-B69C-1294-A1E4-23598F97D941</ItemId>
+  <Context>
+   <ProcessStep>Calculation</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.assessmentResult.autoResetToDefaultValues.resetOnButtonClick</Key>
+  <Value>[{selector: "#BREForm_root\\.task\\.calculationOptions\\.calculate", partsToReset:"calculation,ust,valuation", partsToClean:"", event: "click", validators: "calculationChanges"},{selector: "input[name='checkedRadioButton']:radio", event: "click", validators: "calculationChanges", partsToReset:"all"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-18T15:20:15.378</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-18T15:20:15.378</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4319,38 +4398,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>98570359-9EE3-3913-5F84-D5CBAD596233</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.assessmentResult.autoResetToDefaultValues.resetAfterCapturing</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-18T08:43:25.452</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T08:43:25.452</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>0E070AEC-A426-6CE7-D972-F0F3E2BD0B0C</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.task.assessmentResult.autoResetToDefaultValues.resetOnButtonClick</Key>
-  <Value>[{selector: "#BREForm_root\\.task\\.calculationOptions\\.calculate", partsToReset:"calculation,ust,valuation", partsToClean:"", event: "click", validators: "calculationChanges"},{selector: "input[name='checkedRadioButton']:radio", event: "click", validators: "calculationChanges", partsToReset:"all"}]</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-18T08:43:02.009</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T08:43:02.009</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CFEA89E7-15EC-F1FA-A800-35B7C2D6E3FF</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -4365,5 +4412,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-18T07:43:23.489</LastUpdateTimeStamp>
  </Rule>
- <Size>273</Size>
+ <Size>276</Size>
 </BRERuleListType>

@@ -555,12 +555,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>memberContactListColumns</Key>
-  <Value>companyName,role,lastUpdatedDateTime</Value>
+  <Value>delete,companyName,role,lastUpdatedDateTime</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:52.323</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:06.441</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T11:19:33.653</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2190,12 +2190,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Actions</Key>
-  <Value>root.csa.masterData.memberContactList.createMemberContactButton,root.csa.masterData.memberContactList.createAxnContactButton,root.csa.masterData.LegacyContactImportComponent</Value>
+  <Value>root.csa.masterData.memberContactList.createMemberContactButton,root.csa.masterData.memberContactList.createAxnContactButton,root.csa.masterData.LegacyContactImportComponent,root.csa.masterData.memberContactList.Delete</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:51.982</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-21T08:38:44.335</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-22T12:54:33.157</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4715,6 +4715,22 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-02-06T10:14:08.476</LastUpdateTimeStamp>
   <Description>RS_CSA_PROCESS_CORE</Description>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>72EB18D0-FF73-35E5-B393-9675F1A05CB6</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.memberContactList.Delete</Key>
+  <Value>EN=Delete Selected,DE=Ausgewählte löschen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T11:23:25.596</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T11:23:25.596</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7509,8 +7525,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:52.443</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:09.067</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T12:54:32.956</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13971,6 +13987,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>581960F0-9D45-E96B-BDBA-390FD90398A5</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>columnLayout.Actions</Key>
+  <Value>6</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T12:55:17.013</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T12:55:17.013</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3EF5197D-43E1-DD20-44A0-B71F93414832</ItemId>
   <Context>
    <ProcessStep>MemberDetails</ProcessStep>
@@ -14240,6 +14272,38 @@
   <CreationTimeStamp>2018-01-25T14:20:10.510</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-25T14:50:57.023</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A5AF568F-1081-9196-3C78-024D86D760C7</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.masterData.memberContactList.Delete</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T11:22:08.410</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T11:22:08.410</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F1F6416F-B78D-E5EF-63F6-1E90A49958F5</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.masterData.memberContactList.createAxnContactButton</Key>
+  <Value>style=position:relative;left:-30px;</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T13:30:07.595</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T13:30:07.595</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15211,5 +15275,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>951</Size>
+ <Size>955</Size>
 </BRERuleListType>

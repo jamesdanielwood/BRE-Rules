@@ -3463,7 +3463,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:17.336</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:46.019</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-12T20:31:02.731</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9575,13 +9575,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>HTML5ImageEditor.vvConfig</Key>
-  <Value>{reloadDocumentOnSave: true, refreshParentOnSave: false, touchToolbar: 
-{showFilledPolygon: true}, stickyAnnButtons: {"Line": true, "Arrow": true, "Freehand": true, "HighlightRectangle": true, "FilledRectangle": true, "FilledEllipse": true, "FilledPolygon": true, "Rectangle": true, "Ellipse": true, "Polygon": true}}</Value>
+  <Value>{reloadDocumentOnSave: true, refreshParentOnSave: false, touchToolbar:{showFilledPolygon: true}, stickyAnnButtons: {"Line": true, "Arrow": true, "Freehand": true, "HighlightRectangle": true, "FilledRectangle": true, "FilledEllipse": true, "FilledPolygon": true, "Rectangle": true, "Ellipse": true, "Polygon": true}}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-13T13:24:20.798</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:47.323</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T11:14:10.754</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10733,12 +10732,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>saveParentPage</Key>
-  <Value>true</Value>
+  <Value>false</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-A14F580D42CEA5B664</CreatedBy>
   <CreationTimeStamp>2018-05-08T10:05:14.273</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-A14F580D42CEA5B664</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-08T10:05:14.273</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T14:15:51.077</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11088,8 +11087,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-06-09T08:39:46.980</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:46.828</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T13:41:19.557</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -20241,7 +20240,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:13.274</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:45.064</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-11T05:41:29.125</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -25856,7 +25855,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-14T08:56:17.152</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:55.931</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-11T05:31:44.987</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -31562,22 +31561,6 @@
   <CreationTimeStamp>2017-04-06T10:23:15.138</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:34:50.202</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>27ED8BA5-4D8F-49B3-95E5-FD256132FCA5</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>hideEditSelectedButtonForAttachmentCategories</Key>
-  <Value>*</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:10.422</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:50.273</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -46060,7 +46043,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-04T09:02:19.775</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:53.180</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-20T08:10:27.100</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -49608,6 +49591,39 @@
   <CreationTimeStamp>2017-05-24T08:31:24.563</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:34:55.093</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C55A7FBA-94BB-1F9F-1342-F657319DB56F</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.kadApproveAssessment.approvalChangeOwnerButton::popupWidth</Key>
+  <Value>100%</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-11T05:14:22.105</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-11T05:20:58.738</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8BDCB514-BECA-8446-0FDA-27D7532A1030</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>ApprovalChangeOwner</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.kadApproveAssessment.approvalChangeOwnerButton::popUpWidth</Key>
+  <Value>100%</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-11T05:34:19.807</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-11T05:34:19.807</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -53370,7 +53386,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T09:52:37.572</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:35:00.252</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-20T08:10:40.016</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55827,5 +55843,52 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:35:01.336</LastUpdateTimeStamp>
  </Rule>
- <Size>3436</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EECFED22-BC5B-0B00-4B16-C9A49D12EFD6</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>AudaImageApplet</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-19T10:39:19.500</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-19T10:39:19.500</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>11EF3A5C-AD64-FA66-3F9B-FDE82F32B44D</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>WorkListGrid.action.ApprovalChangeOwner.modalWindowWidth</Key>
+  <Value>100%</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-11T05:17:10.212</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-11T05:17:10.212</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>841FFFDC-DB83-B1FD-A664-C862FAFD5EB2</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>ApprovalChangeOwner</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.kadSendToABS.approvalRequestButton::popupWidth</Key>
+  <Value>100%</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-11T05:32:15.416</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3440</Size>
 </BRERuleListType>

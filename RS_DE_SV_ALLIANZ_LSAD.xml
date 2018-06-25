@@ -118,12 +118,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>query.worklistgrid_custom_lsad</Key>
-  <Expression><![CDATA[task.responsibleUserId != '${memberCache.currentMemberId}' && task.responsibleOrganizationId == '${memberCache.currentParentId}' && task.taskStatus=="Created" && (task.businessStatusKind=="value15" || task.businessStatusKind=="value17" || task.businessStatusKind=="value80")]]></Expression>
+  <Expression><![CDATA[task.responsibleUserId != '${memberCache.currentMemberId}' && task.responsibleOrganizationId == '${memberCache.currentParentId}' && task.taskStatus=="Created" && (task.businessStatusKind=="value15" || task.businessStatusKind=="value17" || task.businessStatusKind=="value16" || task.businessStatusKind=="value80")]]></Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
   <CreationTimeStamp>2017-01-25T11:08:23.625</CreationTimeStamp>
   <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T18:33:01.686</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-22T06:53:56.271</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
