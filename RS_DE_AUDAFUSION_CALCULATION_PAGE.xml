@@ -4384,7 +4384,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9B198EB9-BE51-B674-EBB4-3D71D4F146E2</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_CALCULATION_PAGE</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -4394,7 +4393,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T07:42:09.451</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T07:42:24.824</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T11:03:17.261</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
