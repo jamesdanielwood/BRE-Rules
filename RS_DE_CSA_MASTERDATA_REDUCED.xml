@@ -555,12 +555,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>memberContactListColumns</Key>
-  <Value>companyName,role,lastUpdatedDateTime</Value>
+  <Value>delete,companyName,role,lastUpdatedDateTime</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:52.323</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:06.441</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T11:19:33.653</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1709,12 +1709,12 @@
   </Context>
   <RuleType>StepTranslation</RuleType>
   <Key>MemberContactList</Key>
-  <Expression>${(#isAllianzAssessor)?"DE=Werkstätten verwalten":"DE=Adressen"}</Expression>
+  <Expression>${(#isAllianzAssessor)?"DE=Adressen verwalten,EN=Manage Address Data":"DE=Adressen"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-03-21T16:53:26.357</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-03-21T16:53:26.357</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-12T08:13:30.088</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1821,12 +1821,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ContactInfo</Key>
-  <Value>root.csa.person.firstName,root.csa.person.lastName,root.csa.person.address.street,root.csa.person.address.zipCode,root.csa.person.address.city,root.csa.person.communicationDetailList.email1,root.csa.person.communicationDetailList.phone1,root.csa.person.communicationDetailList.mobile,root.csa.person.memberId,root.csa.person.updateDate,root.actionButtons.saveButton</Value>
+  <Value>root.csa.person.firstName,root.csa.person.lastName,root.csa.person.address.street,root.csa.person.address.zipCode,root.csa.person.address.city,root.csa.person.communicationDetailList.email1,root.csa.person.communicationDetailList.phone1,root.csa.person.communicationDetailList.mobile,emptyField1522931902143,root.csa.person.communicationDetailList.fax1,root.csa.person.memberId,root.csa.person.updateDate,emptyField1524751467276,root.actionButtons.saveButton,root.csa.person.sequenceNumberId</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T08:55:05.701</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-26T14:59:13.648</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-14T06:49:10.276</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2190,12 +2190,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Actions</Key>
-  <Value>root.csa.masterData.memberContactList.createMemberContactButton,root.csa.masterData.memberContactList.createAxnContactButton</Value>
+  <Value>root.csa.masterData.memberContactList.createMemberContactButton,root.csa.masterData.memberContactList.createAxnContactButton,root.csa.masterData.LegacyContactImportComponent,root.csa.masterData.memberContactList.Delete</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:51.982</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:06.032</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T12:54:33.157</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2318,12 +2318,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ClaimNumberManagement</Key>
-  <Value>root.csa.masterData.claimNumberManagement.editor,root.csa.masterData.claimNumberManagement.fixedpart,root.csa.masterData.claimNumberManagement.separator,root.actionButtons.saveButton,root.csa.masterData.claimNumberManagement.reset</Value>
+  <Value>root.csa.masterData.claimNumberManagement.editor,root.csa.masterData.claimNumberManagement.separator,root.csa.masterData.claimNumberManagement.initial_number,root.csa.masterData.claimNumberManagement.separator2,root.csa.masterData.claimNumberManagement.number_of_digits,root.actionButtons.saveButton,root.csa.masterData.claimNumberManagement.reset</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:52.155</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:06.369</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-14T06:49:55.639</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4718,6 +4718,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>72EB18D0-FF73-35E5-B393-9675F1A05CB6</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.memberContactList.Delete</Key>
+  <Value>EN=Delete Selected,DE=Ausgewählte löschen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T11:23:25.596</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T11:23:25.596</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>60ED8C7E-3B72-3574-722E-8526718E5A5A</ItemId>
   <Context>
    <ProcessStep>MemberContactRelatedContacts</ProcessStep>
@@ -5510,6 +5526,52 @@
   <CreationTimeStamp>2016-10-20T12:31:52.438</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-02-06T10:14:09.306</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B145B6C8-3D04-B79C-C833-C74BA33089A3</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.editor</Key>
+  <Value>spanAllColumns=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-14T06:47:04.359</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-14T06:47:04.359</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2203E015-87B9-4F7D-CA4B-E8D416C592AA</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.initial_number</Key>
+  <Value>DE=Aufsteigende Nummer</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-14T06:52:00.465</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-14T06:52:00.465</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A194D616-5A89-888B-3488-AFA229B9A2FA</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.csa.masterData.memberContact.salutation</Key>
+  <Value>Mr,Mrs,Company</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-30T14:06:05.703</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-30T14:06:05.703</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7010,12 +7072,12 @@
   </Context>
   <RuleType>StepTranslation</RuleType>
   <Key>ClaimNumberManagement</Key>
-  <Value>DE=Vorgangs-Nr. Verwaltung</Value>
+  <Value>DE=Auftrags-Nr. Verwaltung</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:52.518</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:08.103</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-14T06:53:48.393</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7435,22 +7497,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F3B2C642-22DA-A2CD-42F7-AF29EFBDEE34</ItemId>
-  <Context>
-   <ProcessStep>ClaimNumberManagement</ProcessStep>
-   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.csa.masterData.claimNumberManagement.fixedpart</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2016-10-20T12:31:53.654</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:08.997</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>473D64A8-FBAA-0D34-268A-CC8981542699</ItemId>
   <Context>
    <ProcessStep>CsaOrganizationDetail</ProcessStep>
@@ -7479,8 +7525,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:52.443</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:09.067</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T12:54:32.956</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7717,6 +7763,37 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8DAE0564-82A3-3ECF-2179-562018849985</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.LegacyContactImportComponent.importButton</Key>
+  <Value>EN=Import contacts,DE=Kontakte importieren</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-21T08:41:27.032</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-22T10:12:11.301</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F6245491-A6EF-DB8D-F3EA-D0E4571F2957</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>Import.Error</Key>
+  <Value>EN=Import error,DE=Beim Importieren der Daten ist ein Fehler aufgetreten.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-21T08:41:52.977</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-21T14:10:55.636</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>25D26007-6F87-85F1-EAC4-F57AB9B0D78F</ItemId>
   <Context>
    <ProcessStep>MemberOrganizationDetails</ProcessStep>
@@ -7730,6 +7807,22 @@
   <CreationTimeStamp>2018-02-27T07:53:31.361</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-27T07:53:31.361</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4101E8FD-5C5A-054E-DE20-7F49E846E2DF</ItemId>
+  <Context>
+   <ProcessStep>MemberDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.person.sequenceNumberId</Key>
+  <Value>DE=SV-Kürzel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-30T08:55:02.148</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-30T08:55:02.148</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9124,6 +9217,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>29DA23C2-9CB5-7302-CE15-839A608293D5</ItemId>
+  <Context>
+   <ProcessStep>MemberDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.person.sequenceNumberId</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-14T06:47:40.916</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-14T06:48:31.074</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D207CDED-EF7B-0899-CA8C-49089D5536CC</ItemId>
   <Context>
    <ProcessStep>CsaContractGeneral</ProcessStep>
@@ -9393,7 +9502,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:53.540</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:07.116</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-05-17T12:11:12.368</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12199,7 +12308,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2016-10-20T12:31:52.390</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-02-06T10:14:05.904</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-03-09T11:34:39.125</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12265,6 +12374,22 @@
   <CreationTimeStamp>2016-10-20T12:31:53.179</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-02-06T10:14:09.318</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1F86E71E-B4FC-ACF9-9D80-3105317CAF8C</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.number_of_digits</Key>
+  <Value>spanAllColumns=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-17T12:10:56.132</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-17T12:10:56.132</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13674,6 +13799,36 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9AA661BB-5782-CE82-77C2-271D2BD634C8</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.number_of_digits</Key>
+  <Value>DE=Zahl-Länge</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-14T06:52:19.096</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-14T06:52:19.096</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>42DDDE92-08A7-C963-DAEA-D77E43E94597</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.sequence_number_id</Key>
+  <Value>DE=SV-Kürzel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-14T06:52:59.903</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-14T06:52:59.903</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C2E2A81D-B152-7003-2EB7-65D1E6F011F4</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -13754,6 +13909,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5C610475-37F1-49E2-54F0-18CD24E4BE49</ItemId>
+  <Context>
+   <ProcessStep>MemberOrganizationDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.organization.sequenceNumberId</Key>
+  <Value>spanAllColumns=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-17T12:09:03.942</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-17T12:09:03.942</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>414A24DF-9F46-6BFB-D365-5C7B7228E96E</ItemId>
   <Context>
    <ProcessStep>ProfileList</ProcessStep>
@@ -13797,6 +13968,38 @@
   <CreationTimeStamp>2017-12-27T11:19:52.531</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-27T11:19:52.531</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BB92B28C-2F8F-86BF-5144-6F20126089B8</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.editor</Key>
+  <Value>YEAR,YEAR_SHORT,SEPARATOR,SEPARATOR2,CONSECUTIVENUMBER,SEQUENCE_NUMBER_ID</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-14T06:47:23.459</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-14T06:47:23.459</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>581960F0-9D45-E96B-BDBA-390FD90398A5</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>columnLayout.Actions</Key>
+  <Value>6</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T12:55:17.013</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T12:55:17.013</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13881,6 +14084,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D1FFF043-41F4-DE5D-9FCA-3BC76896E3DC</ItemId>
+  <Context>
+   <ProcessStep>MemberDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.person.communicationDetailList.fax1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-05T14:51:51.069</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-05T15:12:49.719</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3EF49E3B-E899-D72E-AF8D-67DC0340E24D</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -13935,12 +14154,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>ContactInfo</Key>
-  <Value>root.csa.organization.companyName,root.csa.organization.organizationName,root.csa.organization.address.street,root.csa.organization.address.zipCode,root.csa.organization.address.city,root.csa.organization.communicationDetailList.email1,root.csa.organization.communicationDetailList.phone1,root.csa.organization.communicationDetailList.mobile,root.csa.organization.memberId,root.csa.organization.updateDate,root.actionButtons.saveButton</Value>
+  <Value>root.csa.organization.companyName,root.csa.organization.organizationName,root.csa.organization.address.street,root.csa.organization.address.zipCode,root.csa.organization.address.city,root.csa.organization.communicationDetailList.email1,root.csa.organization.communicationDetailList.phone1,root.csa.organization.communicationDetailList.mobile,emptyField1522931902143,root.csa.organization.communicationDetailList.fax1,root.csa.organization.memberId,root.csa.organization.updateDate,root.csa.organization.sequenceNumberId,root.actionButtons.saveButton</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-27T07:50:12.929</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-02-27T14:27:22.874</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-17T12:07:27.651</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14056,6 +14275,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A5AF568F-1081-9196-3C78-024D86D760C7</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.masterData.memberContactList.Delete</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T11:22:08.410</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T11:22:08.410</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F1F6416F-B78D-E5EF-63F6-1E90A49958F5</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.masterData.memberContactList.createAxnContactButton</Key>
+  <Value>style=position:relative;left:-30px;</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-06-22T13:30:07.595</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-22T13:30:07.595</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5DAC5336-E5DC-845E-8AAF-08A0D52C7349</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.initial_number</Key>
+  <Value>DE=Aufsteigende Nummer</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:49:21.508</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:49:21.508</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>657849EF-70EE-5B40-C550-B7218EC15D83</ItemId>
   <Context>
    <ProcessStep>MemberOrganizationDetails</ProcessStep>
@@ -14100,6 +14367,22 @@
   <CreationTimeStamp>2018-02-27T07:53:46.568</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-27T07:53:46.568</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4D18C96A-B9D8-C309-784C-623593F2D559</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.separator2</Key>
+  <Value>DE=Separator 2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:57:37.394</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:57:37.394</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14148,6 +14431,22 @@
   <CreationTimeStamp>2018-01-25T14:22:12.521</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-25T14:50:57.192</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E0AA322C-B5B1-9043-051F-E4C37796537C</ItemId>
+  <Context>
+   <ProcessStep>MemberOrganizationDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.organization.sequenceNumberId</Key>
+  <Value>DE=SV-Kürzel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-03T13:25:41.906</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-03T13:25:41.906</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14262,6 +14561,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>62068A9F-71D3-A600-E875-5CAD0DA9A878</ItemId>
+  <Context>
+   <ProcessStep>MemberOrganizationDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.organization.sequenceNumberId</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-17T12:07:27.453</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-17T12:09:03.758</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D9A3E771-E1FD-5EA3-4168-68BE21AA80E9</ItemId>
   <Context>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
@@ -14274,6 +14589,38 @@
   <CreationTimeStamp>2018-02-07T09:38:46.736</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-02-07T09:38:46.736</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FA887F1F-C82F-1EC6-DDBA-D77D78FA4CC7</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.initial_number</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:41:32.907</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:41:32.908</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E32A7AC8-8CDD-34D0-E83B-49AD273658A2</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.number_of_digits</Key>
+  <Value>DE=Zahl-Länge</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:54:43.348</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:54:43.348</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14305,6 +14652,54 @@
   <CreationTimeStamp>2018-01-09T13:36:04.894</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-01-09T13:36:04.894</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>99900228-9D57-AB9D-4ADE-2DA186DC60F8</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.separator2</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:42:52.143</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:42:52.143</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9C015F78-F712-D763-B369-0683A4DE992B</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement::level</Key>
+  <Value>user</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:47:16.274</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-23T08:37:14.042</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A64C7E57-B341-9B77-23BE-2988E0806ABA</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.separator</Key>
+  <Value>DE=Separator 1</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:48:46.512</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:48:46.512</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14465,6 +14860,101 @@
   <CreationTimeStamp>2017-12-14T07:11:28.056</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-15T11:13:00.230</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0EA7BBC4-6DC3-0030-586A-F78300D232F9</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.year_short</Key>
+  <Value>DE=Jahr kurz</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:57:01.354</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:57:18.995</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AF799B1C-1C7C-4566-D8AC-710521A8DA30</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.editor</Key>
+  <Value>DE=Auftrags-Nr.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:58:26.073</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:58:26.073</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A731B718-A31A-2C97-D36B-8B987AC02C7B</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterdata.claimnumbermanagement.templateitem.separator</Key>
+  <Value>DE=Separator 1</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:57:55.515</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:57:55.515</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D0C58E03-EDB8-7F09-E208-F99AA3F2BB0F</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.number_of_digits</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:44:26.064</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-17T12:10:55.954</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>47B5351D-68A7-1CEA-4561-37E8875186AB</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>sequenceNumber.key</Key>
+  <Expression>${memberCache.currentMemberId},YEAR</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:46:13.272</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:46:13.272</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F7E8E199-EE3E-7470-F898-573F66F7EA40</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>enableAxnMemberContactImportLinking</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-21T08:36:27.492</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-21T08:36:27.492</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14663,6 +15153,99 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C7C85076-5333-9A2C-B3CB-11A16D7F8A64</ItemId>
+  <Context>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.claimNumberManagement.separator2</Key>
+  <Value>DE=Separator 2</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-05-02T21:48:59.512</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-02T21:48:59.512</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FE815946-FF01-DA5D-5F73-47AECB2A9C37</ItemId>
+  <Context>
+   <ProcessStep>MemberContactList</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.masterData.LegacyContactImportComponent</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-21T08:37:33.411</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-21T08:37:33.411</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C5820437-A285-290F-223F-DFA13CF5FD33</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>StepTranslation</RuleType>
+  <Key>CsaStampsAndSignaturesList</Key>
+  <Value><![CDATA[DE=Stempel & Unterschriften,EN=Stamps & Signatures]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-02T08:26:47.035</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-02T08:26:47.035</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F8576C03-9053-DB10-8712-F147462ED97C</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>StepTranslation</RuleType>
+  <Key>CsaImageDetails</Key>
+  <Value>DE=Stempel/Unterschrift-Details,EN=Stamp/Signature Details</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-02T08:27:09.824</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-02T08:27:09.824</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>71F70D08-1C1C-98DB-7B94-A898164B6FCB</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>import.dialog.title</Key>
+  <Value>EN=Select address data file,DE=Adressdaten auswählen</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-05-22T10:08:28.398</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-05-22T10:12:43.328</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>88D6C516-6EC2-657D-1BD6-EBBA91779267</ItemId>
+  <Context>
+   <ProcessStep>MemberOrganizationDetails</ProcessStep>
+   <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.organization.communicationDetailList.fax1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-04-05T14:51:34.911</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-05T14:51:34.911</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E47E8EB1-C0A3-C83A-89EF-9925F0F88888</ItemId>
   <Context>
    <ProcessStep>ProfileList</ProcessStep>
@@ -14692,5 +15275,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-12-28T17:05:28.655</LastUpdateTimeStamp>
  </Rule>
- <Size>918</Size>
+ <Size>955</Size>
 </BRERuleListType>

@@ -4,7 +4,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4CB22E05-D918-42F6-7C10-E2DF0C976971</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
   </Context>
   <RuleType>FieldAttributes</RuleType>
@@ -13,8 +12,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
   <CreationTimeStamp>2017-11-08T16:21:44.246</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-D611A310FD4E51AB82</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-08T16:21:44.246</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T11:12:17.758</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -66,7 +65,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>24BC1152-D161-599E-ACA3-07E0FDC8D152</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
   </Context>
   <RuleType>BlockTranslation</RuleType>
@@ -75,8 +73,42 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
   <CreationTimeStamp>2018-01-18T08:54:14.564</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-D611A310FD4E51AB82</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-18T08:54:14.564</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T11:11:03.502</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7CBDC298-939C-3BA1-B73C-EA1D6E5CB3D9</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.damageCapture.webpadButton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-06-21T11:10:02.705</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T11:10:02.705</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>390E6C19-397A-0060-475D-5A750611CC7E</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.damageCapture.onepadButton</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-06-21T11:09:50.830</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T11:09:50.830</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -106,8 +138,25 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
   <CreationTimeStamp>2017-11-08T16:08:40.943</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-D611A310FD4E51AB82</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-08T16:08:40.943</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-18T11:10:13.240</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4D9D6EB6-0971-CE42-B3BA-6B4485039F51</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>OnePadQapter</Key>
+  <Value>root.task.damageCapture.onepadButton,root.task.damageCapture.webpadButton</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-06-21T11:09:31.772</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T11:09:31.772</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -160,7 +209,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D8D474BE-9B5E-03BC-97BD-E5B26A927B6A</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
   </Context>
   <RuleType>FieldAttributes</RuleType>
@@ -169,14 +217,28 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
   <CreationTimeStamp>2017-11-08T16:22:02.857</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-D611A310FD4E51AB82</LastUpdatedBy>
-  <LastUpdateTimeStamp>2017-11-08T16:22:02.857</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T11:11:59.101</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FFE4E134-73B4-A448-C222-E6BB9FDF1501</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>idbcmode</Key>
+  <Value>READ_WRITE</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-04-18T11:10:51.653</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-04-18T11:10:51.653</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3187A628-C770-5B08-BF37-E4854EB682BF</ItemId>
   <Context>
-   <ProcessStep>Calculation</ProcessStep>
    <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
@@ -185,8 +247,25 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
   <CreationTimeStamp>2018-01-18T08:56:25.494</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-D611A310FD4E51AB82</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-01-18T08:56:25.494</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T11:11:29.990</LastUpdateTimeStamp>
  </Rule>
- <Size>12</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6AB3F4D4-90CD-C222-1916-41614FDF509E</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ_QAPTER</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>blockNames</Key>
+  <Value>DamageData,VehicleIdentification,RepairerDetails,OnePadQapter,CalculationResult,CalculationOptions</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-06-21T11:08:50.119</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-21T11:08:50.119</LastUpdateTimeStamp>
+ </Rule>
+ <Size>17</Size>
 </BRERuleListType>
