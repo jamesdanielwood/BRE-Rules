@@ -486,6 +486,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AFCD3B33-FB17-640A-95D8-976A04298D25</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CreateTaskWorkflowFunction.AddCaseMemberByMemberIdTransformation(1530006179042)</Key>
+  <Value>{memberId:"ML-O-039100",memberRole:"Insurance"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-26T11:43:18.370</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-26T11:43:18.370</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C8922A49-3ED3-FA6A-6BA0-4D8C04D66EDC</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -572,13 +588,13 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>CreateTaskWorkflowFunction.TRANSFORMATIONS</Key>
-  <Value>[{"name":"ClaimNumberFromTemplateTransformation","alias":"ClaimNumberFromTemplateTransformation(1526587768378)"}]</Value>
+  <Value>[{"name":"ClaimNumberFromTemplateTransformation","alias":"ClaimNumberFromTemplateTransformation(1526587768378)"},{"name":"AddCaseMemberByMemberIdTransformation","alias":"AddCaseMemberByMemberIdTransformation(1530006179042)"}]</Value>
   <Expression>[${#foreignCaseIdTransformationConditional}]</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-17T22:09:28.484</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-14T17:49:03.027</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-26T11:42:59.142</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -956,5 +972,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-12T11:56:12.780</LastUpdateTimeStamp>
  </Rule>
- <Size>59</Size>
+ <Size>60</Size>
 </BRERuleListType>

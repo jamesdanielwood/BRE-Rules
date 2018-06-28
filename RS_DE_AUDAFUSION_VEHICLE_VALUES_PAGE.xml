@@ -1508,6 +1508,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6C5F1759-6626-B8BF-9127-211C426831CF</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.minderwert.modelSelection.vehicleDeprecationBigDecimal</Key>
+  <Value>DE=Minderwert für Gutachten</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-26T15:46:58.994</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-26T15:46:58.994</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B9CE0CD1-CFA5-B574-85E2-5D0E0D903143</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -1795,6 +1811,22 @@
   <CreationTimeStamp>2018-06-18T15:27:06.664</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-18T15:27:06.664</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>52C37EB5-542A-C5B8-C499-B4AF89330860</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.minderwert.modelSelection.manualValueBigDecimal</Key>
+  <Value>DE=Minderwert (man.Betragsangabe)</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-26T15:48:08.128</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-26T15:48:08.128</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8825,5 +8857,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-18T15:27:07.585</LastUpdateTimeStamp>
  </Rule>
- <Size>549</Size>
+ <Size>551</Size>
 </BRERuleListType>

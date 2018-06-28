@@ -438,6 +438,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>49FCE23E-CC29-572D-FCEA-378FAE5E1F73</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CreateTaskWorkflowFunction.AddCaseMemberByMemberIdTransformation(1530006862267)</Key>
+  <Value>{memberId:"ML-O-039100",memberRole:"Insurance"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-26T11:56:28.890</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-26T11:56:28.890</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>326A4489-15B4-837D-36B6-0589B279EF01</ItemId>
   <Context>
    <Process>Gutachten-Totalentwendung</Process>
@@ -594,13 +610,13 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>CreateTaskWorkflowFunction.TRANSFORMATIONS</Key>
-  <Value>[{"name":"ClaimNumberFromTemplateTransformation","alias":"ClaimNumberFromTemplateTransformation(1527058791142)"}]</Value>
+  <Value>[{"name":"ClaimNumberFromTemplateTransformation","alias":"ClaimNumberFromTemplateTransformation(1527058791142)"},{"name":"AddCaseMemberByMemberIdTransformation","alias":"AddCaseMemberByMemberIdTransformation(1530006862267)"}]</Value>
   <Expression>[${#foreignCaseIdTransformationConditional}]</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-23T08:59:51.210</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-14T17:50:15.076</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-26T11:54:22.506</LastUpdateTimeStamp>
  </Rule>
- <Size>37</Size>
+ <Size>38</Size>
 </BRERuleListType>

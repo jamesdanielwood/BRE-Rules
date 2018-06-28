@@ -2,6 +2,22 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0A7457B6-733A-D966-32C7-42BCC42EA95E</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberByRole.other.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:02:52.661</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:02:52.661</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B5E3E0C5-F209-0BA5-16F8-2F3F99094E6E</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -281,12 +297,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.policyHolder.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.953</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:27.746</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:06:11.196</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -665,12 +681,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.claimant.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.204</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:25.017</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:04:23.413</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -777,12 +793,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.police.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.683</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:30.647</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:06:42.484</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -793,12 +809,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.court.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.552</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:30.369</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:04:08.737</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -985,12 +1001,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.client.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.324</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:31.668</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:04:16.470</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1625,12 +1641,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.claimAssistant.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.117</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:26.585</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:06:22.567</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1657,12 +1673,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.lawyer.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.395</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:26.793</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:17:54.670</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1865,12 +1881,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.733</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:28.344</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:24:20.442</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1929,12 +1945,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.vehicleOwner.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.891</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:28.485</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:27:24.253</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1945,12 +1961,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.policyHolder.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.382</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:28.872</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:22:22.037</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2025,12 +2041,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.client.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.070</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:29.251</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:05:52.485</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2153,12 +2169,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.rentalCarCompany.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.441</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:30.335</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:17:06.462</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2585,12 +2601,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.court.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.251</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.207</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:17:40.611</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2633,12 +2649,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.294</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.259</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:21:51.401</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2985,12 +3001,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.rentalCarCompany.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.475</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:29.476</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:24:11.182</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3049,12 +3065,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.police.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.828</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:30.060</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:17:30.052</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3705,12 +3721,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.claimAssistant.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.769</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:27.099</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:18:56.851</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3961,12 +3977,124 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.thirdParty.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.967</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:25.533</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:26:42.839</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>212FDD9F-2F7F-3958-F06D-A98CFA6D05AF</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberCombo.policyHolder.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-27T10:03:45.673</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-27T10:14:04.979</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0828F453-819C-419D-726F-74AD82C6398E</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberCombo.vehicleOwner.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:00:33.632</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:00:33.632</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DCEE8E48-211F-AA6A-774F-D258C3B5C995</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberByRole.client.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:03:56.187</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:03:56.187</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9C4A65D5-C351-883F-67E9-55F716581A4A</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberByRole.court.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:06:24.047</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:06:24.047</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>992F237C-FB32-5BED-4BD4-29ACC0DBC418</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberByRole.towingService.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:07:01.752</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:07:01.752</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CB0ABFDC-6EAD-D53C-E403-57559BE81F57</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberCombo.claimant.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:01:19.080</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:01:19.080</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CA35B74C-45D1-282F-80E4-2B6BBAA6CAA1</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberByRole.lawyer.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:05:43.882</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:05:43.882</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4142,7 +4270,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.137</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.614</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:07:48.473</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4153,12 +4281,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.481</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.788</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:24:59.747</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4233,12 +4361,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.fax1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.922</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:31.975</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:16:25.406</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4313,12 +4441,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.policyHolder.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.665</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:32.348</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:16:53.154</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4366,7 +4494,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.941</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:32.829</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:02:52.477</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4510,7 +4638,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.000</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:26.335</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:00:33.446</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4926,7 +5054,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.208</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:25.026</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:14:04.778</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4953,12 +5081,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.thirdParty.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.876</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:27.658</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:03:39.292</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4969,12 +5097,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.claimant.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.378</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:27.982</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:17:13.636</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5097,12 +5225,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.claimAssistant.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.159</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:28.644</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:05:16.313</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5113,12 +5241,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.court.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.657</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:28.960</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:06:30.883</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5246,7 +5374,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.107</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:27.818</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:07:01.568</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5785,12 +5913,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.fax1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.907</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:26.315</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:16:34.158</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5865,12 +5993,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.thirdParty.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.352</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:26.741</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:20:31.361</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6046,7 +6174,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.951</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:31.998</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:06:23.861</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6073,12 +6201,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.034</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:32.033</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:06:51.006</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6265,12 +6393,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.lawyer.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.194</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:32.657</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:06:03.330</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6297,12 +6425,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.thirdParty.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.125</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.007</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:23:51.666</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7610,12 +7738,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.vehicleOwner.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.268</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.818</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:21:33.901</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7690,12 +7818,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.rentalCarCompany.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.612</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.418</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:27:16.634</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7897,12 +8025,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.vehicleOwner.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.050</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.774</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:05:36.753</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8014,7 +8142,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.323</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.299</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:02:15.500</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8089,12 +8217,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.court.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.623</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.248</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:19:25.640</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8265,12 +8393,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.policyHolder.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.791</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:29.694</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:05:28.806</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8537,12 +8665,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.849</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:31.962</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:21:21.888</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8607,6 +8735,22 @@
   <CreationTimeStamp>2018-05-15T18:40:45.003</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-12T13:27:32.603</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C7C81334-7A76-426D-320F-8C7A9D05559F</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberByRole.rentalCarCompany.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:07:48.655</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:07:48.655</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8681,12 +8825,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.claimant.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.414</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:25.963</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:17:22.171</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8921,12 +9065,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.rentalCarCompany.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.116</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:25.629</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:28:48.873</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9369,12 +9513,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.995</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:30.878</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:03:56.427</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9753,12 +9897,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.client.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.198</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.043</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:19:33.821</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10014,7 +10158,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.416</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.335</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:03:56.001</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10169,12 +10313,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.vehicleOwner.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.959</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:24.920</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:16:59.377</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10312,12 +10456,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.police.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.114</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:25.618</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:20:17.478</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10344,12 +10488,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.lawyer.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.363</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:25.814</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:28:34.370</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10776,12 +10920,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.client.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.910</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:26.329</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:22:15.010</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10926,6 +11070,38 @@
   <CreationTimeStamp>2018-05-15T18:40:44.729</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-12T13:27:27.038</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3489121A-C892-3335-83D7-E3E4E6CA568E</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberByRole.thirdParty.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:02:15.687</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:02:15.687</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EDAE4C23-641B-BEEA-9F85-728D7B757877</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.caseMemberByRole.claimAssistant.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-06-28T10:04:36.463</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-06-28T10:04:36.463</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11112,12 +11288,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.towingService.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.957</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:28.559</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T11:05:44.179</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11325,7 +11501,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.241</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:30.168</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:05:43.696</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11400,12 +11576,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.towingService.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.672</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:30.636</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:21:58.488</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11661,7 +11837,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.662</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:31.882</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:04:36.273</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11917,7 +12093,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.000</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:29.233</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-28T10:01:18.889</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12056,12 +12232,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.lawyer.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.390</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.572</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:22:06.786</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12296,12 +12472,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.towingService.communicationDetailList.phone2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.854</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:33.699</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:24:29.349</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12360,12 +12536,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.claimAssistant.communicationDetailList.phone1</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.709</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:29.651</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:24:00.859</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12632,12 +12808,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.towingService.communicationDetailList.mobile2</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.193</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:32.161</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:28:27.353</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12728,12 +12904,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberCombo.claimant.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.062</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:32.940</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:27:09.763</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12920,12 +13096,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.caseMemberByRole.police.communicationDetailList.mobile</Key>
-  <Value><![CDATA[data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=<FIELDNAME> entspricht nicht dem gefordeten Format]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.143</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-12T13:27:34.622</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-27T10:28:42.147</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13007,5 +13183,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-12T13:27:33.910</LastUpdateTimeStamp>
  </Rule>
- <Size>813</Size>
+ <Size>824</Size>
 </BRERuleListType>

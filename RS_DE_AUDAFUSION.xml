@@ -9253,22 +9253,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C9500B8B-D3CD-A180-FD10-25A1EA471F09</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FlowProcessorConfiguration</RuleType>
-  <Key>CreateTaskWorkflowFunction.AddCaseMemberByMemberIdTransformation(1525704918470)</Key>
-  <Value>{memberId:"ML-O-039100",memberRole:"Insurance"}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-07T16:55:23.143</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:58.625</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1B660D7E-2E5E-537F-AD8C-1A233C586CBA</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -28071,23 +28055,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>22C68DEA-A894-FCB8-8619-AB65E78650DA</ItemId>
-  <Context>
-   <Process>CompleteAssessment</Process>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FlowProcessorConfiguration</RuleType>
-  <Key>CreateTaskWorkflowFunction.TRANSFORMATIONS</Key>
-  <Value>[{"name":"AddCaseMemberByMemberIdTransformation","alias":"AddCaseMemberByMemberIdTransformation(1525704918470)"}]</Value>
-  <Expression>[${#foreignCaseIdTransformationConditional} ${(isEmpty(#foreignCaseIdTransformationConditional)) ? "" : ","} {"name":"AddCaseMemberByMemberIdTransformation","alias":"AddCaseMemberByMemberIdTransformation(1525704918470)"}]</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-07T16:55:18.560</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-23T08:50:11.208</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>750CDBE4-4295-3DA4-ADF3-56E3CC88615A</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -30934,5 +30901,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-04T06:08:05.516</LastUpdateTimeStamp>
  </Rule>
- <Size>1921</Size>
+ <Size>1919</Size>
 </BRERuleListType>
