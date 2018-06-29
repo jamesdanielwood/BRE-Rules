@@ -8470,12 +8470,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.workflow.changeOwner.dialog-membersearchfield</Key>
-  <Value>class=button button spacer</Value>
+  <Value>class=button button spacer,dialog-width=1100</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:35.396</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:59.103</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-29T07:12:03.105</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -24362,12 +24362,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.workflow.changeOwner.dialog-membersearchfield</Key>
-  <Value>class=button space-button</Value>
+  <Value>class=button space-button,dialog-width=1100</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.913</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:30:58.224</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-29T07:12:21.707</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
