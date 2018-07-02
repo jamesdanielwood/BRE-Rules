@@ -5184,6 +5184,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>251D214D-22C8-AAD5-78DE-5033F0946BF9</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.identificationdata.axequipment</Key>
+  <Value>DE=Ausstattung Kalkulation</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T10:15:14.860</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T10:15:14.860</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>967E86F4-1C10-E1F7-DB29-F07B8AEA7162</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.nobutton</Key>
+  <Value>DE=Nein</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T10:17:28.217</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T10:17:28.217</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>160376C3-93B6-8D51-E498-F76E76217898</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -19770,6 +19802,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C89334E8-E82E-66A1-1A47-13897C3301BF</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.proceedwithsyncforce</Key>
+  <Value>DE=Möchten Sie die neue Fahrzeugbeschreibung für die Kalkulation und die Bewertung übernehmen?</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T10:19:47.298</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T10:19:47.298</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>ECEA6B55-D0F5-EABB-C4C5-3F3325C7FE63</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -20821,6 +20869,70 @@
   <CreationTimeStamp>2018-05-14T15:11:03.874</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-14T15:11:49.710</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>159DDBA9-481F-A4A0-01C6-9E7D865D273D</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.identificationdata.etsequipment</Key>
+  <Value>DE=Ausstattung Fahrzeugbewertung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T10:15:48.137</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T10:15:48.137</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6E283B37-6927-98B6-7B59-50174F689F0C</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.vehicleforvaluation</Key>
+  <Value>DE=Fzg für die Bewertung identifiziert</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T10:21:53.537</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T10:21:53.537</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DFBD7A09-65B7-505E-546D-E91FCC2657C4</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.warning</Key>
+  <Value>DE=Warnung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T10:22:45.909</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T10:22:45.909</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FFB842DA-510F-A747-3EED-93E007DFE13D</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.yesbutton</Key>
+  <Value>DE=Ja</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T10:24:56.148</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T10:24:56.148</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28308,6 +28420,22 @@
   <CreationTimeStamp>2017-04-06T10:23:13.016</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:34:43.891</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CD3305EC-F7DF-386B-C7F7-C3B53D5B8813</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.vehicleforcalculation</Key>
+  <Value>DE=Fzg für die Kalkulation identifiziert</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T10:20:26.057</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T10:20:26.057</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55824,5 +55952,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3436</Size>
+ <Size>3444</Size>
 </BRERuleListType>
