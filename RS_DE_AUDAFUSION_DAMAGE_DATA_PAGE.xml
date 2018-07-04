@@ -819,22 +819,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>A7BB2540-2186-1BC1-FD69-AB4125F7B1D9</ItemId>
-  <Context>
-   <ProcessStep>DamageData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_DAMAGE_DATA_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimType</Key>
-  <Expression>${(task.caseType=="DamageLoss") ? "FullCoverage" : (task.caseType=="IntakeDefault") ? "Liability" : (task.caseType=="IntakeDriverExchange") ? "PartialCoverage" : (task.caseType=="Other") ? "PartialCoverage" : (task.caseType=="CashOnHand") ? "PartialCoverage" : (task.caseType=="TopPrice") ? "PartialCoverage" : (task.caseType=="PrivateContracted") ? "PartialCoverage" : (task.caseType=="PrivateNonContracted") ? "PartialCoverage" : (task.caseType=="AuthorisedContracted") ? "PartialCoverage" : (task.caseType=="AuthorisedNonContracted") ? "PartialCoverage" : (task.caseType=="Vehicle") ? "PartialCoverage" : (task.caseType=="Boat") ? "PartialCoverage" : (task.caseType=="RiskOldTimer") ? "FullCoverage" : (task.caseType=="RiskBoat") ? "FullCoverage" : (task.caseType=="RiskPreviousDamage") ? "Liability" : (task.caseType=="DriveIn") ? "Liability" : (task.caseType=="FinalCaseAdjusted") ? "FullCoverage" : (task.caseType=="Truck") ? "Liability" :""}</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-06T15:56:24.155</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-06T15:56:24.155</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>67977009-5EBC-E63F-3A74-CA059A223535</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -896,22 +880,6 @@
   <CreationTimeStamp>2018-06-06T15:56:24.219</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-06T15:56:24.219</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2E51BC68-35D0-631C-3AA1-0837BC774BD6</ItemId>
-  <Context>
-   <ProcessStep>DamageData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_DAMAGE_DATA_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimType</Key>
-  <Value>Liability=Haftpflicht,FullCoverage=Vollkasko,PartialCoverage=Teilkasko</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-06T15:56:24.240</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-06T15:56:24.240</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1856,7 +1824,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-06T15:56:24.426</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-06T15:56:24.426</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-06-25T08:12:39.683</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1889,6 +1857,22 @@
   <CreationTimeStamp>2018-06-06T15:56:24.253</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-06T15:56:24.253</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>20440103-F9BC-2A1B-A8BA-023B850FC4C5</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_DAMAGE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimType</Key>
+  <Expression>${#claimType}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-04T08:49:33.487</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-04T08:49:33.487</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2099,5 +2083,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-21T09:53:40.193</LastUpdateTimeStamp>
  </Rule>
- <Size>131</Size>
+ <Size>130</Size>
 </BRERuleListType>
