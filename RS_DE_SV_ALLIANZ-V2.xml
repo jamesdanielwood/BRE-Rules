@@ -5200,6 +5200,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6AE6B510-15E5-5876-D71E-0F7A67B4F2BA</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.speedClass_1</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-05T07:18:53.674</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-05T07:19:27.838</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>967E86F4-1C10-E1F7-DB29-F07B8AEA7162</ItemId>
   <Context>
    <ProcessStep>Damage</ProcessStep>
@@ -8467,12 +8483,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.classInput.labourRatesTimeRatio.rate3PerHour</Key>
-  <Value>DE=Lohnfaktor 3</Value>
+  <Expression>${(task.basicClaimData.vehicle.vehicleIdentification.manufacturerCodeAX=="91")?"DE=Verblechung strukturiert":"DE=Lohnfaktor 3"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-04T09:02:19.798</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:50.733</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-05T07:15:24.202</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -23704,7 +23720,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-06-01T09:24:17.221</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:46.786</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-04T09:11:21.806</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -26949,23 +26965,6 @@
   <CreationTimeStamp>2017-04-06T10:23:18.041</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:34:54.008</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>BDDB6A41-BC57-8DD2-C466-1DEA70289225</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.vehicleValuation.vehicleTypeForPrint</Key>
-  <Value>remove</Value>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ?  "show" : "remove"}</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2017-07-05T19:05:08.740</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:54.047</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42377,8 +42376,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-05T19:10:49.056</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:55.797</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-03T08:36:47.160</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -53572,12 +53571,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.vehicleValuation.priceAsNewForDocumentation</Key>
-  <Value>secondLabel=EUR,showCurrencyLabel=true</Value>
+  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-25T09:35:27.826</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:35:00.711</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-03T08:35:16.917</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55316,12 +55315,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.classInput.labourRatesTimeRatio.rate1PerHour</Key>
-  <Value>DE=Lohnfaktor 1</Value>
+  <Expression>${(task.basicClaimData.vehicle.vehicleIdentification.manufacturerCodeAX=="91")?"DE=Instandsetzung":"DE=Lohnfaktor 1"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-04T09:02:19.626</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:59.601</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-05T07:14:49.642</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55922,6 +55921,40 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2C439EF2-6D67-E208-F5B4-61316645BB58</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.vehicleValuation.vehicleTypeForPrint</Key>
+  <Value>remove</Value>
+  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ?  "show" : "remove"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-07-03T08:24:21.771</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-03T08:30:53.493</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6DA93312-5FD2-CDD9-C61E-EA12C6524174</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldMandatory</RuleType>
+  <Key>root.task.vehicleValuation.priceAsNew</Key>
+  <Value>true</Value>
+  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-07-03T08:31:45.434</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-03T08:31:45.434</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>11EF3A5C-AD64-FA66-3F9B-FDE82F32B44D</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -55952,5 +55985,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3444</Size>
+ <Size>3446</Size>
 </BRERuleListType>
