@@ -10730,12 +10730,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>saveParentPage</Key>
-  <Value>false</Value>
+  <Value>true</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-A14F580D42CEA5B664</CreatedBy>
   <CreationTimeStamp>2018-05-08T10:05:14.273</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-22T14:15:51.077</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-06T08:55:14.802</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
