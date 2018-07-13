@@ -7525,12 +7525,12 @@
   <RuleType>FieldMandatory</RuleType>
   <Key>root.task.vehicleValuation.baseValue</Key>
   <Value>true</Value>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-05T19:08:46.449</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:48.634</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-12T19:53:22.850</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -32070,12 +32070,12 @@
   <RuleType>FieldMandatory</RuleType>
   <Key>root.task.vehicleValuation.mileageCategory</Key>
   <Value>true</Value>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-05T19:08:17.278</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:35:01.278</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-12T19:55:14.992</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42060,12 +42060,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.additionalValueWhenNew</Key>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField()" : "secondLabel=EUR,showCurrencyLabel=true,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField();"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField()" : "secondLabel=EUR,showCurrencyLabel=true,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField();"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-04T09:50:13.299</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:52.774</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-12T19:54:12.007</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42388,12 +42388,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.vehicleValuation.mileageCategory</Key>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "required=required,data-errormessage=is mandatory for manual valuation" : ""}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "required=required,data-errormessage=is mandatory for manual valuation" : ""}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-05T19:10:49.056</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-03T08:36:47.160</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-12T19:54:49.026</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43943,12 +43943,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.vehicleValuation.baseValue</Key>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-25T09:23:52.341</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:59.274</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-12T19:53:05.689</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -53587,12 +53587,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.vehicleValuation.priceAsNewForDocumentation</Key>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-25T09:35:27.826</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-03T08:35:16.917</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-12T19:55:49.683</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -53610,6 +53610,21 @@
   <CreationTimeStamp>2017-05-05T09:45:23.113</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:35:00.742</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D178E9BD-679F-94AD-5FBD-18F140C2C7AE</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>alwaysExecuteAlternativeCalculation</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-13T20:00:07.575</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-13T20:00:07.575</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55169,12 +55184,12 @@
   <RuleType>FieldMandatory</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.additionalValueWhenNew</Key>
   <Value>false</Value>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-04T09:49:46.658</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:59.329</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-12T19:55:31.828</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55945,12 +55960,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.vehicleValuation.vehicleTypeForPrint</Key>
   <Value>remove</Value>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ?  "show" : "remove"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ?  "show" : "remove"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-07-03T08:24:21.771</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-03T08:30:53.493</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-12T19:51:32.820</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55962,12 +55977,12 @@
   <RuleType>FieldMandatory</RuleType>
   <Key>root.task.vehicleValuation.priceAsNew</Key>
   <Value>true</Value>
-  <Expression>${(root.task.basicClaimData.vehicle.vICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "true" : "false"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-07-03T08:31:45.434</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-03T08:31:45.434</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-12T19:54:31.549</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56001,5 +56016,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3447</Size>
+ <Size>3448</Size>
 </BRERuleListType>
