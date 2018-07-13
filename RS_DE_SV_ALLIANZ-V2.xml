@@ -2358,8 +2358,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-11T21:11:13.381</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:44.903</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-10T16:46:56.516</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5213,6 +5213,22 @@
   <CreationTimeStamp>2018-07-05T07:18:53.674</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-05T07:19:27.838</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>921C264C-D505-BD06-614F-140E15309933</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.kadSendToABS.changePaymentDialog</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-06T09:04:05.682</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-06T09:04:05.682</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12686,12 +12702,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Abgabe</Key>
-  <Value>root.task.kadSelectReportsForSend.reportsTable,root.hints.hint1,root.task.documentAndAttachmentList,root.task.documentAndAttachmentList.name,root.task.documentAndAttachmentList.selected,root.task.attachmentBinaryList.attachmentBinaryList,root.task.kadSendToABS.notReadyAndSendButton.1,root.task.kadSendToABS.readyAndSendButton.1,root.task.kadSendToABS.approvalRequestButton</Value>
+  <Value>root.task.kadSelectReportsForSend.reportsTable,root.hints.hint1,root.task.documentAndAttachmentList,root.task.documentAndAttachmentList.name,root.task.documentAndAttachmentList.selected,root.task.attachmentBinaryList.attachmentBinaryList,root.task.kadSendToABS.notReadyAndSendButton.1,root.task.kadSendToABS.readyAndSendButton.1,root.task.kadSendToABS.approvalRequestButton,root.task.kadSendToABS.changePaymentDialog</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:13.797</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:52.139</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-06T09:04:05.870</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27781,12 +27797,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleDamage.vehicleRepairProcessStatus</Key>
-  <Value>DE=Fahzeugstatus</Value>
+  <Value>DE=Fahrzeugstatus</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:15.227</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:54.489</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-09T10:03:35.988</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55985,5 +56001,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3446</Size>
+ <Size>3447</Size>
 </BRERuleListType>

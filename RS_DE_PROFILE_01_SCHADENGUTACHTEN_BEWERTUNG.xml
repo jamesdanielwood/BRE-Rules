@@ -549,6 +549,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2AC4C5DD-E5A0-F942-6ADD-4BF22F8679C0</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>PrintPdfDynamic</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.printPdfDynamic.printFormat</Key>
+  <Value>o64lzqao=01-Kaskoschaden,EF3Rdi7h=02-Haftpflichtschaden,CLG5PV32=03-Teilkasko-Brandschaden,VtBGYB3v=04-Diebstahlschaden,gz0gmW0x=05-Teilkasko-Hagelschaden,LMpUYleQ=06-Teilkasko-Tierkollision,gREYnhHh=07-Teilkasko-Unwetter,O2kKFroZ=08-Teilkasko-Tierbissschaden,YBZNEBw0=09-TK-Kurzschlussschaden,0WXMqkey=10-Teilkasko-Glasbruchschaden,wwj8pNhp=11-Teilkasko-Sturmschaden,Me9uFba6=12-TK-Überschwemmungsschaden,FeeP61Zi=13-Dienstreisekasko,HtSASEGM=14-Betriebsschaden,aSQUjLDn=15-Betriebshaftpflichtschaden,uiVHNY0h=16-Ermittlungsbericht,63EZ8czH=17-Totalentwendung,7tuWVgJe=18-Stellungnahme</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-07-02T14:00:47.183</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-02T14:07:57.404</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>82AE0389-EF7C-39BC-16A4-EE2AB5412087</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -671,12 +688,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.claimDescriptionVehicle.damageDescription</Key>
-  <Value>rows=1,style=height:38px;overflow:hidden</Value>
+  <Value>rows=3,style=height:100px;overflow:hidden</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-22T11:33:28.086</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T07:00:42.265</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T09:46:51.188</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -734,12 +751,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.disposition.comment</Key>
-  <Value>rows=1,style=height:38px;overflow:hidden</Value>
+  <Value>rows=3,style=height:100px;overflow:hidden</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-22T11:32:56.364</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T07:00:42.301</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T09:51:57.243</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -958,6 +975,39 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AAFD0068-41F9-2A63-6E72-665FB021EAD3</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>reportsConfiguration</Key>
+  <Value>[{"id":"o64lzqao","reference":"525860753549165","templateName":"Gutachten Kasko","reportName":"01-Kaskoschaden"},
+{"id":"EF3Rdi7h","reference":"526092505912971","templateName":"Gutachten Haftpflicht","reportName":"02-Haftpflichtschaden"},
+{"id":"CLG5PV32","reference":"526212404119902","templateName":"Gutachten TK Brand","reportName":"03-Teilkasko-Brandschaden"},
+{"id":"VtBGYB3v","reference":"526451955627746","templateName":"Gutachten TK Diebstahl","reportName":"04-Diebstahlschaden"},
+{"id":"gz0gmW0x","reference":"526573962967971","templateName":"Gutachten TK Hagel","reportName":"05-Teilkasko-Hagelschaden"},
+{"id":"LMpUYleQ","reference":"526685294668916","templateName":"Gutachten TK Tierkollision","reportName":"06-Teilkasko-Tierkollision"},
+{"id":"gREYnhHh","reference":"527054092072121","templateName":"Gutachten TK Unwetter","reportName":"07-Teilkasko-Unwetter"},
+{"id":"O2kKFroZ","reference":"527218303175893","templateName":"Gutachten TK Tierbiss","reportName":"08-Teilkasko-Tierbissschaden"},
+{"id":"YBZNEBw0","reference":"527391308556658","templateName":"Gutachten TK Kurzschluss","reportName":"09-TK-Kurzschlussschaden"},
+{"id":"0WXMqkey","reference":"527495395544637","templateName":"Gutachten TK Glas","reportName":"10-Teilkasko-Glasbruchschaden"},
+{"id":"wwj8pNhp","reference":"527618071203375","templateName":"Gutachten TK Sturm","reportName":"11-Teilkasko-Sturmschaden"},
+{"id":"Me9uFba6","reference":"527716998960311","templateName":"Gutachten TK Wasser","reportName":"12-TK-Überschwemmungsschaden"},
+{"id":"FeeP61Zi","reference":"527824481855988","templateName":"Gutachten Dienstreise","reportName":"13-Dienstreisekasko"},
+{"id":"HtSASEGM","reference":"527915563933260","templateName":"Gutachten Betriebsschaden","reportName":"14-Betriebsschaden"},
+{"id":"aSQUjLDn","reference":"528036581786720","templateName":"Gutachten Betriebshaftpflicht","reportName":"15-Betriebshaftpflichtschaden"},
+{"id":"uiVHNY0h","reference":"1560937357787176","templateName":"Ermittlungsbericht","reportName":"16-Ermittlungsbericht"},
+{"id":"63EZ8czH","reference":"13293602083613328","templateName":"Totalentwendung","reportName":"17-Totalentwendung"},
+{"id":"7tuWVgJe","reference":"13300919000628008","templateName":"Stellungnahme","reportName":"18-Stellungnahme"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-02T12:58:57.389</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-06T12:47:47.428</LastUpdateTimeStamp>
+  <Description>o64lzqao=01-Kaskoschaden,EF3Rdi7h=02-Haftpflichtschaden,CLG5PV32=03-Teilkasko-Brandschaden,VtBGYB3v=04-Diebstahlschaden,gz0gmW0x=05-Teilkasko-Hagelschaden,LMpUYleQ=06-Teilkasko-Tierkollision,gREYnhHh=07-Teilkasko-Unwetter,O2kKFroZ=08-Teilkasko-Tierbissschaden,YBZNEBw0=09-TK-Kurzschlussschaden,0WXMqkey=10-Teilkasko-Glasbruchschaden,wwj8pNhp=11-Teilkasko-Sturmschaden,Me9uFba6=12-TK-Überschwemmungsschaden,FeeP61Zi=13-Dienstreisekasko,HtSASEGM=14-Betriebsschaden,aSQUjLDn=15-Betriebshaftpflichtschaden,uiVHNY0h=16-Ermittlungsbericht,63EZ8czH=17-Totalentwendung,7tuWVgJe=18-Stellungnahme</Description>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>69C125C2-7CF4-CB4F-5814-C9FF6C35E85C</ItemId>
   <Context>
    <ProcessStep>DocumentsAndAttachments</ProcessStep>
@@ -972,5 +1022,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-12T11:56:12.780</LastUpdateTimeStamp>
  </Rule>
- <Size>60</Size>
+ <Size>62</Size>
 </BRERuleListType>

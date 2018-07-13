@@ -2969,6 +2969,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0D96BD8E-27C6-6526-B155-D571166F69B7</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CopyTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"FilterCheckedCalculationTransformation","alias":"FilterCheckedCalculationTransformation(1521061573386)"},{"name":"CopyDocumentsAttachmentsToTaskTransformation","alias":"CopyDocumentsAttachmentsToTaskTransformation(1531293684777)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-11T09:21:24.839</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-11T09:21:24.839</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>640F1937-F062-2222-55F7-6432ED00FA72</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
@@ -27491,7 +27507,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-03-26T09:59:36.839</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:31:01.036</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-04T08:47:07.382</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -30631,12 +30647,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleEngineering.vehicleKind</Key>
-  <Value>Unknown,Other,Truck,OffRoad,Car,Bike,Delivery</Value>
+  <Value>Unknown,Other,Truck,OffRoad,Car,Bike,Delivery,Caravan</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:36.942</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T21:31:01.720</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T09:56:16.588</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -30917,5 +30933,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-04T06:08:05.516</LastUpdateTimeStamp>
  </Rule>
- <Size>1920</Size>
+ <Size>1921</Size>
 </BRERuleListType>
