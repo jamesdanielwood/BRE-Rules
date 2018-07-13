@@ -2788,12 +2788,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.task.assessmentResult.autoResetToDefaultValues.resetOnButtonClick</Key>
-  <Value>[{selector: "#BREForm_root\\.task\\.calculationOptions\\.calculate", partsToReset:"calculation,ust,valuation", partsToClean:"", event: "click", validators: "calculationChanges"},{selector: "input[name='checkedRadioButton']:radio", event: "click", validators: "calculationChanges", partsToReset:"all"}]</Value>
+  <Value>[{selector: "#BREForm_root\\.task\\.calculationOptions\\.calculate", partsToReset:"calculation,ust,valuation", partsToClean:"", event: "click", validators: "calculationChanges"},{selector: "input[name='checkedRadioButton']:radio", event: "click", validators: "calculationChanges", partsToReset:"all"},{selector: "[id^='root.task.calculationList.calculationListTable-calculationDateTime_'] a", partsToReset:"calculation,ust,valuation", partsToClean:"", event: "click", validators: "calculationChanges"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T15:20:15.378</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T15:20:15.378</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T19:52:48.492</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
