@@ -1191,12 +1191,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>DamageData</Key>
-  <Value>root.task.foreignCaseId,root.task.kad.orderers,root.task.kad.subsidiaries,root.task.kad.branch,root.task.kad.claimNumber,root.task.kad.ordererByDate,root.task.basicClaimData.claimDescriptionVehicle.claimType,root.task.kad.contactPerson,root.task.kad.telephoneDirect,root.hints.hint3,root.task.inspection.fromToDateTime,root.task.inspection.conductedDate</Value>
+  <Value>root.task.kad.orderers,root.task.foreignCaseId,root.task.kad.subsidiaries,root.task.basicClaimData.claimDescriptionVehicle.claimType,root.task.kad.branch,root.task.kad.ordererByDate,root.task.kad.claimNumber,root.task.kad.contactPerson,root.hints.hint9,root.task.kad.telephoneDirect,root.hints.hint3,root.task.inspection.fromToDateTime,root.task.inspection.conductedDate</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T09:54:16.953</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:46.560</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T09:21:25.295</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5248,6 +5248,40 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>62F0EFE1-19A7-BAC6-1D74-F504BCC2F834</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.hints.hint3::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":16,"spanSize":16}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T09:14:56.806</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T09:15:03.608</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E3564099-4014-732A-F253-C4A59A431BDD</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.hints.hint9</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T09:21:25.107</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T09:21:25.107</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>160376C3-93B6-8D51-E498-F76E76217898</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -5255,12 +5289,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.claimNumber</Key>
-  <Value>required=required,data-errormessage=Bitte Schadennummer im Format () angeben,class=hide-ms-clear,data-errormessage-css=error-inline</Value>
+  <Value>required=required,data-errormessage=Bitte Schadennummer im Format () angeben</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:15.412</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:46.591</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T20:23:33.069</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9477,12 +9511,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.branch::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:19.035</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:50.495</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T20:10:29.468</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11970,12 +12004,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.orderers::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:15.051</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:44.018</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T20:10:25.037</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28267,12 +28301,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.ordererByDate::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:11.487</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:54.788</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T20:10:33.333</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -32366,12 +32400,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>CaseData</Key>
-  <Value>root.task.foreignCaseId,root.task.kad.orderers,root.task.kad.subsidiaries,root.task.kad.branch,root.task.kad.claimNumber,root.task.basicClaimData.claimDescriptionVehicle.claimType,root.task.kad.ordererByDate,root.task.kad.contactPerson,root.task.kad.telephoneDirect,root.hints.hint3,root.task.inspection.fromToDateTime,root.task.inspection.conductedDate</Value>
+  <Value>root.task.kad.orderers,root.task.foreignCaseId,root.task.kad.subsidiaries,root.task.basicClaimData.claimDescriptionVehicle.claimType,root.task.kad.branch,root.task.kad.ordererByDate,root.task.kad.claimNumber,root.task.kad.contactPerson,root.hints.hint1,root.task.kad.telephoneDirect,root.hints.hint3,root.task.inspection.fromToDateTime,root.task.inspection.conductedDate</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:11.438</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:35:01.459</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T20:18:42.184</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -35498,12 +35532,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.orderers::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T10:02:25.943</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:59.685</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T09:14:45.860</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -36019,7 +36053,7 @@
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:18.594</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:52.522</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T20:11:09.550</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42060,12 +42094,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleAdmin.additionalValueWhenNew</Key>
-  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField()" : "secondLabel=EUR,showCurrencyLabel=true,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField();"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=Pflichteingabe für eine manuelle Bewertung,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField()" : "secondLabel=EUR,showCurrencyLabel=true,onchange=BRE.Minderwert.updateValueWhenNewAmountWithVATWhenAdditionalField();"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-04T09:50:13.299</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-12T19:54:12.007</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-16T23:30:18.528</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42388,12 +42422,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.vehicleValuation.mileageCategory</Key>
-  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "required=required,data-errormessage=is mandatory for manual valuation" : ""}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "required=required,data-errormessage=Pflichteingabe für eine manuelle Bewertung" : ""}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-05T19:10:49.056</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-12T19:54:49.026</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-16T23:31:07.451</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43943,12 +43977,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.vehicleValuation.baseValue</Key>
-  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
+  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=Pflichteingabe für eine manuelle Bewertung" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-25T09:23:52.341</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-12T19:53:05.689</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-16T23:31:53.482</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -48089,12 +48123,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.subsidiaries::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T10:02:27.045</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:59.193</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T09:14:49.054</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -48414,12 +48448,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.subsidiaries::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:16.571</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:59.805</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-13T20:10:27.303</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -52167,12 +52201,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.branch::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T10:02:31.055</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:55.303</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T09:14:51.901</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -53587,12 +53621,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.vehicleValuation.priceAsNewForDocumentation</Key>
-  <Expression>${(task.basicClaimData.vehicle.VICVehicleIdentification.savveSchwackeKey == "00000000") ? "secondLabel=EUR,showCurrencyLabel=true,required=required,data-errormessage=is mandatory for manual valuation" : "secondLabel=EUR,showCurrencyLabel=true"}</Expression>
+  <Value>secondLabel=EUR,showCurrencyLabel=true</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-25T09:35:27.826</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-12T19:55:49.683</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-16T23:33:12.155</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -55937,6 +55971,137 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D2FD4C55-CEA2-4A34-9D9A-36014D735428</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.hints.hint3</Key>
+  <Value>Besichtigungsdatum</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T09:10:44.915</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T09:11:46.122</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E4B2474C-9291-7983-25FC-435CEBE7F9E1</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.hints.hint3</Key>
+  <Value>class=hint</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T09:11:46.304</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T09:11:46.304</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>41645C80-8286-9376-452D-C58112A059E0</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.hints.hint3</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T09:23:02.010</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T09:23:02.010</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>525008D5-F390-135D-A7EF-0E50F66D5B86</ItemId>
+  <Context>
+   <Process>ShortAssessment</Process>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.hints.hint9::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":8,"spanSize":8}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T09:26:55.554</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T09:26:55.554</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E4EB7182-55F4-544A-86A4-6698F48AF4EA</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.vehicleValuation.vehicleTypeForPrint</Key>
+  <Value>DE=Fahrzeugart für den Ausdruck</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-16T23:25:49.909</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-16T23:25:49.909</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FC670759-16C5-2393-DE6C-6849619457D1</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.hints.hint1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-13T20:18:42.006</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-13T20:18:42.006</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8C719D26-23DE-0FF1-749B-60D1A1019D93</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.kad.telephoneDirect::Layout</Key>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":8}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-13T20:11:12.869</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-13T20:12:40.554</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5A0F6762-B88F-CC5F-85A0-55CE86E751F6</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.hints.hint1::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":8,"spanSize":8}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-13T20:19:07.173</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-13T20:19:07.173</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>EECFED22-BC5B-0B00-4B16-C9A49D12EFD6</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -56016,5 +56181,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3448</Size>
+ <Size>3458</Size>
 </BRERuleListType>
