@@ -4484,12 +4484,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.kad.claimNumber</Key>
-  <Value>required=required,data-errormessage=Bitte Schadennummer im Format () angeben,class=hide-ms-clear,data-errormessage-css=error-inline</Value>
+  <Value>required=required,data-errormessage=Bitte Schadennummer im Format () angeben,class=hide-ms-clear</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T09:58:10.447</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:46.879</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T09:31:29.129</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5279,6 +5279,22 @@
   <CreationTimeStamp>2018-07-17T09:21:25.107</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-17T09:21:25.107</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>604E3E22-B3E6-0172-279A-99EC4174085B</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.outofsyncwarning</Key>
+  <Value>DE=Die Fahrzeugbeschreibung wurde einseitig für die Kalkulation bzw. Bewertung geändert. Bitte überprüfen Sie die Auswirkungen auf das Kalkulations- bzw. Bewertungsergebnis und nehmen Sie ggf. Anpassungen vor.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T10:38:01.172</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T10:40:20.378</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -31214,7 +31230,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-03T09:54:51.421</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:44.267</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T09:31:28.753</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -45140,7 +45156,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-04T10:41:50.951</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:59.816</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T09:31:28.939</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56070,6 +56086,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C0F60994-FF03-3062-01C0-3AE7211A0A20</ItemId>
+  <Context>
+   <ProcessStep>Damage</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.outofsyncwarning</Key>
+  <Value>DE=Die Fahrzeugbeschreibung wurde einseitig für die Kalkulation bzw. Bewertung geändert. Bitte überprüfen Sie die Auswirkungen auf das Kalkulations- bzw. Bewertungsergebnis und nehmen Sie ggf. Anpassungen vor.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T10:38:16.151</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T10:39:38.517</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8C719D26-23DE-0FF1-749B-60D1A1019D93</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -56181,5 +56213,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3458</Size>
+ <Size>3460</Size>
 </BRERuleListType>
