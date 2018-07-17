@@ -5282,6 +5282,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E0EF0840-8A9E-00B5-14E9-6D31F7D2D208</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.serial_speedClass_1</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T13:11:55.344</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T13:11:55.344</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>604E3E22-B3E6-0172-279A-99EC4174085B</ItemId>
   <Context>
    <ProcessStep>VehicleSearch</ProcessStep>
@@ -7908,6 +7924,38 @@
   <CreationTimeStamp>2017-05-04T09:02:19.810</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-04T11:34:49.124</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DE8C587A-20B7-D777-F6D9-043B2BF90839</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.axsubmodel</Key>
+  <Value>DE=Untertyp Kalkulation</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T11:04:33.774</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T11:04:33.774</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8DD12B2C-FA3D-D3BF-C6E7-CFD868ACE2A5</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.speedClass_6</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T13:13:09.089</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T13:13:09.089</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -53663,6 +53711,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>21251202-34F5-D135-CE85-543732C95A9F</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.axmodel</Key>
+  <Value>DE=Haupttyp Kalkulation</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T11:03:10.957</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T11:03:10.957</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6DC2F454-E77D-0640-8A6E-E226B99768DC</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.axmanufacturer</Key>
+  <Value>DE=Hersteller Kalkulation</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T10:57:18.184</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T10:57:18.184</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D178E9BD-679F-94AD-5FBD-18F140C2C7AE</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -55987,6 +56067,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>62FF6DF0-D965-7EDE-D70D-8AD8952866F9</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.etssubmodel</Key>
+  <Value>DE=Untertyp Bewertung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T11:06:36.169</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T11:06:36.169</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>69E2CBB0-A756-ECBE-B467-F0C721C478D5</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustm.speed_6</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T13:11:14.661</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T13:11:14.661</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D2FD4C55-CEA2-4A34-9D9A-36014D735428</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -56070,6 +56182,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3CF92BDD-6E62-0C11-85F9-745EDD6DAA77</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.etsmanufacturer</Key>
+  <Value>DE=Hersteller Bewertung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T11:05:13.088</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T11:05:13.088</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>FC670759-16C5-2393-DE6C-6849619457D1</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -56083,6 +56211,38 @@
   <CreationTimeStamp>2018-07-13T20:18:42.006</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-13T20:18:42.006</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C0AF9F33-6B53-6EB8-22CF-C21B3F27482B</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.serial_speedClass_2</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T13:12:21.270</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T13:12:21.270</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D9B22584-1153-5269-F634-0114FBC3505E</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>vehicleidentificationust.etsmodel</Key>
+  <Value>DE=Haupttyp Bewertung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T11:05:47.127</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T11:05:47.127</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56131,6 +56291,22 @@
   <CreationTimeStamp>2018-07-13T20:19:07.173</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-13T20:19:07.173</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1B0A64D8-9F49-F0E1-48F5-E361E866A7E1</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.speedClass_2</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T13:08:51.907</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T13:10:42.624</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56213,5 +56389,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3460</Size>
+ <Size>3471</Size>
 </BRERuleListType>
