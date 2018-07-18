@@ -5200,22 +5200,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>6AE6B510-15E5-5876-D71E-0F7A67B4F2BA</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.speedClass_1</Key>
-  <Value>sort=byLabel</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-05T07:18:53.674</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-05T07:19:27.838</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>921C264C-D505-BD06-614F-140E15309933</ItemId>
   <Context>
    <ProcessStep>SendToABS</ProcessStep>
@@ -5279,22 +5263,6 @@
   <CreationTimeStamp>2018-07-17T09:21:25.107</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-17T09:21:25.107</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>E0EF0840-8A9E-00B5-14E9-6D31F7D2D208</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.serial_speedClass_1</Key>
-  <Value>sort=byLabel</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-17T13:11:55.344</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-17T13:11:55.344</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7943,22 +7911,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>8DD12B2C-FA3D-D3BF-C6E7-CFD868ACE2A5</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.speedClass_6</Key>
-  <Value>sort=byLabel</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-17T13:13:09.089</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-17T13:13:09.089</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>48492D86-D67B-886E-A303-34346C92A219</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -9476,12 +9428,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>ChangeTaskOwnerWorkflowFunction.SendMessageTaskIf(1485936127893)</Key>
-  <Value>{messageSubject: "Bitte um Freigabe. ", messageBody: "Der Vorgang '${current.claimNumber}' erfordert eine Freigabe.\nBitte prüfen Sie hier ${getCaseLinkForWorkPage(current.itemId)}", overWriteEmailNotificationConfig: "true", recipients: "task.ownerMember"}</Value>
+  <Value>{messageSubject: "Bitte um Freigabe. ", messageBody: "Der Schadenfall '${current.claimNumber}' von '${current.responsibleUserFirstName}' '${current.responsibleUserLastName}' erfordert eine Freigabe.\nBitte prüfen Sie hier ${getCaseLinkForWorkPage(current.itemId)}", overWriteEmailNotificationConfig: "true", recipients: "task.ownerMember"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:11.778</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:50.089</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T14:48:18.921</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -19159,12 +19111,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>tireSpeedClassList</Key>
-  <Value>C,D,E,F,G,J,K,L,M,N,P,Q,R,S,T,U,H,V,ZR,W,Y</Value>
+  <Value>C,D,E,F,G,H,J,K,L,M,N,P,Q,R,S,T,U,V,W,Y,ZR</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:11.122</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:49.168</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T17:32:21.633</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -24725,12 +24677,15 @@
   </Context>
   <RuleType>MessageTranslation</RuleType>
   <Key>savepartnership.info.message</Key>
-  <Value>EN=Do you want to save the changes to the Bodyshop database? Hint: Changes to the Bodyshop address will be saved too.,DE=Möchten Sie die Änderungen in der Werkstatt-DB übernehmen? Hinweis: Änderungen an der Werkstattadresse werden dann ebenfalls gespeichert.</Value>
+  <Value>EN=Do you want to save the changes to the Bodyshop database?
+       Updated values will be shown after 10 minutes.
+       Hint: Changes to the Bodyshop address will be saved too.,DE=Möchten Sie die Änderungen in der Werkstatt-DB übernehmen?
+Änderungen sind nach 10 Minuten sichtbar.  Hinweis: Änderungen an der Werkstattadresse werden ebenfalls gespeichert.</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:14.495</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:49.805</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T14:33:46.667</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -50358,12 +50313,15 @@
   </Context>
   <RuleType>MessageTranslation</RuleType>
   <Key>savepartnership.info.message</Key>
-  <Value>EN=You are trying to update bodyshop contract. Are you sure?,DE=Möchten Sie die Änderungen in den Vertrag übernehmen?</Value>
+  <Value>EN=Do you want to save the changes to the Bodyshop database?
+       Updated values will be shown after 10 minutes.
+       Hint: Changes to the Bodyshop address will be saved too.,DE=Möchten Sie die Änderungen in der Werkstatt-DB übernehmen?
+Änderungen sind nach 10 Minuten sichtbar.  Hinweis: Änderungen an der Werkstattadresse werden ebenfalls gespeichert.</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-05-04T09:02:19.485</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-04T11:34:50.334</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-17T14:34:13.115</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56083,22 +56041,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>69E2CBB0-A756-ECBE-B467-F0C721C478D5</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustm.speed_6</Key>
-  <Value>sort=byLabel</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-17T13:11:14.661</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-17T13:11:14.661</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D2FD4C55-CEA2-4A34-9D9A-36014D735428</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -56214,22 +56156,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C0AF9F33-6B53-6EB8-22CF-C21B3F27482B</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.serial_speedClass_2</Key>
-  <Value>sort=byLabel</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-17T13:12:21.270</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-17T13:12:21.270</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D9B22584-1153-5269-F634-0114FBC3505E</ItemId>
   <Context>
    <ProcessStep>VehicleSearch</ProcessStep>
@@ -56291,22 +56217,6 @@
   <CreationTimeStamp>2018-07-13T20:19:07.173</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-13T20:19:07.173</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>1B0A64D8-9F49-F0E1-48F5-E361E866A7E1</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleTiresCustom.speedClass_2</Key>
-  <Value>sort=byLabel</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-17T13:08:51.907</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-17T13:10:42.624</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56389,5 +56299,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3471</Size>
+ <Size>3465</Size>
 </BRERuleListType>
