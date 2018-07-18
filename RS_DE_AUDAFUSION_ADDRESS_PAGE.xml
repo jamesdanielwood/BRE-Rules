@@ -4195,6 +4195,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B5AD662B-8698-2C1D-A365-139E98CDD06C</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.email1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T12:23:11.503</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T12:32:27.783</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4F73D91F-C2DF-0335-B4C2-F317F032EFF6</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -4986,12 +5002,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Insurance</Key>
-  <Value>root.task.basicClaimData.policyData.insuranceCompany.companyName,root.task.basicClaimData.policyData.insuranceCompany.customizableMemberSearchField,root.task.basicClaimData.policyData.policyNumber,root.task.claimNumber,root.task.basicClaimData.policyData.insuranceCompany.referenceNumber,root.task.basicClaimData.policyData.insuranceCompany.address.street,root.task.basicClaimData.policyData.insuranceCompany.address.zipCode,root.task.basicClaimData.policyData.insuranceCompany.address.city,root.task.basicClaimData.policyData.insuranceCompany.address.countryISO,root.task.basicClaimData.policyData.insuranceCompany.address.line5,root.task.basicClaimData.policyData.insuranceCompany.address.state,root.task.basicClaimData.policyData.insuranceCompany.department,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.phone1,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.fax1,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.email1,root.task.basicClaimData.policyData.insuranceCompany.active</Value>
+  <Value>root.task.basicClaimData.policyData.insuranceCompany.companyName,root.task.basicClaimData.policyData.insuranceCompany.customizableMemberSearchField,root.task.basicClaimData.policyData.policyNumber,root.task.claimNumber,root.task.basicClaimData.policyData.insuranceCompany.referenceNumber,root.task.basicClaimData.policyData.insuranceCompany.address.street,root.task.basicClaimData.policyData.insuranceCompany.address.zipCode,root.task.basicClaimData.policyData.insuranceCompany.address.city,root.task.basicClaimData.policyData.insuranceCompany.address.countryISO,root.task.basicClaimData.policyData.insuranceCompany.address.line5,root.task.basicClaimData.policyData.insuranceCompany.address.state,root.task.basicClaimData.policyData.insuranceCompany.department,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.phone1,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.email1,root.task.basicClaimData.policyData.insuranceCompany.communicationDetailList.fax1,root.task.basicClaimData.policyData.insuranceCompany.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.888</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.987</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-18T12:28:13.856</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5472,6 +5488,86 @@
   <CreationTimeStamp>2018-06-29T08:06:41.837</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-29T08:06:41.837</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0D675B19-9666-E525-DC77-DA806A20261C</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.phone1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T12:20:58.171</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T12:29:29.422</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5BCEB0E9-AEF8-E1B4-F070-A1E69D992BF1</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.phone1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T12:29:29.589</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T12:29:29.589</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>29AE9C38-0216-0937-F143-2ECF3521B5EC</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.email1</Key>
+  <Value><![CDATA[pattern=^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$,data-errormessage= entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T12:32:27.956</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T12:32:27.956</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BCC6FD0F-4ECE-0DAA-45CC-41EAF824FF96</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.fax1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T12:21:54.754</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T12:30:49.823</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>853E648B-32FD-E229-DE2F-0A72904FC4A8</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.fax1</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T12:30:49.987</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T12:30:49.987</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8953,12 +9049,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>BodyShop</Key>
-  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.basicClaimData.repairDetail.repairer.customizableMemberSearchField,root.task.redirectToStepTab.redirectToStepTabButton,root.task.basicClaimData.repairDetail.repairer.salutation,root.task.basicClaimData.repairDetail.repairer.deputyName,root.task.basicClaimData.repairDetail.repairer.address.street,root.task.basicClaimData.repairDetail.repairer.address.zipCode,root.task.basicClaimData.repairDetail.repairer.address.city,root.task.basicClaimData.repairDetail.repairer.address.countryISO,root.task.basicClaimData.repairDetail.repairer.address.line5,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.phone1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.fax1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.email1,root.task.basicClaimData.vehicleLocation.foreignId,root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation,root.task.basicClaimData.repairDetail.repairer.active</Value>
+  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.basicClaimData.repairDetail.repairer.customizableMemberSearchField,root.task.redirectToStepTab.redirectToStepTabButton,root.task.basicClaimData.repairDetail.repairer.salutation,root.task.basicClaimData.repairDetail.repairer.deputyName,root.task.basicClaimData.repairDetail.repairer.address.street,root.task.basicClaimData.repairDetail.repairer.address.zipCode,root.task.basicClaimData.repairDetail.repairer.address.city,root.task.basicClaimData.repairDetail.repairer.address.countryISO,root.task.basicClaimData.repairDetail.repairer.address.line5,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.phone1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.email1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.fax1,root.task.basicClaimData.vehicleLocation.foreignId,root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation,root.task.basicClaimData.repairDetail.repairer.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.238</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.567</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-18T12:25:58.185</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9769,12 +9865,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>InspectionLocation</Key>
-  <Value>root.task.inspection.inspectionLocation.salutation,root.task.inspection.inspectionLocation.customizableMemberSearchField,root.task.inspection.inspectionLocation.companyName,root.task.inspection.inspectionLocation.firstName,root.task.inspection.inspectionLocation.lastName,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.inspection.inspectionLocation.address.street,root.task.inspection.inspectionLocation.address.zipCode,root.task.inspection.inspectionLocation.address.city,root.task.inspection.inspectionLocation.address.countryISO,root.task.inspection.inspectionLocation.address.line5,root.task.inspection.inspectionLocation.active</Value>
+  <Value>root.task.inspection.inspectionLocation.salutation,root.task.inspection.inspectionLocation.customizableMemberSearchField,root.task.inspection.inspectionLocation.companyName,root.task.inspection.inspectionLocation.firstName,root.task.inspection.inspectionLocation.lastName,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.inspection.inspectionLocation.address.street,root.task.inspection.inspectionLocation.address.zipCode,root.task.inspection.inspectionLocation.address.city,root.task.inspection.inspectionLocation.address.countryISO,root.task.inspection.inspectionLocation.address.line5,root.task.inspection.inspectionLocation.communicationDetailList.phone1,root.task.inspection.inspectionLocation.communicationDetailList.email1,root.task.inspection.inspectionLocation.communicationDetailList.fax1,root.task.inspection.inspectionLocation.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.806</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:31.180</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-18T12:23:11.686</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13375,5 +13471,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-29T07:57:29.562</LastUpdateTimeStamp>
  </Rule>
- <Size>836</Size>
+ <Size>842</Size>
 </BRERuleListType>
