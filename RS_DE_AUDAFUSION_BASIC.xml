@@ -7285,22 +7285,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>3041060C-F50B-2E86-ACFE-5C5D17CA77BD</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-29T14:01:58.396</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:01:58.396</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A831024E-D45C-3DF4-0D6E-8416F41BF32C</ItemId>
   <Context>
    <ProcessStep>DamageDescription</ProcessStep>
@@ -7330,22 +7314,6 @@
   <CreationTimeStamp>2018-05-29T14:01:58.503</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-29T14:01:58.503</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C43C444D-25C1-57C6-ABAD-F2A90607BF44</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck</Key>
-  <Value>DE=Restwertrelevanzprüfung</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-29T14:01:58.507</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:01:58.507</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -25110,22 +25078,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>FDE54CE1-8D58-3600-89D9-498FDC781D58</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck</Key>
-  <Value>0</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-29T14:01:59.114</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:01:59.114</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0862CB12-F29F-B7DB-36EF-3C8223FD34B1</ItemId>
   <Context>
    <ProcessStep>Calculation</ProcessStep>
@@ -27976,22 +27928,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>874B2538-D3E7-6F38-BF71-8D30C337DD8B</ItemId>
-  <Context>
-   <ProcessStep>DamageData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.caseType</Key>
-  <Value>style=visibility:hidden</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-29T14:01:55.280</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:01:55.280</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C3838B00-799F-94FF-5934-7FF150B8712A</ItemId>
   <Context>
    <ProcessStep>MaterialGrid</ProcessStep>
@@ -30484,22 +30420,6 @@
   <CreationTimeStamp>2018-05-29T14:02:05.756</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-29T14:02:05.756</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>50FFB5DF-5331-FBF0-22CB-79EADB2FE8E1</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
-  </Context>
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck</Key>
-  <Value>1=Aktiviert,0=Deaktiviert</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-29T14:02:05.862</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:02:05.862</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -33817,22 +33737,6 @@
   <CreationTimeStamp>2018-05-29T14:02:03.093</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-29T14:02:03.093</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2FF2734E-8D8D-69E2-9B68-E020FF14D83F</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":5,"spanSize":10}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-29T14:02:03.159</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:02:03.159</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -43237,22 +43141,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>6AB7F876-8D54-BE0C-745E-89F2458BD47E</ItemId>
-  <Context>
-   <ProcessStep>DamageData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.caseType</Key>
-  <Value><![CDATA[DE=&nbsp]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-29T14:02:00.970</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:02:00.970</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>841A838F-0E33-A69E-6AE2-0F72A72E7F48</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -44079,12 +43967,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.caseType</Key>
-  <Value>DamageLoss=01-Kaskoschaden,IntakeDefault=02-Haftpflichtschaden,IntakeDriverExchange=03-Teilkasko-Brandschaden,Other=04-Diebstahlschaden,CashOnHand=05-Teilkasko-Hagelschaden,TopPrice=06-Teilkasko-Tierkollision,PrivateContracted=07-Teilkasko-Unwetter,PrivateNonContracted=08-Teilkasko-Tierbissschaden,AuthorisedContracted=09-TK-Kurzschlussschaden,AuthorisedNonContracted=10-Teilkasko-Glasbruchschaden,Vehicle=11-Teilkasko-Sturmschaden,Boat=12-TK-Überschwemmungsschaden,RiskOldTimer=13-Dienstreisekasko,RiskBoat=14-Betriebsschaden,RiskPreviousDamage=15-Betriebshaftpflichtschaden,DriveIn=16-Ermittlungsbericht,FinalCaseAdjusted=17-Gutachten Totalentwendung,Truck=18-Gutachterl. Stellungnahme</Value>
+  <Value>CashOnHand=Allg. Haftpflichtschaden,Vehicle=Fahrzeugbewertung,IntakeDefault=Haftpflichtschaden,DamageLoss=Kaskoschaden,TopPrice=Reisekosten-Kasko,IntakeDriverExchange=Teilkasko-Brandschaden,Other=Teilkasko-Diebstahlschaden,PrivateContracted=Teilkasko-Hagelschaden,PrivateNonContracted=Teilkasko-Unwetter,AuthorisedContracted=Teilkasko-Wildschaden,AuthorisedNonContracted=Transportschaden</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-05-29T14:01:56.664</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:01:56.664</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-23T08:13:43.250</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -50532,12 +50420,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>DocumentDetails</Key>
-  <Value>root.task.documentDetails.template,root.task.documentDetails.generatePdfButton,root.task.documentDetails.generateEditablePreviewButton,root.task.documentDetails.name,root.task.documentDetails.calculationId</Value>
+  <Value>root.task.documentDetails.template,root.task.documentDetails.generatePdfButton,root.task.documentDetails.generateEditablePreviewButton,root.task.documentDetails.name,root.task.documentDetails.calculationId,root.task.documentDetails.statementsLibrary,root.hints.hint1,root.task.documentDetails.preview</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-05-29T14:02:08.463</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:02:08.463</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-13T20:50:29.420</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -59745,22 +59633,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C74AAEBA-4415-D9BD-3C0A-3C51C8372D7B</ItemId>
-  <Context>
-   <ProcessStep>Calculation</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.calculationOptions.salvageCheck::saveOnChange</Key>
-  <Value>true</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-05-29T14:01:58.813</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-29T14:01:58.813</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>59D7E26D-A5D1-CEFF-D11D-FB7792CA3BEB</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_BASIC</OrganizationId>
@@ -61183,5 +61055,5 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-29T14:02:03.430</LastUpdateTimeStamp>
  </Rule>
- <Size>3807</Size>
+ <Size>3799</Size>
 </BRERuleListType>
