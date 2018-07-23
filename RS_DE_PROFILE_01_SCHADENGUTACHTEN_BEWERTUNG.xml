@@ -70,6 +70,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EB9E37FD-1D73-4041-C9BB-1EA166AFC66A</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.additionalhints.hint1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-19T17:32:27.280</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T17:32:27.280</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6914181A-4A15-35C7-AC58-44741F782F25</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -202,6 +218,38 @@
   <CreationTimeStamp>2018-07-16T14:21:07.908</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:21:07.908</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F37F8708-ADF0-7735-B071-1BC8E5E68BFA</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>PreviousDamage</Key>
+  <Value>root.additionalhints.hint1,root.task.basicClaimData.vehicle.previousDamage.comment,root.additionalhints.hint2,root.hints.hint5,root.hints.hint8,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.repairedWithinCommentButton,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.unrepairedWithinCommentButton,root.hints.hint6,root.hints.hint9,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.repairedOutsideCommentButton,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.unrepairedOutsideCommentButton</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-19T17:34:29.804</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T17:34:29.804</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A492B58A-DF33-A5E8-71F0-BA6522D4ED8E</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.additionalhints.hint2</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-19T17:34:08.825</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T17:34:08.825</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -421,6 +469,22 @@
   <CreationTimeStamp>2018-06-21T10:51:27.809</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-21T10:51:48.273</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>ACDA9623-26ED-5782-EDD0-76796CA8D184</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.additionalhints.hint1</Key>
+  <Value>Allgemeine Vorschäden</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-19T17:32:59.969</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T17:32:59.969</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -812,6 +876,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9750ACCC-FE94-E36D-F3DE-B825754EB967</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.previousDamage.comment::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":7,"spanSize":7}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-19T17:33:43.555</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T17:33:43.555</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6F7D5393-D9E5-B718-E9F8-4DDD38770263</ItemId>
   <Context>
    <Process>Schadengutachten-Bewertung</Process>
@@ -857,6 +937,37 @@
   <CreationTimeStamp>2018-06-06T17:58:35.649</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-06T17:58:35.649</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E57A63C9-1B61-BB6A-3773-2F9770E17FC1</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>addressActiveTabs</Key>
+  <Value>['BREForm_block.PolicyHolder','BREForm_block.InspectionLocation','BREForm_block.BodyShop','BREForm_block.VehicleOwner']</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T21:40:37.467</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T21:40:37.467</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>65C624F9-554B-71D5-6A2D-8C67A472ED69</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.additionalhints.hint1::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":16,"spanSize":16}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-19T17:32:09.594</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T17:32:09.594</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1176,6 +1287,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>67B45F2B-A048-5123-26B0-2881F89330B3</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.additionalhints.hint1</Key>
+  <Value>class=hint</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-19T17:33:20.284</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T17:33:20.284</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>03C0ABEF-83A0-764E-7C07-31881ED1C144</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.basicClaimData.vehicle.previousDamage.comment</Key>
+  <Value>DE=Vorschäden</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-19T17:34:52.794</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T17:34:52.794</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3CF76795-086F-B75F-F6E7-106C5656FAE3</ItemId>
   <Context>
    <Process>Schadengutachten-Bewertung</Process>
@@ -1352,12 +1495,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.inspection.inspectionLocation.comment</Key>
-  <Value>rows=1,style=height:38px;overflow:hidden</Value>
+  <Value>rows=3,style=height:100px;overflow:hidden</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-22T11:32:23.537</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T07:00:42.256</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-18T21:50:09.409</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1940,5 +2083,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:21:35.238</LastUpdateTimeStamp>
  </Rule>
- <Size>116</Size>
+ <Size>125</Size>
 </BRERuleListType>

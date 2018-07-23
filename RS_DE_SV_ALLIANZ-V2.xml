@@ -45962,6 +45962,24 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A9694210-6E4E-91B4-8E11-581D39B0B3C5</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>ChangeTaskOwner</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.workflow.changeOwner.dialog-membersearchfield::memberAutoSearch</Key>
+  <Expression>rootOrgId: ${memberCache.currentRootId}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T13:47:40.127</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T14:30:51.399</LastUpdateTimeStamp>
+  <Description>memberId:${memberCache.currentMemberId}</Description>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>91FB256A-B550-C023-D862-031FA39A4657</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -56140,6 +56158,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F807C29D-E27C-40B0-BE42-7C8C9D4636C3</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>kad.dialog.popupchangepayment.oldValue</Key>
+  <Value>DE=Auszahlungsbetrag (Alt): {0} {1}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T17:43:48.697</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T10:34:38.881</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>FC670759-16C5-2393-DE6C-6849619457D1</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -56169,6 +56203,21 @@
   <CreationTimeStamp>2018-07-17T11:05:47.127</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-17T11:05:47.127</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>29599456-AA55-3EC1-548C-0077FC43F30E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kad.dialog.popupchangepayment.info</Key>
+  <Value>DE=Der Auszahlungsbetrag hat sich geändert und wird übernommen.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T17:42:14.056</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-19T08:56:56.930</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56232,6 +56281,22 @@
   <CreationTimeStamp>2018-06-19T10:39:19.500</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-19T10:39:19.500</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>87F63AF6-9B8F-3293-69DE-143435BE7BC9</ItemId>
+  <Context>
+   <ProcessStep>SendToABS</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>kad.dialog.popupchangepayment.title</Key>
+  <Value>DE=Hinweismeldung zur Auszahlung</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-17T17:41:49.176</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-17T17:41:49.176</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56299,5 +56364,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-11T05:32:15.416</LastUpdateTimeStamp>
  </Rule>
- <Size>3465</Size>
+ <Size>3469</Size>
 </BRERuleListType>

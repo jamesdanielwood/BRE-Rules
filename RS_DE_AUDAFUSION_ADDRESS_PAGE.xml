@@ -3683,6 +3683,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>09CBED61-74C9-6ED9-B1B4-C363E954FF46</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.caseMemberByRole.claimAssistant.firstName</Key>
+  <Value>DE=Vorname</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-18T21:45:55.635</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-18T21:45:55.635</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A386EAAA-BEBF-6430-9A2C-E6868501D652</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -13471,5 +13487,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-29T07:57:29.562</LastUpdateTimeStamp>
  </Rule>
- <Size>842</Size>
+ <Size>843</Size>
 </BRERuleListType>
