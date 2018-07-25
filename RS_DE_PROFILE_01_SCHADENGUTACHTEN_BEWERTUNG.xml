@@ -86,6 +86,23 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B7B6BEBA-997F-D9E8-144D-49BC46522288</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>SendTask.ChangeValueTransformation(1532375824630)</Key>
+  <Value>{expressionIf:"${(current.basicClaimData.policyData.insuranceCompany.companyName == 'Provinzial Nord | Brandkasse AG')}", 
+configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObjectWrapper:true}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-23T21:57:20.673</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-23T21:57:20.673</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6914181A-4A15-35C7-AC58-44741F782F25</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -1287,6 +1304,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BDC026E5-B4B9-2D0A-FD87-530784390AA8</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>SendTask.TRANSFORMATIONS</Key>
+  <Value>[{"name":"ChangeValueTransformation","alias":"ChangeValueTransformation(1532375824630)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-23T21:57:04.753</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-23T21:57:04.753</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>67B45F2B-A048-5123-26B0-2881F89330B3</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -1333,6 +1366,22 @@
   <CreationTimeStamp>2018-05-17T22:09:28.484</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-26T11:42:59.142</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A7DC6591-3FE1-6CF6-C0C2-9B3B2455EC4E</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.inspection.inspectionLocation.comment</Key>
+  <Value>DE=Bemerkung für Besichtigungsort</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-23T15:45:59.741</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-23T15:45:59.741</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1990,13 +2039,13 @@
 {"id":"HtSASEGM","reference":"527915563933260","templateName":"Gutachten Betriebsschaden","reportName":"14-Betriebsschaden"},
 {"id":"aSQUjLDn","reference":"528036581786720","templateName":"Gutachten Betriebshaftpflicht","reportName":"15-Betriebshaftpflichtschaden"},
 {"id":"uiVHNY0h","reference":"1560937357787176","templateName":"Ermittlungsbericht","reportName":"16-Ermittlungsbericht"},
-{"id":"63EZ8czH","reference":"13293602083613328","templateName":"Totalentwendung","reportName":"17-Totalentwendung"},
+{"id":"63EZ8czH","reference":"1288363388263209","templateName":"Totalentwendung","reportName":"17-Totalentwendung"},
 {"id":"7tuWVgJe","reference":"13300919000628008","templateName":"Stellungnahme","reportName":"18-Stellungnahme"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-02T12:58:57.389</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-06T12:47:47.428</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-24T08:23:55.275</LastUpdateTimeStamp>
   <Description>o64lzqao=01-Kaskoschaden,EF3Rdi7h=02-Haftpflichtschaden,CLG5PV32=03-Teilkasko-Brandschaden,VtBGYB3v=04-Diebstahlschaden,gz0gmW0x=05-Teilkasko-Hagelschaden,LMpUYleQ=06-Teilkasko-Tierkollision,gREYnhHh=07-Teilkasko-Unwetter,O2kKFroZ=08-Teilkasko-Tierbissschaden,YBZNEBw0=09-TK-Kurzschlussschaden,0WXMqkey=10-Teilkasko-Glasbruchschaden,wwj8pNhp=11-Teilkasko-Sturmschaden,Me9uFba6=12-TK-Überschwemmungsschaden,FeeP61Zi=13-Dienstreisekasko,HtSASEGM=14-Betriebsschaden,aSQUjLDn=15-Betriebshaftpflichtschaden,uiVHNY0h=16-Ermittlungsbericht,63EZ8czH=17-Totalentwendung,7tuWVgJe=18-Stellungnahme</Description>
  </Rule>
  <Rule>
@@ -2083,5 +2132,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:21:35.238</LastUpdateTimeStamp>
  </Rule>
- <Size>125</Size>
+ <Size>128</Size>
 </BRERuleListType>
