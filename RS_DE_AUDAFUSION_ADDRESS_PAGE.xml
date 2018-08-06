@@ -793,12 +793,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberByRole.client.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.582</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.064</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:12:49.309</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3322,12 +3322,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberByRole.lawyer.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.373</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.371</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:09:51.637</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3338,12 +3338,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.inspection.inspectionLocation.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName" ] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName" ] }, "Company": { "show": [ "companyName" ], "hide": [ "firstName", "lastName" ] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName" ] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName" ] }, "Company": { "show": [ "companyName" ], "hide": [ "firstName", "lastName" ] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.523</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.387</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:13:10.957</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3472,6 +3472,51 @@
   <CreationTimeStamp>2018-05-15T18:40:44.738</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-29T07:57:27.678</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>32EC4D65-260A-F187-A2CB-E86A82ACE397</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.isAlso.popup.no</Key>
+  <Value>EN=No,DE=Nein</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-26T12:42:51.867</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-26T12:42:51.867</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BF384896-D5B3-DFCC-EB58-BE5873A50EA5</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.isAlso.popup.message</Key>
+  <Value><![CDATA[DE=&quot;Vorhandene Daten unter Besichtigungsort&quot; werden durch diese Aktion überschrieben. Trotzdem fortfahren?]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-26T12:42:51.863</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-03T15:35:50.493</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3FC51489-899F-A2DD-7C5A-875305158A83</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.isAlso.popup.message</Key>
+  <Value>Vorhandene Daten unter Besichtigungsort" werden durch diese Aktion überschrieben. Trotzdem fortfahren?</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-01T14:22:29.449</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-01T14:22:29.449</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3680,6 +3725,36 @@
   <CreationTimeStamp>2018-05-15T18:40:45.439</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-29T07:57:28.256</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7670E1BF-EC19-75C8-F138-5AF4D75106F8</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.isAlso.popup.yes</Key>
+  <Value>EN=Yes,DE=Ja</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-26T12:42:51.858</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-26T12:42:51.858</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D56CAEC2-97D2-0EF7-1354-26C3A18FF967</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.isAlso.popup.header</Key>
+  <Value>EN=Important Note!,DE=Wichtiger Hinweis!</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-26T12:42:51.869</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-26T12:42:51.869</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4954,12 +5029,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberCombo.vehicleOwner.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.917</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.811</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:10:24.512</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4970,12 +5045,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberCombo.policyHolder.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.584</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.878</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:12:22.667</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5306,12 +5381,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberByRole.thirdParty.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.453</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:27.042</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:10:03.109</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6970,12 +7045,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberByRole.claimAssistant.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.952</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.298</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:10:55.232</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7018,12 +7093,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberByRole.towingService.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.081</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.479</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:12:35.031</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7177,12 +7252,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberByRole.rentalCarCompany.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.907</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.722</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:12:02.670</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9298,6 +9373,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6E9A0726-8ED3-B64A-B00F-878C5E6A7CD3</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation::isAlso.confirmMode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-01T14:21:52.050</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-01T14:21:52.050</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A184FF6E-8062-154C-B1B2-5460DAAEF1CD</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -9513,12 +9604,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberByRole.other.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.766</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.566</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:12:12.589</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10441,12 +10532,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>root.task.caseMemberCombo.claimant.salutation.salutationChangeConfig</Key>
-  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] } }</Value>
+  <Value>{ "hideParentLevel": 1, "Mr": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Mrs": { "show": [ "firstName", "lastName" ], "hide": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"] }, "Company": { "show": [ "companyName","contactPersonDescription","communicationDetailList.contactPersonPhone"], "hide": [ "firstName", "lastName" ]},"": { "show": [ "firstName", "lastName" ], "hide": [ "companyName"] }, "keepHiddenValue": true }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.576</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.361</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-26T16:10:37.544</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11969,6 +12060,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A27ADCCE-1A4E-BDBE-2472-93817A81352C</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation::isAlsoData</Key>
+  <Value>{"mainDiv" : "BREForm_block.InspectionLocation" , "isAlsoPrefix":"root.task.inspection.inspectionLocation", "isAlsoSuffixList" : [ "salutation", "companyName", "contactPersonDescription", "address.street", "address.ZipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.EMAIL1", "communicationDetailList.fax1" ] }</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-01T14:22:05.609</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-01T14:22:05.609</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2331DADD-5606-9B05-65AA-027039F6EEE5</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -13487,5 +13594,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-29T07:57:29.562</LastUpdateTimeStamp>
  </Rule>
- <Size>843</Size>
+ <Size>850</Size>
 </BRERuleListType>

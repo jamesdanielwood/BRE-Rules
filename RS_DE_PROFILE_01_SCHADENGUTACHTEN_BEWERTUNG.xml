@@ -2,6 +2,38 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B4746DC1-FD28-35DB-C70A-AAD71047DA27</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.assessorAssignment.typeOfAssessor</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-30T11:16:01.334</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-30T11:16:01.334</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9AFF741B-5BCC-8C5D-63C4-41C840F46564</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.hints.hint6</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-30T11:50:03.875</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-30T11:50:04.055</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D29F9960-1370-4194-0B81-BAA8492078FB</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -270,6 +302,21 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BEC053EC-7F7F-55A3-2324-9193C3CEE2BE</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimType</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-26T13:12:10.628</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-26T13:12:10.628</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>69A222EB-FE0B-135A-1642-1378230679F9</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -301,6 +348,22 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <CreationTimeStamp>2018-07-16T13:51:03.521</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T13:51:03.521</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>092F7B1C-7E98-593C-A531-082FED84DFA5</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.policyData.insuranceCompany.referenceNumber</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-26T13:19:44.830</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-26T13:19:44.830</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -457,38 +520,6 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>5839AB16-41D8-A243-5CA6-4EDEB6D3443C</ItemId>
-  <Context>
-   <ProcessStep>DamageData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.assessorAssignment.typeOfAssessor</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-06T17:59:29.878</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-06T17:59:29.878</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>A2CDDF05-29A6-9FDD-3A48-F0DDCACD19BA</ItemId>
-  <Context>
-   <ProcessStep>DamageData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimType</Key>
-  <Value><![CDATA[DE=&nbsp]]></Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-21T10:51:27.809</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-21T10:51:48.273</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>ACDA9623-26ED-5782-EDD0-76796CA8D184</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -502,6 +533,22 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <CreationTimeStamp>2018-07-19T17:32:59.969</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-19T17:32:59.969</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>21876A60-9E4B-80CA-3005-18F6D2C1130D</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.policyData.insuranceCompany.referenceNumber::Layout</Key>
+  <Value>{"startAt":0,"labelSize":3,"fieldSize":2,"spanSize":5}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-26T13:23:36.185</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-26T15:19:27.525</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -590,12 +637,12 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   </Context>
   <RuleType>Block</RuleType>
   <Key>CaseData</Key>
-  <Value>root.hints.hint2,root.hints.hint4,root.hints.hint3,root.task.foreignCaseId,root.task.assessorAssignment.assignmentType,root.task.inspection.fromToDateTime,root.task.assignmentDate,root.task.basicClaimData.claimDescriptionVehicle.claimType,root.task.inspection.conductedDate,root.task.assessorAssignment.typeOfAssessor,root.task.basicClaimData.claimDescriptionVehicle.damageCause,root.task.claimNumber,root.task.caseType,root.task.inspection.inspectionLocation.comment,root.task.basicClaimData.accidentData.accidentDateTime,root.task.basicClaimData.claimDescriptionVehicle.propertyTransferSigned,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.basicClaimData.disposition.comment,root.task.basicClaimData.claimDescriptionVehicle.claimantRepairIntention,root.task.basicClaimData.claimDescriptionVehicle.damageDescription</Value>
+  <Value>root.hints.hint2,root.hints.hint4,root.hints.hint3,root.task.foreignCaseId,root.task.assessorAssignment.assignmentType,root.task.inspection.fromToDateTime,root.task.basicClaimData.policyData.insuranceCompany.referenceNumber,root.task.basicClaimData.claimDescriptionVehicle.damageCause,root.task.claimNumber,root.task.caseType,root.task.inspection.conductedDate,root.task.basicClaimData.accidentData.accidentDateTime,root.task.basicClaimData.claimDescriptionVehicle.damageDescription,root.task.assignmentDate,root.task.assessorAssignment.typeOfAssessor,root.task.basicClaimData.disposition.comment,root.task.inspection.inspectionLocation.comment,root.hints.hint1,root.task.basicClaimData.claimDescriptionVehicle.claimantRepairIntention,root.task.basicClaimData.claimDescriptionVehicle.propertyTransferSigned,root.task.remark,root.hints.hint5,root.hints.hint6,root.task.inspection.inspectionLocation.contactPersonDescription</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-22T10:43:29.564</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-06T18:03:08.725</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-30T13:03:03.470</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1027,12 +1074,12 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.assessorAssignment.typeOfAssessor</Key>
-  <Value>ClaimsHandler=Westfälische Provinzial Versicherung Aktiengesellschaft,Internal=Provinzial Brandkasse Nord</Value>
+  <Value>ClaimsHandler=Westfälische Provinzial Vers. AG,Internal=Provinzial Brandkasse Nord</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-06T18:05:56.598</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-07T13:16:47.833</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-30T11:06:05.580</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1385,6 +1432,38 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F7A2CB1E-59EA-1BB7-1262-3844CE23F39D</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.hints.hint6::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":5,"spanSize":5}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-30T11:51:01.180</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-30T11:51:26.932</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8EC1ADF8-F46E-FDFB-A2EC-9D4C1A002005</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.hints.hint5</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-30T11:49:00.714</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-30T11:49:00.714</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1865FE14-6B41-B1B1-7571-B5D9DB5FF4CB</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -1662,23 +1741,6 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <CreationTimeStamp>2018-03-21T21:42:35.869</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-17T07:00:42.330</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>915A8648-0135-84E6-DE3B-4D5A989F6AAD</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>BlockTranslation</RuleType>
-  <Key>PolicyHolder</Key>
-  <Value>DE=Unfallgegner</Value>
-  <Expression>${(task.basicClaimData.claimDescriptionVehicle.claimType=="Liability" || task.basicClaimData.claimDescriptionVehicle.claimType=="GeneralLiability")? "DE=Unfallgegner" : "DE=Versicherungsnehmer"}</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-03-23T11:10:43.753</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-17T07:00:42.341</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1985,6 +2047,22 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F1AA5705-F03A-EB30-B704-88700EDB1159</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.hints.hint5::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":5,"spanSize":5}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-30T11:51:39.487</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-30T11:51:39.487</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>7989C837-6510-A075-F8A8-F71D9D4216E2</ItemId>
   <Context>
    <Process>Schadengutachten-Bewertung</Process>
@@ -1998,22 +2076,6 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <CreationTimeStamp>2018-05-24T11:26:29.846</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-05-24T11:26:29.846</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>245370AF-ADA9-F59C-8D1F-62F4B333071B</ItemId>
-  <Context>
-   <ProcessStep>DamageData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimType</Key>
-  <Value>style=display:none</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-21T10:50:25.495</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-21T10:51:01.866</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2132,5 +2194,5 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:21:35.238</LastUpdateTimeStamp>
  </Rule>
- <Size>128</Size>
+ <Size>132</Size>
 </BRERuleListType>
