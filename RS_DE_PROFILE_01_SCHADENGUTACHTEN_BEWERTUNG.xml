@@ -2079,6 +2079,22 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DFC73113-1DCE-44E5-4BBA-55A14034E1F4</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>blockNames</Key>
+  <Value>PolicyHolder,BodyShop,InspectionLocation,VehicleOwner,Claimant,Insurance,Client,Agent,Opponent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-07T13:23:29.942</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-07T13:23:29.942</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AAFD0068-41F9-2A63-6E72-665FB021EAD3</ItemId>
   <Context>
    <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
@@ -2194,5 +2210,5 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:21:35.238</LastUpdateTimeStamp>
  </Rule>
- <Size>132</Size>
+ <Size>133</Size>
 </BRERuleListType>

@@ -416,12 +416,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>blockNames</Key>
-  <Value>PolicyHolder,InspectionLocation,BodyShop,VehicleOwner,Claimant,Insurance,Client,Agent,Opponent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany</Value>
+  <Value>PolicyHolder,BodyShop,InspectionLocation,VehicleOwner,Claimant,Insurance,Client,Agent,Opponent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-18T21:42:38.787</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-18T21:42:38.787</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-07T13:24:29.398</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
