@@ -15153,7 +15153,7 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0EA7BBC4-6DC3-0030-586A-F78300D232F9</ItemId>
   <Context>
-   <ProcessStep>ClaimNumberManagement</ProcessStep>
+   <ProcessStep>CalculationNumberManagement</ProcessStep>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
@@ -15163,7 +15163,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-02T21:57:01.354</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-05-02T21:57:18.995</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-06T14:29:50.833</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15361,7 +15361,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>598F82E8-8A64-8706-A6C7-695142E8B3F8</ItemId>
   <Context>
-   <ProcessStep>CalculationNumberManagement</ProcessStep>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
   </Context>
   <RuleType>StepTranslation</RuleType>
@@ -15370,8 +15369,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-01T08:22:32.107</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-01T14:59:36.277</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-06T14:30:18.062</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>

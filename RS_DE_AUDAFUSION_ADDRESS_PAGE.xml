@@ -3496,27 +3496,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.isAlso.popup.message</Key>
-  <Value><![CDATA[DE=&quot;Vorhandene Daten unter Besichtigungsort&quot; werden durch diese Aktion überschrieben. Trotzdem fortfahren?]]></Value>
+  <Value>DE=Vorhandene Daten unter Besichtigungsort werden durch diese Aktion überschrieben. Trotzdem fortfahren?</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-26T12:42:51.863</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-03T15:35:50.493</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>3FC51489-899F-A2DD-7C5A-875305158A83</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.isAlso.popup.message</Key>
-  <Value>Vorhandene Daten unter Besichtigungsort" werden durch diese Aktion überschrieben. Trotzdem fortfahren?</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-08-01T14:22:29.449</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-01T14:22:29.449</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-06T14:44:41.412</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12067,12 +12052,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation::isAlsoData</Key>
-  <Value>{"mainDiv" : "BREForm_block.InspectionLocation" , "isAlsoPrefix":"root.task.inspection.inspectionLocation", "isAlsoSuffixList" : [ "salutation", "companyName", "contactPersonDescription", "address.street", "address.ZipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.EMAIL1", "communicationDetailList.fax1" ] }</Value>
+  <Value>{"mainDiv" : "BREForm_block.InspectionLocation" , "isAlsoPrefix":"root.task.inspection.inspectionLocation", "isAlsoSuffixList" : [ "salutation", "companyName", "contactPersonDescription", "address.street", "address.zipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.email1", "communicationDetailList.fax1", "address.countryISO" ] }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-01T14:22:05.609</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-01T14:22:05.609</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-06T11:15:04.922</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13594,5 +13579,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-29T07:57:29.562</LastUpdateTimeStamp>
  </Rule>
- <Size>850</Size>
+ <Size>849</Size>
 </BRERuleListType>

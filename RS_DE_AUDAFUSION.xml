@@ -26140,6 +26140,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6185752F-E45F-0960-85F7-D2BA2211C5F6</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>lastTextBlockShowMode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-06T14:36:54.079</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-06T14:36:54.079</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3E1C6606-A275-F643-7B44-557B72EAAEE4</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -31023,5 +31039,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-31T08:04:22.609</LastUpdateTimeStamp>
  </Rule>
- <Size>1927</Size>
+ <Size>1928</Size>
 </BRERuleListType>
