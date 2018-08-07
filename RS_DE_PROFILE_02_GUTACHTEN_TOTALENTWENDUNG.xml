@@ -1432,6 +1432,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>38EF69E3-8836-5DBA-C83A-0F75382B3772</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.documentDetails.template</Key>
+  <Expression>${(task.caseType == "DamageLoss") ? "525860753549165" : (task.caseType == "IntakeDefault") ? "526092505912971" : (task.caseType == "IntakeDriverExchange") ? "526212404119902" : (task.caseType == "Other") ? "526451955627746" : (task.caseType == "CashOnHand") ? "526573962967971" : (task.caseType == "TopPrice") ? "526685294668916" : (task.caseType == "PrivateContracted") ? "527054092072121" : (task.caseType == "PrivateNonContracted") ? "527218303175893" : (task.caseType == "AuthorisedContracted") ? "527391308556658" : (task.caseType == "AuthorisedNonContracted") ? "527495395544637" : (task.caseType == "Vehicle") ? "527618071203375" : (task.caseType == "Boat") ? "527716998960311" : (task.caseType == "RiskOldTimer") ? "527824481855988" : (task.caseType == "RiskBoat") ? "527915563933260" : (task.caseType == "RiskPreviousDamage") ? "528036581786720" : (task.caseType == "DriveIn") ? "1560937357787176" : (task.caseType == "FinalCaseAdjusted") ? "13293602083613328" : (task.caseType == "Truck") ? "13300919000628000" : (#DefaultTemplateRefWPN)}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-07T15:47:15.978</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-07T16:37:24.209</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>FEB75296-4A95-B688-3F12-473B398374B2</ItemId>
   <Context>
    <Process>Gutachten-Totalentwendung</Process>
@@ -2048,5 +2064,5 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:33:04.473</LastUpdateTimeStamp>
  </Rule>
- <Size>124</Size>
+ <Size>125</Size>
 </BRERuleListType>
