@@ -250,11 +250,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.email1</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.555</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:27.869</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:14:02.866</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -458,11 +459,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.mobile</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.473</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:28.266</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:13:12.065</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1051,11 +1053,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.address.street</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.812</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.688</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:09:02.064</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1515,11 +1518,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.firstName</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.530</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.742</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:11:42.797</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2235,11 +2239,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.address.line5</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.617</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.072</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:12:18.593</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2779,11 +2784,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.contactPersonDescription</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.037</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:27.644</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:12:34.344</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2795,11 +2801,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.inputTaxDeduction</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.078</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:27.651</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:13:21.343</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4567,11 +4574,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.fax1</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.941</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:28.375</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:11:52.575</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4967,11 +4975,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.basicClaimData.claimDescriptionVehicle.thirdParty1RegistrationNumber</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.296</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.608</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:15:35.823</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5751,11 +5760,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.address.zipCode</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.485</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:28.734</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:14:19.045</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6215,11 +6225,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.isAlso.inspectionLocation</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.375</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.307</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:12:02.002</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6711,11 +6722,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.active</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.222</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:31.304</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:14:10.801</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7015,11 +7027,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.phone2</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.713</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:29.288</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:13:54.628</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7342,22 +7355,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F7F3F17F-4B19-8970-672D-96268EC367F7</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberByRole.other.customizableMemberSearchField</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-05-30T12:28:13.567</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.130</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>178EBD58-F227-A5D9-C774-47A908C190F6</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -7654,11 +7651,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.address.countryISO</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.539</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.721</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:13:29.149</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8214,11 +8212,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.address.city</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.938</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:28.242</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:13:38.183</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9558,11 +9557,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.companyName</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.473</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.531</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:13:02.772</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9734,11 +9734,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.lastName</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.401</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:30.863</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:12:26.245</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10789,11 +10790,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.phone1</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.453</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:28.526</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:13:46.190</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -11845,11 +11847,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.mobile2</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.354</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:26.978</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:12:10.669</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12373,11 +12376,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.salutation</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.667</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:27.121</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:12:53.700</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13173,11 +13177,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.other.communicationDetailList.contactPersonPhone</Key>
   <Value>show</Value>
+  <Expression>${(#isProfile=="true")? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.383</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T08:07:18.120</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:12:42.395</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13579,5 +13584,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-29T07:57:29.562</LastUpdateTimeStamp>
  </Rule>
- <Size>849</Size>
+ <Size>848</Size>
 </BRERuleListType>
