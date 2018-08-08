@@ -421,7 +421,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-18T21:42:38.787</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-07T13:24:29.398</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T10:10:00.598</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -985,6 +985,21 @@
   <CreationTimeStamp>2018-07-13T09:50:40.887</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-13T09:50:40.887</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9C1F3149-123E-8F6E-9044-75FFDE5EDE71</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>isProfile</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-08T10:06:00.960</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-08T10:06:00.960</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2064,5 +2079,5 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:33:04.473</LastUpdateTimeStamp>
  </Rule>
- <Size>125</Size>
+ <Size>126</Size>
 </BRERuleListType>

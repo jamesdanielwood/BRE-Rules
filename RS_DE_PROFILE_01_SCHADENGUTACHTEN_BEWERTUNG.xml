@@ -552,6 +552,21 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E15B4FB0-C9A9-7A37-CBD0-EC4F32056347</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>isProfile</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-08T10:06:40.195</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-08T10:06:40.195</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>92517F43-B0BA-56B0-65CF-1C1B736409F5</ItemId>
   <Context>
    <Process>Schadengutachten-Bewertung</Process>
@@ -2086,12 +2101,12 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   </Context>
   <RuleType>Block</RuleType>
   <Key>blockNames</Key>
-  <Value>PolicyHolder,BodyShop,InspectionLocation,VehicleOwner,Claimant,Insurance,Client,Agent,Opponent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany</Value>
+  <Value>PolicyHolder,BodyShop,InspectionLocation,VehicleOwner,Claimant,Insurance,Client,Agent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-07T13:23:29.942</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-07T13:23:29.942</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-08T09:51:13.299</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2210,5 +2225,5 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:21:35.238</LastUpdateTimeStamp>
  </Rule>
- <Size>133</Size>
+ <Size>134</Size>
 </BRERuleListType>
