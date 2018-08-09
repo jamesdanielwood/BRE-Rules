@@ -146,22 +146,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>3876001A-E7FC-2508-258C-891684A6FC9B</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.claimDescriptionVehicle.damageDescription::Layout</Key>
-  <Value>{"startAt":0,"labelSize":3,"fieldSize":13,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-18T15:27:07.243</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T15:27:07.243</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2340152C-3CFD-9BA7-1B02-C62D3D138697</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -1194,12 +1178,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Auction</Key>
-  <Value>root.hints.hint1,root.task.auction.salvageAmount.value,root.task.auction.auctionPrintOption,root.task.auction.salvageAmountVAT,root.hints.hint2,root.task.auction.displayName,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.endDate,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.location.vehicleLocation,root.task.basicClaimData.claimDescriptionVehicle.damageDescription,root.task.marketPlacement.submitVehicle.vehicleData.showAnonymizedCalculationButton,root.configurablehints.hint1,root.configurablehints.hint2,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.standardEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.optionalEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.resetStandardEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.resetOptionalEquipment,root.additionalhints.hint7,root.task.editImageMode,root.task.uploadAttachments,root.task.attachmentBinaryList.attachmentBinaryList,root.task.marketPlacement.submitVehicle.platforms,root.task.marketPlacement.submitVehicle.selectedPlatforms,root.task.marketPlacement.submitVehicle.vehicleData.calculationDialog,root.task.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.inputTaxDeduction,root.task.basicClaimData.vehicle.vehicleDamage.fire,root.task.basicClaimData.vehicle.vehicleEngineering.bodyType,root.task.marketPlacement.submitVehicle.vehicleData.carTheft,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDocument,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.serviceHistoryAvailable,root.task.marketPlacement.submitVehicle.submit,root.task.auction.auctionBids.retrievebids,root.additionalhints.hint9,root.task.auction.auctionBids.auctionbidlist,root.task.auction.auctionBids.nobidslabel</Value>
+  <Value>root.hints.hint1,root.task.auction.salvageAmount.value,root.task.auction.auctionPrintOption,root.task.auction.salvageAmountVAT,root.hints.hint2,root.task.auction.displayName,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.endDate,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.location.vehicleLocation,root.task.marketPlacement.submitVehicle.vehicleData.showAnonymizedCalculationButton,root.configurablehints.hint1,root.configurablehints.hint2,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.standardEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.optionalEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.resetStandardEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.resetOptionalEquipment,root.additionalhints.hint7,root.task.editImageMode,root.task.uploadAttachments,root.task.attachmentBinaryList.attachmentBinaryList,root.task.marketPlacement.submitVehicle.platforms,root.task.marketPlacement.submitVehicle.selectedPlatforms,root.task.marketPlacement.submitVehicle.vehicleData.calculationDialog,root.task.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.inputTaxDeduction,root.task.basicClaimData.vehicle.vehicleDamage.fire,root.task.basicClaimData.vehicle.vehicleEngineering.bodyType,root.task.marketPlacement.submitVehicle.vehicleData.carTheft,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDocument,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.serviceHistoryAvailable,root.task.marketPlacement.submitVehicle.submit,root.task.auction.auctionBids.retrievebids,root.additionalhints.hint9,root.task.auction.auctionBids.auctionbidlist,root.task.auction.auctionBids.nobidslabel</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T15:27:06.830</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T15:27:06.830</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-30T15:11:31.668</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1505,6 +1489,22 @@
   <CreationTimeStamp>2018-06-18T15:27:07.160</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-18T15:27:07.160</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1992CA44-BC72-70C8-CE9E-F7748C83D6E0</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>minderwert.truncMonetaryValuesToInt</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-07-26T12:07:43.740</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-07-26T15:35:45.868</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3306,22 +3306,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>87E05709-9E24-4CDD-CC08-AC9BEE3A770B</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.claimDescriptionVehicle.damageDescription</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-18T15:27:06.696</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T15:27:06.696</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AA4D6837-62FA-7A98-BE1B-613B27119D21</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -3505,12 +3489,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.basicClaimData.vehicle.autoOnlineValuePilot.input.vehicle.vehicleKind</Key>
-  <Value>Truck,Car,Bike</Value>
+  <Expression>${#vehicleKind}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T15:27:06.979</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T15:27:06.979</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-31T08:08:21.427</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3863,22 +3847,6 @@
   <CreationTimeStamp>2018-06-18T15:27:07.070</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-18T15:27:07.070</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>FC02F1DC-C591-B66D-75A5-D3151B6D5B48</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.task.basicClaimData.claimDescriptionVehicle.damageDescription</Key>
-  <Value>Zur Schadenbeschreibung wird auf die Kalkulation und Lichtbilder verwiesen</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-18T15:27:07.156</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T15:27:07.156</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7342,12 +7310,12 @@
   </Context>
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.task.vehicleValuation.vehicleKind</Key>
-  <Value>OffRoad,Car,Bike,Delivery</Value>
+  <Expression>${#vehicleKind}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T15:27:07.427</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-18T15:27:07.427</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-07-31T08:08:01.985</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8857,5 +8825,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-06-18T15:27:07.585</LastUpdateTimeStamp>
  </Rule>
- <Size>551</Size>
+ <Size>549</Size>
 </BRERuleListType>
