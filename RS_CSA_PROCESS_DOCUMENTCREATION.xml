@@ -3780,7 +3780,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-21T11:00:33.676</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-21T11:00:33.676</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-09T20:13:14.574</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4557,12 +4557,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.csa.documentTextBlockSearch.owner</Key>
-  <Value>Organization</Value>
+  <Value>Organization,Person</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-21T11:00:31.253</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-21T11:00:31.253</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-09T20:12:46.365</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6571,12 +6571,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.csa.documentTextBlockSearch.owner</Key>
-  <Value>hiddenField=true</Value>
+  <Value>hiddenField=true,multiple=multiple</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-21T11:00:33.679</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-21T11:00:33.679</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-09T20:12:29.496</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
