@@ -548,7 +548,7 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-26T13:23:36.185</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-26T15:19:27.525</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-12T14:14:44.006</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1382,6 +1382,22 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>30D93FB6-BDD1-0D8B-3239-7B9DCBB0C92F</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.claimType</Key>
+  <Value>style=display:none</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-12T14:14:44.011</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-12T14:14:44.011</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>67B45F2B-A048-5123-26B0-2881F89330B3</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -1638,12 +1654,12 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.inspection.inspectionLocation.comment</Key>
-  <Value>rows=3,style=height:100px;overflow:hidden</Value>
+  <Value>rows=4,style=height:115px;overflow:hidden</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-22T11:32:23.537</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-18T21:50:09.409</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-12T14:14:43.991</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1654,12 +1670,12 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.claimDescriptionVehicle.damageDescription</Key>
-  <Value>rows=3,style=height:100px;overflow:hidden</Value>
+  <Value>rows=4,style=height:115px;overflow:hidden</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-22T11:33:28.086</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-13T09:46:51.188</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-12T14:14:44.003</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1717,12 +1733,12 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.disposition.comment</Key>
-  <Value>rows=3,style=height:100px;overflow:hidden</Value>
+  <Value>rows=4,style=height:115px;overflow:hidden</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-22T11:32:56.364</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-13T09:51:57.243</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-12T14:14:43.997</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2074,7 +2090,7 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-30T11:51:39.487</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-30T11:51:39.487</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-12T14:14:44.009</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2225,5 +2241,5 @@ configuration:"task.basicClaimData.policyData.insuranceCompany",resetSaxifObject
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-16T14:21:35.238</LastUpdateTimeStamp>
  </Rule>
- <Size>134</Size>
+ <Size>135</Size>
 </BRERuleListType>

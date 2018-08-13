@@ -20,6 +20,36 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4D644ABC-2B02-64BE-06F9-B199F502C907</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kadsummarytables.valuation.replacement.withoutVAT</Key>
+  <Value>DE=Wiederbeschaffungswert (MwSt. nicht ausweishar)</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-13T10:58:23.575</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-13T10:58:23.575</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A658C390-AAE3-2C6C-0CD1-0B7B370246FE</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kadsummarytables.valuation.replacement.withVAT</Key>
+  <Value>DE=Wiederbeschaffungswert mit MwSt.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-13T10:58:46.599</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-13T10:58:46.599</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A62549A6-07EB-5F0F-C021-DE98FF908E37</ItemId>
   <Context>
    <ProcessStep>VehicleSearch</ProcessStep>
@@ -2168,6 +2198,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C17714CF-8AEC-106E-2017-D62A6ED572B6</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kadsummarytables.valuation.purchasePrice.withoutVAT</Key>
+  <Value>DE=Ortsüblicher Neupreis ohne MwSt.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-13T10:59:32.838</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-13T10:59:32.838</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>82FC647D-CCAE-05DD-75C9-2C5C36BF4EE8</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -2406,6 +2451,21 @@
   <CreationTimeStamp>2017-04-06T10:23:18.914</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-02T12:37:21.755</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DEA35A56-DEE9-F2F2-F700-F8F45B896D0E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kadsummarytables.valuation.purchasePrice.withVAT</Key>
+  <Value>DE=Ortsüblicher Neupreis mit MwSt.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-13T10:59:49.771</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-13T10:59:49.771</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9448,6 +9508,21 @@
   <CreationTimeStamp>2017-04-06T10:23:10.503</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-02T12:37:20.931</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>85EEE2A6-A605-B58E-79EF-EDA00ADD7ED4</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kadsummarytables.valuation.purchasePrice.withoutVATIndication</Key>
+  <Value>DE=Ortsüblicher Neupreis (MwSt. nicht ausweisbar).,EN=Manual valuation value without VAT indication</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-13T11:00:09.332</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-13T11:00:09.332</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -30180,22 +30255,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D54BD72D-CDC1-913E-8F47-AB8EC1BD1EDA</ItemId>
-  <Context>
-   <ProcessStep>SendToABS</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>kadsummarytables.valuation.withoutVAT</Key>
-  <Value>DE=Wiederbeschaffungswert (MwSt. nicht ausweishar)</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-03-21T11:06:45.848</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:31.367</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>25F72BB4-6D6E-E939-C36B-1FE8BD0C75F6</ItemId>
   <Context>
    <ProcessStep>Invoicing</ProcessStep>
@@ -49188,6 +49247,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DDC505CE-89D2-2861-5E4B-C481A581A472</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>kadsummarytables.valuation.replacement.withoutVATIndication</Key>
+  <Value>DE=Wiederbeschaffungswert (MwSt. nicht ausweisbar),EN=Manual valuation value without VAT indication</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-13T10:59:11.785</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-13T10:59:11.785</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8AADB28D-C718-A243-BCDE-36C6D418F5BE</ItemId>
   <Context>
    <ProcessStep>MemberContact</ProcessStep>
@@ -49588,21 +49662,6 @@
   <CreationTimeStamp>2017-04-06T10:23:16.326</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-02T12:37:20.760</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>42F17B80-7FF3-F459-9E9E-FF2D9CEF71D0</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>kadsummarytables.valuation.withoutVATIndication</Key>
-  <Value>DE=Wiederbeschaffungswert (MwSt. nicht ausweisbar),EN=Manual Replacement value without VAT indication</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-03-21T11:01:47.706</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:20.774</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56490,5 +56549,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-02T12:37:22.412</LastUpdateTimeStamp>
  </Rule>
- <Size>3477</Size>
+ <Size>3481</Size>
 </BRERuleListType>
