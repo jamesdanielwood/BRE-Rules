@@ -20919,12 +20919,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>ChangeTaskOwnerWorkflowFunction.SendMessageTaskIf(1485936127893)</Key>
-  <Value>{messageSubject: "Bitte um Freigabe. ", messageBody: "Der Schadenfall '${current.claimNumber}' von ${current.responsibleUserFirstName} ${current.responsibleUserLastName} erfordert eine Freigabe.\nBitte prüfen Sie hier ${getCaseLinkForWorkPage(current.itemId)}", overWriteEmailNotificationConfig: "true", recipients: "task.ownerMember"}</Value>
+  <Value>{messageSubject: "Bitte um Freigabe. ", messageBody: "Der Vorgang '${current.claimNumber}' erfordert eine Freigabe.\nBitte prüfen Sie hier ${getCaseLinkForWorkPage(current.itemId)}", overWriteEmailNotificationConfig: "true", recipients: "task.ownerMember"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:11.778</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:18.224</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-16T08:32:47.932</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
