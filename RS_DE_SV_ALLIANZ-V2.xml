@@ -15829,12 +15829,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.workflow.changeOwner.dialog-membersearchfield::resulttable-columns</Key>
-  <Value>[{"width":220,"cellattr":"","name":"loginId"},{"width":200,"cellattr":"","name":"name"},{"width":200,"cellattr":"","name":"address"},{"width":100,"cellattr":"","name":"zipCode"},{"width":100,"cellattr":"","name":"city"},{"width":80,"cellattr":"","name":"state"},{"width":100,"cellattr":"","name":"memberRole"}]</Value>
+  <Value>[{"width":120,"cellattr":"","name":"loginId"},{"width":100,"cellattr":"","name":"name"},{"width":100,"cellattr":"","name":"zipCode"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-11T21:11:36.731</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:18.905</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-20T12:04:43.722</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -32543,12 +32543,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.workflow.changeOwner.dialog-membersearchfield::resulttable-columns</Key>
-  <Value>[{"width":220,"cellattr":"","name":"loginId"},{"width":200,"cellattr":"","name":"name"},{"width":200,"cellattr":"","name":"address"},{"width":100,"cellattr":"","name":"zipCode"},{"width":100,"cellattr":"","name":"city"},{"width":80,"cellattr":"","name":"state"},{"width":100,"cellattr":"","name":"memberRole"}]</Value>
+  <Value>[{"width":120,"cellattr":"","name":"loginId"},{"width":100,"cellattr":"","name":"name"},{"width":100,"cellattr":"","name":"zipCode"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-11T21:11:13.381</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:23.653</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-20T12:05:00.775</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
