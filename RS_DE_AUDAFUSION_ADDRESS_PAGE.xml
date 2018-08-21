@@ -190,7 +190,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:44.772</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:27.667</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-20T09:33:20.282</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8307,12 +8307,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.basicClaimData.policyData.insuranceCompany.referenceNumber</Key>
-  <Value>DE=Aktenzeichen,EN=Reference Number</Value>
+  <Value>DE=Referenznummer,EN=Reference Number</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:46.075</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-06-29T07:57:27.583</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-21T09:31:17.963</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8924,6 +8924,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1497D8F6-320E-2C3D-15F6-A620922FE321</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.inspection.inspectionLocation.isAlso.garage</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-20T09:54:42.236</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-20T09:54:42.236</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B85C05BF-AC3E-5358-1669-F9221C280C3A</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.inspection.inspectionLocation.isAlso.garage::isAlsoData</Key>
+  <Value>{"mainDiv" : "BREForm_block.BodyShop" , "isAlsoPrefix":"root.task.basicClaimData.repairDetail.repairer", "isAlsoSuffixList" : [ "salutation", "companyName", "contactPersonDescription", "address.street", "address.zipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.email1", "communicationDetailList.fax1", "address.countryISO" ] }</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-20T10:05:48.979</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-20T10:12:23.301</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4D0B4F92-B17B-E967-0254-84352F484C2C</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -9144,7 +9176,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.238</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-18T12:25:58.185</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-20T09:42:49.460</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9973,12 +10005,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>InspectionLocation</Key>
-  <Value>root.task.inspection.inspectionLocation.salutation,root.task.inspection.inspectionLocation.customizableMemberSearchField,root.task.inspection.inspectionLocation.companyName,root.task.inspection.inspectionLocation.firstName,root.task.inspection.inspectionLocation.lastName,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.inspection.inspectionLocation.address.street,root.task.inspection.inspectionLocation.address.zipCode,root.task.inspection.inspectionLocation.address.city,root.task.inspection.inspectionLocation.address.countryISO,root.task.inspection.inspectionLocation.address.line5,root.task.inspection.inspectionLocation.communicationDetailList.phone1,root.task.inspection.inspectionLocation.communicationDetailList.mobile,root.task.inspection.inspectionLocation.communicationDetailList.email1,root.task.inspection.inspectionLocation.communicationDetailList.fax1,root.task.inspection.inspectionLocation.active</Value>
+  <Value>root.task.inspection.inspectionLocation.salutation,root.task.inspection.inspectionLocation.customizableMemberSearchField,root.task.inspection.inspectionLocation.companyName,root.task.inspection.inspectionLocation.firstName,root.task.inspection.inspectionLocation.lastName,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.inspection.inspectionLocation.address.street,root.task.inspection.inspectionLocation.address.zipCode,root.task.inspection.inspectionLocation.address.city,root.task.inspection.inspectionLocation.address.countryISO,root.task.inspection.inspectionLocation.address.line5,root.task.inspection.inspectionLocation.communicationDetailList.phone1,root.task.inspection.inspectionLocation.communicationDetailList.mobile,root.task.inspection.inspectionLocation.communicationDetailList.email1,root.task.inspection.inspectionLocation.communicationDetailList.fax1,root.task.inspection.inspectionLocation.isAlso.garage,root.task.inspection.inspectionLocation.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.806</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-14T07:56:58.075</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-20T09:59:30.872</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -12091,7 +12123,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-01T14:22:05.609</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-06T11:15:04.922</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-20T09:39:34.737</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13647,5 +13679,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-14T08:05:16.025</LastUpdateTimeStamp>
  </Rule>
- <Size>852</Size>
+ <Size>854</Size>
 </BRERuleListType>
