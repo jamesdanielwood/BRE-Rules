@@ -8146,6 +8146,7 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation::lockAllFields</Key>
+  <Value>true</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-25T17:47:26.800</CreationTimeStamp>
