@@ -24223,7 +24223,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-11T05:14:22.105</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:23.650</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-24T08:43:46.030</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -42696,13 +42696,13 @@
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
   </Context>
   <RuleType>FieldReadOnly</RuleType>
-  <Key>root.task.basicClaimData.vehicle.VICVehicleIdentification.vehiclePriceAtTarifDate</Key>
+  <Key>root.task.basicClaimData.vehicle.VICVehicleIdentification.vehiclePriceAtTarifDate.value</Key>
   <Value>true</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-11T16:27:12.951</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:31.407</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-28T08:49:43.634</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -49269,12 +49269,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>Details</Key>
-  <Value>emptyLine1436769346188,root.csa.masterData.memberContact.role,root.csa.masterData.memberContact.communicationDetailList.phone1,root.csa.masterData.memberContact.salutation,root.csa.masterData.memberContact.firstName,root.csa.masterData.memberContact.lastName,root.csa.masterData.memberContact.companyName,root.csa.masterData.memberContact.communicationDetailList.phone2,root.csa.masterData.memberContact.communicationDetailList.mobile,root.csa.masterData.memberContact.contactMemberId,root.csa.masterData.memberContact.communicationDetailList.fax1,root.csa.masterData.memberContact.lastUpdatedDateTime,root.csa.masterData.memberContact.communicationDetailList.website,root.csa.masterData.memberContact.dunningCode,root.csa.masterData.memberContact.termOfPayment,root.csa.masterData.memberContact.tagList,root.csa.masterData.memberContact.bodyShopCode,root.csa.masterData.memberContact.appropriateForFictitiousSettlement,root.csa.masterData.memberContact.repairerStandard.types,root.csa.masterData.memberContact.repairerStandard.authorizedGarage,root.csa.masterData.memberContact.repairerStandard.qualityGarage</Value>
+  <Value>emptyLine1436769346188,root.csa.masterData.memberContact.role,root.csa.masterData.memberContact.communicationDetailList.phone1,root.csa.masterData.memberContact.salutation,root.csa.masterData.memberContact.firstName,root.csa.masterData.memberContact.lastName,root.csa.masterData.memberContact.companyName,root.csa.masterData.memberContact.communicationDetailList.phone2,root.csa.masterData.memberContact.communicationDetailList.mobile,root.csa.masterData.memberContact.contactMemberId,root.csa.masterData.memberContact.communicationDetailList.fax1,root.csa.masterData.memberContact.contactMemberDisplayName,root.csa.masterData.memberContact.lastUpdatedDateTime,root.csa.masterData.memberContact.communicationDetailList.website,root.csa.masterData.memberContact.dunningCode,root.csa.masterData.memberContact.termOfPayment,root.csa.masterData.memberContact.tagList,root.csa.masterData.memberContact.bodyShopCode,root.csa.masterData.memberContact.appropriateForFictitiousSettlement,root.csa.masterData.memberContact.repairerStandard.types,root.csa.masterData.memberContact.repairerStandard.authorizedGarage,root.csa.masterData.memberContact.repairerStandard.qualityGarage</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2017-04-06T10:23:17.306</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:19.715</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-27T09:34:53.612</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -56549,5 +56549,68 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-02T12:37:22.412</LastUpdateTimeStamp>
  </Rule>
- <Size>3481</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1E3F6898-07DE-944D-464F-A099FAE9E0A6</ItemId>
+  <Context>
+   <ProcessStep>MemberContact</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.csa.masterData.memberContact.contactMemberDisplayName</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-27T09:34:02.468</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-27T09:34:02.468</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>ABBE7ED2-D722-F4FA-2C79-668819AC1980</ItemId>
+  <Context>
+   <ProcessStep>MemberContact</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.csa.masterData.memberContact.contactMemberDisplayName</Key>
+  <Value>EN=Linked Organization,DE=AXN Kommunikation möglich</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-27T09:34:34.209</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-27T09:34:34.209</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F0381E80-C636-0C7C-9A62-06ADA2072578</ItemId>
+  <Context>
+   <ProcessStep>MemberContact</ProcessStep>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.csa.masterData.memberContact.contactMemberDisplayName</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-27T09:34:14.822</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-27T09:34:14.822</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B51DEDC7-06F4-0F7F-D307-F5C09C2C95B8</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>MessageTranslation</RuleType>
+  <Key>root.csa.masterdata.membercontact.bodyshop.notmatched</Key>
+  <Value>EN=NON matched bodyshop,DE=Keine AXN Kommunikation möglich</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-27T09:33:13.612</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-27T09:33:13.612</LastUpdateTimeStamp>
+ </Rule>
+ <Size>3485</Size>
 </BRERuleListType>

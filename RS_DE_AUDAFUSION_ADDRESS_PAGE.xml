@@ -8139,6 +8139,53 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>44BAEEB8-24DF-C51D-1FBB-C90CCC744D87</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation::lockAllFields</Key>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-25T17:47:26.800</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-25T17:47:26.800</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>18F16FD7-10F9-D1FD-A664-B6950CA466A2</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.inspection.inspectionLocation.isAlso.garage::lockAllFields</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-25T17:47:36.476</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-25T17:47:36.476</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>523278B3-A40E-9906-CF12-5013B4424408</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.inspection.inspectionLocation.isAlso.garage</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-25T17:47:55.273</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-25T17:47:55.273</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3ED6A3C2-EEDE-250C-6FE6-4170EE96D25B</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -9420,6 +9467,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>72A2FE97-E781-816A-4BF2-8CAFE6DB6956</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.mobile2</Key>
+  <Value><![CDATA[pattern=^[0-9.!#$%&’*+/=?^_`{|}~-]*$,data-errormessage=entspricht nicht dem gefordeten Format]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-22T12:51:50.291</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-22T12:51:50.291</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>141335D9-E1CE-D24F-76DA-642C569D1D9D</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.mobile2</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-22T12:49:05.324</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-22T12:51:50.114</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>76FB163C-63CC-AFA8-220B-49954632E695</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.inspection.inspectionLocation.communicationDetailList.mobile2</Key>
+  <Value>DE=Mobiltelefon (Privat)</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-22T12:52:52.025</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-22T12:52:52.025</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A184FF6E-8062-154C-B1B2-5460DAAEF1CD</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -10005,12 +10100,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>InspectionLocation</Key>
-  <Value>root.task.inspection.inspectionLocation.salutation,root.task.inspection.inspectionLocation.customizableMemberSearchField,root.task.inspection.inspectionLocation.companyName,root.task.inspection.inspectionLocation.firstName,root.task.inspection.inspectionLocation.lastName,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.inspection.inspectionLocation.address.street,root.task.inspection.inspectionLocation.address.zipCode,root.task.inspection.inspectionLocation.address.city,root.task.inspection.inspectionLocation.address.countryISO,root.task.inspection.inspectionLocation.address.line5,root.task.inspection.inspectionLocation.communicationDetailList.phone1,root.task.inspection.inspectionLocation.communicationDetailList.mobile,root.task.inspection.inspectionLocation.communicationDetailList.email1,root.task.inspection.inspectionLocation.communicationDetailList.fax1,root.task.inspection.inspectionLocation.isAlso.garage,root.task.inspection.inspectionLocation.active</Value>
+  <Value>root.task.inspection.inspectionLocation.salutation,root.task.inspection.inspectionLocation.customizableMemberSearchField,root.task.inspection.inspectionLocation.companyName,root.task.inspection.inspectionLocation.firstName,root.task.inspection.inspectionLocation.lastName,root.task.inspection.inspectionLocation.contactPersonDescription,root.task.inspection.inspectionLocation.address.street,root.task.inspection.inspectionLocation.address.zipCode,root.task.inspection.inspectionLocation.address.city,root.task.inspection.inspectionLocation.address.countryISO,root.task.inspection.inspectionLocation.address.line5,root.task.inspection.inspectionLocation.communicationDetailList.phone1,root.task.inspection.inspectionLocation.communicationDetailList.mobile2,root.task.inspection.inspectionLocation.communicationDetailList.mobile,root.task.inspection.inspectionLocation.communicationDetailList.email1,root.task.inspection.inspectionLocation.communicationDetailList.fax1,root.task.inspection.inspectionLocation.isAlso.garage,root.task.inspection.inspectionLocation.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.806</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-20T09:59:30.872</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-22T12:49:05.986</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13665,6 +13760,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>189D4417-A89B-C123-FE83-96F4BBC31488</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.inspection.inspectionLocation.isAlso.garage::isAlsoData</Key>
+  <Value>{"mainDiv" : "BREForm_block.BodyShop" , "isAlsoPrefix":"root.task.basicClaimData.repairDetail.repairer", "isAlsoSuffixList" : ["companyName", "deputyName", "address.street", "address.zipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.email1", "communicationDetailList.fax1", "address.countryISO" ] }</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-25T17:48:07.616</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-25T17:48:07.616</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B76045A0-84FE-E875-606B-EC19BCE43A83</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.task.inspection.inspectionLocation.isAlso.garage::isAlso.confirmMode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-25T17:48:16.208</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-25T17:48:16.208</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0CADE2FB-C53B-83CD-4C76-C48DCB36C103</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -13679,5 +13806,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-14T08:05:16.025</LastUpdateTimeStamp>
  </Rule>
- <Size>854</Size>
+ <Size>862</Size>
 </BRERuleListType>

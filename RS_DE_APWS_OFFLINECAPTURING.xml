@@ -407,6 +407,36 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>09272826-9358-3FC8-1E49-676E7A828748</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.calculationMember.memberContractDescription</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:19.753</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:19.753</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>914CBC59-FEF9-F12A-B1C2-D778FC6BB8D2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.KADHailPayment.paymentValueExc</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:53:02.968</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:53:02.968</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4D0C7723-DD3B-01C0-0BBB-01A2EF13BB22</ItemId>
   <Context>
    <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
@@ -419,6 +449,36 @@
   <CreationTimeStamp>2017-10-16T13:12:58.814</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-16T13:12:58.814</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DA3C95D6-2C4A-8EED-6656-C3A323BCE619</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.savveSchwackeKey</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:10.867</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:10.867</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>63D2AEC4-000E-66CF-F4A1-3578C81FB847</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.KADHailPayment.salvageValue</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:54.965</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:54.965</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -788,5 +848,82 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-09T15:58:23.762</LastUpdateTimeStamp>
  </Rule>
- <Size>49</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D4746297-DA6A-DAE5-70A5-D1A75EFC2562</ItemId>
+  <Context>
+   <Process>B2B.OfflineCaptureWin</Process>
+   <ProcessStep>B2B.OfflineCaptureWin.download</ProcessStep>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>LoadTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"CalculationSortTransformation","alias":"CalculationSortTransformation(1535355457112)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-27T09:37:37.163</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-27T09:37:37.163</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>138CABC5-C5FA-42BA-98AC-541F205CD401</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.classInput.contractUpdatedBy</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:29.372</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:29.372</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D81B25FA-1D32-B654-7E45-E1DE1E1FD0BA</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.classInput.contractTimeStamp</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:33.995</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:33.995</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>91F94942-F665-3096-9C25-2C568FE7AA73</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.KADHailPayment.netRepairCosts</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:40.578</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:40.578</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D15D4993-2B61-E49C-1495-A75D52043817</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.KADHailPayment.replacementValue</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:48.521</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:48.521</LastUpdateTimeStamp>
+ </Rule>
+ <Size>58</Size>
 </BRERuleListType>

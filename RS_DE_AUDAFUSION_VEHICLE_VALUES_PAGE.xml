@@ -1197,12 +1197,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleDamage.comment</Key>
-  <Value>Zur Schadenbeschreibung wird auf die Kalkulation und Lichtbilder verwiesen</Value>
+  <Value>Art und Umfang der Fahrzeugbeschädigungen sind dem Gutachten und der Fotoanlage zu entnehmen. Weitergehende Beschädigungen am Fahrzeug sind nicht auszuschließen.   Der Fahrzeugzustand wurde vom Sachverständigen augenscheinlich bewertet. Vor- und Altschäden soweit erkennbar oder vom Fahrzeughalter bekanntgegeben sind in der Beschreibung im Gutachten aufgeführt.   Der technische Zustand des Fahrzeuges und die Funktion aller Fahrzeugkomponenten wurden vom Sachverständigen im Zuge der Besichtigung nicht weitergehend geprüft.   Der Wiederbeschaffungswert und Restwert des Fahrzeuges bezieht sich auf den Zustand während der Besichtigung, demnach sind die Anbau- und Zubehörteile berücksichtigt worden die zum Besichtigungszeitpunkt montiert waren.   Nach der Besichtigung vorgenommene Veränderungen des Fahrzeuges oder seiner Anbau- und Zubehörteile und eine damit einhergehende Restwertreduzierung gehen nicht zu Lasten des Versicherers.</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-13T09:24:32.206</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-13T09:24:32.206</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-25T18:07:02.054</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4009,7 +4009,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-13T09:23:15.064</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-13T09:24:31.850</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-25T18:07:01.869</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4075,6 +4075,22 @@
   <CreationTimeStamp>2018-06-18T15:27:06.532</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-13T08:22:03.265</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A825B94C-3249-1B82-FC4B-039108B57255</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.vehicleValuation.mileageCategory::onkeypress</Key>
+  <Value>javascript:return BRE.CommonUtils.doubleFilterUsePattern(event, '[0-9]');</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-27T19:06:12.555</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-27T19:06:12.555</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -8905,5 +8921,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-13T09:25:06.265</LastUpdateTimeStamp>
  </Rule>
- <Size>554</Size>
+ <Size>555</Size>
 </BRERuleListType>

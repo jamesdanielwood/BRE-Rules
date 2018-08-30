@@ -7021,21 +7021,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>E087D169-C534-E53B-9218-8BDD2C7EA77F</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>casememberrole.court</Key>
-  <Value>DE=Gericht</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-08-21T08:20:38.785</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T09:03:59.018</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A0E94D8F-0827-868F-29A5-FC3840BC6296</ItemId>
   <Context>
    <ProcessStep>VehicleStatus</ProcessStep>
@@ -24808,21 +24793,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>5AA5D364-642D-7408-69C4-A5E05036202F</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>casememberroles.court</Key>
-  <Value>DE=Gericht</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-08-21T08:30:04.045</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T09:03:46.503</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>BD769493-5F2B-CACE-7B63-CC6DDF2E3D4D</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -25282,7 +25252,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-21T10:49:39.457</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T10:49:39.457</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-27T08:50:15.196</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -25366,21 +25336,6 @@
   <CreationTimeStamp>2017-07-11T09:25:31.675</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-21T08:18:50.597</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>0399DB99-A49B-C45A-6DDF-FA036621C256</ItemId>
-  <Context>
-   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>membercaserole.court</Key>
-  <Value>DE=Gericht</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-08-21T08:28:26.560</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T09:03:33.551</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27376,18 +27331,65 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>68F2EBF4-A940-6F0F-34E3-D6765E2AE368</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>workListGrid.isAudafusion</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-08-23T16:45:41.248</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-23T16:45:41.248</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A7F80BD8-DD48-30A9-F32D-C38079B66547</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>pendoIntegrationScript</Key>
-  <Value><![CDATA[(function(apiKey){(function(p,e,n,d,o){varv,w,x,y,z;o=p[d]=p[d]||{};o._q=[];v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');pendo.initialize({'visitor':{'id':'${memberCache.currentMemberId}','app':'AFW','country':'${memberCache.currentUserCountryId}','language':'${memberCache.currentUserLocale}','release':releaseVersion,'user_profile':'${memberCache.memberRoleType}','taskId':'${task.itemId}'},'account':{'id':'${memberCache.currentParentId}'}});})('138e0371-cce2-44d3-5196-86f181a37421');]]></Value>
+  <Value><![CDATA[(function(apiKey) {
+    (function(p, e, n, d, o) {
+        var v, w, x, y, z;
+        o = p [d] = p [d] || {};
+        o._q = [];
+        v = ['initialize', 'identify', 'updateOptions', 'pageLoad'];
+        for (w = 0, x = v.length; w < x; ++w)(function(m) {
+            o [m] = o [m] || function() {
+                o._q [m === v[0] ? 'unshift' : 'push']([m].concat([].slice.call(arguments, 0)));
+            };
+        })(v [w]);
+        y = e.createElement(n);
+        y.async = !0;
+        y.src = 'https://cdn.pendo.io/agent/static/' + apiKey + '/pendo.js';
+        z = e.getElementsByTagName(n)[0];
+        z.parentNode.insertBefore(y, z);
+    })(window, document, 'script', 'pendo');
+    pendo.initialize({
+        'visitor': {
+            'id': '${memberCache.currentMemberId}',
+            'app': 'AFW',
+                'country': '${memberCache.currentUserCountryId}',
+                'language': '${memberCache.currentUserLocale}',
+                'release': releaseVersion,
+                'user_profile': '${memberCache.memberRoleType}',
+                'taskId': '${task.itemId}'       
+        },
+        'account': {
+            'id': '${memberCache.currentParentId}'
+           
+        }
+    });
+})('138e0371-cce2-44d3-5196-86f181a37421');]]></Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-21T14:40:13.640</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T14:40:13.640</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-24T09:53:19.528</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -30991,5 +30993,20 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-21T08:18:49.983</LastUpdateTimeStamp>
  </Rule>
- <Size>1925</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AB7CB5F6-1FB7-5087-B359-F73681B2DF20</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>gridworkListGrid.isAudafusion</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-27T10:14:21.678</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-27T10:14:21.678</LastUpdateTimeStamp>
+ </Rule>
+ <Size>1924</Size>
 </BRERuleListType>
