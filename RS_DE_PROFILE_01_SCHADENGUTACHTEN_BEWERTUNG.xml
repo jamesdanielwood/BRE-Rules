@@ -14,7 +14,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-30T08:47:17.652</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-30T08:47:17.652</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-05T10:01:07.869</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -784,12 +784,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberByRole.client.isAlso.vehicleOwner</Key>
   <Value>show</Value>
-  <Expression>${(task.caseType=="IntakeDefault")?"show":"remove"}</Expression>
+  <Expression>${(task.basicClaimData.claimDescriptionVehicle.damageCause == "Liability") ? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-28T08:44:29.846</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-28T08:44:29.846</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-04T07:18:57.874</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -817,12 +817,12 @@
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.caseMemberCombo.policyHolder.isAlso.vehicleOwner</Key>
   <Value>show</Value>
-  <Expression>${(task.caseType == "IntakeDefault") ? "remove":"show"}</Expression>
+  <Expression>${(task.basicClaimData.claimDescriptionVehicle.damageCause == "Liability") ? "remove":"show"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-28T10:48:37.981</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-30T08:22:03.816</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-04T07:18:35.471</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -898,12 +898,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>addressActiveTabs</Key>
-  <Expression>${(task.caseType=="IntakeDefault") ? "['BREForm_block.Client','BREForm_block.VehicleOwner','BREForm_block.InspectionLocation','BREForm_block.BodyShop']":"['BREForm_block.PolicyHolder','BREForm_block.InspectionLocation','BREForm_block.BodyShop','BREForm_block.VehicleOwner']"}</Expression>
+  <Expression>${(task.basicClaimData.claimDescriptionVehicle.damageCause == "Liability") ? "['BREForm_block.Client','BREForm_block.VehicleOwner','BREForm_block.InspectionLocation','BREForm_block.BodyShop']":"['BREForm_block.PolicyHolder','BREForm_block.InspectionLocation','BREForm_block.BodyShop','BREForm_block.VehicleOwner']"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-18T21:40:37.467</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:48:41.789</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-04T07:31:57.573</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -920,23 +920,6 @@
   <CreationTimeStamp>2018-06-06T17:58:35.649</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:48:41.811</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>3CF76795-086F-B75F-F6E7-106C5656FAE3</ItemId>
-  <Context>
-   <Process>Schadengutachten-Bewertung</Process>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>FlowProcessorConfiguration</RuleType>
-  <Key>CreateTaskWorkflowFunction.TRANSFORMATIONS</Key>
-  <Value>[{"name":"ClaimNumberFromTemplateTransformation","alias":"ClaimNumberFromTemplateTransformation(1526587768378)"},{"name":"AddCaseMemberByMemberIdTransformation","alias":"AddCaseMemberByMemberIdTransformation(1530006179042)"}]</Value>
-  <Expression>[${#foreignCaseIdTransformationConditional}]</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-05-17T22:09:28.484</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:48:41.873</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -990,22 +973,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>AFCD3B33-FB17-640A-95D8-976A04298D25</ItemId>
-  <Context>
-   <Process>Schadengutachten-Bewertung</Process>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>FlowProcessorConfiguration</RuleType>
-  <Key>CreateTaskWorkflowFunction.AddCaseMemberByMemberIdTransformation(1530006179042)</Key>
-  <Value>{memberId:"ML-O-039100",memberRole:"Insurance"}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-26T11:43:18.370</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:48:41.710</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>82AE0389-EF7C-39BC-16A4-EE2AB5412087</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -1013,12 +980,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.task.assessorAssignment.typeOfAssessor</Key>
-  <Value>ClaimsHandler</Value>
+  <Expression>${(memberCache.currentRootId=="ML-O-039100") ? "ClaimsHandler":"Internal"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-07T13:17:11.585</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:48:41.716</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-04T07:09:08.106</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1061,12 +1028,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>blockNames</Key>
-  <Expression>${(task.caseType=="IntakeDefault")?"Client,VehicleOwner,InspectionLocation,BodyShop,PolicyHolder,Insurance,Agent,ClaimAssistant,Claimant,Lawyer,Police,Court,TowingCompany,RentalCarCompany":"PolicyHolder,InspectionLocation,BodyShop,VehicleOwner,Claimant,Insurance,Client,Agent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany"}</Expression>
+  <Expression>${(task.basicClaimData.claimDescriptionVehicle.damageCause == "Liability")?"Client,VehicleOwner,InspectionLocation,BodyShop,PolicyHolder,Insurance,Agent,ClaimAssistant,Claimant,Lawyer,Police,Court,TowingCompany,RentalCarCompany":"PolicyHolder,InspectionLocation,BodyShop,VehicleOwner,Claimant,Insurance,Client,Agent,ClaimAssistant,Lawyer,Police,Court,TowingCompany,RentalCarCompany"}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-07T13:23:29.942</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:48:41.492</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-04T07:32:27.679</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2386,5 +2353,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-28T08:43:42.642</LastUpdateTimeStamp>
  </Rule>
- <Size>144</Size>
+ <Size>142</Size>
 </BRERuleListType>

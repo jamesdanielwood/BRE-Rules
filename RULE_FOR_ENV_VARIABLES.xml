@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BRERuleListType xmlns="http://www.audatex.com/SAXIF">
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4F5DA174-F44A-FC82-B9D1-F424BE002C75</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_ENV_VARIABLES</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>allianzNotMatchBodyshop</Key>
+  <Value>MM-O-7DE9D620</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:54:49.927</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:54:49.927</LastUpdateTimeStamp>
+ </Rule>
+ <Size>1</Size>
+</BRERuleListType>

@@ -7891,7 +7891,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>87858EB3-E1C6-70B9-AF3A-E01E81AF2348</ItemId>
   <Context>
-   <ProcessStep>MemberList</ProcessStep>
    <OrganizationId>RS_DE_CSA_MASTERDATA_REDUCED</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
@@ -7900,8 +7899,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-25T17:53:42.716</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-25T17:53:42.716</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T12:05:11.976</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>

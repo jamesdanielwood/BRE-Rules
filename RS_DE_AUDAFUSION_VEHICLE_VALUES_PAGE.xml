@@ -4094,6 +4094,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>57DCC576-DFA0-26F8-3244-43729F66E464</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>notToCreateInsuranceWithValuation</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:57:03.338</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:57:03.338</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2AEA3171-A5C1-D0B9-6C14-2C249CF0BB4D</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -8921,5 +8937,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-13T09:25:06.265</LastUpdateTimeStamp>
  </Rule>
- <Size>555</Size>
+ <Size>556</Size>
 </BRERuleListType>

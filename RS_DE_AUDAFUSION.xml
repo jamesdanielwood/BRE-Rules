@@ -815,7 +815,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A6993B8D-47DB-ACAE-5E55-C7CAF93AA0D7</ItemId>
   <Context>
-   <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
   <RuleType>FieldTranslation</RuleType>
@@ -825,7 +824,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-09-07T16:02:27.595</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:50.267</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-08-30T08:44:57.208</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4172,6 +4171,22 @@
   <CreationTimeStamp>2018-01-04T09:26:31.373</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-21T08:18:49.557</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6AA91199-9A46-7277-D9A7-86CF43EFC782</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>enableMemberContactSearch</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-30T08:55:31.160</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-30T08:55:31.160</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -10516,12 +10531,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>MergeTaskWorkflowFunction.TRANSFORMATIONS</Key>
-  <Value>[{"name":"ChangeAttachmentValue","alias":"ChangeAttachmentValue(1508955036315)"},{"name":"TaskMergeTransformation","alias":"TaskMergeTransformation(1440767380940)"},{"name":"SetBusinessStatus","alias":"SetBusinessStatus(1440767390801)"},{"name":"FlowStatusTransformation","alias":"FlowStatusTransformation(1440767397753)"},{"name":"ChangeValueTransformation","alias":"ChangeValueTransformation(1441789417075)"},{"name":"KeepLastAttachmentTransformation","alias":"KeepLastAttachmentTransformation(1480667740924)"},{"name":"RemoveReprocessJpegTransformation","alias":"RemoveReprocessJpegTransformation(1447748131731)"},{"name":"ChangeAttachmentValue","alias":"ChangeAttachmentValue(1508955044064)"}]</Value>
+  <Value>[{"name":"ChangeAttachmentValue","alias":"ChangeAttachmentValue(1508955036315)"},{"name":"TaskMergeTransformation","alias":"TaskMergeTransformation(1440767380940)"},{"name":"SetBusinessStatus","alias":"SetBusinessStatus(1440767390801)"},{"name":"FlowStatusTransformation","alias":"FlowStatusTransformation(1440767397753)"},{"name":"ChangeValueTransformation","alias":"ChangeValueTransformation(1441789417075)"},{"name":"KeepLastAttachmentTransformation","alias":"KeepLastAttachmentTransformation(1480667740924)"},{"name":"RemoveReprocessJpegTransformation","alias":"RemoveReprocessJpegTransformation(1447748131731)"},{"name":"ChangeAttachmentValue","alias":"ChangeAttachmentValue(1508955044064)"},{"name":"ClaimNumberFromTemplateTransformation","alias":"ClaimNumberFromTemplateTransformation(1536130912098)"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.322</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:50.617</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-05T09:01:52.255</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -16613,6 +16628,22 @@
   <CreationTimeStamp>2017-07-11T09:25:33.257</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-21T08:18:46.676</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9800D31D-7DA0-27BB-5E63-C3301CCAF156</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>lastTextBlockShowMode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:42:50.878</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:42:50.878</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27393,6 +27424,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C0643DE2-5670-21B5-61DA-BA957AF6F266</ItemId>
+  <Context>
+   <ProcessStep>DocumentsAndAttachments</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>AudaImageApplet</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T12:19:13.033</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T12:19:13.033</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6E4D042F-FAAA-04CF-30BE-FBA46AE28667</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -31008,5 +31055,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T10:14:21.678</LastUpdateTimeStamp>
  </Rule>
- <Size>1924</Size>
+ <Size>1927</Size>
 </BRERuleListType>

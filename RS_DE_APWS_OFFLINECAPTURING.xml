@@ -2,6 +2,51 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5E14B47F-7C09-FEE3-24C0-073F08AEA09E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.classInput.transportCost</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:42:40.841</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:42:40.841</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FC5449D5-BF3B-9B97-87FF-E2119345691C</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.axCode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:42:19.809</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:42:19.809</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8A0BA634-C2A0-C201-CE56-2C6C8CF20D7A</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>gdpr.confirm.body</Key>
+  <Value>DE=Indem Sie das Audatex AUTOonline-Produkt verwenden, bestätigen Sie, nur soweit als notwendig personenbezogene Daten gemäß der Definition in der EU-Verordnung (EU) 2016/679 ("EU-DSGVO") in freie Textfelder einzugeben. Auch werden Sie keine personenbezogenen Daten in Abbildungen oder Anhänge, die Sie gegebenenfalls in das Audatex AUTOonline-System hochladen, einbinden. Die übermäßige Eingabe von personenbezogenen Daten in freie Textfelder oder Einbindung personenbezogener Daten in Abbildungen oder Anhänge kann einen Verstoß gegen relevante Datenschutzgesetze darstellen und Sie einem Haftungsrisiko aussetzen. Weitere Informationen finden Sie in den entsprechenden Datenschutzgesetzen.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:33:18.069</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:33:18.069</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>FF5B852B-E14D-DF27-EF86-7F01AEF54947</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -33,6 +78,36 @@
   <CreationTimeStamp>2018-07-26T12:56:47.435</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-31T10:45:09.075</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E744E71B-1128-9B23-DF98-4604D0A251B8</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>gdpr.confirm.title</Key>
+  <Value>DE=Wichtige Informationen zu Freitextfeldern</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:33:01.388</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:33:01.388</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F4027CAD-8D77-5728-8710-4F3278D1222E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>gdpr.confirm.yesLabel</Key>
+  <Value>DE=Akzeptieren</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:33:29.516</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:33:29.516</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -147,6 +222,21 @@
   <CreationTimeStamp>2017-07-25T09:17:39.480</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-09-11T21:03:25.837</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>24AE8B8B-370A-402C-F4FE-D9882BDDCF81</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.axSubmodel</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:42:09.428</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:42:09.428</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -494,6 +584,51 @@
   <CreationTimeStamp>2017-10-25T15:17:58.362</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2017-10-25T15:17:58.362</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>56D312DE-53C4-5889-49ED-FE697859FC7F</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.classInput.oemPriceUplift</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:42:30.968</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:42:30.968</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EC86C271-1B99-662B-AB17-86E521C7C18A</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.axManufacturer</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:41:47.001</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:41:47.001</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>970BF2FA-43FC-01E6-4E0B-77572B29CB32</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.axModel</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:41:57.720</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:41:57.720</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -850,6 +985,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>82AE44DD-D27D-4243-2C3C-B8E72BAEB5CE</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>openGDPRPopup</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:32:44.802</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:32:44.802</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D4746297-DA6A-DAE5-70A5-D1A75EFC2562</ItemId>
   <Context>
    <Process>B2B.OfflineCaptureWin</Process>
@@ -925,5 +1075,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-28T08:52:48.521</LastUpdateTimeStamp>
  </Rule>
- <Size>58</Size>
+ <Size>68</Size>
 </BRERuleListType>
