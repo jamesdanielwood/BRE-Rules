@@ -2175,6 +2175,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9E1AA9C9-536B-8CFD-1A88-B992EA41B888</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>config.grid.url.claimsnet.info</Key>
+  <Expression><![CDATA[/bre/work/NO_PROCESS/History?pageViewpoint=MAIN&caseId=${task.caseId}]]></Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-06T08:41:49.205</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-06T08:41:49.205</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>41DEF4D7-5A58-1253-59EC-B835E082490E</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -2353,5 +2369,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-28T08:43:42.642</LastUpdateTimeStamp>
  </Rule>
- <Size>142</Size>
+ <Size>143</Size>
 </BRERuleListType>

@@ -44771,22 +44771,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>B47CC833-4DD6-2770-F0AA-87E8EF1D6CBB</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
-  </Context>
-  <RuleType>FieldReadOnly</RuleType>
-  <Key>root.task.inspection.inspectionLocation.address.countryISO</Key>
-  <Value>true</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2017-04-06T10:23:17.222</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-02T12:37:25.390</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>03C1C271-CCB2-8A7D-99A3-C0923F897F19</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -56612,5 +56596,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:33:13.612</LastUpdateTimeStamp>
  </Rule>
- <Size>3485</Size>
+ <Size>3484</Size>
 </BRERuleListType>

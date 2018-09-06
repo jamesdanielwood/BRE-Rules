@@ -217,6 +217,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2B01138E-D863-B40D-5BEE-141813BFFD05</ItemId>
+  <Context>
+   <Process>Gutachten-Totalentwendung</Process>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>config.grid.url.claimsnet.info</Key>
+  <Expression><![CDATA[/bre/work/NO_PROCESS/History?pageViewpoint=MAIN&caseId=${task.caseId}]]></Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-06T08:45:00.895</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-06T08:45:00.895</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>17CB559C-F4CC-EA7F-4DE6-DA546736E818</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -2191,5 +2207,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-28T08:33:46.017</LastUpdateTimeStamp>
  </Rule>
- <Size>133</Size>
+ <Size>134</Size>
 </BRERuleListType>

@@ -4030,6 +4030,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C378F5FA-105C-6F74-3111-75469EDE3079</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>minderwert.truncMonetaryValuesToInt</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-06T09:47:03.200</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-06T09:47:03.200</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8786CEE6-EFD4-529A-D57B-53DF52C48E9D</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -8937,5 +8953,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-13T09:25:06.265</LastUpdateTimeStamp>
  </Rule>
- <Size>556</Size>
+ <Size>557</Size>
 </BRERuleListType>
