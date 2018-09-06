@@ -2,6 +2,54 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+<<<<<<< HEAD
+  <ItemId>5E14B47F-7C09-FEE3-24C0-073F08AEA09E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.classInput.transportCost</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:42:40.841</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:42:40.841</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FC5449D5-BF3B-9B97-87FF-E2119345691C</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.axCode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:42:19.809</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:42:19.809</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8A0BA634-C2A0-C201-CE56-2C6C8CF20D7A</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>gdpr.confirm.body</Key>
+  <Value>DE=Indem Sie das Audatex AUTOonline-Produkt verwenden, bestätigen Sie, nur soweit als notwendig personenbezogene Daten gemäß der Definition in der EU-Verordnung (EU) 2016/679 ("EU-DSGVO") in freie Textfelder einzugeben. Auch werden Sie keine personenbezogenen Daten in Abbildungen oder Anhänge, die Sie gegebenenfalls in das Audatex AUTOonline-System hochladen, einbinden. Die übermäßige Eingabe von personenbezogenen Daten in freie Textfelder oder Einbindung personenbezogener Daten in Abbildungen oder Anhänge kann einen Verstoß gegen relevante Datenschutzgesetze darstellen und Sie einem Haftungsrisiko aussetzen. Weitere Informationen finden Sie in den entsprechenden Datenschutzgesetzen.</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:33:18.069</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:33:18.069</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+=======
+>>>>>>> master
   <ItemId>FF5B852B-E14D-DF27-EF86-7F01AEF54947</ItemId>
   <Context>
    <Process>ShortAssessment</Process>
@@ -36,6 +84,39 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+<<<<<<< HEAD
+  <ItemId>E744E71B-1128-9B23-DF98-4604D0A251B8</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>gdpr.confirm.title</Key>
+  <Value>DE=Wichtige Informationen zu Freitextfeldern</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:33:01.388</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:33:01.388</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F4027CAD-8D77-5728-8710-4F3278D1222E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>gdpr.confirm.yesLabel</Key>
+  <Value>DE=Akzeptieren</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:33:29.516</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:33:29.516</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+=======
+>>>>>>> master
   <ItemId>9820CA9F-EC37-433E-C3B8-C2D1B6C4D87B</ItemId>
   <Context>
    <Process>B2B.OfflineCaptureWin</Process>
@@ -150,6 +231,24 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+<<<<<<< HEAD
+  <ItemId>24AE8B8B-370A-402C-F4FE-D9882BDDCF81</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.axSubmodel</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:42:09.428</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:42:09.428</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+=======
+>>>>>>> master
   <ItemId>B55106FE-FBBB-9983-961D-D67B8D99C86E</ItemId>
   <Context>
    <Process>Standard</Process>
@@ -407,6 +506,39 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+<<<<<<< HEAD
+  <ItemId>09272826-9358-3FC8-1E49-676E7A828748</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.calculationMember.memberContractDescription</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:19.753</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:19.753</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>914CBC59-FEF9-F12A-B1C2-D778FC6BB8D2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.KADHailPayment.paymentValueExc</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:53:02.968</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:53:02.968</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+=======
+>>>>>>> master
   <ItemId>4D0C7723-DD3B-01C0-0BBB-01A2EF13BB22</ItemId>
   <Context>
    <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
@@ -422,6 +554,39 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+<<<<<<< HEAD
+  <ItemId>DA3C95D6-2C4A-8EED-6656-C3A323BCE619</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.savveSchwackeKey</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:10.867</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:10.867</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>63D2AEC4-000E-66CF-F4A1-3578C81FB847</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.KADHailPayment.salvageValue</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:54.965</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:54.965</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+=======
+>>>>>>> master
   <ItemId>213BE011-4E50-B002-CCFF-37F7DB25F674</ItemId>
   <Context>
    <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
@@ -437,6 +602,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+<<<<<<< HEAD
+  <ItemId>56D312DE-53C4-5889-49ED-FE697859FC7F</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.classInput.oemPriceUplift</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:42:30.968</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:42:30.968</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>EC86C271-1B99-662B-AB17-86E521C7C18A</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.axManufacturer</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:41:47.001</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:41:47.001</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>970BF2FA-43FC-01E6-4E0B-77572B29CB32</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.valuationSync.axModel</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-31T08:41:57.720</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-31T08:41:57.720</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+=======
+>>>>>>> master
   <ItemId>C0277265-55CD-C9E5-0A4C-75AED4ABE6B6</ItemId>
   <Context>
    <Process>B2B.OfflineCaptureWin</Process>
@@ -477,12 +690,20 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>UpdateTaskWorkflowFunction.TRANSFORMATIONS</Key>
+<<<<<<< HEAD
+  <Value>[{"name":"UpdateTaskIfTransformation","alias":"UpdateTaskIfTransformation(1533802653791)"},{"name":"AlternativePartsCalculationTransformation","alias":"AlternativePartsCalculationTransformation(1500277812633)"}]</Value>
+=======
   <Value>[{"name":"AlternativePartsCalculationTransformation","alias":"AlternativePartsCalculationTransformation(1500277812633)"}]</Value>
+>>>>>>> master
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-25T09:14:49.762</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+<<<<<<< HEAD
+  <LastUpdateTimeStamp>2018-08-09T19:48:32.180</LastUpdateTimeStamp>
+=======
   <LastUpdateTimeStamp>2017-09-11T21:03:25.935</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -788,5 +1009,101 @@
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-03-09T15:58:23.762</LastUpdateTimeStamp>
  </Rule>
+<<<<<<< HEAD
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>82AE44DD-D27D-4243-2C3C-B8E72BAEB5CE</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>openGDPRPopup</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-05T09:32:44.802</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-05T09:32:44.802</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D4746297-DA6A-DAE5-70A5-D1A75EFC2562</ItemId>
+  <Context>
+   <Process>B2B.OfflineCaptureWin</Process>
+   <ProcessStep>B2B.OfflineCaptureWin.download</ProcessStep>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>LoadTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"CalculationSortTransformation","alias":"CalculationSortTransformation(1535355457112)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-27T09:37:37.163</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-27T09:37:37.163</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>138CABC5-C5FA-42BA-98AC-541F205CD401</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.classInput.contractUpdatedBy</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:29.372</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:29.372</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D81B25FA-1D32-B654-7E45-E1DE1E1FD0BA</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.classInput.contractTimeStamp</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:33.995</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:33.995</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>91F94942-F665-3096-9C25-2C568FE7AA73</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.KADHailPayment.netRepairCosts</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:40.578</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:40.578</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D15D4993-2B61-E49C-1495-A75D52043817</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_APWS_OFFLINECAPTURING</OrganizationId>
+  </Context>
+  <RuleType>FieldReadOnly</RuleType>
+  <Key>root.task.KADHailPayment.replacementValue</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-08-28T08:52:48.521</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-28T08:52:48.521</LastUpdateTimeStamp>
+ </Rule>
+ <Size>68</Size>
+=======
  <Size>49</Size>
+>>>>>>> master
 </BRERuleListType>

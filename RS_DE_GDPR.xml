@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BRERuleListType xmlns="http://www.audatex.com/SAXIF">
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>587C2B4B-C10D-00D9-839E-A6D2015BEEF4</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_GDPR</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>openGDPRPopup</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-10BB22E29A993DB838</CreatedBy>
+  <CreationTimeStamp>2018-08-07T17:08:07.876</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-10BB22E29A993DB838</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-07T17:08:07.876</LastUpdateTimeStamp>
+ </Rule>
+ <Size>1</Size>
+</BRERuleListType>

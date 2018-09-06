@@ -2,6 +2,138 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+<<<<<<< HEAD
+  <ItemId>0103810C-78EA-EBB1-3CD5-3C429046C7A2</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>pageTemplate</Key>
+  <Value>MaterialDesign/MaterialDesignPage.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.765</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.110</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>503931DB-8144-E60C-3DED-277E8732A516</ItemId>
+  <Context>
+   <ProcessStep>CsaImageDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>organizationMenuSteps</Key>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberListTable"},{stepName: "MemberOrganizationDetails"},{stepName: "CsaStampsAndSignaturesList"},{stepName: "CsaImageDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CalculationNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-04-05T18:50:24.292</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.246</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E683471B-C6FC-F5C1-B5B4-CA6F91575D55</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>claimDescriptionVehicleJSON</Key>
+  <Value>[ { "label":"Rep.-Freigabe ja", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairAuthorised", "type":"Boolean"},</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.769</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.294</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B935B74B-E5F6-450A-4511-A9847F45037C</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>WorkListGrid.action.worklistgrid_copied</Key>
+  <Value>MergeTask</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.701</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.333</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DC091428-5631-3363-4307-4F1C0293CA0E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>documentCreation_textBlockConditional</Key>
+  <Expression>${"["+#currentMemberJSON+","+#calculationResultJSON+","+#repairerInfoJSON+","+#basicClaimDataJSON+","+#resultPageJSON+","+#caseTypeJSON+"]"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-27T08:54:26.716</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.372</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>94F6E0CA-901C-CC1B-DFE9-2FC4AC8F0D3E</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTemplateDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.htmlimport.domreadyjsTdButtonAlignColspan</Key>
+  <Value>BRE.MaterialDesign.colspanTdButtons('BREForm_root.csa.documentTemplateDetails.delete','BREForm_root.csa.documentTemplateDetails.copy',4);</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-07-27T12:37:49.744</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.080</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E86233F8-E85E-726E-EA80-97B3F3DE933F</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>memberContactListColumns</Key>
+  <Value>delete,companyName,role,street,city,zipCode</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.776</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.398</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B2F53F74-69C2-538D-047F-70D7A061875B</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockList</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.htmlimport.domreadyjsTdButtonAlignColspan</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-07-27T12:37:49.757</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.088</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>17798663-1876-DCED-C014-4504226856FC</ItemId>
+=======
   <ItemId>5628D463-38FE-9625-EB3F-CC73C5A23209</ItemId>
   <Context>
    <ProcessStep>MemberOrganizationDetails</ProcessStep>
@@ -131,11 +263,45 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0103810C-78EA-EBB1-3CD5-3C429046C7A2</ItemId>
+>>>>>>> master
   <Context>
    <Process>NO_PROCESS</Process>
    <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>vehicleAdminJSON</Key>
+  <Value>{ "label":"Amtl. Kennzeichen", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/PlateNumber", "type":"String" }, { "label":"Anz. Vorbesitzer", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/PreviousOwnerCount", "type":"Number" }, { "label":"Schaden-Nr.", "xpath":"Task/ClaimNumber", "type":"Number" }, { "label":"Schadendatum", "xpath":"Task/CreationTime", "type":"Date" }, { "label":"Erstzulassung", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/FirstRegistrationDate", "type":"Date" }, { "label":"Fahrzeugzustand", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleCondition", "type":"String" }, { "label":"VIN", "xpath":"Task/BasicClaimData/Vehicle/VehicleIdentification/VIN", "type":"String" }, { "label":"Letzte Zulassung", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/RegistrationDate", "type":"Date" }, { "label":"Fzg-Halter Anrede", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/Salutation", "type":"String" }, { "label":"Fzg-Halter Vorname", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/FirstName", "type":"String" }, { "label":"Fzg-Halter Nachname", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/LastName", "type":"String" }, { "label":"Fzg-Halter Firma", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CompanyName", "type":"String" }, { "label":"Fzg-Halter Straße", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/Line2", "type":"String" }, { "label":"Fzg-Halter PLZ", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/ZipCode", "type":"String" }, { "label":"Fzg-Halter Ort", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/City", "type":"String" }, { "label":"Fzg-Halter Land", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/CountryISO", "type":"String" }, { "label":"Fzg-Halter Ortsteil", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/Line5", "type":"String" }, { "label":"Fzg-Halter Telefon (privat)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Fzg-Halter Mobiltelefon (privat)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='Mobile']/Entry", "type":"String" }, { "label":"Fzg-Halter E-Mail (privat)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='EMail1']/Entry", "type":"String" }, { "label":"Fzg-Halter Telefon (dienstlich)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='Phone2']/Entry", "type":"String" }, { "label":"Fzg-Halter Mobiltelefon (dienstlich)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='Mobile2']/Entry", "type":"String" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.783</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.135</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>197D0881-04EF-ACAA-F68F-C3EBC7560B11</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockList</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.htmlimport.domreadyjsTdButtonAlignColspan</Key>
+  <Value>BRE.MaterialDesign.colspanTdButtons('BREForm_root.csa.documentTextBlockSearch.searchButton','BREForm_root.csa.documentTextBlockSearch.cancelButton',4);</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-07-27T12:37:49.740</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.074</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2DF94394-514B-CCBF-4CF5-1789610E6FDB</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>ClaimNumberManagement</ProcessStep>
+=======
   <RuleType>Configuration</RuleType>
   <Key>pageTemplate</Key>
   <Value>MaterialDesign/MaterialDesignPage.htm</Value>
@@ -166,12 +332,38 @@
   <ItemId>DC0B8F6A-D3A0-50F8-D1B3-654D30EFA094</ItemId>
   <Context>
    <Process>MasterData</Process>
+>>>>>>> master
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>pageTemplate</Key>
   <Value>MaterialDesign/MaterialDesignPage.htm</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-08-16T08:25:54.084</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.084</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6BEDB518-A939-5561-57B4-CC0DE66A9F5A</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>CSAQuickSearchMenuTitle</Key>
+  <Value>Name | Member-ID</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-06T15:33:48.376</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.106</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D38D5C49-0B8D-DA68-F00C-E5D87B1D380D</ItemId>
+=======
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T10:29:20.426</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -196,10 +388,40 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>427D1D5E-614B-5697-55D6-8289D79E5B4A</ItemId>
+>>>>>>> master
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>templatePrefix</Key>
+  <Value>MaterialDesign</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.881</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.150</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>ADB41A62-7D36-0D13-2679-EE9287220A6F</ItemId>
+  <Context>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.csa.documentTextBlockDetails.smartselect</Key>
+  <Value>Basis,Bauteile,Allgemeines,Alt-/Vorschäden,Bemerkungen,Besichtigungszustand,Einbruchschaden,Instandsetzungskosten,Reparaturweg,Restwert,Schadenbild,Schadenhergang</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-04-19T10:14:14.689</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.157</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>1695B49E-C6F6-F25A-E3CE-79CE6F3E1B5D</ItemId>
+=======
   <Key>staticPages</Key>
   <Value>DashBoard</Value>
   <Status>Active</Status>
@@ -227,10 +449,38 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>17798663-1876-DCED-C014-4504226856FC</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Configuration</RuleType>
+  <Key>MemberContactListAddressRole</Key>
+  <Value>Business</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.755</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.200</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D04D45D2-BAC5-C076-AED4-D2004C09ACD1</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>WorkListGrid.action.worklistgrid_closed</Key>
+  <Value>ReopenTask</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.861</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.231</LastUpdateTimeStamp>
+=======
   <RuleType>Variable</RuleType>
   <Key>vehicleAdminJSON</Key>
   <Value>{ "label":"Amtl. Kennzeichen", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/PlateNumber", "type":"String" }, { "label":"Anz. Vorbesitzer", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/PreviousOwnerCount", "type":"Number" }, { "label":"Schaden-Nr.", "xpath":"Task/ClaimNumber", "type":"Number" }, { "label":"Schadendatum", "xpath":"Task/CreationTime", "type":"Date" }, { "label":"Erstzulassung", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/FirstRegistrationDate", "type":"Date" }, { "label":"Fahrzeugzustand", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleCondition", "type":"String" }, { "label":"VIN", "xpath":"Task/BasicClaimData/Vehicle/VehicleIdentification/VIN", "type":"String" }, { "label":"Letzte Zulassung", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/RegistrationDate", "type":"Date" }, { "label":"Fzg-Halter Anrede", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/Salutation", "type":"String" }, { "label":"Fzg-Halter Vorname", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/FirstName", "type":"String" }, { "label":"Fzg-Halter Nachname", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/LastName", "type":"String" }, { "label":"Fzg-Halter Firma", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CompanyName", "type":"String" }, { "label":"Fzg-Halter Straße", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/Line2", "type":"String" }, { "label":"Fzg-Halter PLZ", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/ZipCode", "type":"String" }, { "label":"Fzg-Halter Ort", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/City", "type":"String" }, { "label":"Fzg-Halter Land", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/CountryISO", "type":"String" }, { "label":"Fzg-Halter Ortsteil", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/AddressList/Address/Line5", "type":"String" }, { "label":"Fzg-Halter Telefon (privat)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Fzg-Halter Mobiltelefon (privat)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='Mobile']/Entry", "type":"String" }, { "label":"Fzg-Halter E-Mail (privat)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='EMail1']/Entry", "type":"String" }, { "label":"Fzg-Halter Telefon (dienstlich)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='Phone2']/Entry", "type":"String" }, { "label":"Fzg-Halter Mobiltelefon (dienstlich)", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/VehicleOwner/CommunicationDetailList/CommunicationDetail[Role='Mobile2']/Entry", "type":"String" },</Value>
@@ -255,6 +505,7 @@
   <CreationTimeStamp>2018-02-22T09:12:53.427</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-23T07:53:51.448</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -264,6 +515,34 @@
   </Context>
   <RuleType>Variable</RuleType>
   <Key>repairerInfoJSON</Key>
+<<<<<<< HEAD
+  <Value>{"label":"Lohnfaktor 1","xpath":"selectedcalculation/laborrate1","type":"Number"}, {"label":"Lohnfaktor 2","xpath":"selectedcalculation/laborrate2","type":"Number"}, {"label":"Lohnfaktor 3","xpath":"selectedcalculation/laborrate3","type":"Number"}, {"label":"Lackfaktor","xpath":"selectedcalculation/paintrate1","type":"Number"}, {"label":"Gesamtbetrag Netto","xpath":"selectedcalculation/grandtotal","type":"Number"}, {"label":"Gesamt Brutto","xpath":"selectedcalculation/grantotalwithtax","type":"Number"}, {"label":"Gesamt Lohn","xpath":"selectedcalculation/totallabor","type":"Number"}, {"label":"Gesamt Lack","xpath":"selectedcalculation/totalpaint","type":"Number"}, {"label":"Gesamt Ersatzteile","xpath":"selectedcalculation/totalparts","type":"Number"}, {"label":"MwSt. Gesamtbetrag","xpath":"selectedcalculation/grandTotalTax","type":"Number"}, {"label":"MwSt. Rep.-Kosten","xpath":"selectedcalculation/FCRepTotTax","type":"Number"}, {"label":"Nächste AU","xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/NextEmissionTest","type":"Date"}, {"label":"Nächste HU","xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/NextTechCheck","type":"Date"}, {"label":"Geschätzter Rep.-Beginn","xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairStartDateTime","type":"Date"}, {"label":"Geschätzte Rep.-Dauer","xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairDurationDays","type":"Number"}, {"label":"Geschätztes Rep.-Ende","xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairEndDateTime","type":"Number"}, {"label":"Rep.-Kosten o. MwSt.","xpath":"selectedcalculation/grandtotal","type":"Number"}, {"label":"Reparatur Fertigmeldung","xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairReadyNotificationDateTime","type":"Date"}, {"label":"Restwert man.","xpath":"Task/VehicleValuation/ResidualValue","type":"Number"}, {"label":"Vorschaden Kommentar","xpath":"Task/BasicClaimData/Vehicle/PreviousDamage/Comment","type":"String"}, {"label":"Änderung Reparaturgrundlage","xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/VehicleDeprecation","type":"String"}, {"label":"FZG Rückgabe am","xpath":"Task/BasicClaimData/RepairDetail/CarReleaseTimestamp","type":"Date"}, {"label":"Minderwert manuell","xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/ManualValue","type":"String"}, {"label":"Restwert Brutto","xpath":"/data/Task/BasicClaimData/OverwrittenValuationResult/ResidualValue/WithVAT","type":"String"}, {"label":"Dauer Notrep.","xpath":"Task/BasicClaimData/RepairDetail/TemporaryRepairDurationDays","type":"String"}, {"label":"Kalkulations-Nr.","xpath":"selectedcalculation/refCalculationId","type":"Number"}, {"label":"WBWert ohne MwSt.","xpath":"selectedcalculation/ReplacementAmnt","type":"Number"}, {"label":"RWert","xpath":"Task/Auction/SalvageAmount","type":"Number"}, {"label":"Gebot max","xpath":"Task/Auction/MaxBid","type":"Number"}, {"label":"WBWert man. mit MwSt.","xpath":"manualReplacementValueWithVAT","type":"Number"}, {"label":"WBWert man. ohne MwSt.","xpath":"manualReplacementValueWithoutVAT","type":"Number"}, {"label":"Vorschaden repariert im Schadenbereich Kommentar","xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/VehicleDamage${null}[DamageDescription='previousDamageRepairedWithin']/Comment","type":"String"}, {"label":"Vorschaden unrepariert im Schadenbereich Kommentar","xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/VehicleDamage${null}[DamageDescription='previousDamageUnrepairedWithin']/Comment","type":"String"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-04-19T10:14:14.687</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-29T21:33:00.247</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>497B708A-2B3A-2267-13A7-20DBFAF578BF</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>kadJSON</Key>
+  <Value>{ "label":"Auftraggeber", "xpath":"kadorderers", "type":"String" }, { "label":"ZN", "xpath":"kadsubsidiaries", "type":"String" }, { "label":"Sparte", "xpath":"kadbranch", "type":"String" }, { "label":"Ergebnis", "xpath":"hasValuation", "type":"Boolean" }, { "label":"Mindesten ein Lohnfaktor", "xpath":"hasRepairDetails", "type":"Boolean" }, { "label":"Business Process", "xpath":"Task/BusinessProcess", "type":"String" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.841</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.304</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>97086EDE-C31D-69DF-E663-CB23C0A4B0E6</ItemId>
+=======
   <Value>{"label":"Lohnfaktor 1","xpath":"selectedcalculation/laborrate1","type":"Number"}, {"label":"Lohnfaktor 2","xpath":"selectedcalculation/laborrate2","type":"Number"}, {"label":"Lohnfaktor 3","xpath":"selectedcalculation/laborrate3","type":"Number"}, {"label":"Lackfaktor","xpath":"selectedcalculation/paintrate1","type":"Number"}, {"label":"Gesamtbetrag Netto","xpath":"selectedcalculation/grandtotal","type":"Number"}, {"label":"Gesamt Brutto","xpath":"selectedcalculation/grantotalwithtax","type":"Number"}, {"label":"Gesamt Lohn","xpath":"selectedcalculation/totallabor","type":"Number"}, {"label":"Gesamt Lack","xpath":"selectedcalculation/totalpaint","type":"Number"}, {"label":"Gesamt Ersatzteile","xpath":"selectedcalculation/totalparts","type":"Number"}, {"label":"MwSt. Gesamtbetrag","xpath":"selectedcalculation/grandTotalTax","type":"Number"}, {"label":"MwSt. Rep.-Kosten","xpath":"selectedcalculation/FCRepTotTax","type":"Number"}, {"label":"Nächste AU","xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/NextEmissionTest","type":"Date"}, {"label":"Nächste HU","xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/NextTechCheck","type":"Date"}, {"label":"Geschätzter Rep.-Beginn","xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairStartDateTime","type":"Date"}, {"label":"Geschätzte Rep.-Dauer","xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairDurationDays","type":"Number"}, {"label":"Geschätztes Rep.-Ende","xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairEndDateTime","type":"Number"}, {"label":"Rep.-Kosten o. MwSt.","xpath":"selectedcalculation/grandtotal","type":"Number"}, {"label":"Reparatur Fertigmeldung","xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairReadyNotificationDateTime","type":"Date"}, {"label":"Restwert man.","xpath":"Task/VehicleValuation/ResidualValue","type":"Number"}, {"label":"Vorschaden Kommentar","xpath":"Task/BasicClaimData/Vehicle/PreviousDamage/Comment","type":"String"}, {"label":"Änderung Reparaturgrundlage","xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/VehicleDeprecation","type":"String"}, {"label":"FZG Rückgabe am","xpath":"Task/BasicClaimData/RepairDetail/CarReleaseTimestamp","type":"Date"}, {"label":"Minderwert manuell","xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/ManualValue","type":"String"}, {"label":"Restwert MwSt.","xpath":"Task/VehicleValuation/ResidualValueVATIncluded","type":"String"}, {"label":"Dauer Notrep.","xpath":"Task/BasicClaimData/RepairDetail/TemporaryRepairDurationDays","type":"String"}, {"label":"Kalkulations-Nr.","xpath":"selectedcalculation/refCalculationId","type":"Number"}, {"label":"WBWert ohne MwSt.","xpath":"selectedcalculation/ReplacementAmnt","type":"Number"}, {"label":"RWert","xpath":"Task/Auction/SalvageAmount","type":"Number"}, {"label":"Gebot max","xpath":"Task/Auction/MaxBid","type":"Number"}, {"label":"WBWert man. mit MwSt.","xpath":"manualReplacementValueWithVAT","type":"Number"}, {"label":"WBWert man. ohne MwSt.","xpath":"manualReplacementValueWithoutVAT","type":"Number"}, {"label":"Vorschaden repariert im Schadenbereich Kommentar","xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/VehicleDamage${null}[DamageDescription='previousDamageRepairedWithin']/Comment","type":"String"}, {"label":"Vorschaden unrepariert im Schadenbereich Kommentar","xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/VehicleDamage${null}[DamageDescription='previousDamageUnrepairedWithin']/Comment","type":"String"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
@@ -289,12 +568,25 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D38D5C49-0B8D-DA68-F00C-E5D87B1D380D</ItemId>
+>>>>>>> master
   <Context>
-   <Process>NO_PROCESS</Process>
-   <ProcessStep>DashBoard</ProcessStep>
+   <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>menuTemplate</Key>
+  <Value>MaterialDesign/MaterialDesignMenu.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.811</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.394</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B9E1ED67-56CC-17B4-5F77-6153E0DDDB41</ItemId>
+=======
   <Key>templatePrefix</Key>
   <Value>MaterialDesign</Value>
   <Status>Active</Status>
@@ -306,11 +598,22 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5E962636-7468-2ECD-ADD1-89412AC1CA5A</ItemId>
+>>>>>>> master
   <Context>
    <Process>NO_PROCESS</Process>
    <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Configuration</RuleType>
+  <Key>homePage</Key>
+  <Expression>${(hasAnyAdminRole()) ? "other=MemberListTable,person=MemberDetails,community=CommunityDetail" : "other=MyProfile"}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:22:37.815</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.433</LastUpdateTimeStamp>
+=======
   <RuleType>ProcessTransition</RuleType>
   <Key>DashBoard</Key>
   <Value>DashBoard</Value>
@@ -319,6 +622,7 @@
   <CreationTimeStamp>2017-07-27T10:29:20.480</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-23T07:53:51.528</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -327,6 +631,26 @@
    <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>caseTypeJSON</Key>
+  <Value>{"label":"Schadensparte","xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/ClaimType","type":"Select"},{"label":"Vorgangsart","xpath":"//data/Task/CaseType","type":"Select","options":[
+{"key":"DamageLoss","value":"01-Kaskoschaden"},{"key":"IntakeDefault","value":"02-Haftpflichtschaden"},{"key":"IntakeDriverExchange","value":"03-Teilkasko-Brandschaden"},
+{"key":"Other","value":"04-Diebstahlschaden"},{"key":"CashOnHand","value":"05-Teilkasko-Hagelschaden"},{"key":"TopPrice","value":"06-Teilkasko-Tierkollision"},
+{"key":"PrivateContracted","value":"07-Teilkasko-Unwetter"},{"key":"PrivateNonContracted","value":"08-Teilkasko-Tierbissschaden"},{"key":"AuthorisedContracted","value":"09-TK-Kurzschlussschaden"},
+{"key":"AuthorisedNonContracted","value":"10-Teilkasko-Glasbruchschaden"},{"key":"Vehicle","value":"11-Teilkasko-Sturmschaden"},{"key":"Boat","value":"12-TK-Überschwemmungsschaden"},
+{"key":"RiskOldTimer","value":"13-Dienstreisekasko"},{"key":"RiskBoat","value":"14-Betriebsschaden"},{"key":"RiskPreviousDamage","value":"15-Betriebshaftpflichtschaden"},{"key":"DriveIn","value":"16-Ermittlungsbericht"},
+{"key":"FinalCaseAdjusted","value":"17-Gutachten Totalentwendung"},{"key":"Truck","value":"18-Gutachterl. Stellungnahme"}]}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-04-25T09:58:49.248</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.217</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>77AA01EB-5DB3-C3E4-9871-76020977347C</ItemId>
+=======
   <RuleType>FieldEnumeration</RuleType>
   <Key>root.csa.documentTextBlockDetails.smartselect</Key>
   <Value>Basis,Bauteile,Allgemeines,Alt-/Vorschäden,Bemerkungen,Besichtigungszustand,Einbruchschaden,Instandsetzungskosten,Reparaturweg,Restwert,Schadenbild,Schadenhergang</Value>
@@ -339,10 +663,25 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CA7A175F-3B94-5FAD-A319-5996B01AA329</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Configuration</RuleType>
+  <Key>pageDialogTemplate</Key>
+  <Value>MaterialDesign/MaterialDesignSlideoutPage.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.758</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.098</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3F04BC8C-BD04-66D8-2A0B-AD4C07198428</ItemId>
+=======
   <RuleType>Variable</RuleType>
   <Key>repairerJSON</Key>
   <Value>{ "label":"Werkstatt Firma", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/CompanyName", "type":"String" }, { "label":"Werkstatt Straße", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/Line2", "type":"String" }, { "label":"Werkstatt PLZ", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/ZipCode", "type":"String" }, { "label":"Werkstatt Ort", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/City", "type":"String" }, { "label":"Werkstatt Land", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/CountryISO", "type":"String" }, { "label":"Werkstatt Ortsteil", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/Line5", "type":"String" }, { "label":"Werkstatt Telefon", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Werkstatt E-Mail", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/CommunicationDetailList/CommunicationDetail[Role='EMail1']/Entry", "type":"String" }, { "label":"Werkstatt Telefax", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/CommunicationDetailList/CommunicationDetail[Role='Fax1']/Entry", "type":"String" },</Value>
@@ -355,9 +694,20 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4D05FF04-FAE0-AF37-454A-2C017340883D</ItemId>
+>>>>>>> master
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Configuration</RuleType>
+  <Key>fixedSteps</Key>
+  <Value>MemberContactList,ClaimNumberManagement,CsaDocumentTemplateList,CsaDocumentTextBlockList,CsaDocumentImport,ProfileList</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.801</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.124</LastUpdateTimeStamp>
+=======
   <RuleType>Variable</RuleType>
   <Key>resultPageJSON</Key>
   <Value>{"label":"Besteuerungsart","xpath":"//data/Task/BasicClaimData/OverwrittenValuationResult/Taxation","type":"String"},{"label":"WB-Wert Brutto","xpath":"//data/Task/BasicClaimData/OverwrittenValuationResult/ReplacementValue/WithVAT","type":"Number"},{"label":"WB-Wert Netto","xpath":"//data/Task/BasicClaimData/OverwrittenValuationResult/ReplacementValue/text()","type":"Number"},{"label":"Minderwert","xpath":"//data/Task/BasicClaimData/OverwrittenCalculationResult/VehicleDepreciationForAssess","type":"Number"}, {"label":"Reparaturkosten Netto","xpath":"//data/Task/BasicClaimData/OverwrittenCalculationResult/RepairCostTotalWOTax","type":"Number"}</Value>
@@ -366,18 +716,30 @@
   <CreationTimeStamp>2018-07-23T07:53:51.581</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-23T07:53:51.581</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>74649675-90BF-E581-6D54-55285C08919B</ItemId>
+  <ItemId>E155A7F4-68ED-810F-7D67-DAF121B86E5D</ItemId>
   <Context>
    <Process>MasterData</Process>
+   <ProcessStep>MemberContactComments</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
-  <RuleType>Variable</RuleType>
-  <Key>repairAuthorisedJSON</Key>
-  <Value>{ "label":"Reparaturfreigabe", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairAuthorisedDateTime", "type":"Date" },</Value>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:50.819</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.213</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7CB9D002-93B6-CE68-51B9-694A4EAEAAF4</ItemId>
+=======
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T10:29:20.496</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -386,11 +748,42 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>74B0F50C-D348-81B7-0E57-A16077172397</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>clickableBreadcrumbs</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:22:37.976</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.234</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C7C5200F-9A93-53F0-C43D-40E94E58488A</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>dashboard</Key>
+  <Value>root.dashboard</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.726</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.242</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A63326F7-0945-B63C-6E9E-C78875D72E48</ItemId>
+=======
   <Key>headerTemplate</Key>
   <Value>MaterialDesign/MaterialDesignHeader.htm</Value>
   <Status>Active</Status>
@@ -435,12 +828,43 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5D8F2097-8263-D02F-D29A-771CCDAFB045</ItemId>
+>>>>>>> master
   <Context>
    <Process>NO_PROCESS</Process>
    <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>showMemberHierarchy</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:22:37.812</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.364</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9E259B65-3845-226D-0600-34306CB7A8E3</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>dashboard.widget2.url</Key>
+  <Value>/bre/work/MasterData/MemberListTable</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.854</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.446</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3437EA25-2750-29EC-95DB-CD5F8EDA4210</ItemId>
+=======
   <Key>dashboard.widget2.label</Key>
   <Value>desn.header.settings</Value>
   <Status>Active</Status>
@@ -468,10 +892,57 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1E7E05C3-78E3-AC27-28CD-10670F3ADE60</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>vehicleDamageJSON</Key>
+  <Value>{ "label":"Zerlegung", "xpath":"Task/BasicClaimData/Vehicle/VehicleDamage/VehicleStripStatus", "type":"String" }, { "label":"Reparaturstatus", "xpath":"Task/BasicClaimData/Vehicle/VehicleDamage/VehicleRepairStatus", "type":"String" }, { "label":"Echter Totalschaden", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/TotalLoss", "type":"Boolean" }, { "label":"Schadenursache", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/DamageCause", "type":"String" }, { "label":"UPE-Aufschlag", "xpath":"oemPriceUplift", "type":"String" }, { "label":"Kosten Notrep.", "xpath":"transportCost", "type":"Number" }, { "label":"Verkehrsbereitschaft", "xpath":"Task/BasicClaimData/Vehicle/VehicleDamage/VehicleSafeForTraffic", "type":"String" }, { "label":"Fahrbereitschaft", "xpath":"Task/BasicClaimData/Vehicle/VehicleDamage/VehicleDrivable", "type":"Boolean" }, { "label":"Rep.-Dauer", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairDurationDays", "type":"Number" }, { "label":"Schadenausmaß", "xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/Array[DamageDescription='previousDamageRepairedWithin']/Severity", "type":"String" }, { "label":"Bewertungsvariante", "xpath":"Task/VehicleValuation/ValueCode", "type":"String" }, { "label":"Druckvariante Fzg-Restwertbörsen", "xpath":"Task/Auction/AuctionPrintOption", "type":"String" }, { "label":"Zusammenfassung", "xpath":"temporaryrepaircost", "type":"String" }, { "label":"Lohnfaktor 4", "xpath":"selectedcalculation/laborrate4", "type":"Number" }, { "label":"Lohnfaktor 5", "xpath":"selectedcalculation/laborrate5", "type":"Number" }, { "label":"Lackfaktor2", "xpath":"selectedcalculation/paintrate2", "type":"Number" }, { "label":"Restwert manuell", "xpath":"salvageamountvalue", "type":"Number" }, { "label":"Kalkulationstabelle", "xpath":"boolean(selectedcalculation/partssubstitutionreport/*)", "type":"Boolean" }, { "label":"Fahrzeugart", "xpath":"Task/BasicClaimData/Vehicle/VehicleEngineering/VehicleKind", "type":"String" }, { "label":"Kalkuliert", "xpath":"Task/HasCalculation", "type":"Boolean" }, { "label":"Fahrzeugidentifizierung", "xpath":"Task/BasicClaimData/Vehicle/VehicleIdentification/VehicleSelection", "type":"String" }, { "label":"Bewertung", "xpath":"boolean(Task/CarValuations/VehicleSpecAndValueList/ICVPostValuation/PostValResults/*)", "type":"Boolean" }, { "label":"Berechnung mit Ersatzteilen", "xpath":"selectedcalculation/guidenumberstotal", "type":"Number" },  { "label":"Randfahnencode", "xpath":"selectedcalculation/CLASSXml/CalcData/CalcControl/ActivIDBlks/IDBlkDtl/IDBlk", "type":"Number" }, { "label":"Fahrzeugpapiere", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/RegistrationDocument", "type":"String" }, { "label":"Minderwert Ausgewähltes Modell", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/SelectedModel", "type":"String" }, { "label":"Minderwert Durchschnittswert", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/AverageValue", "type":"Number" }, { "label":"Minderwert SV-Feststellung", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/ExpertValue", "type":"Number" }, { "label":"Ablehnungsgrund", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/ReasonForRejection", "type":"String" }, { "label":"Ermittlung", "xpath":"ActivityReport/appraisal", "type":"Boolean" },{ "label":"Druckvariante Fzg-Bewertung", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/ClaimSummary/ReplacementValuePrintControl", "type":"String" },   { "label":"Bewertung Ergebnis Titel", "xpath":"valuationOutputLines/valuationOutputLines_item/text", "type":"String" }, { "label":"Bewertung Ergebnis Betrag", "xpath":"valuationOutputLines/valuationOutputLines_item/amount", "type":"Number" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.874</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.402</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E5ABCF79-4A52-9DCB-553A-3573E158FEF5</ItemId>
+  <Context>
+   <ProcessStep>ProfileDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-01-12T14:45:43.492</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.414</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A96DAC90-8BD6-136C-B21F-1C5347D78611</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>homePath</Key>
+  <Value>/bre/work/NO_PROCESS/DashBoard</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.709</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.308</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D474F1FE-8E33-58C4-86BF-2F283C8F020F</ItemId>
+=======
   <RuleType>Configuration</RuleType>
   <Key>restrictChildOrganizationDocumentsView</Key>
   <Value>true</Value>
@@ -516,10 +987,24 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3E5876D4-1BB8-308D-0B8D-2D11DBEB74DF</ItemId>
+>>>>>>> master
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Variable</RuleType>
+<<<<<<< HEAD
+  <Key>caseMemberLawyerJSON</Key>
+  <Value>{ "label":"Rechtsanwalt Anrede", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/Salutation", "type":"String" }, { "label":"Rechtsanwalt Vorname", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/FirstName", "type":"String" }, { "label":"Rechtsanwalt Nachname", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/LastName", "type":"String" }, { "label":"Rechtsanwalt Firma", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CompanyName", "type":"String" }, { "label":"Rechtsanwalt Straße", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/Line2", "type":"String" }, { "label":"Rechtsanwalt PLZ", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/ZipCode", "type":"String" }, { "label":"Rechtsanwalt Ort", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/City", "type":"String" }, { "label":"Rechtsanwalt Land", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/CountryISO", "type":"String" }, { "label":"Rechtsanwalt Ortsteil", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/Line5", "type":"String" }, { "label":"Rechtsanwalt Telefon (privat)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Rechtsanwalt Mobiltelefon (privat)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='Mobile']/Entry", "type":"String" }, { "label":"Rechtsanwalt E-Mail (privat)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='EMail1']/Entry", "type":"String" }, { "label":"Rechtsanwalt Telefon (dienstlich)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='Phone2']/Entry", "type":"String" }, { "label":"Rechtsanwalt Mobiltelefon(dienstlich)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='Mobile2']/Entry", "type":"String" } ]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.747</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.315</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FB7F3443-E73B-20E8-0F11-2F08433FCC6A</ItemId>
+=======
   <Key>caseTypeJSON</Key>
   <Value>{"label":"Schadensparte","xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/ClaimType","type":"Select"},{"label":"Vorgangsart","xpath":"//data/Task/CaseType","type":"Select","options":[
 {"key":"DamageLoss","value":"01-Kaskoschaden"},{"key":"IntakeDefault","value":"02-Haftpflichtschaden"},{"key":"IntakeDriverExchange","value":"03-Teilkasko-Brandschaden"},
@@ -537,10 +1022,24 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D83AC589-7709-5AD5-233E-57A18323594A</ItemId>
+>>>>>>> master
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>WorkListGrid.action.worklistgrid_deleted</Key>
+  <Value>CopyIntoNewCase</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.807</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.337</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F2458886-ADDE-EF71-D6BF-B027EE0A0D30</ItemId>
+=======
   <Key>overridenHomeURL</Key>
   <Value>/bre/work/NO_PROCESS/DashBoard</Value>
   <Status>Active</Status>
@@ -552,11 +1051,60 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>CB38F89B-0215-DDD8-E08C-8EA2E28B060C</ItemId>
+>>>>>>> master
   <Context>
    <Process>NO_PROCESS</Process>
    <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.dashboard</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.730</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.344</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>57C8EF2E-A750-C29E-0579-FCCA48C5191C</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>headerTemplate</Key>
+  <Value>MaterialDesign/MaterialDesignHeader.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.851</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.380</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>AE79EC8A-43BC-29E2-E00A-6694CAFCEB6D</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContact</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:50.822</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.454</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>12527DEC-7095-AE1A-310E-B24113AC5A3F</ItemId>
+=======
   <RuleType>BlockTranslation</RuleType>
   <Key>dashboard</Key>
   <Value>DE=</Value>
@@ -619,11 +1167,42 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C7C5200F-9A93-53F0-C43D-40E94E58488A</ItemId>
+>>>>>>> master
   <Context>
-   <Process>NO_PROCESS</Process>
-   <ProcessStep>DashBoard</ProcessStep>
+   <ProcessStep>CsaDocumentTemplateDetails</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.htmlimport.domreadyjsTdButtonAlignColspan</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-07-27T12:37:49.767</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.093</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DC9DF6F9-4177-31AD-9850-AE9BA7B15E76</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContact</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:51.112</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.102</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>6ECDDA5B-BE24-85C3-6710-BEA632066EC3</ItemId>
+=======
   <RuleType>Block</RuleType>
   <Key>dashboard</Key>
   <Value>root.dashboard</Value>
@@ -652,10 +1231,25 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>53686400-FDAB-0E33-368A-91029E6A3651</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Configuration</RuleType>
+  <Key>workHandler</Key>
+  <Value>HierarchicalWorkHandler</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:22:37.981</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.139</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>860C269E-15A3-C088-BE6E-7A7D942645C9</ItemId>
+=======
   <RuleType>Variable</RuleType>
   <Key>auctionJSON</Key>
   <Value>{ "label":"RestwertMwSt", "xpath":"salvageamountwithvatbool", "type":"Boolean" }, { "label":"RW-Bieter Fax", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/CommunicationDetailList/CommunicationDetail[Role='Fax1']/Entry", "type":"String" }, { "label":"RW-Bieter Vorname", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/FirstName", "type":"String" }, { "label":"RW-Bieter Nachname", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/LastName", "type":"String" }, { "label":"RW-Bieter Straße", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/AddressList/Address/Line2", "type":"String" }, { "label":"RW-Bieter PLZ", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/AddressList/Address/ZipCode", "type":"String" }, { "label":"RW-Bieter Telefon", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Gebot", "xpath":"boolean(Task/Auction/BidList/*)", "type":"Boolean" }, { "label":"Gebot gültig", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/BindingDate", "type":"String" }, { "label":"Gebot-Kennung", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/BidId", "type":"String" }, { "label":"Gebot-Nr.", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/BidRank", "type":"Number" },</Value>
@@ -668,12 +1262,26 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>20E76980-257D-AF8A-1C6C-5844604A3029</ItemId>
+>>>>>>> master
   <Context>
    <Process>NO_PROCESS</Process>
    <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>root.csa.memberQuickSearch.search.fields</Key>
+  <Value>name,memberId</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-06T15:33:48.639</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.147</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5E962636-7468-2ECD-ADD1-89412AC1CA5A</ItemId>
+=======
   <Key>dashboard.widget2.icon</Key>
   <Value>settings</Value>
   <Status>Active</Status>
@@ -685,11 +1293,22 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>17D5B541-9906-68B7-0A14-E1B9565BD90C</ItemId>
+>>>>>>> master
   <Context>
    <Process>NO_PROCESS</Process>
    <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>ProcessTransition</RuleType>
+  <Key>DashBoard</Key>
+  <Value>DashBoard</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.787</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.154</LastUpdateTimeStamp>
+=======
   <RuleType>Configuration</RuleType>
   <Key>dashboard.widget1.label</Key>
   <Value>repairwatch.dashboard.widget.worklistgrid</Value>
@@ -698,6 +1317,7 @@
   <CreationTimeStamp>2017-07-27T10:29:20.552</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-23T07:53:51.805</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -709,6 +1329,16 @@
   <Key>personMenuSteps</Key>
   <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberDetails"},{stepName: "CsaStampsAndSignaturesList"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CalculationNumberManagement"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-12-23T09:18:58.055</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.186</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>013CDB2F-567E-58BD-FE62-B3C17B96DED3</ItemId>
+=======
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T09:12:06.004</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -717,9 +1347,29 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DEC6BD39-0DE9-DF92-03EE-6C3166E2D344</ItemId>
+>>>>>>> master
   <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>FieldVisibility</RuleType>
+  <Key>worklistgrid_open</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.814</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.238</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C8B47CFE-F3DE-BEBF-C2B2-6B9400BFA487</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactBankDetails</ProcessStep>
+=======
   <RuleType>Variable</RuleType>
   <Key>currentMemberJSON</Key>
   <Value>{"label":"Sachverständiger Telefax","xpath":"//data/currentuserfax","type":"String"},{"label":"Sachverständiger Vorname","xpath":"//data/currentFirstName","type":"String"} ,{"label":"Sachverständiger PLZ","xpath":"//data/currentuserzipcode","type":"String"},{"label":"Sachverständiger Handy","xpath":"//data/currentusermobile","type":"String"},{"label":"Sachverständiger Ort","xpath":"//data/currentusercity","type":"String"},{"label":"Sachverständiger E-Mail","xpath":"//data/currentuseremail","type":"String"},{"label":"Sachverständiger Telefonnummer2","xpath":"//data/currentuserphone2","type":"String"},{"label":"Sachverständiger Telefonnummer1","xpath":"//data/currentuserphone1","type":"String"},{"label":"Sachverständiger Nachname","xpath":"//data/currentuserlastname","type":"String"},{"label":"Sachverständige Straße","xpath":"//data/currentuserstreet","type":"String"},{"label":"Besichtigungsdatum","xpath":"//data/inspectiondate","type":"String"}</Value>
@@ -735,12 +1385,72 @@
   <Context>
    <Process>MasterData</Process>
    <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
+>>>>>>> master
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>warnUserIfFormIsNotSaved</Key>
   <Value>true</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:51.122</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.286</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9D6C3AAD-0BC3-DB6F-39D9-ED23ADF76326</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>homePath</Key>
+  <Value>/bre/work/NO_PROCESS/DashBoard</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.871</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.300</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>99D0A2BE-A900-5FA3-BF6C-ACCC6FFD7BA0</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactRelatedContacts</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:50.937</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.410</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DEC6BD39-0DE9-DF92-03EE-6C3166E2D344</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>currentMemberJSON</Key>
+  <Value>{"label":"Sachverständiger Telefax","xpath":"//data/currentuserfax","type":"String"},{"label":"Sachverständiger Vorname","xpath":"//data/currentFirstName","type":"String"} ,{"label":"Sachverständiger PLZ","xpath":"//data/currentuserzipcode","type":"String"},{"label":"Sachverständiger Handy","xpath":"//data/currentusermobile","type":"String"},{"label":"Sachverständiger Ort","xpath":"//data/currentusercity","type":"String"},{"label":"Sachverständiger E-Mail","xpath":"//data/currentuseremail","type":"String"},{"label":"Sachverständiger Telefonnummer2","xpath":"//data/currentuserphone2","type":"String"},{"label":"Sachverständiger Telefonnummer1","xpath":"//data/currentuserphone1","type":"String"},{"label":"Sachverständiger Nachname","xpath":"//data/currentuserlastname","type":"String"},{"label":"Sachverständige Straße","xpath":"//data/currentuserstreet","type":"String"},{"label":"Besichtigungsdatum","xpath":"//data/inspectiondate","type":"String"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-27T08:54:26.720</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.267</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FB6CBB5D-C9D0-C24E-73C3-2757EF1EECEC</ItemId>
+=======
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-28T08:01:49.797</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -799,11 +1509,26 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C8B47CFE-F3DE-BEBF-C2B2-6B9400BFA487</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <ProcessStep>MemberContactBankDetails</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>vehicleEngineeringJSON</Key>
+  <Value>{ "label":"Laufleistung", "xpath":"Task/BasicClaimData/Vehicle/VehicleEngineering/Mileage", "type":"Number" }, { "label":"KM/mls", "xpath":"Task/BasicClaimData/Vehicle/VehicleEngineering/MileageUnit", "type":"String" }, { "label":"Mileage Source", "xpath":"Task/BasicClaimData/Vehicle/VehicleEngineering/MileageSource", "type":"String" }, { "label":"Wiederbeschaufungsdauer", "xpath":"Task/BasicClaimData/ReplacementVehicle/ReplacementDate", "type":"Date" }, { "label":"Leistung", "xpath":"Task/BasicClaimData/Vehicle/VehicleEngineering/EnginePower", "type":"String" }, { "label":"Hubraum", "xpath":"Task/BasicClaimData/Vehicle/VehicleEngineering/EngineSize", "type":"String" }, { "label":"Motorart", "xpath":"Task/BasicClaimData/Vehicle/VehicleEngineering/EngineType", "type":"String" },{ "label":"Wiederbeschaffungswert mit MwSt.", "xpath":"manualreplacementvaluewithvatbool", "type":"Boolean" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.818</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.324</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D9772AE6-644C-6C30-5058-C0F618D783B0</ItemId>
+=======
   <RuleType>Configuration</RuleType>
   <Key>warnUserIfFormIsNotSaved</Key>
   <Value>true</Value>
@@ -816,11 +1541,41 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D811978A-1745-D392-3E63-C8D63D7C3936</ItemId>
+>>>>>>> master
   <Context>
-   <Process>NO_PROCESS</Process>
-   <ProcessStep>MaterialGrid</ProcessStep>
+   <ProcessStep>CsaImageDetails</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>personMenuSteps</Key>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberDetails"},{stepName: "CsaStampsAndSignaturesList"},{stepName: "CsaImageDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CalculationNumberManagement"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-04-05T18:50:24.125</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.357</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5628D463-38FE-9625-EB3F-CC73C5A23209</ItemId>
+  <Context>
+   <ProcessStep>MemberOrganizationDetails</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.actionButtons.saveButton</Key>
+  <Value>spanAllColumns=true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-07-27T12:37:49.733</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.069</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A2208949-9448-EAED-AFA5-6A0D1E509F5C</ItemId>
+=======
   <RuleType>Configuration</RuleType>
   <Key>WorkListGrid.action.worklistgrid_open</Key>
   <Value>SendTask,DeleteTask,PrintPdf,CopyIntoNewCase,CloseTask</Value>
@@ -849,9 +1604,9 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>36789690-5E66-A7C6-BEFC-043E07B9C8F6</ItemId>
+>>>>>>> master
   <Context>
    <Process>NO_PROCESS</Process>
-   <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Block</RuleType>
@@ -872,6 +1627,19 @@
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>views</Key>
+  <Value>worklistgrid_copied,worklistgrid_open,worklistgrid_sent,worklistgrid_closed,worklistgrid_deleted</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.713</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.114</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>74649675-90BF-E581-6D54-55285C08919B</ItemId>
+=======
   <Key>homePath</Key>
   <Value>/bre/work/NO_PROCESS/DashBoard</Value>
   <Status>Active</Status>
@@ -883,11 +1651,25 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>497B708A-2B3A-2267-13A7-20DBFAF578BF</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Variable</RuleType>
+<<<<<<< HEAD
+  <Key>repairAuthorisedJSON</Key>
+  <Value>{ "label":"Reparaturfreigabe", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairAuthorisedDateTime", "type":"Date" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.835</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.176</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5D8F2097-8263-D02F-D29A-771CCDAFB045</ItemId>
+=======
   <Key>kadJSON</Key>
   <Value>{ "label":"Auftraggeber", "xpath":"kadorderers", "type":"String" }, { "label":"ZN", "xpath":"kadsubsidiaries", "type":"String" }, { "label":"Sparte", "xpath":"kadbranch", "type":"String" }, { "label":"Ergebnis", "xpath":"hasValuation", "type":"Boolean" }, { "label":"Mindesten ein Lohnfaktor", "xpath":"hasRepairDetails", "type":"Boolean" }, { "label":"Business Process", "xpath":"Task/BusinessProcess", "type":"String" },</Value>
   <Status>Active</Status>
@@ -899,11 +1681,21 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A96DAC90-8BD6-136C-B21F-1C5347D78611</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>dashboard.widget2.label</Key>
+  <Value>desn.header.settings</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.825</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.195</LastUpdateTimeStamp>
+=======
   <Key>homePath</Key>
   <Value>/bre/work/NO_PROCESS/DashBoard</Value>
   <Status>Active</Status>
@@ -911,19 +1703,45 @@
   <CreationTimeStamp>2017-07-27T10:29:20.494</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-23T07:53:51.396</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C03FE229-7B2B-9643-F742-9F16911D7C16</ItemId>
+  <ItemId>1E7E05C3-78E3-AC27-28CD-10670F3ADE60</ItemId>
   <Context>
-   <Process>NO_PROCESS</Process>
-   <ProcessStep>DashBoard</ProcessStep>
+   <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
-  <Key>dashboard.widget1.icon</Key>
-  <Value>list</Value>
+  <Key>restrictChildOrganizationDocumentsView</Key>
+  <Value>true</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-27T08:54:26.823</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.203</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>74B0F50C-D348-81B7-0E57-A16077172397</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>headerTemplate</Key>
+  <Value>MaterialDesign/MaterialDesignHeader.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.697</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.182</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DE863238-1EFA-A541-4F92-318E3D289A53</ItemId>
+=======
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T10:29:20.456</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -932,11 +1750,51 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D474F1FE-8E33-58C4-86BF-2F283C8F020F</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Variable</RuleType>
+<<<<<<< HEAD
+  <Key>activityReportJSON</Key>
+  <Value>{ "label":"Reparaturrechnung folgt", "xpath":"ActivityReport/repairInvoiceFollows", "type":"String" }, { "label":"VN/GES meldet sich", "xpath":"ActivityReport/insuranceWillRespond", "type":"String" }, { "label":"Beurteilung", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/VehicleDamageLoss", "type":"String" }, { "label":"Rep-Auftrag", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/ClaimantRepairIntention", "type":"String" }, { "label":"Fiktive Abrechnung", "xpath":"ActivityReport/preliminaryEstimateRequested", "type":"String" }, { "label":"Sicherungsgläubiger vorhanden", "xpath":"ActivityReport/assigneeOfDebtExisting", "type":"String" }, { "label":"ist auch BS-Ort", "xpath":"repairerisinspectionlocation", "type":"String" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.878</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.191</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>70E54A5A-F92E-7D17-FC6C-A4C4197F52BE</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>personMenuSteps</Key>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberDetails"},{stepName: "CsaStampsAndSignaturesList"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CalculationNumberManagement"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:22:37.802</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.264</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CB22A2FE-FEA2-EF82-D9C6-63FA755A9DBB</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>organizationMenuSteps</Key>
+  <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberListTable"},{stepName: "MemberOrganizationDetails"},{stepName: "CsaStampsAndSignaturesList"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CalculationNumberManagement"},{stepName: "CsaDocumentTemplateList"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-12-23T09:18:58.053</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.319</LastUpdateTimeStamp>
+=======
   <Key>caseMemberLawyerJSON</Key>
   <Value>{ "label":"Rechtsanwalt Anrede", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/Salutation", "type":"String" }, { "label":"Rechtsanwalt Vorname", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/FirstName", "type":"String" }, { "label":"Rechtsanwalt Nachname", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/LastName", "type":"String" }, { "label":"Rechtsanwalt Firma", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CompanyName", "type":"String" }, { "label":"Rechtsanwalt Straße", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/Line2", "type":"String" }, { "label":"Rechtsanwalt PLZ", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/ZipCode", "type":"String" }, { "label":"Rechtsanwalt Ort", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/City", "type":"String" }, { "label":"Rechtsanwalt Land", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/CountryISO", "type":"String" }, { "label":"Rechtsanwalt Ortsteil", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/AddressList/Address/Line5", "type":"String" }, { "label":"Rechtsanwalt Telefon (privat)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Rechtsanwalt Mobiltelefon (privat)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='Mobile']/Entry", "type":"String" }, { "label":"Rechtsanwalt E-Mail (privat)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='EMail1']/Entry", "type":"String" }, { "label":"Rechtsanwalt Telefon (dienstlich)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='Phone2']/Entry", "type":"String" }, { "label":"Rechtsanwalt Mobiltelefon(dienstlich)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='Lawyer']/CommunicationDetailList/CommunicationDetail[Role='Mobile2']/Entry", "type":"String" } ]</Value>
   <Status>Active</Status>
@@ -944,6 +1802,7 @@
   <CreationTimeStamp>2017-07-27T10:29:20.580</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-23T07:53:51.459</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -987,6 +1846,31 @@
   <Key>hierarchicalSteps</Key>
   <Expression>${(#memberType == "Person") ? #personMenuSteps : #organizationMenuSteps}</Expression>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:22:37.805</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.348</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>07197700-31DF-7A46-483B-080538F3822E</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>root.csa.memberQuickSearch.fields</Key>
+  <Value>name,memberId</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-06T15:33:48.635</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.368</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>94A943A3-B6EA-76D0-387B-BEF8BC4DB683</ItemId>
+=======
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T09:11:38.159</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -1029,12 +1913,28 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>955C6AC6-2CBC-D4F4-CD0A-C0FA42344D54</ItemId>
+>>>>>>> master
   <Context>
-   <Process>NO_PROCESS</Process>
-   <ProcessStep>DashBoard</ProcessStep>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactBankDetails</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>redirectElementsWithoutFormCheck</Key>
+  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:51.109</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.376</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>99845FB7-7D9D-4BEF-241A-1F0F239792E5</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+=======
   <Key>dashboard.widget1.url</Key>
   <Value>/bre/work/NO_PROCESS/MaterialGrid?gridView=worklistgrid_custom_open</Value>
   <Status>Active</Status>
@@ -1081,24 +1981,47 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2F46D3C3-FD3A-B04F-DD73-0AB31856AF73</ItemId>
   <Context>
+>>>>>>> master
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Variable</RuleType>
   <Key>basicClaimDataJSON</Key>
   <Value>{"label":"Amtl. Kennzeichen Unfallgegner", "xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/ThirdParty1RegistrationNumber", "type":"String"},{"label":"Beurteilung (Totalschaden/Reparaturschaden)", "xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/VehicleDamageLoss", "type":"String"},{"label":"Fahrbereitschaft", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleDamage/VehicleDrivable", "type":"String"},{"label":"Verkehrssicherheit", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleDamage/VehicleSafeForTraffic", "type":"String"},{"label":"Zerlegung", "xpath":"//data/vehiclestripstatus", "type":"String"},{"label":"Reparaturstatus", "xpath":"//data/vehiclerepairstatus", "type":"String"},{"label":"Vorsteuerabzug", "xpath":"//data/Task/BasicClaimData/PolicyData/PolicyHolder/InputTaxDeduction", "type":"String"}</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.705</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.389</LastUpdateTimeStamp>
+=======
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-19T13:39:40.173</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-23T07:53:51.491</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D9772AE6-644C-6C30-5058-C0F618D783B0</ItemId>
+  <ItemId>9C5E7566-D582-7AF8-4C8E-57502C4F3469</ItemId>
   <Context>
-   <ProcessStep>CsaImageDetails</ProcessStep>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactComments</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:50.816</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.422</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F99B817B-B8D9-57CF-9CD7-8BC588EE7730</ItemId>
+=======
   <RuleType>Variable</RuleType>
   <Key>personMenuSteps</Key>
   <Value>[{stepName: "MembersMaintenance", children: [{stepName: "MemberDetails"},{stepName: "CsaStampsAndSignaturesList"},{stepName: "CsaImageDetails"}]},{stepName: "MemberContactList"},{stepName: "ClaimNumberManagement"},{stepName: "CalculationNumberManagement"},{stepName: "CsaDocumentTextBlockList"},{stepName: "CsaDocumentImport"},{stepName: "ProfileList"}]</Value>
@@ -1111,10 +2034,27 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>14B7AB65-D46F-D8C1-25BB-EC55799B9D76</ItemId>
+>>>>>>> master
   <Context>
-   <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Configuration</RuleType>
+  <Key>organization</Key>
+  <Value>MemberOrganizationDetails</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-06T15:33:48.422</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.426</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2F78DE31-E995-E586-2DA3-09A41CAC472C</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>CalculationNumberManagement</ProcessStep>
+=======
   <RuleType>Variable</RuleType>
   <Key>inspectionJSON</Key>
   <Value>{ "label":"Besichtigungsdatum", "xpath":"Task/Inspection/ConductedDate", "type":"Date" }, { "label":"Besichtigungsort Anrede", "xpath":"Task/Inspection/InspectionLocation/Salutation", "type":"String" }, { "label":"Besichtigungsort Vorname", "xpath":"Task/Inspection/InspectionLocation/FirstName", "type":"String" }, { "label":"Besichtigungsort Nachname", "xpath":"Task/Inspection/InspectionLocation/LastName", "type":"String" }, { "label":"Besichtigungsort Straße", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/Line2", "type":"String" }, { "label":"Besichtigungsort PLZ", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/ZipCode", "type":"String" }, { "label":"Besichtigungsort Ort", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/City", "type":"String" }, { "label":"Besichtigungsort Land", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/CountryISO", "type":"String" }, { "label":"Besichtigungsort Ortsteil", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/Line5", "type":"String" }, { "label":"Besichtigungsort Firma", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/CompanyName", "type":"String" },</Value>
@@ -1129,12 +2069,39 @@
   <ItemId>A63326F7-0945-B63C-6E9E-C78875D72E48</ItemId>
   <Context>
    <Process>MasterData</Process>
+>>>>>>> master
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>showMemberHierarchy</Key>
   <Value>true</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-08-16T08:25:54.457</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.457</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DC0B8F6A-D3A0-50F8-D1B3-654D30EFA094</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>pageTemplate</Key>
+  <Value>MaterialDesign/MaterialDesignPage.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.743</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.119</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>427D1D5E-614B-5697-55D6-8289D79E5B4A</ItemId>
+=======
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-22T09:12:36.775</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -1158,10 +2125,26 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DC091428-5631-3363-4307-4F1C0293CA0E</ItemId>
+>>>>>>> master
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>staticPages</Key>
+  <Value>DashBoard</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.804</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.128</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>563C1D13-D599-AB32-8CA3-BB3A550EA273</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+=======
   <Key>documentCreation_textBlockConditional</Key>
   <Expression>${"["+#currentMemberJSON+","+#calculationResultJSON+","+#repairerInfoJSON+","+#basicClaimDataJSON+","+#resultPageJSON+","+#caseTypeJSON+"]"}</Expression>
   <Status>Active</Status>
@@ -1176,12 +2159,39 @@
   <Context>
    <Process>MasterData</Process>
    <ProcessStep>MemberContactBankDetails</ProcessStep>
+>>>>>>> master
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>redirectElementsWithoutFormCheck</Key>
-  <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
+  <RuleType>Variable</RuleType>
+  <Key>svJSON</Key>
+  <Value>{ "label":"SV 2. Vorname", "xpath":"currentusermiddlename", "type":"String" }, { "label":"SV Anrede", "xpath":"currentusersalutation", "type":"String" }, { "label":"SV Vorname", "xpath":"currentuserfirstname", "type":"String" }, { "label":"SV Name", "xpath":"currentuserlastname", "type":"String" }, { "label":"SV Email-Adresse", "xpath":"currentuseremail", "type":"String" }, { "label":"SV Titel", "xpath":"currentusertitle", "type":"String" }, { "label":"SV Straße", "xpath":"currentuserstreet", "type":"String" }, { "label":"SV Ort", "xpath":"currentusercity", "type":"String" }, { "label":"SV Land", "xpath":"currentusercountry", "type":"String" }, { "label":"SV Postleitzahl", "xpath":"currentuserzipcode", "type":"String" }, { "label":"SV Telefon", "xpath":"currentuserphone1", "type":"String" },</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.822</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.132</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5B08075D-1083-AA9C-EFD1-772F8EB72E68</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>calculationResultJSON</Key>
+  <Value>{"label":"Abzug NFA Lack","xpath":"//data/Task/BasicClaimData/OverwrittenCalculationResult/TotalDeductionWOTax","type":"Number"} ,{"label":"Abzug NFA Teile","xpath":"//data/Task/BasicClaimData/OverwrittenCalculationResult/DeductionFromRepairPartsWOTax","type":"Number"} ,{"label":"Selbstbeteiligung Teilkasko","xpath":"//data/Task/BasicClaimData/PolicyData/PartialCoverageExcessAmount","type":"Number"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-27T08:54:26.718</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.209</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>20E76980-257D-AF8A-1C6C-5844604A3029</ItemId>
+  <Context>
+=======
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-03-28T08:04:24.839</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -1191,11 +2201,41 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>57C8EF2E-A750-C29E-0579-FCCA48C5191C</ItemId>
   <Context>
+>>>>>>> master
    <Process>NO_PROCESS</Process>
    <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>dashboard.widget2.icon</Key>
+  <Value>settings</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.844</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.256</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>51C1C970-DD1A-B255-A1ED-C2E125DB978C</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>query.worklistgrid_open</Key>
+  <Value><![CDATA[task.taskStatus!='Closed' && task.taskStatus!='Deleted' && task.taskStatus!='Sent' && task.taskStatus!='Copied' && task.taskStatus!='SentApproved'  && task.taskStatus!='SentDisapproved' && task.taskStatus!='SentConditionallyApproved' && task.taskStatus!='Completed']]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.829</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.437</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>53686400-FDAB-0E33-368A-91029E6A3651</ItemId>
+=======
   <Key>headerTemplate</Key>
   <Value>MaterialDesign/MaterialDesignHeader.htm</Value>
   <Status>Active</Status>
@@ -1224,10 +2264,42 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>99845FB7-7D9D-4BEF-241A-1F0F239792E5</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>auctionJSON</Key>
+  <Value>{ "label":"RestwertMwSt", "xpath":"salvageamountwithvatbool", "type":"Boolean" }, { "label":"RW-Bieter Fax", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/CommunicationDetailList/CommunicationDetail[Role='Fax1']/Entry", "type":"String" }, { "label":"RW-Bieter Vorname", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/FirstName", "type":"String" }, { "label":"RW-Bieter Nachname", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/LastName", "type":"String" }, { "label":"RW-Bieter Straße", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/AddressList/Address/Line2", "type":"String" }, { "label":"RW-Bieter PLZ", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/AddressList/Address/ZipCode", "type":"String" }, { "label":"RW-Bieter Telefon", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/Dealer/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Gebot", "xpath":"boolean(Task/Auction/BidList/*)", "type":"Boolean" }, { "label":"Gebot gültig", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/BindingDate", "type":"String" }, { "label":"Gebot-Kennung", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/BidId", "type":"String" }, { "label":"Gebot-Nr.", "xpath":"Task/Auction/BidList/Bid[Selected='Yes']/BidRank", "type":"Number" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.779</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.251</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C03FE229-7B2B-9643-F742-9F16911D7C16</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>dashboard.widget1.icon</Key>
+  <Value>list</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.790</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.311</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>779D46D0-C2B9-5CFB-88FB-64C1EB8D313F</ItemId>
+=======
   <RuleType>Configuration</RuleType>
   <Key>toolbarTemplate</Key>
   <Value>MaterialDesign/MaterialDesignToolbar.htm</Value>
@@ -1256,11 +2328,25 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>E86233F8-E85E-726E-EA80-97B3F3DE933F</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>menuBuilder</Key>
+  <Value>HierarchicalMenuBuilder</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:22:37.968</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.442</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B7D02DC8-6E65-3233-7414-30CDC9A40C35</ItemId>
+=======
   <Key>memberContactListColumns</Key>
   <Value>delete,companyName,role,street,city,zipCode</Value>
   <Status>Active</Status>
@@ -1272,10 +2358,43 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3437EA25-2750-29EC-95DB-CD5F8EDA4210</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
+   <ProcessStep>CsaDocumentTextBlockDetails</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:51.106</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.271</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>0E99C3A4-423C-F27C-81AA-A2744DA7B3A4</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>componentTemplate.root.dashboard</Key>
+  <Value>MaterialDesignDashboard.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.722</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.274</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D811978A-1745-D392-3E63-C8D63D7C3936</ItemId>
+=======
   <RuleType>Variable</RuleType>
   <Key>vehicleDamageJSON</Key>
   <Value>{ "label":"Zerlegung", "xpath":"Task/BasicClaimData/Vehicle/VehicleDamage/VehicleStripStatus", "type":"String" }, { "label":"Reparaturstatus", "xpath":"Task/BasicClaimData/Vehicle/VehicleDamage/VehicleRepairStatus", "type":"String" }, { "label":"Echter Totalschaden", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/TotalLoss", "type":"Boolean" }, { "label":"Schadenursache", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/DamageCause", "type":"String" }, { "label":"UPE-Aufschlag", "xpath":"oemPriceUplift", "type":"String" }, { "label":"Kosten Notrep.", "xpath":"transportCost", "type":"Number" }, { "label":"Verkehrsbereitschaft", "xpath":"Task/BasicClaimData/Vehicle/VehicleDamage/VehicleSafeForTraffic", "type":"String" }, { "label":"Fahrbereitschaft", "xpath":"Task/BasicClaimData/Vehicle/VehicleDamage/VehicleDrivable", "type":"Boolean" }, { "label":"Rep.-Dauer", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairDurationDays", "type":"Number" }, { "label":"Schadenausmaß", "xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/Array[DamageDescription='previousDamageRepairedWithin']/Severity", "type":"String" }, { "label":"Bewertungsvariante", "xpath":"Task/VehicleValuation/ValueCode", "type":"String" }, { "label":"Druckvariante Fzg-Restwertbörsen", "xpath":"Task/Auction/AuctionPrintOption", "type":"String" }, { "label":"Zusammenfassung", "xpath":"temporaryrepaircost", "type":"String" }, { "label":"Lohnfaktor 4", "xpath":"selectedcalculation/laborrate4", "type":"Number" }, { "label":"Lohnfaktor 5", "xpath":"selectedcalculation/laborrate5", "type":"Number" }, { "label":"Lackfaktor2", "xpath":"selectedcalculation/paintrate2", "type":"Number" }, { "label":"Restwert manuell", "xpath":"salvageamountvalue", "type":"Number" }, { "label":"Kalkulationstabelle", "xpath":"boolean(selectedcalculation/partssubstitutionreport/*)", "type":"Boolean" }, { "label":"Fahrzeugart", "xpath":"Task/BasicClaimData/Vehicle/VehicleEngineering/VehicleKind", "type":"String" }, { "label":"Kalkuliert", "xpath":"Task/HasCalculation", "type":"Boolean" }, { "label":"Fahrzeugidentifizierung", "xpath":"Task/BasicClaimData/Vehicle/VehicleIdentification/VehicleSelection", "type":"String" }, { "label":"Bewertung", "xpath":"boolean(Task/CarValuations/VehicleSpecAndValueList/ICVPostValuation/PostValResults/*)", "type":"Boolean" }, { "label":"Berechnung mit Ersatzteilen", "xpath":"selectedcalculation/guidenumberstotal", "type":"Number" },  { "label":"Randfahnencode", "xpath":"selectedcalculation/CLASSXml/CalcData/CalcControl/ActivIDBlks/IDBlkDtl/IDBlk", "type":"Number" }, { "label":"Fahrzeugpapiere", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/RegistrationDocument", "type":"String" }, { "label":"Minderwert Ausgewähltes Modell", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/SelectedModel", "type":"String" }, { "label":"Minderwert Durchschnittswert", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/AverageValue", "type":"Number" }, { "label":"Minderwert SV-Feststellung", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/ExpertValue", "type":"Number" }, { "label":"Ablehnungsgrund", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/ReasonForRejection", "type":"String" }, { "label":"Ermittlung", "xpath":"ActivityReport/appraisal", "type":"Boolean" },{ "label":"Druckvariante Fzg-Bewertung", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/ClaimSummary/ReplacementValuePrintControl", "type":"String" },   { "label":"Bewertung Ergebnis Titel", "xpath":"valuationOutputLines/valuationOutputLines_item/text", "type":"String" }, { "label":"Bewertung Ergebnis Betrag", "xpath":"valuationOutputLines/valuationOutputLines_item/amount", "type":"Number" },</Value>
@@ -1303,12 +2422,59 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>99D0A2BE-A900-5FA3-BF6C-ACCC6FFD7BA0</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <ProcessStep>MemberContactRelatedContacts</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>WorkListGrid.action.worklistgrid_open</Key>
+  <Value>SendTask,DeleteTask,PrintPdf,CopyIntoNewCase,CloseTask</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.773</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.290</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>36789690-5E66-A7C6-BEFC-043E07B9C8F6</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>blockNames</Key>
+  <Value>dashboard</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.838</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.297</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>7E6F994D-7244-BD1F-153C-61FFBC508D1D</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>hierarchicalSteps</Key>
+  <Expression>${(#memberType == "Person") ? #personMenuSteps : #organizationMenuSteps}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-02-27T14:22:37.793</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.328</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CA7A175F-3B94-5FAD-A319-5996B01AA329</ItemId>
+=======
   <Key>redirectElementsWithoutFormCheck</Key>
   <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
   <Status>Active</Status>
@@ -1353,11 +2519,26 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9C5E7566-D582-7AF8-4C8E-57502C4F3469</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <ProcessStep>MemberContactComments</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>repairerJSON</Key>
+  <Value>{ "label":"Werkstatt Firma", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/CompanyName", "type":"String" }, { "label":"Werkstatt Straße", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/Line2", "type":"String" }, { "label":"Werkstatt PLZ", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/ZipCode", "type":"String" }, { "label":"Werkstatt Ort", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/City", "type":"String" }, { "label":"Werkstatt Land", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/CountryISO", "type":"String" }, { "label":"Werkstatt Ortsteil", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/AddressList/Address/Line5", "type":"String" }, { "label":"Werkstatt Telefon", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Werkstatt E-Mail", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/CommunicationDetailList/CommunicationDetail[Role='EMail1']/Entry", "type":"String" }, { "label":"Werkstatt Telefax", "xpath":"Task/BasicClaimData/RepairDetail/Repairer/CommunicationDetailList/CommunicationDetail[Role='Fax1']/Entry", "type":"String" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.734</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.167</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>D83AC589-7709-5AD5-233E-57A18323594A</ItemId>
+=======
   <RuleType>Configuration</RuleType>
   <Key>warnUserIfFormIsNotSaved</Key>
   <Value>true</Value>
@@ -1370,10 +2551,20 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>F99B817B-B8D9-57CF-9CD7-8BC588EE7730</ItemId>
+>>>>>>> master
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>overridenHomeURL</Key>
+  <Value>/bre/work/NO_PROCESS/DashBoard</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.864</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.221</LastUpdateTimeStamp>
+=======
   <Key>organization</Key>
   <Value>MemberOrganizationDetails</Value>
   <Status>Active</Status>
@@ -1381,18 +2572,47 @@
   <CreationTimeStamp>2018-03-01T09:20:51.668</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-23T07:53:51.748</LastUpdateTimeStamp>
+>>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F8550918-600C-F822-8E11-644F61ECB2F3</ItemId>
+  <ItemId>17D5B541-9906-68B7-0A14-E1B9565BD90C</ItemId>
   <Context>
-   <Process>MasterData</Process>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
-  <RuleType>Variable</RuleType>
-  <Key>repairerDetailsJSON</Key>
-  <Value>{ "label":"Lohnfaktor 1", "xpath":"selectedcalculation/laborrate1", "type":"Number" }, { "label":"Lohnfaktor 2", "xpath":"selectedcalculation/laborrate2", "type":"Number" }, { "label":"Lohnfaktor 3", "xpath":"selectedcalculation/laborrate3", "type":"Number" }, { "label":"Lackfaktor", "xpath":"selectedcalculation/paintrate1", "type":"Number" }, { "label":"Gesamtbetrag o. mwSt.", "xpath":"selectedcalculation/grandtotal", "type":"Number" }, { "label":"Gesamt inkl. MwSt.", "xpath":"selectedcalculation/grantotalwithtax", "type":"Number" }, { "label":"Gesamt Lohn", "xpath":"selectedcalculation/totallabor", "type":"Number" }, { "label":"Gesamt Lack", "xpath":"selectedcalculation/totalpaint", "type":"Number" }, { "label":"Gesamt ET", "xpath":"selectedcalculation/totalparts", "type":"Number" }, { "label":"MwSt. Gesamtbetrag", "xpath":"selectedcalculation/grandTotalTax", "type":"Number" }, { "label":"MwSt. Rep.-Kosten", "xpath":"selectedcalculation/FCRepTotTax", "type":"Number" }, { "label":"Nächste AU", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/NextEmissionTest", "type":"Date" }, { "label":"Nächste HU", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/NextTechCheck", "type":"Date" }, { "label":"Geschätzte Rep.-Beginn", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairStartDateTime", "type":"Date" }, { "label":"Geschätzte Rep.-Dauer", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairDurationDays", "type":"Number" }, { "label":"Geschätzte Rep.-Ende", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairEndDateTime", "type":"Number" }, { "label":"Rep.-Kosten o. MwSt.", "xpath":"selectedcalculation/grandtotal", "type":"Number" }, { "label":"Reparatur Fertigmeldung", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairReadyNotificationDateTime", "type":"Date" }, { "label":"RW man.", "xpath":"Task/VehicleValuation/ResidualValue", "type":"Number" }, { "label":"Vorschaden Kommentar", "xpath":"Task/BasicClaimData/Vehicle/PreviousDamage/Comment", "type":"String" }, { "label":"Änderung Reparaturgrundlage", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/VehicleDeprecation", "type":"String" }, { "label":"FZG Rückgabe am", "xpath":"Task/BasicClaimData/RepairDetail/CarReleaseTimestamp", "type":"Date" }, { "label":"Minderwert manuell", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/ManualValue", "type":"String" }, { "label":"RW MwSt.", "xpath":"Task/VehicleValuation/ResidualValueVATIncluded", "type":"String" }, { "label":"Dauer Notrep.", "xpath":"Task/BasicClaimData/RepairDetail/TemporaryRepairDurationDays", "type":"String" }, { "label":"Kalkulations-Nr.", "xpath":"selectedcalculation/refCalculationId", "type":"Number" }, { "label":"WBW ohne MwSt.", "xpath":"selectedcalculation/ReplacementAmnt", "type":"Number" }, { "label":"RW", "xpath":"Task/Auction/SalvageAmount", "type":"Number" }, { "label":"Gebot max", "xpath":"Task/Auction/MaxBid", "type":"Number" }, { "label":"WBW man. mit MwSt.", "xpath":"manualReplacementValueWithVAT", "type":"Number" }, { "label":"WBW man. ohne MwSt.", "xpath":"manualReplacementValueWithoutVAT", "type":"Number" },{ "label":"Vorschaden repariert im Schadenbereich Kommentar", "xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/Array[DamageDescription='previousDamageRepairedWithin']/Comment", "type":"String" }, { "label":"Vorschaden unrepariert im Schadenbereich Kommentar", "xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/Array[DamageDescription='previousDamageUnrepairedWithin']/Comment", "type":"String" },</Value>
+  <RuleType>Configuration</RuleType>
+  <Key>dashboard.widget1.label</Key>
+  <Value>repairwatch.dashboard.widget.worklistgrid</Value>
   <Status>Active</Status>
+<<<<<<< HEAD
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.858</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.260</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>793F0DC7-1172-9586-0E63-B41E8A5D1824</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>toolbarTemplate</Key>
+  <Value>MaterialDesign/MaterialDesignToolbar.htm</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.794</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.278</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>04A173E2-D9C6-A9C5-C39D-5B55C77868E1</ItemId>
+=======
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-27T10:29:20.586</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
@@ -1401,11 +2621,58 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B9E1ED67-56CC-17B4-5F77-6153E0DDDB41</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
+   <ProcessStep>CsaImageDetails</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
   <RuleType>Configuration</RuleType>
+<<<<<<< HEAD
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-04-05T18:50:24.111</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.384</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>77D2A666-CAC0-7D08-8964-7A6F29DB0DBF</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>person</Key>
+  <Value>MemberDetails</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-03-06T15:33:48.458</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.406</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8A2A6360-EDA4-B869-3040-17AD00D3BE16</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>WorkListGrid.action.worklistgrid_sent</Key>
+  <Value>PrintPdf</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.832</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.419</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FFCBDA26-6BE4-DF84-EDBB-A803593EC6EE</ItemId>
+=======
   <Key>homePage</Key>
   <Expression>${(hasAnyAdminRole()) ? "other=MemberListTable,person=MemberDetails,community=CommunityDetail" : "other=MyProfile"}</Expression>
   <Status>Active</Status>
@@ -1433,10 +2700,56 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>779D46D0-C2B9-5CFB-88FB-64C1EB8D313F</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>caseMemberThirdPartyJSON</Key>
+  <Value>{ "label":"Werkstattcode", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='VehicleLocation']/ForeignId", "type":"String" }, { "label":"Sonstige Anrede", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/Salutation", "type":"String" }, { "label":"Sonstige Vorname", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/FirstName", "type":"String" }, { "label":"Sonstige Nachname", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/LastName", "type":"String" }, { "label":"Sonstige Firma", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/CompanyName", "type":"String" }, { "label":"Sonstige Straße", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/AddressList/Address/Line2", "type":"String" }, { "label":"Sonstige PLZ", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/AddressList/Address/ZipCode", "type":"String" }, { "label":"Sonstige Ort", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/AddressList/Address/City", "type":"String" }, { "label":"Sonstige Land", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/AddressList/Address/CountryISO", "type":"String" }, { "label":"Sonstige Ortsteil", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/AddressList/Address/Line5", "type":"String" }, { "label":"Third Party Phone (private)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/CommunicationDetailList/CommunicationDetail[Role='Phone1']/Entry", "type":"String" }, { "label":"Sonstige Mobiltelefon (privat)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/CommunicationDetailList/CommunicationDetail[Role='Mobile']/Entry", "type":"String" }, { "label":"Sonstige E-Mail (privat)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/CommunicationDetailList/CommunicationDetail[Role='EMail1']/Entry", "type":"String" }, { "label":"Sonstige Telefon (dienstlich)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/CommunicationDetailList/CommunicationDetail[Role='Phone2']/Entry", "type":"String" }, { "label":"Sonstige Mobiltelefon (dienstlich)", "xpath":"Task/BasicClaimData/ClaimMemberList/CaseMember[MemberCaseRole='ThirdParty']/CommunicationDetailList/CommunicationDetail[Role='Mobile2']/Entry", "type":"String" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.762</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.282</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>14B7AB65-D46F-D8C1-25BB-EC55799B9D76</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>inspectionJSON</Key>
+  <Value>{ "label":"Besichtigungsdatum", "xpath":"Task/Inspection/ConductedDate", "type":"Date" }, { "label":"Besichtigungsort Anrede", "xpath":"Task/Inspection/InspectionLocation/Salutation", "type":"String" }, { "label":"Besichtigungsort Vorname", "xpath":"Task/Inspection/InspectionLocation/FirstName", "type":"String" }, { "label":"Besichtigungsort Nachname", "xpath":"Task/Inspection/InspectionLocation/LastName", "type":"String" }, { "label":"Besichtigungsort Straße", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/Line2", "type":"String" }, { "label":"Besichtigungsort PLZ", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/ZipCode", "type":"String" }, { "label":"Besichtigungsort Ort", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/City", "type":"String" }, { "label":"Besichtigungsort Land", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/CountryISO", "type":"String" }, { "label":"Besichtigungsort Ortsteil", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/Line5", "type":"String" }, { "label":"Besichtigungsort Firma", "xpath":"Task/Inspection/InspectionLocation/AddressList/Address/CompanyName", "type":"String" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.717</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.361</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>4D05FF04-FAE0-AF37-454A-2C017340883D</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>resultPageJSON</Key>
+  <Value>{"label":"Besteuerungsart","xpath":"//data/Task/BasicClaimData/OverwrittenValuationResult/Taxation","type":"String"},{"label":"WB-Wert Brutto","xpath":"//data/Task/BasicClaimData/OverwrittenValuationResult/ReplacementValue/WithVAT","type":"Number"},{"label":"WB-Wert Netto","xpath":"//data/Task/BasicClaimData/OverwrittenValuationResult/ReplacementValue/text()","type":"Number"},{"label":"Minderwert","xpath":"//data/Task/BasicClaimData/OverwrittenCalculationResult/VehicleDepreciationForAssess","type":"Number"}, {"label":"Restwert Netto","xpath":"//data/Task/BasicClaimData/OverwrittenValuationResult/ResidualValue/text()","type":"Number"}, {"label":"Reparaturkosten Netto","xpath":"//data/Task/BasicClaimData/OverwrittenCalculationResult/RepairCostTotalWOTax","type":"Number"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-1A8BACCDD20FD2B0BD</CreatedBy>
+  <CreationTimeStamp>2018-07-19T13:35:53.875</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-29T21:09:43.554</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CB38F89B-0215-DDD8-E08C-8EA2E28B060C</ItemId>
+=======
   <RuleType>Configuration</RuleType>
   <Key>menuBuilder</Key>
   <Value>HierarchicalMenuBuilder</Value>
@@ -1449,11 +2762,75 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9E259B65-3845-226D-0600-34306CB7A8E3</ItemId>
+>>>>>>> master
   <Context>
    <Process>NO_PROCESS</Process>
    <ProcessStep>DashBoard</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>BlockTranslation</RuleType>
+  <Key>dashboard</Key>
+  <Value>DE=</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.751</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.226</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>955C6AC6-2CBC-D4F4-CD0A-C0FA42344D54</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>DashBoard</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>dashboard.widget1.url</Key>
+  <Value>/bre/work/NO_PROCESS/MaterialGrid?gridView=worklistgrid_custom_open</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.848</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.341</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2F46D3C3-FD3A-B04F-DD73-0AB31856AF73</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Variable</RuleType>
+  <Key>basicClaimDataJSON</Key>
+  <Value>{"label":"Amtl. Kennzeichen Unfallgegner", "xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/ThirdParty1RegistrationNumber", "type":"String"},{"label":"Beurteilung (Totalschaden/Reparaturschaden)", "xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/VehicleDamageLoss", "type":"String"},{"label":"Fahrbereitschaft", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleDamage/VehicleDrivable", "type":"String"},{"label":"Verkehrssicherheit", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleDamage/VehicleSafeForTraffic", "type":"String"},{"label":"Zerlegung", "xpath":"//data/vehiclestripstatus", "type":"String"},{"label":"Reparaturstatus", "xpath":"//data/vehiclerepairstatus", "type":"String"},{"label":"Vorsteuerabzug", "xpath":"//data/Task/BasicClaimData/PolicyData/PolicyHolder/InputTaxDeduction", "type":"String"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-04-25T09:58:48.959</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.353</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3BA7D714-7068-8809-2DF8-69E84C25075E</ItemId>
+  <Context>
+   <Process>MasterData</Process>
+   <ProcessStep>MemberContactRelatedContacts</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>warnUserIfFormIsNotSaved</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2018-03-28T09:04:50.799</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.450</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F8550918-600C-F822-8E11-644F61ECB2F3</ItemId>
+=======
   <RuleType>Configuration</RuleType>
   <Key>dashboard.widget2.url</Key>
   <Value>/bre/work/MasterData/MemberListTable</Value>
@@ -1483,11 +2860,24 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AE79EC8A-43BC-29E2-E00A-6694CAFCEB6D</ItemId>
+>>>>>>> master
   <Context>
    <Process>MasterData</Process>
    <ProcessStep>MemberContact</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_ADMIN</OrganizationId>
   </Context>
+<<<<<<< HEAD
+  <RuleType>Variable</RuleType>
+  <Key>repairerDetailsJSON</Key>
+  <Value>{ "label":"Lohnfaktor 1", "xpath":"selectedcalculation/laborrate1", "type":"Number" }, { "label":"Lohnfaktor 2", "xpath":"selectedcalculation/laborrate2", "type":"Number" }, { "label":"Lohnfaktor 3", "xpath":"selectedcalculation/laborrate3", "type":"Number" }, { "label":"Lackfaktor", "xpath":"selectedcalculation/paintrate1", "type":"Number" }, { "label":"Gesamtbetrag o. mwSt.", "xpath":"selectedcalculation/grandtotal", "type":"Number" }, { "label":"Gesamt inkl. MwSt.", "xpath":"selectedcalculation/grantotalwithtax", "type":"Number" }, { "label":"Gesamt Lohn", "xpath":"selectedcalculation/totallabor", "type":"Number" }, { "label":"Gesamt Lack", "xpath":"selectedcalculation/totalpaint", "type":"Number" }, { "label":"Gesamt ET", "xpath":"selectedcalculation/totalparts", "type":"Number" }, { "label":"MwSt. Gesamtbetrag", "xpath":"selectedcalculation/grandTotalTax", "type":"Number" }, { "label":"MwSt. Rep.-Kosten", "xpath":"selectedcalculation/FCRepTotTax", "type":"Number" }, { "label":"Nächste AU", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/NextEmissionTest", "type":"Date" }, { "label":"Nächste HU", "xpath":"Task/BasicClaimData/Vehicle/VehicleAdmin/NextTechCheck", "type":"Date" }, { "label":"Geschätzte Rep.-Beginn", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairStartDateTime", "type":"Date" }, { "label":"Geschätzte Rep.-Dauer", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairDurationDays", "type":"Number" }, { "label":"Geschätzte Rep.-Ende", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/EstimatedRepairEndDateTime", "type":"Number" }, { "label":"Rep.-Kosten o. MwSt.", "xpath":"selectedcalculation/grandtotal", "type":"Number" }, { "label":"Reparatur Fertigmeldung", "xpath":"Task/BasicClaimData/ClaimDescriptionVehicle/RepairReadyNotificationDateTime", "type":"Date" }, { "label":"RW man.", "xpath":"Task/VehicleValuation/ResidualValue", "type":"Number" }, { "label":"Vorschaden Kommentar", "xpath":"Task/BasicClaimData/Vehicle/PreviousDamage/Comment", "type":"String" }, { "label":"Änderung Reparaturgrundlage", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/VehicleDeprecation", "type":"String" }, { "label":"FZG Rückgabe am", "xpath":"Task/BasicClaimData/RepairDetail/CarReleaseTimestamp", "type":"Date" }, { "label":"Minderwert manuell", "xpath":"Task/BasicClaimData/Vehicle/ReducedMarketValue/ManualValue", "type":"String" }, { "label":"RW MwSt.", "xpath":"Task/VehicleValuation/ResidualValueVATIncluded", "type":"String" }, { "label":"Dauer Notrep.", "xpath":"Task/BasicClaimData/RepairDetail/TemporaryRepairDurationDays", "type":"String" }, { "label":"Kalkulations-Nr.", "xpath":"selectedcalculation/refCalculationId", "type":"Number" }, { "label":"WBW ohne MwSt.", "xpath":"selectedcalculation/ReplacementAmnt", "type":"Number" }, { "label":"RW", "xpath":"Task/Auction/SalvageAmount", "type":"Number" }, { "label":"Gebot max", "xpath":"Task/Auction/MaxBid", "type":"Number" }, { "label":"WBW man. mit MwSt.", "xpath":"manualReplacementValueWithVAT", "type":"Number" }, { "label":"WBW man. ohne MwSt.", "xpath":"manualReplacementValueWithoutVAT", "type":"Number" },{ "label":"Vorschaden repariert im Schadenbereich Kommentar", "xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/Array[DamageDescription='previousDamageRepairedWithin']/Comment", "type":"String" }, { "label":"Vorschaden unrepariert im Schadenbereich Kommentar", "xpath":"Task/BasicClaimData/Vehicle/AdditionalVehicleDamageList/Array[DamageDescription='previousDamageUnrepairedWithin']/Comment", "type":"String" },</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-D611A310FD4E51AB82</CreatedBy>
+  <CreationTimeStamp>2017-04-21T11:10:27.797</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-1A8BACCDD20FD2B0BD</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-08-16T08:25:54.429</LastUpdateTimeStamp>
+ </Rule>
+ <Size>94</Size>
+=======
   <RuleType>Configuration</RuleType>
   <Key>redirectElementsWithoutFormCheck</Key>
   <Value>["[name$='.saveButton']", "[name$='.resetButton']", "[name^='uploadBtn_']", "[name$='.delete']", "[id*='ui-id']",".ui-tabs-anchor",".ui-corner-all"]</Value>
@@ -1498,4 +2888,5 @@
   <LastUpdateTimeStamp>2018-07-23T07:53:51.850</LastUpdateTimeStamp>
  </Rule>
  <Size>92</Size>
+>>>>>>> master
 </BRERuleListType>
