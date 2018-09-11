@@ -172,6 +172,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>39F0F750-0367-687C-BF09-4D234BC62126</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>showApprovalAmountExceededMessage</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-10T15:27:41.176</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-10T15:27:41.176</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>2543DE02-04DC-6248-20E5-81882FCE4D6D</ItemId>
   <Context>
    <ProcessStep>Results</ProcessStep>
@@ -30251,7 +30266,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-10-10T08:26:16.242</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:48.647</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-10T14:05:42.349</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -31042,6 +31057,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A18781E1-2C7A-80BC-7449-1D54E455E6C9</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.composeMail.recipientsTo</Key>
+  <Value>class=button</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-10T14:05:42.523</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-10T14:05:42.523</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AB7CB5F6-1FB7-5087-B359-F73681B2DF20</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
@@ -31055,5 +31086,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T10:14:21.678</LastUpdateTimeStamp>
  </Rule>
- <Size>1927</Size>
+ <Size>1929</Size>
 </BRERuleListType>
