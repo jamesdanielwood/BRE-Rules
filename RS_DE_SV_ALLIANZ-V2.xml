@@ -37274,6 +37274,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3343D2AE-C258-C605-E92E-ED1D1CB3A9B8</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>​showApprovalAmountExceededMessage</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-11T09:50:33.463</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-11T09:50:33.463</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B0926768-ADFD-E4F2-87EB-53324EBF199D</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -49231,6 +49246,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8E43754B-016C-3754-7368-A5518B438971</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>showApprovalAmountExceededMessage</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-10T15:25:43.835</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-10T15:25:43.835</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>DDC505CE-89D2-2861-5E4B-C481A581A472</ItemId>
   <Context>
    <OrganizationId>RS_DE_SV_ALLIANZ-V2</OrganizationId>
@@ -56611,5 +56641,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:33:13.612</LastUpdateTimeStamp>
  </Rule>
- <Size>3485</Size>
+ <Size>3487</Size>
 </BRERuleListType>

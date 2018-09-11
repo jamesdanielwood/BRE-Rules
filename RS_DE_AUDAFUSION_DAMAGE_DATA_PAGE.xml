@@ -1347,6 +1347,38 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BC917518-B09F-0090-972A-11B514D95C41</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_DAMAGE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldEnumeration</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.damageCause</Key>
+  <Value>VehicleCollision,AttemptedTotalTheft,Storm,AnimalDamage,RearEndCollision,Dent,Theft,Pileup,Unknown,CarDamage,OnePartyUnclaimable,Cut,Rust,LSScratch,DamageByTransportCompany,Flooding,Avalanche,AccidentWithoutVehicleCollision,Floodwater,TradeCraftLiability,PedestrianCollision,Game,Chemical,PunctureTyre,Landslide,Vandalism,ActOfNatureBeyondControl,FatalityVehiclePropertyDamage,CededFullCoverage,Glass,CarAccidentOtherVehicle,TakenOverFullCoverage,ParkedCarDamage,PaintDamage,SnowLoads,WarrantyRepairCost,CededRepairCostCoverage,GeneralCargoDamage,TakenOverPartialCoverage,DamageAfterDelivery,PropertyDamage,LargeDent,BurglaryOfVehicleInsideParts,TakenOverRepairCostCoverage,FinancialLoss,SelfCausedAccident,TwoPartiesUnclaimable,RentalIncomeLoss,HailTraditional,Parking,CededPartialCoverage,CargoDamageShortHaul,Stonechip,DriveBackwards,Rockfall,SimpleTheft,Comprehensive,None,Other,FatalityPropertyDamage,PublicFundingDamage,WearAndTear,FireExplosion,AnimalCollision,Pollution,OtherComprehensive,PhysicalDamage,CarAccident,InjuryVehiclePropertyDamage,Scorching,Brand,Snowslide,InjuryPropertyDamage,GenericA4Damage,NaturalHazard,TheftOfObjects,Hole,Riots,Burglary,TireDamage,HailPaintlessDentRepair,LightScratch,Scratch,GlassNonPanel,BicycleTheft,CarelessUsage,CargoDamageLongHaul,Hail,DriveForwards,Stain,Marten,TwoPartiesClaimable,Liability,Lightning,BurglaryOfOutsideParts,OtherCollision,MainsWater,ShiftingCargo,VehicleBurglaryWithPersonalObjects</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-10T09:16:20.327</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-10T09:21:17.255</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>84FD007D-69A9-35F2-55D8-41123D24829A</ItemId>
+  <Context>
+   <ProcessStep>DamageData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_DAMAGE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.claimDescriptionVehicle.damageCause</Key>
+  <Value>sort=byLabel</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-10T09:16:20.503</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-10T09:21:17.432</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>39E9A077-F81C-EB1C-B915-D20BF22519D9</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -1887,7 +1919,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-06T15:56:24.221</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-13T09:45:04.079</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-10T09:21:17.082</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2259,5 +2291,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-31T12:45:46.341</LastUpdateTimeStamp>
  </Rule>
- <Size>141</Size>
+ <Size>143</Size>
 </BRERuleListType>
