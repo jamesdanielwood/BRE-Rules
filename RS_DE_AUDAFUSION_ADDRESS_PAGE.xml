@@ -3503,12 +3503,12 @@
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.inspection.inspectionLocation.isAlso.popup.message</Key>
-  <Value>DE=Vorhandene Daten unter Besichtigungsort werden durch diese Aktion überschrieben. Trotzdem fortfahren?</Value>
+  <Value>DE=Vorhandene Daten unter Werkstatt werden durch diese Aktion überschrieben. Trotzdem fortfahren?</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-26T12:42:51.863</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-03T17:56:55.406</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-13T10:16:24.036</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3747,6 +3747,21 @@
   <CreationTimeStamp>2018-07-26T12:42:51.869</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-07-26T12:42:51.869</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A25B5966-BCDA-9A38-AA20-F77AE442F35C</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.popup.message</Key>
+  <Value>DE=Vorhandene Daten unter Besichtigungsort werden durch diese Aktion überschrieben. Trotzdem fortfahren?</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-13T10:16:08.887</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-13T10:16:08.887</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9022,6 +9037,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BABEC542-E2C3-DC29-4DFD-9C52357AC5F6</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.inspection.inspectionLocation.isAlso.garage</Key>
+  <Value>DE=Ist auch Werkstatt</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-13T10:16:47.108</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-13T10:16:47.108</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>1497D8F6-320E-2C3D-15F6-A620922FE321</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -13857,5 +13888,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-14T08:05:16.025</LastUpdateTimeStamp>
  </Rule>
- <Size>865</Size>
+ <Size>867</Size>
 </BRERuleListType>
