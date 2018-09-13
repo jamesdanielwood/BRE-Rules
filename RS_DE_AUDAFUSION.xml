@@ -31104,6 +31104,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F47827B8-D1F2-D15F-48C9-10AE2297995F</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>doNotResetVehicleName</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-13T08:36:50.020</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-13T08:36:50.020</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AB7CB5F6-1FB7-5087-B359-F73681B2DF20</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
@@ -31117,5 +31133,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T10:14:21.678</LastUpdateTimeStamp>
  </Rule>
- <Size>1931</Size>
+ <Size>1932</Size>
 </BRERuleListType>

@@ -146,7 +146,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-<<<<<<< HEAD
   <ItemId>D984D986-16DD-FDB6-21FA-77F4CBCE4223</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -165,9 +164,6 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5A4E7394-F860-7764-EFD4-4C74B845660A</ItemId>
-=======
-  <ItemId>2340152C-3CFD-9BA7-1B02-C62D3D138697</ItemId>
->>>>>>> master
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
@@ -1215,24 +1211,14 @@
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
   </Context>
-<<<<<<< HEAD
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.auction.salvageAmount.value</Key>
   <Value>DE=Restwertbetrag</Value>
-=======
-  <RuleType>Block</RuleType>
-  <Key>Auction</Key>
-  <Value>root.hints.hint1,root.task.auction.salvageAmount.value,root.task.auction.auctionPrintOption,root.task.auction.salvageAmountVAT,root.hints.hint2,root.task.auction.displayName,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.endDate,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.location.vehicleLocation,root.task.marketPlacement.submitVehicle.vehicleData.showAnonymizedCalculationButton,root.configurablehints.hint1,root.configurablehints.hint2,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.standardEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.optionalEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.resetStandardEquipment,root.task.marketPlacement.submitVehicle.vehicleData.auctionEquipment.resetOptionalEquipment,root.additionalhints.hint7,root.task.editImageMode,root.task.uploadAttachments,root.task.attachmentBinaryList.attachmentBinaryList,root.task.marketPlacement.submitVehicle.platforms,root.task.marketPlacement.submitVehicle.selectedPlatforms,root.task.marketPlacement.submitVehicle.vehicleData.calculationDialog,root.task.basicClaimData.vehicle.vehicleAdmin.vehicleOwner.inputTaxDeduction,root.task.basicClaimData.vehicle.vehicleDamage.fire,root.task.basicClaimData.vehicle.vehicleEngineering.bodyType,root.task.marketPlacement.submitVehicle.vehicleData.carTheft,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDocument,root.task.marketPlacement.submitVehicle.vehicleData.mandatory.serviceHistoryAvailable,root.task.marketPlacement.submitVehicle.submit,root.task.auction.auctionBids.retrievebids,root.additionalhints.hint9,root.task.auction.auctionBids.auctionbidlist,root.task.auction.auctionBids.nobidslabel</Value>
->>>>>>> master
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T15:27:07.205</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-<<<<<<< HEAD
   <LastUpdateTimeStamp>2018-08-13T08:22:02.756</LastUpdateTimeStamp>
-=======
-  <LastUpdateTimeStamp>2018-07-30T15:11:31.668</LastUpdateTimeStamp>
->>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1524,27 +1510,7 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-<<<<<<< HEAD
   <ItemId>4474B392-A3A0-B767-801E-80F1DB3A5590</ItemId>
-=======
-  <ItemId>1992CA44-BC72-70C8-CE9E-F7748C83D6E0</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
-  </Context>
-  <RuleType>Configuration</RuleType>
-  <Key>minderwert.truncMonetaryValuesToInt</Key>
-  <Value>false</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-26T12:07:43.740</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-07-26T15:35:45.868</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>6C5F1759-6626-B8BF-9127-211C426831CF</ItemId>
->>>>>>> master
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
@@ -3292,7 +3258,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-<<<<<<< HEAD
   <ItemId>575185F1-AF8A-F2B0-E411-5ACE09F7DB5B</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -3310,9 +3275,6 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>79C93EED-9E2C-04E2-4674-DC61651D7DA3</ItemId>
-=======
-  <ItemId>AA4D6837-62FA-7A98-BE1B-613B27119D21</ItemId>
->>>>>>> master
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
@@ -3494,24 +3456,14 @@
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
   </Context>
-<<<<<<< HEAD
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.vehicleValuation.priceAsNew::setMinimumFractionDigits</Key>
   <Value>2</Value>
-=======
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.basicClaimData.vehicle.autoOnlineValuePilot.input.vehicle.vehicleKind</Key>
-  <Expression>${#vehicleKind}</Expression>
->>>>>>> master
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T15:27:07.166</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-<<<<<<< HEAD
   <LastUpdateTimeStamp>2018-08-13T08:22:04.260</LastUpdateTimeStamp>
-=======
-  <LastUpdateTimeStamp>2018-07-31T08:08:21.427</LastUpdateTimeStamp>
->>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3869,7 +3821,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-<<<<<<< HEAD
   <ItemId>8103DEE3-1F54-2EC5-F0B5-E988ACD128CC</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -3887,9 +3838,6 @@
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C6A29E3B-7ABB-0F9E-7CE5-023C837FA594</ItemId>
-=======
-  <ItemId>FB72989F-51B4-CDDA-193A-3DE16962C524</ItemId>
->>>>>>> master
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
@@ -4898,22 +4846,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>90D6E762-4839-11EC-7A52-6BE3615D3DEE</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.minderwert.modelSelection.manualValue::withCents</Key>
-  <Value>true</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-18T15:27:07.266</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-13T08:22:04.995</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>4142D528-D86A-11E0-A76B-558548FEDD8B</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -5087,22 +5019,6 @@
   <CreationTimeStamp>2018-06-18T15:27:07.015</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-13T08:22:05.475</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2A846C08-3ACA-F740-E93D-269F61B25821</ItemId>
-  <Context>
-   <ProcessStep>VehicleValues</ProcessStep>
-   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.minderwert.modelSelection.manualValue</Key>
-  <Value>DE=Minderwert (man.Betragsangabe)</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-06-18T15:27:07.539</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-13T08:22:05.536</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7504,24 +7420,14 @@
    <ProcessStep>VehicleValues</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
   </Context>
-<<<<<<< HEAD
   <RuleType>FieldDefault</RuleType>
   <Key>root.task.assessmentResult.autoResetToDefaultValues.resetOnButtonClick</Key>
   <Value>[{selector: "#BREForm_root\\.task\\.vehicleValuation\\.valuationButton", partsToReset:"calculation,valuation,ust", event: "click", validators: ""}]</Value>
-=======
-  <RuleType>FieldEnumeration</RuleType>
-  <Key>root.task.vehicleValuation.vehicleKind</Key>
-  <Expression>${#vehicleKind}</Expression>
->>>>>>> master
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-18T15:49:43.055</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-<<<<<<< HEAD
   <LastUpdateTimeStamp>2018-08-13T08:22:03.589</LastUpdateTimeStamp>
-=======
-  <LastUpdateTimeStamp>2018-07-31T08:08:01.985</LastUpdateTimeStamp>
->>>>>>> master
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -9015,9 +8921,21 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-13T09:25:06.265</LastUpdateTimeStamp>
  </Rule>
-<<<<<<< HEAD
- <Size>557</Size>
-=======
- <Size>549</Size>
->>>>>>> master
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3E4548A9-3DB8-BD80-F96A-46D1BB36EEBF</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.minderwert.modelSelection.manualValue</Key>
+  <Value>remove</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-13T09:16:03.854</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-13T09:16:03.854</LastUpdateTimeStamp>
+ </Rule>
+ <Size>556</Size>
 </BRERuleListType>

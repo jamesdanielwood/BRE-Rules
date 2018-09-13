@@ -776,56 +776,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>37BE71FF-E50C-8682-78F3-A38E8832016E</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberByRole.client.isAlso.vehicleOwner</Key>
-  <Value>show</Value>
-  <Expression>${(task.basicClaimData.claimDescriptionVehicle.damageCause == "Liability") ? "show":"remove"}</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-08-28T08:44:29.846</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-07T06:16:07.541</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>50E1DC64-1F4B-74A4-021C-AA4F3DD062FA</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>Block</RuleType>
-  <Key>Client</Key>
-  <Value>root.task.caseMemberByRole.client.salutation,root.task.caseMemberByRole.client.inputTaxDeduction,root.task.caseMemberByRole.client.customizableMemberSearchField,root.task.caseMemberByRole.client.companyName,root.task.caseMemberByRole.client.firstName,root.task.caseMemberByRole.client.lastName,root.task.caseMemberByRole.client.contactPersonDescription,root.task.caseMemberByRole.client.communicationDetailList.contactPersonPhone,root.task.caseMemberByRole.client.address.street,root.task.caseMemberByRole.client.address.zipCode,root.task.caseMemberByRole.client.address.city,root.task.caseMemberByRole.client.address.countryISO,root.task.caseMemberByRole.client.address.line5,root.task.caseMemberByRole.client.communicationDetailList.phone2,root.task.caseMemberByRole.client.communicationDetailList.phone1,root.task.caseMemberByRole.client.communicationDetailList.mobile2,root.task.caseMemberByRole.client.communicationDetailList.mobile,root.task.caseMemberByRole.client.communicationDetailList.email1,root.task.caseMemberByRole.client.communicationDetailList.fax1,root.task.caseMemberByRole.client.isAlso.inspectionLocation,root.task.caseMemberByRole.client.active,root.task.caseMemberByRole.client.isAlso.vehicleOwner</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-08-28T08:44:55.519</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-28T08:44:55.519</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>3974B7F0-652B-7EEF-AB92-9CA2FFA9FDFD</ItemId>
-  <Context>
-   <ProcessStep>AddressData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.caseMemberCombo.policyHolder.isAlso.vehicleOwner</Key>
-  <Value>show</Value>
-  <Expression>${(task.basicClaimData.claimDescriptionVehicle.damageCause == "Liability") ? "remove":"show"}</Expression>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-08-28T10:48:37.981</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-04T07:18:35.471</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D9236DBD-3D6F-67F8-7239-742D4A1B2204</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -2369,5 +2319,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-28T08:43:42.642</LastUpdateTimeStamp>
  </Rule>
- <Size>143</Size>
+ <Size>140</Size>
 </BRERuleListType>
