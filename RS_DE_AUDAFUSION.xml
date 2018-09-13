@@ -25302,6 +25302,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C8C69093-AF77-3D43-6355-1504D11B7C16</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>​showApprovalAmountExceededMessage</Key>
+  <Value>false</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-11T12:46:48.902</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-11T12:46:48.902</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>3AC0F047-3AA5-4081-AE93-B59E8D446D44</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -27389,6 +27404,22 @@
   <CreationTimeStamp>2018-08-23T16:45:41.248</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-23T16:45:41.248</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5ECE50C6-35FA-F0A1-F0BE-16F723156399</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>sendPage.isMobileMode</Key>
+  <Expression>${(#clientDevice=="Tablet")}</Expression>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-12T13:24:34.485</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-12T13:24:34.485</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -31073,6 +31104,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F47827B8-D1F2-D15F-48C9-10AE2297995F</ItemId>
+  <Context>
+   <ProcessStep>VehicleSearch</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>doNotResetVehicleName</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-13T08:36:50.020</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-13T08:36:50.020</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>AB7CB5F6-1FB7-5087-B359-F73681B2DF20</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
@@ -31086,5 +31133,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T10:14:21.678</LastUpdateTimeStamp>
  </Rule>
- <Size>1929</Size>
+ <Size>1932</Size>
 </BRERuleListType>
