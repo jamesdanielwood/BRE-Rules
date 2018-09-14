@@ -2,38 +2,6 @@
 <BRERuleListType xmlns="http://www.audatex.com/SAXIF">
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>3159DCA4-F768-1E18-A481-97B190692A39</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.basicClaimData.vehicle.previousDamage.comment</Key>
-  <Value>DE=Vorschäden</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.579</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.571</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>24DB0988-6E63-B17F-77A9-E3384092D067</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldDefault</RuleType>
-  <Key>root.additionalhints.hint1</Key>
-  <Value>Allgemeine Vorschäden</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.557</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.625</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B802762D-9B20-7567-A5AD-1387BC550265</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -65,22 +33,6 @@
   <CreationTimeStamp>2018-07-16T14:32:42.898</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:50:29.907</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>8D34A395-E2BA-A4FB-E6F6-6A07C7558ADD</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.numberOfCylinder</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.571</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:30.037</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -233,22 +185,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>17CB559C-F4CC-EA7F-4DE6-DA546736E818</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.payload</Key>
-  <Value>DE=Nutz.- /Auflast,EN=Payload</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.581</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.605</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8E24C9D9-2DCB-9EE1-81B5-01171E2BC8CC</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -395,22 +331,6 @@
   <CreationTimeStamp>2018-07-16T14:32:42.893</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:50:30.008</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D5F94D6D-6AEE-566D-8277-CE6435598975</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>Block</RuleType>
-  <Key>PreviousDamage</Key>
-  <Value>root.additionalhints.hint1,root.task.basicClaimData.vehicle.previousDamage.comment,root.additionalhints.hint2,root.hints.hint5,root.hints.hint8,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.repairedWithinCommentButton,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.unrepairedWithinCommentButton,root.hints.hint6,root.hints.hint9,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.repairedOutsideCommentButton,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.unrepairedOutsideCommentButton</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.553</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.835</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -664,39 +584,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>14EA57C9-68E7-F9A3-9CC2-7E975CA961E8</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>Block</RuleType>
-  <Key>TechnicalData</Key>
-  <Value>root.task.basicClaimData.vehicle.vehicleEngineering.vehicleKind,root.task.basicClaimData.vehicle.vehicleEngineering.bodyType,root.task.basicClaimData.vehicle.vehicleAdmin.registrationCountry,root.task.basicClaimData.vehicle.vehicleAdmin.plateNumber,root.task.basicClaimData.vehicle.vehicleAdmin.firstRegistrationDate,root.task.basicClaimData.vehicle.vehicleAdmin.copyFirstRegistrationButton,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDate,root.task.basicClaimData.vehicle.vehicleAdmin.customerProductDescription,root.task.basicClaimData.vehicle.vehicleAdmin.previousOwnerCount,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDocument,root.task.basicClaimData.vehicle.vehicleAdmin.nextTechCheck,root.task.basicClaimData.vehicle.vehicleEngineering.mileage,root.task.basicClaimData.vehicle.vehicleEngineering.estimatedMileage,root.task.basicClaimData.vehicle.vehicleEngineering.specifiedMileage,root.task.basicClaimData.vehicle.vehicleEngineering.mileageUnit,root.task.basicClaimData.vehicle.vehicleEngineering.doorCount,root.task.basicClaimData.vehicle.vehicleEngineering.seatingCapacity,root.task.basicClaimData.vehicle.vehicleEngineering.gearCount,root.task.basicClaimData.vehicle.vehicleEngineering.engineType,root.task.basicClaimData.vehicle.vehicleEngineering.engineSize,root.task.basicClaimData.vehicle.vehicleEngineering.enginePower,root.task.basicClaimData.vehicle.vehicleEngineering.enginePowerUnit,root.task.basicClaimData.vehicle.vehicleEngineering.engineMountingDirection,root.task.basicClaimData.vehicle.vehicleEngineering.numberOfCylinder,root.task.basicClaimData.vehicle.vehicleEngineering.transmissionType,root.task.basicClaimData.vehicle.vehicleEngineering.payload,root.task.basicClaimData.vehicle.vehicleEngineering.curbWeight,root.task.basicClaimData.vehicle.vehicleEngineering.grossWeight,root.task.basicClaimData.vehicle.vehicleEngineering.EUPollutionClassification,root.task.basicClaimData.vehicle.equipment.poweredAxlesRadio,root.task.basicClaimData.vehicle.equipment.particleFilter,root.task.basicClaimData.vehicle.vehicleEngineering.colorCustom,root.task.basicClaimData.vehicle.vehicleEngineering.colorType,root.task.basicClaimData.vehicle.vehicleEngineering.paintDescription</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.586</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.673</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>22DAEEB2-AAE7-6050-DDF3-F5EB861436E1</ItemId>
-  <Context>
-   <Process>Schadengutachten-Bewertung</Process>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>ProcessTransition</RuleType>
-  <Key>CombinedVehicleData</Key>
-  <Value>Calculation</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.583</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.915</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C7D95E56-910B-BB79-097A-C0AAFE13E030</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -762,54 +649,6 @@
   <CreationTimeStamp>2018-07-16T14:33:04.439</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:50:29.980</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>D58399AB-0396-F0EE-BC6B-7B025174D200</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.numberOfCylinder</Key>
-  <Value>DE=Anzahl Zylinder,EN=Number of Cylinders</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.561</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:30.159</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>F402208A-D305-1B84-D3FE-1F86C690E13F</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.paintDescription</Key>
-  <Value>remove</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-05-29T09:00:28.463</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.580</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>C5336D44-11B5-6D1B-7BB8-DFA32DFDD6F4</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.engineMountingDirection</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.564</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.601</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -913,22 +752,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>FA6B069E-E269-5D9D-D6C2-14879A053DA0</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.additionalhints.hint1</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.550</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.799</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>6D5B5E9D-BD8A-8981-5567-FA020E269B82</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -1008,22 +831,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>E6F5BCB0-A6D7-8947-3E1E-E9A3C12208E9</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.additionalhints.hint2</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.555</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.968</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9C1F3149-123E-8F6E-9044-75FFDE5EDE71</ItemId>
   <Context>
    <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
@@ -1036,23 +843,6 @@
   <CreationTimeStamp>2018-08-08T10:06:00.960</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:50:29.976</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>326A4489-15B4-837D-36B6-0589B279EF01</ItemId>
-  <Context>
-   <Process>Gutachten-Totalentwendung</Process>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>ProcessTransition</RuleType>
-  <Key>CombinedVehicleData</Key>
-  <Value>Calculation</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-9BBB2219</CreatedBy>
-  <CreationTimeStamp>2018-04-25T10:11:21.152</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.987</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1088,22 +878,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>918BDBF3-EFD5-7FD2-015F-79CA5AF94FDF</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.additionalhints.hint1::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":16,"spanSize":16}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.575</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.560</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>0D3D7B14-B5FD-7462-F195-356754C1A3D8</ItemId>
   <Context>
    <Process>Gutachten-Totalentwendung</Process>
@@ -1118,22 +892,6 @@
   <CreationTimeStamp>2018-04-26T08:43:20.608</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:50:29.617</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>08F5589C-137A-173B-5D55-F8F864656E22</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldVisibility</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.payload</Key>
-  <Value>show</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.569</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.721</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1435,22 +1193,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>DDBBDCD6-6417-776F-93C4-2F005DA4EDBA</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldTranslation</RuleType>
-  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.engineMountingDirection</Key>
-  <Value>DE=Motorbauart,EN=Engine Design Type</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.565</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.585</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>EF6B69DE-97AF-F35C-E2F0-0F0B8F4964A2</ItemId>
   <Context>
    <ProcessStep>DamageData</ProcessStep>
@@ -1677,22 +1419,6 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>2A9EA17B-138A-0E9F-3CA3-4A44569D3CC8</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.additionalhints.hint1</Key>
-  <Value>class=hint</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.577</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.860</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A1DCE163-1C3F-5C0F-B62B-618C4B7A430F</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -1858,22 +1584,6 @@
   <CreationTimeStamp>2018-07-16T14:32:42.904</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T09:50:29.590</LastUpdateTimeStamp>
- </Rule>
- <Rule>
-  <CountryOrganizationId>DE</CountryOrganizationId>
-  <ItemId>5A390B8A-1067-6450-D128-E2FEE42109F4</ItemId>
-  <Context>
-   <ProcessStep>CombinedVehicleData</ProcessStep>
-   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
-  </Context>
-  <RuleType>FieldAttributes</RuleType>
-  <Key>root.task.basicClaimData.vehicle.previousDamage.comment::Layout</Key>
-  <Value>{"startAt":0,"labelSize":0,"fieldSize":7,"spanSize":7}</Value>
-  <Status>Active</Status>
-  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
-  <CreationTimeStamp>2018-07-19T17:39:46.573</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-27T09:50:29.629</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2173,5 +1883,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-28T08:33:46.017</LastUpdateTimeStamp>
  </Rule>
- <Size>132</Size>
+ <Size>114</Size>
 </BRERuleListType>

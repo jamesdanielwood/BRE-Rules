@@ -195,6 +195,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>CDB13F4C-BC28-3B3D-C2AF-7CBABB196709</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.additionalhints.hint1</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.410</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.410</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C9764252-BB4D-660C-8440-042B79821922</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -698,12 +714,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>TechnicalData</Key>
-  <Value>root.task.basicClaimData.vehicle.vehicleEngineering.vehicleKind,root.task.basicClaimData.vehicle.vehicleEngineering.bodyType,root.task.basicClaimData.vehicle.vehicleAdmin.registrationCountry,root.task.basicClaimData.vehicle.vehicleAdmin.plateNumber,root.task.basicClaimData.vehicle.vehicleAdmin.firstRegistrationDate,root.task.basicClaimData.vehicle.vehicleAdmin.copyFirstRegistrationButton,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDate,root.task.basicClaimData.vehicle.vehicleAdmin.customerProductDescription,root.task.basicClaimData.vehicle.vehicleAdmin.previousOwnerCount,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDocument,root.task.basicClaimData.vehicle.vehicleAdmin.nextTechCheck,root.task.basicClaimData.vehicle.vehicleEngineering.mileage,root.task.basicClaimData.vehicle.vehicleEngineering.estimatedMileage,root.task.basicClaimData.vehicle.vehicleEngineering.specifiedMileage,root.task.basicClaimData.vehicle.vehicleEngineering.mileageUnit,root.task.basicClaimData.vehicle.vehicleEngineering.doorCount,root.task.basicClaimData.vehicle.vehicleEngineering.seatingCapacity,root.task.basicClaimData.vehicle.vehicleEngineering.gearCount,root.task.basicClaimData.vehicle.vehicleEngineering.engineType,root.task.basicClaimData.vehicle.vehicleEngineering.engineSize,root.task.basicClaimData.vehicle.vehicleEngineering.numberOfCylinder,root.task.basicClaimData.vehicle.vehicleEngineering.enginePower,root.task.basicClaimData.vehicle.vehicleEngineering.enginePowerUnit,root.task.basicClaimData.vehicle.vehicleEngineering.transmissionType,root.task.basicClaimData.vehicle.vehicleEngineering.curbWeight,root.task.basicClaimData.vehicle.vehicleEngineering.grossWeight,root.task.basicClaimData.vehicle.vehicleEngineering.payload,root.task.basicClaimData.vehicle.equipment.poweredAxlesRadio,root.task.basicClaimData.vehicle.vehicleEngineering.EUPollutionClassification,root.task.basicClaimData.vehicle.equipment.particleFilter,root.task.basicClaimData.vehicle.vehicleEngineering.colorCustom,root.task.basicClaimData.vehicle.vehicleEngineering.colorType,root.task.basicClaimData.vehicle.vehicleEngineering.paintDescription</Value>
+  <Value>root.task.basicClaimData.vehicle.vehicleEngineering.vehicleKind,root.task.basicClaimData.vehicle.vehicleEngineering.bodyType,root.task.basicClaimData.vehicle.vehicleAdmin.registrationCountry,root.task.basicClaimData.vehicle.vehicleAdmin.plateNumber,root.task.basicClaimData.vehicle.vehicleAdmin.firstRegistrationDate,root.task.basicClaimData.vehicle.vehicleAdmin.copyFirstRegistrationButton,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDate,root.task.basicClaimData.vehicle.vehicleAdmin.customerProductDescription,root.task.basicClaimData.vehicle.vehicleAdmin.previousOwnerCount,root.task.basicClaimData.vehicle.vehicleAdmin.registrationDocument,root.task.basicClaimData.vehicle.vehicleAdmin.nextTechCheck,root.task.basicClaimData.vehicle.vehicleEngineering.mileage,root.task.basicClaimData.vehicle.vehicleEngineering.estimatedMileage,root.task.basicClaimData.vehicle.vehicleEngineering.specifiedMileage,root.task.basicClaimData.vehicle.vehicleEngineering.mileageUnit,root.task.basicClaimData.vehicle.vehicleEngineering.doorCount,root.task.basicClaimData.vehicle.vehicleEngineering.seatingCapacity,root.task.basicClaimData.vehicle.vehicleEngineering.gearCount,root.task.basicClaimData.vehicle.vehicleEngineering.engineType,root.task.basicClaimData.vehicle.vehicleEngineering.engineSize,root.task.basicClaimData.vehicle.vehicleEngineering.enginePower,root.task.basicClaimData.vehicle.vehicleEngineering.enginePowerUnit,root.task.basicClaimData.vehicle.vehicleEngineering.engineMountingDirection,root.task.basicClaimData.vehicle.vehicleEngineering.numberOfCylinder,root.task.basicClaimData.vehicle.vehicleEngineering.transmissionType,root.task.basicClaimData.vehicle.vehicleEngineering.payload,root.task.basicClaimData.vehicle.vehicleEngineering.curbWeight,root.task.basicClaimData.vehicle.vehicleEngineering.grossWeight,root.task.basicClaimData.vehicle.vehicleEngineering.EUPollutionClassification,root.task.basicClaimData.vehicle.equipment.poweredAxlesRadio,root.task.basicClaimData.vehicle.equipment.particleFilter,root.task.basicClaimData.vehicle.vehicleEngineering.colorCustom,root.task.basicClaimData.vehicle.vehicleEngineering.colorType,root.task.basicClaimData.vehicle.vehicleEngineering.paintDescription</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-25T08:24:01.091</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-07T13:54:49.651</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.360</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -832,6 +848,22 @@
   <CreationTimeStamp>2018-06-25T08:24:01.114</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-07T13:54:49.882</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>599705A6-E87D-C77A-8515-FE418769C063</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Block</RuleType>
+  <Key>PreviousDamage</Key>
+  <Value>root.additionalhints.hint1,root.task.basicClaimData.vehicle.previousDamage.comment,root.additionalhints.hint2,root.hints.hint5,root.hints.hint8,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedWithinComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.repairedWithinCommentButton,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedWithinComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.unrepairedWithinCommentButton,root.hints.hint6,root.hints.hint9,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideSeverity,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageRepairedOutsideComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.repairedOutsideCommentButton,root.task.basicClaimData.vehicle.additionalVehicleDamage.previousDamageUnrepairedOutsideComment,root.task.basicClaimData.vehicle.additionalVehicleDamage.unrepairedOutsideCommentButton</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:24:13.593</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.376</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1771,12 +1803,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleEngineering.paintDescription</Key>
-  <Value>show</Value>
+  <Value>remove</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-25T08:24:01.461</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-07T13:54:49.479</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.367</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2836,6 +2868,38 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F2DE0553-AB22-B3A5-F6F6-D1F6FD873E67</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.basicClaimData.vehicle.previousDamage.comment</Key>
+  <Value>DE=Vorschäden</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.379</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.379</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A5661BFA-FFE3-9C7A-B9AE-864BAAB64B46</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.additionalhints.hint2</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.390</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.390</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>26CD46A5-B2FE-07A8-3636-55A6D218DEF9</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -3179,12 +3243,12 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   </Context>
   <RuleType>FieldTranslation</RuleType>
   <Key>root.task.basicClaimData.vehicle.vehicleEngineering.payload</Key>
-  <Value>DE=Nutz.- /Auflast</Value>
+  <Value>DE=Nutz.- /Auflast,EN=Payload</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-25T08:31:21.503</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-07T13:54:49.863</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.364</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3248,7 +3312,7 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-25T08:29:41.396</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-07T13:54:50.070</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.371</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4244,6 +4308,135 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>544957CE-E760-832C-9F72-DF12C2F02941</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.numberOfCylinder</Key>
+  <Value>DE=Anzahl Zylinder,EN=Number of Cylinders</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.391</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.391</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>008BA3E6-8899-8381-4890-2E587AD01266</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldDefault</RuleType>
+  <Key>root.additionalhints.hint1</Key>
+  <Value>Allgemeine Vorschäden</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.403</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.403</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>ACA00C5E-9E28-0A60-445C-EFE43344BD09</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.additionalhints.hint1</Key>
+  <Value>class=hint</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.412</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.412</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B813FCA0-AA56-3FA5-A794-80E975F1598B</ItemId>
+  <Context>
+   <Process>Schadengutachten-Bewertung</Process>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>ProcessTransition</RuleType>
+  <Key>CombinedVehicleData</Key>
+  <Value>Calculation</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.383</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.383</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DF5B1D1C-71FB-FFD1-375B-D7DC330C64C7</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.engineMountingDirection</Key>
+  <Value>DE=Motorbauart,EN=Engine Design Type</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.405</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.405</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>DAA1C6C2-14E9-C1F6-F63A-141F3E6F1131</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.vehicle.previousDamage.comment::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":7,"spanSize":7}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.397</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.397</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>77E69249-C4F3-5082-0A9F-FFCD8261C534</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.additionalhints.hint1::Layout</Key>
+  <Value>{"startAt":0,"labelSize":0,"fieldSize":16,"spanSize":16}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.401</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.401</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>BC37576D-B3B1-627B-60B2-9BA9B41ECE1D</ItemId>
+  <Context>
+   <ProcessStep>CombinedVehicleData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.vehicle.vehicleEngineering.engineMountingDirection</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T10:29:21.408</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.408</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>964B1C32-9F1B-2856-3B08-29EF5D45895C</ItemId>
   <Context>
    <ProcessStep>CombinedVehicleData</ProcessStep>
@@ -4288,7 +4481,7 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-06-25T08:30:16.401</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-07T13:54:48.785</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-14T10:29:21.357</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4738,5 +4931,5 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-07T13:54:50.195</LastUpdateTimeStamp>
  </Rule>
- <Size>296</Size>
+ <Size>308</Size>
 </BRERuleListType>
