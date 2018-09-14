@@ -1238,6 +1238,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>2664A9B0-A6D9-620D-06B5-DA619B06739F</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.basicClaimData.vehicle.autoOnlineValuePilot.result.corridorMinValue.value</Key>
+  <Value><![CDATA[DE=<b>WBW-Korridor (Min.-Wert)</b>]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T08:29:00.889</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T08:29:19.182</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>41E84F29-E538-8346-D745-20D0679D25E0</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -6613,6 +6629,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C07CFFA8-66D7-08AA-87FB-DE9C58184C51</ItemId>
+  <Context>
+   <ProcessStep>VehicleValues</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_VALUES_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>root.task.basicClaimData.vehicle.autoOnlineValuePilot.result.corridorMaxValue.value</Key>
+  <Value><![CDATA[DE=<b>WBW-Korridor (Max.-Wert)</b>]]></Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-14T08:30:32.697</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-14T08:30:32.697</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>D7C7318A-D18E-B678-1147-BCE95BC34593</ItemId>
   <Context>
    <ProcessStep>VehicleValues</ProcessStep>
@@ -8937,5 +8969,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-09-13T09:16:03.854</LastUpdateTimeStamp>
  </Rule>
- <Size>556</Size>
+ <Size>558</Size>
 </BRERuleListType>
