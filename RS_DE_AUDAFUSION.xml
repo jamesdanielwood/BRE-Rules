@@ -27444,12 +27444,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>sendPage.isMobileMode</Key>
-  <Expression>${(#clientDevice=="Tablet")}</Expression>
+  <Expression>${ (#clientDevice == "Tablet") ? "true" : "false" }</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-09-12T13:24:34.485</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-12T13:24:34.485</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-17T06:39:02.538</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
