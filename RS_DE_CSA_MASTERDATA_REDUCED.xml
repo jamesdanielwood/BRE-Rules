@@ -9302,12 +9302,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.csa.masterData.claimNumberManagement::level</Key>
-  <Value>rootOrganization</Value>
+  <Value>rootOrg</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-07-30T12:10:30.586</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-14T07:58:29.367</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-17T06:42:42.368</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
