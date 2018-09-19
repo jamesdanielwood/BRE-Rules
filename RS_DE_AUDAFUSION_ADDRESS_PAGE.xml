@@ -3156,6 +3156,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9236B101-C93D-83D4-C9C8-02F16C35F998</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile</Key>
+  <Value>data-errormessage=entspricht nicht dem gefordeten Format</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-19T08:57:39.014</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T08:57:39.014</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>434D4A05-A6B1-49DA-4F76-470ED14E8553</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -3348,6 +3364,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B3A70B9C-2D16-3984-0D22-BD5CAAE8F1E4</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-19T08:57:10.332</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T08:57:10.332</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8DDC8E94-34AE-19B4-FDD1-899ABC921A3C</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -3393,6 +3425,38 @@
   <CreationTimeStamp>2018-05-15T18:40:46.416</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-09-14T09:19:22.738</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>9BA40416-5A7B-2F5D-B53A-5235D8D75E41</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldVisibility</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile2</Key>
+  <Value>show</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-19T08:57:19.171</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T08:57:19.171</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F0327ADD-9E68-B751-770F-4DB68206E576</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile2::pattern</Key>
+  <Value>${ (#addressPage.phone.fax.pattern != null) ? #addressPage.phone.fax.pattern :</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-19T08:58:53.937</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T08:58:53.937</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6892,12 +6956,12 @@
   </Context>
   <RuleType>Block</RuleType>
   <Key>BodyShop</Key>
-  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.basicClaimData.repairDetail.repairer.customizableMemberSearchField,root.task.redirectToStepTab.redirectToStepTabButton,root.task.basicClaimData.repairDetail.repairer.salutation,root.task.basicClaimData.repairDetail.repairer.deputyName,root.task.basicClaimData.repairDetail.repairer.address.street,root.task.basicClaimData.repairDetail.repairer.address.zipCode,root.task.basicClaimData.repairDetail.repairer.address.city,root.task.basicClaimData.repairDetail.repairer.address.countryISO,root.task.basicClaimData.repairDetail.repairer.address.line5,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.phone1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.email1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.fax1,root.task.basicClaimData.vehicleLocation.foreignId,root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation,root.task.basicClaimData.repairDetail.repairer.active</Value>
+  <Value>root.task.basicClaimData.repairDetail.repairer.companyName,root.task.basicClaimData.repairDetail.repairer.customizableMemberSearchField,root.task.redirectToStepTab.redirectToStepTabButton,root.task.basicClaimData.repairDetail.repairer.salutation,root.task.basicClaimData.repairDetail.repairer.deputyName,root.task.basicClaimData.repairDetail.repairer.address.street,root.task.basicClaimData.repairDetail.repairer.address.zipCode,root.task.basicClaimData.repairDetail.repairer.address.city,root.task.basicClaimData.repairDetail.repairer.address.countryISO,root.task.basicClaimData.repairDetail.repairer.address.line5,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.phone1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.email1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.fax1,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile,root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile2,root.task.basicClaimData.vehicleLocation.foreignId,root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation,root.task.basicClaimData.repairDetail.repairer.active</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-05-15T18:40:45.238</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-14T09:19:24.614</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-19T08:56:25.903</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7379,6 +7443,54 @@
   <CreationTimeStamp>2018-05-15T18:40:45.314</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-09-14T09:19:25.483</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>09A6FF2F-1361-1325-EE75-1459BF73AAEA</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile2</Key>
+  <Value>data-errormessage=entspricht nicht dem gefordeten Format</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-19T08:58:09.540</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T08:58:09.540</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8FE60657-CAF5-1BD5-7A7F-92E237B6FC1E</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>FieldAttributes</RuleType>
+  <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile::pattern</Key>
+  <Value>${ (#addressPage.phone.fax.pattern != null) ? #addressPage.phone.fax.pattern : #addressPage.phone.fax.pattern.default}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-19T08:58:32.750</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T08:58:32.750</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>5C4AC0BC-0B51-D41D-8572-A0006AFB68F4</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>enableIsAlsoUtils</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-19T08:55:52.614</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T08:55:52.614</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -14960,5 +15072,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-09-14T10:03:28.634</LastUpdateTimeStamp>
  </Rule>
- <Size>934</Size>
+ <Size>941</Size>
 </BRERuleListType>
