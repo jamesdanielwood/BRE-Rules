@@ -2171,12 +2171,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.repairDetail.repairer.isAlso.inspectionLocation::isAlsoData</Key>
-  <Value>{"mainDiv" : "BREForm_block.InspectionLocation" , "isAlsoPrefix":"root.task.inspection.inspectionLocation", "isAlsoSuffixList" : [ "salutation", "companyName", "contactPersonDescription", "address.street", "address.zipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.email1", "communicationDetailList.fax1", "address.countryISO" ] }</Value>
+  <Value>{"mainDiv" : "BREForm_block.InspectionLocation" , "isAlsoPrefix":"root.task.inspection.inspectionLocation", "isAlsoSuffixList" : [ "salutation", "companyName", "contactPersonDescription", "address.street", "address.zipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.email1","communicationDetailList.mobile","communicationDetailList.mobile2", "communicationDetailList.fax1", "address.countryISO" ] }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-01T14:22:05.609</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-14T09:19:25.588</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-20T16:50:01.929</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -3380,6 +3380,22 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>B56D90F6-696B-1439-7399-8362E51DE6FA</ItemId>
+  <Context>
+   <ProcessStep>AddressData</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION_ADDRESS_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>root.task.inspection.inspectionLocation.mode</Key>
+  <Value>edit</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-24T13:00:26.864</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-24T13:00:26.864</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>8DDC8E94-34AE-19B4-FDD1-899ABC921A3C</ItemId>
   <Context>
    <ProcessStep>AddressData</ProcessStep>
@@ -3451,12 +3467,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile2::pattern</Key>
-  <Value>${ (#addressPage.phone.fax.pattern != null) ? #addressPage.phone.fax.pattern :</Value>
+  <Expression>${ (#addressPage.phone.fax.pattern != null) ? #addressPage.phone.fax.pattern : #addressPage.phone.fax.pattern.default}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-09-19T08:58:53.937</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-19T08:58:53.937</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-20T09:14:44.384</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -4796,12 +4812,12 @@
   </Context>
   <RuleType>FieldDefault</RuleType>
   <Key>root.task.inspection.inspectionLocation.isAlso.garage::isAlsoData</Key>
-  <Value>{"mainDiv" : "BREForm_block.BodyShop" , "isAlsoPrefix":"root.task.basicClaimData.repairDetail.repairer", "isAlsoSuffixList" : ["companyName", "deputyName", "address.street", "address.zipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.email1", "communicationDetailList.fax1", "address.countryISO" ] }</Value>
+  <Value>{"mainDiv" : "BREForm_block.BodyShop" , "isAlsoPrefix":"root.task.basicClaimData.repairDetail.repairer", "isAlsoSuffixList" : ["companyName", "deputyName", "address.street", "address.zipCode", "address.city", "address.line5", "communicationDetailList.phone1", "communicationDetailList.email1", "communicationDetailList.mobile","communicationDetailList.mobile2","communicationDetailList.fax1", "address.countryISO" ] }</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-08-25T17:48:07.616</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-14T09:19:26.097</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-20T16:43:18.938</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7469,12 +7485,12 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.basicClaimData.repairDetail.repairer.communicationDetailList.mobile::pattern</Key>
-  <Value>${ (#addressPage.phone.fax.pattern != null) ? #addressPage.phone.fax.pattern : #addressPage.phone.fax.pattern.default}</Value>
+  <Expression>${ (#addressPage.phone.fax.pattern != null) ? #addressPage.phone.fax.pattern : #addressPage.phone.fax.pattern.default}</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-09-19T08:58:32.750</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-19T08:58:32.750</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-20T09:14:14.777</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -7489,8 +7505,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-09-19T08:55:52.614</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-19T08:55:52.614</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-21T09:35:29.927</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -15072,5 +15088,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-09-14T10:03:28.634</LastUpdateTimeStamp>
  </Rule>
- <Size>941</Size>
+ <Size>942</Size>
 </BRERuleListType>
