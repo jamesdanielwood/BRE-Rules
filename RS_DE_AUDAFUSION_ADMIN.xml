@@ -741,12 +741,13 @@
   </Context>
   <RuleType>Variable</RuleType>
   <Key>basicClaimDataJSON</Key>
-  <Value>{"label":"Amtl. Kennzeichen Unfallgegner", "xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/ThirdParty1RegistrationNumber", "type":"String"},{"label":"Beurteilung (Totalschaden/Reparaturschaden)", "xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/VehicleDamageLoss", "type":"String"},{"label":"Fahrbereitschaft", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleDamage/VehicleDrivable", "type":"String"},{"label":"Verkehrssicherheit", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleDamage/VehicleSafeForTraffic", "type":"String"},{"label":"Zerlegung", "xpath":"//data/vehiclestripstatus", "type":"String"},{"label":"Reparaturstatus", "xpath":"//data/vehiclerepairstatus", "type":"String"},{"label":"Vorsteuerabzug", "xpath":"//data/Task/BasicClaimData/PolicyData/PolicyHolder/InputTaxDeduction", "type":"String"}</Value>
+  <Value>{"label":"Amtl. Kennzeichen Unfallgegner", "xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/ThirdParty1RegistrationNumber", "type":"String"},{"label":"Beurteilung (Totalschaden/Reparaturschaden)", "xpath":"//data/Task/BasicClaimData/ClaimDescriptionVehicle/VehicleDamageLoss", "type":"String"},{"label":"Fahrbereitschaft", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleDamage/VehicleDrivable", "type":"String"},{"label":"Verkehrssicherheit", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleDamage/VehicleSafeForTraffic", "type":"String"},{"label":"Zerlegung", "xpath":"//data/vehiclestripstatus", "type":"String"},{"label":"Reparaturstatus", "xpath":"//data/vehiclerepairstatus", "type":"String"},{"label":"Fahrzeugpapiere", "xpath":"//data/Task/BasicClaimData/Vehicle/VehicleAdmin/RegistrationDocument", "type":"String"},
+{"label":"Vorsteuerabzug", "xpath":"//data/Task/BasicClaimData/PolicyData/PolicyHolder/InputTaxDeduction", "type":"String"}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-04-19T13:39:40.173</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-04T08:45:28.936</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-10-01T13:44:52.721</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
