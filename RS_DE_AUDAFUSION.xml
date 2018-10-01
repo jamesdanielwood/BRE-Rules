@@ -627,12 +627,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>MergeTaskWorkflowFunction.TaskMergeTransformation(1490002588890)</Key>
-  <Value>{"filterList":["root.task.basicClaimData","root.task.calculationList","root.task.attachmentBinaryList","root.task.claimNumber","root.task.commentList","root.task.remark","root.task.inspection","root.task.assessorAssignment","root.task.lastCalculationGrandTotal","root.task.invoiceList","root.task.displayName","root.task.versions","root.task.customField1","root.task.customField2","root.task.customField3","root.task.customField4","root.task.foreignCaseId"]}</Value>
+  <Value>{"filterList":["root.task.basicClaimData","root.task.calculationList","root.task.attachmentBinaryList","root.task.claimNumber","root.task.commentList","root.task.remark","root.task.inspection","root.task.assessorAssignment","root.task.lastCalculationGrandTotal","root.task.invoiceList","root.task.displayName","root.task.versions","root.task.customField1","root.task.customField2","root.task.customField3","root.task.customField4","root.task.foreignCaseId","root.task.caseType"]}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:30.373</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:49.824</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T14:55:53.685</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -1198,7 +1198,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-12-07T09:20:03.023</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:46.410</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-17T18:26:02.537</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -2953,8 +2953,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-09-14T08:01:40.999</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-14T08:01:40.999</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-25T17:18:39.924</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -5642,8 +5642,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-24T15:28:08.316</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:53.141</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T15:22:41.522</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -6928,7 +6928,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>A86969AA-D79D-2CD7-476C-09010E982BCF</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -6939,7 +6938,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-10-18T22:14:53.342</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:54.828</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-24T16:48:03.968</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -13078,6 +13077,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>89F45498-EDF4-0863-C69B-3455B3780565</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>useBusinessLayerForDataAccess</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-26T08:51:50.132</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-26T08:51:50.132</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>9FDC6A74-031A-A228-AABE-24F15E7DA61F</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -13489,12 +13503,12 @@
   </Context>
   <RuleType>FieldVisibility</RuleType>
   <Key>root.task.assessmentResult.vehicleValuesResult.taxation-otherText</Key>
-  <Value>show</Value>
+  <Value>remove</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-28T08:35:27.784</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:45.097</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-17T18:22:21.394</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -16264,12 +16278,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>MergeTaskWorkflowFunction.POSTACTIONS</Key>
-  <Value>[{"name":"SetBusinessStatus","alias":"SetBusinessStatus(1498636502535)"}]</Value>
+  <Value>[{"name":"SetBusinessStatus","alias":"SetBusinessStatus(1498636502535)"},{"name":"ProceedTask","alias":"ProceedTask(1537359324335)"}]</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:38.981</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:45.347</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T14:15:24.448</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -16379,7 +16393,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-11-27T12:51:06.261</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:46.223</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-17T18:26:02.349</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -21872,6 +21886,39 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E9C58B78-DAE2-0B54-FC0A-F4CB8D5E24A7</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>MergeTaskWorkflowFunction.TaskMergeTransformation(1490002588890)</Key>
+  <Value>{"filterList":["root.task.basicClaimData","root.task.calculationList","root.task.attachmentBinaryList","root.task.claimNumber","root.task.commentList","root.task.remark","root.task.inspection","root.task.assessorAssignment","root.task.lastCalculationGrandTotal","root.task.invoiceList","root.task.displayName","root.task.versions","root.task.customField1","root.task.customField2","root.task.customField3","root.task.customField4","root.task.foreignCaseId","root.task.caseType"]}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T11:40:11.225</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T11:40:11.225</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>66720252-E46D-E7F8-13F0-8F2359C9B969</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>WorkListGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>worklistgrid_custom_copied</Key>
+  <Value>DE=Eingang</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T14:37:36.163</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T14:37:36.163</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>56C5B859-0593-C1D4-1DF2-7FF2B00C4C00</ItemId>
   <Context>
    <ProcessStep>Assessment</ProcessStep>
@@ -22405,12 +22452,11 @@
   </Context>
   <RuleType>FieldAttributes</RuleType>
   <Key>root.task.assessmentResult.vehicleValuesResult.taxation-otherText</Key>
-  <Value>maxlength=200</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-9BBB2219</CreatedBy>
   <CreationTimeStamp>2018-02-28T08:35:06.373</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:51.753</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-17T18:22:40.068</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -23166,7 +23212,6 @@
   <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>C8416F53-5067-1CD9-F869-B6478934DBAC</ItemId>
   <Context>
-   <Process>CompleteAssessment</Process>
    <ProcessStep>SendPage</ProcessStep>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
   </Context>
@@ -23177,7 +23222,7 @@
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-10-13T13:16:46.694</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:55.023</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-24T16:47:53.472</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27333,12 +27378,12 @@
   </Context>
   <RuleType>FlowProcessorConfiguration</RuleType>
   <Key>MergeTaskWorkflowFunction.TaskMergeTransformation(1440767380940)</Key>
-  <Value>{"filterList":["root.task.basicClaimData","root.task.calculationList","root.task.attachmentBinaryList","root.task.claimNumber","root.task.commentList","root.task.remark","root.task.inspection","root.task.assessorAssignment","root.task.lastCalculationGrandTotal","root.task.invoiceList","root.task.sendSignedRCAForm","root.task.displayName","root.task.versions","root.task.foreignCaseId","root.task.assignmentDate"]}</Value>
+  <Value>{"filterList":["root.task.basicClaimData","root.task.calculationList","root.task.attachmentBinaryList","root.task.claimNumber","root.task.commentList","root.task.remark","root.task.inspection","root.task.assessorAssignment","root.task.lastCalculationGrandTotal","root.task.invoiceList","root.task.sendSignedRCAForm","root.task.displayName","root.task.versions","root.task.foreignCaseId","root.task.assignmentDate","root.task.caseType"]}</Value>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-11T09:25:32.139</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:54.277</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T14:12:44.288</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27407,6 +27452,54 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>077DD78B-357C-E55A-3203-2E5726D3C1E3</ItemId>
+  <Context>
+   <Process>NO_PROCESS</Process>
+   <ProcessStep>MaterialGrid</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FieldTranslation</RuleType>
+  <Key>worklistgrid_custom_copied</Key>
+  <Value>DE=Eingang</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T14:38:26.752</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T14:38:26.752</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>C5E19F22-BAC0-D2A9-E142-293EE77FDDF5</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>MergeTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T14:12:10.195</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T14:12:10.195</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>92836C30-BBB0-FE5D-32E0-F08B4A42ED00</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>BusinessStatusValue</RuleType>
+  <Key>value10</Key>
+  <Value>TaskSent</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T15:08:59.367</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T15:08:59.367</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>68F2EBF4-A940-6F0F-34E3-D6765E2AE368</ItemId>
   <Context>
    <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
@@ -27419,6 +27512,54 @@
   <CreationTimeStamp>2018-08-23T16:45:41.248</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-23T16:45:41.248</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>F35D152C-0793-F072-C309-794601B1EE4F</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CopyTaskWorkflowFunction.SetBusinessStatus(1537362728847)</Key>
+  <Value>{businessStatus:"value10",viewableEvent=false,defaultComment:"${getBusinessStatusMapping(current.responsibleRootOrganizationId,'value10')}"}</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T15:12:12.700</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-24T16:48:20.692</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>FA4EC982-AB47-AE57-345F-ADF79C33BCB7</ItemId>
+  <Context>
+   <Process>CompleteAssessment</Process>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>MergeTaskWorkflowFunction.TaskMergeTransformation(1490002588890)</Key>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T14:12:10.186</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T14:12:10.186</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>8CBB350F-FF9D-A135-EA4F-BFB907D6DBEB</ItemId>
+  <Context>
+   <ProcessStep>SendPage</ProcessStep>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>CopyTaskWorkflowFunction.TRANSFORMATIONS</Key>
+  <Value>[{"name":"FilterCheckedCalculationTransformation","alias":"FilterCheckedCalculationTransformation(1521061573386)"},{"name":"SetBusinessStatus","alias":"SetBusinessStatus(1537362728847)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T15:12:08.953</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-24T16:48:32.031</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27444,12 +27585,12 @@
   </Context>
   <RuleType>Configuration</RuleType>
   <Key>sendPage.isMobileMode</Key>
-  <Expression>${ (#clientDevice == "Tablet") ? "true" : "false" }</Expression>
+  <Expression>${ (#detectDevice == "Mobile") ? "true" : (#clientDevice == "Tablet") ? "true" : "false" }</Expression>
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2018-09-12T13:24:34.485</CreationTimeStamp>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-09-17T06:39:02.538</LastUpdateTimeStamp>
+  <LastUpdateTimeStamp>2018-09-20T09:38:33.110</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -27497,6 +27638,36 @@
   <CreationTimeStamp>2018-08-21T14:40:13.640</CreationTimeStamp>
   <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-24T09:53:19.528</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>594A4376-0075-2A99-A608-C53096858AC2</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>BusinessStatusValue</RuleType>
+  <Key>value30</Key>
+  <Value>TaskMerged</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-9BBB2219</CreatedBy>
+  <CreationTimeStamp>2018-09-19T14:59:24.201</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T14:59:24.201</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>A0789768-270B-0CEF-C8E3-21F33207E738</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION</OrganizationId>
+  </Context>
+  <RuleType>FlowProcessorConfiguration</RuleType>
+  <Key>SendTask.TRANSFORMATIONS</Key>
+  <Value>[{"name":"AddDocumentsAttachmentTransformation","alias":"AddDocumentsAttachmentTransformation(1537944727331)"},{"name":"FilterCheckedAttachmentTransformation","alias":"FilterCheckedAttachmentTransformation(1537944739886)"}]</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-26T08:52:07.389</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-26T08:52:19.942</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -28876,8 +29047,8 @@
   <Status>Active</Status>
   <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
   <CreationTimeStamp>2017-07-24T15:28:13.015</CreationTimeStamp>
-  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
-  <LastUpdateTimeStamp>2018-08-21T08:18:46.381</LastUpdateTimeStamp>
+  <LastUpdatedBy>MM-P-9BBB2219</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-19T15:22:52.627</LastUpdateTimeStamp>
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
@@ -31163,5 +31334,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-27T10:14:21.678</LastUpdateTimeStamp>
  </Rule>
- <Size>1934</Size>
+ <Size>1945</Size>
 </BRERuleListType>

@@ -687,6 +687,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>3DE4FA41-4CF9-33A2-8779-0F3A772E1803</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_02_GUTACHTEN_TOTALENTWENDUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>documentManualCheckingSendMode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-10-01T13:42:36.774</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-10-01T13:42:36.774</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>B7E7D363-796F-6148-88D1-CBC102C1262B</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -1918,5 +1933,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-28T08:33:46.017</LastUpdateTimeStamp>
  </Rule>
- <Size>116</Size>
+ <Size>117</Size>
 </BRERuleListType>

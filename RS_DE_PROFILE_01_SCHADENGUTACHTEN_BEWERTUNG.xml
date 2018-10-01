@@ -843,6 +843,21 @@
  </Rule>
  <Rule>
   <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>196A67EE-EEBD-B1C7-B662-C74C4212F691</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_PROFILE_01_SCHADENGUTACHTEN_BEWERTUNG</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>documentManualCheckingSendMode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-10-01T13:12:26.278</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-10-01T13:12:26.278</LastUpdateTimeStamp>
+ </Rule>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
   <ItemId>5E94C083-BEEA-7124-5C9D-993B0CEAE3F5</ItemId>
   <Context>
    <Process>NO_PROCESS</Process>
@@ -2080,5 +2095,5 @@
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-08-28T08:43:42.642</LastUpdateTimeStamp>
  </Rule>
- <Size>125</Size>
+ <Size>126</Size>
 </BRERuleListType>

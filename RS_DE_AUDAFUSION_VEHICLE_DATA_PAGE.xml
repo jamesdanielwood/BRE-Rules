@@ -4931,5 +4931,20 @@ Average=Durchschnittlich,SeeRemarks=Neuwertiger Zustand wurde angenommen</Value>
   <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
   <LastUpdateTimeStamp>2018-09-14T13:17:34.995</LastUpdateTimeStamp>
  </Rule>
- <Size>308</Size>
+ <Rule>
+  <CountryOrganizationId>DE</CountryOrganizationId>
+  <ItemId>E37331D2-5A0B-E471-C428-623A16703FF7</ItemId>
+  <Context>
+   <OrganizationId>RS_DE_AUDAFUSION_VEHICLE_DATA_PAGE</OrganizationId>
+  </Context>
+  <RuleType>Configuration</RuleType>
+  <Key>planeContexEscapeHtmlMode</Key>
+  <Value>true</Value>
+  <Status>Active</Status>
+  <CreatedBy>MM-P-C6CFD7A2</CreatedBy>
+  <CreationTimeStamp>2018-09-27T09:16:34.442</CreationTimeStamp>
+  <LastUpdatedBy>MM-P-C6CFD7A2</LastUpdatedBy>
+  <LastUpdateTimeStamp>2018-09-27T09:16:34.442</LastUpdateTimeStamp>
+ </Rule>
+ <Size>309</Size>
 </BRERuleListType>
